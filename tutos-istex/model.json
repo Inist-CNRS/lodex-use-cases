@@ -1,0 +1,224 @@
+[
+	{
+		"_id": "58bf28caed9edb0016e11610",
+		"name": "d1",
+		"label": "Dataset title",
+		"scheme": "http://purl.org/dc/terms/title",
+		"language": "fr",
+		"cover": "dataset",
+		"transformers": [
+			{
+				"operation": "VALUE",
+				"args": [
+					{
+						"name": "value",
+						"type": "string",
+						"value": "Liste des tutotriels réalisés pour ISTEX"
+					}
+				]
+			}
+		]
+	},
+	{
+		"_id": "58bf28caed9edb0016e11611",
+		"name": "d2",
+		"label": "Dataset description",
+		"scheme": "http://purl.org/dc/terms/description",
+		"language": "en",
+		"cover": "dataset"
+	},
+	{
+		"_id": "58bf28caed9edb0016e11611",
+		"name": "d3",
+		"label": "Updated",
+		"scheme": "http://purl.org/dc/terms/modified",
+		"cover": "dataset",
+		"transformers": [
+			{
+				"operation": "VALUE",
+				"args": [
+					{
+						"name": "value",
+						"type": "string",
+						"value": "La plate-forme ISTEX (initiative d’excellence en Information scientifique et technique) fournit l’ensemble de ses services sous la forme d’une API Web utilisant le protocole HTTP dans un esprit Restful, c’est-à-dire qu’elle est “orientée ressources”. Mais l’API n’a pas été conçue pour une utilisation humaine directe. Elle doit être interfacée, par exemple sous la forme d’un site web, d’une application, de widgets…"
+					}
+				]
+			}
+		]
+	},
+	{
+		"_id": "58bf28caed9edb0016e11612",
+		"name": "d4",
+		"label": "gérés et maintenus par",
+		"scheme": "https://schema.org/editor",
+		"cover": "dataset",
+		"transformers": [
+			{
+				"operation": "COLUMN",
+				"args": [
+					{
+						"name": "column",
+						"value": "gérés et maintenus par",
+						"type": "column"
+					}
+				]
+			}
+		]
+	},
+	{
+		"_id": "58bf28caed9edb0016e11613",
+		"name": "d5",
+		"label": "Note",
+		"scheme": "https://schema.org/comment",
+		"cover": "dataset",
+		"transformers": [
+			{
+				"operation": "COLUMN",
+				"args": [
+					{
+						"name": "column",
+						"value": "note",
+						"type": "column"
+					}
+				]
+			}
+		]
+	},
+	{
+		"_id": "58bf28caed9edb0016e11614",
+		"name": "d6",
+		"label": "Lien projet",
+		"scheme": "https://schema.org/url",
+		"cover": "dataset",
+		"transformers": [
+			{
+				"operation": "COLUMN",
+				"args": [
+					{
+						"name": "column",
+						"value": "Lien projet",
+						"type": "column"
+					}
+				]
+			}
+		]
+	},
+	{
+		"_id": "58bf28caed9edb0016e11615",
+		"name": "d7",
+		"label": "Précisions",
+		"scheme": "https://schema.org/comment",
+		"cover": "dataset",
+		"transformers": [
+			{
+				"operation": "COLUMN",
+				"args": [
+					{
+						"name": "column",
+						"value": "Précisions",
+						"type": "column"
+					}
+				]
+			}
+		]
+	},
+	{
+		"_id": "58bf28caed9edb0016e11616",
+		"name": "d8",
+		"label": "Licence",
+		"scheme": "https://schema.org/license",
+		"cover": "dataset",
+		"transformers": [
+			{
+				"operation": "COLUMN",
+				"args": [
+					{
+						"name": "column",
+						"value": "licence",
+						"type": "column"
+					}
+				]
+			}
+		]
+	},
+	{
+		"_id": "58bf28caed9edb0016e11617",
+		"name": "c1",
+		"label": "Title",
+		"scheme": "http://purl.org/dc/terms/title",
+		"language": "fr",
+		"displayAreas": {
+			"facet": false,
+			"table": true
+		},
+		"cover": "collection",
+		"transformers": [
+			{
+				"operation": "COLUMN",
+				"args": [
+					{
+						"name": "column",
+						"value": "titre",
+						"type": "column"
+					}
+				]
+			}
+		]
+	},
+	{
+		"_id": "58bf28caed9edb0016e11618",
+		"name": "c2",
+		"label": "Objectif",
+		"scheme": "http://purl.org/dc/terms/description",
+		"cover": "collection",
+		"transformers": [
+			{
+				"operation": "COLUMN",
+				"args": [
+					{
+						"name": "column",
+						"value": "objectif",
+						"type": "column"
+					}
+				]
+			}
+		]
+	},
+	{
+		"_id": "58bf28caed9edb0016e11619",
+		"name": "c3",
+		"label": "URL",
+		"scheme": "http://purl.org/dc/terms/description",
+		"cover": "collection",
+		"transformers": [
+			{
+				"operation": "COLUMN",
+				"args": [
+					{
+						"name": "column",
+						"value": "url",
+						"type": "column"
+					}
+				]
+			}
+		]
+	},
+	{
+		"_id": "58bf28caed9edb0016e11620",
+		"name": "c4",
+		"label": "Suivant",
+		"cover": "collection",
+		"transformers": [
+			{
+				"operation": "COLUMN",
+				"args": [
+					{
+						"name": "column",
+						"value": "suivant",
+						"type": "column"
+					}
+				]
+			}
+		]
+	}
+]
