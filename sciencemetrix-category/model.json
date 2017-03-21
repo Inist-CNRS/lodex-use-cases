@@ -193,5 +193,30 @@
         }],
         "scheme": "http://purl.org/dc/elements/1.1/title",
         "format": {"name": "None"}
+    },
+    {
+        "label": "TEST INSERTION COLONNE",
+        "scheme": "http://purl.org/dc/elements/1.1/description",
+        "name": "OTZK",
+        "cover": "document",
+        "contribution": true
+    },
+    {
+        "label": "Remarque",
+        "scheme": "http://data.lirmm.fr/ontologies/passim#remark",
+        "name": "ig0Y",
+        "cover": "document",
+        "contribution": true,
+        "contributors": [{
+            "name": "François Parmentier",
+            "mail": "francois.parmentier@inist.fr"
+        }]
+    },
+    {
+        "label": "creation colonne2",
+        "scheme": "http://purl.org/dc/elements/1.1/description",
+        "name": "wXwv",
+        "cover": "document",
+        "contribution": true
     }
 ]
