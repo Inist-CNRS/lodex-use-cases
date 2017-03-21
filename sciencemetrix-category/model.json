@@ -1,0 +1,197 @@
+[
+    {
+        "cover": "collection",
+        "label": "uri",
+        "name": "uri",
+        "display_on_list": true,
+        "transformers": [{
+            "operation": "AUTOGENERATE_URI",
+            "args": []
+        }],
+        "scheme": "http://purl.org/dc/terms/identifier",
+        "format": {
+            "args": {
+                "type": "value",
+                "value": ""
+            },
+            "name": "uri"
+        }
+    },
+    {
+        "cover": "collection",
+        "label": "Titre",
+        "name": "XaKN",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [{
+            "operation": "COLUMN",
+            "args": [{
+                "name": "column",
+                "type": "column",
+                "value": "Titre"
+            }]
+        }],
+        "format": {"name": "None"},
+        "scheme": "http://purl.org/dc/terms/title"
+    },
+    {
+        "cover": "collection",
+        "label": "Libellé en français",
+        "name": "clON",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [{
+            "operation": "COLUMN",
+            "args": [{
+                "name": "column",
+                "type": "column",
+                "value": "Lbellé en français"
+            }]
+        }],
+        "scheme": "http://www.w3.org/2004/02/skos/core#prefLabel",
+        "composedOf": null
+    },
+    {
+        "cover": "collection",
+        "label": "Est tête d'arborescence",
+        "name": "feaW",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [{
+            "operation": "COLUMN",
+            "args": [{
+                "name": "column",
+                "type": "column",
+                "value": "Est tête d'arborescence"
+            }]
+        }],
+        "scheme": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+    },
+    {
+        "cover": "collection",
+        "label": "Terme Générique",
+        "name": "7cTc",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [{
+            "operation": "COLUMN",
+            "args": [{
+                "name": "column",
+                "type": "column",
+                "value": "Terme Générique"
+            }]
+        }],
+        "scheme": "http://www.w3.org/2004/02/skos/core#broader"
+    },
+    {
+        "cover": "collection",
+        "label": "Terme Spécifique",
+        "name": "6Ju4",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [{
+            "operation": "COLUMN",
+            "args": [{
+                "name": "column",
+                "type": "column",
+                "value": "Terme Spécifique"
+            }]
+        }],
+        "scheme": "http://www.w3.org/2004/02/skos/core#narrower"
+    },
+    {
+        "cover": "collection",
+        "label": "Description",
+        "name": "qTwq",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [{
+            "operation": "COLUMN",
+            "args": [{
+                "name": "column",
+                "type": "column",
+                "value": "Description"
+            }]
+        }],
+        "scheme": "http://purl.org/dc/terms/description",
+        "composedOf": null,
+        "language": "fr",
+        "format": {"name": "None"}
+    },
+    {
+        "cover": "collection",
+        "label": "Source",
+        "name": "AcN5",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [{
+            "operation": "COLUMN",
+            "args": [{
+                "name": "column",
+                "type": "column",
+                "value": "Source"
+            }]
+        }],
+        "scheme": "http://purl.org/dc/terms/source"
+    },
+    {
+        "cover": "collection",
+        "label": "Cette resource dans cat INIST",
+        "name": "/Vzn",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [{
+            "operation": "COLUMN",
+            "args": [{
+                "name": "column",
+                "type": "column",
+                "value": "Cette resource dans cat INIST"
+            }]
+        }],
+        "scheme": "http://www.w3.org/2004/02/skos/core#closeMatch"
+    },
+    {
+        "cover": "dataset",
+        "label": "Description",
+        "name": "WIqc",
+        "display_in_list": true,
+        "display_in_resource": false,
+        "searchable": false,
+        "transformers": [{
+            "operation": "VALUE",
+            "args": [{
+                "name": "value",
+                "type": "string",
+                "value": "Cette table correspond au choix de documenter des données ISTEX et plus particulièrement les catégories Science-Metrix. Ces catégories ont fait l'objet d'une structuration hiérarchique au format SKOS après enrichissement, et d'un alignement avec les catégories Inist."
+            }]
+        }],
+        "scheme": "http://purl.org/dc/elements/1.1/description",
+        "format": {"name": "None"}
+    },
+    {
+        "cover": "dataset",
+        "label": "TITRE du JEU de DONNEES TEST",
+        "name": "QyaV",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": false,
+        "transformers": [{
+            "operation": "VALUE",
+            "args": [{
+                "name": "value",
+                "type": "string",
+                "value": "Jeu de données catégories Science-Metrix"
+            }]
+        }],
+        "scheme": "http://purl.org/dc/elements/1.1/title",
+        "format": {"name": "None"}
+    }
+]
