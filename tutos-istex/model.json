@@ -1,1 +1,235 @@
-[{"label":"Objectif","scheme":"http://purl.org/dc/terms/description","cover":"collection","transformers":[{"operation":"COLUMN","args":[{"name":"column","value":"objectif","type":"column"}]}],"name":"c2"},{"label":"Updated","scheme":"http://purl.org/dc/terms/modified","cover":"dataset","transformers":[{"operation":"VALUE","args":[{"name":"value","type":"string","value":"La plate-forme ISTEX (initiative d’excellence en Information scientifique et technique) fournit l’ensemble de ses services sous la forme d’une API Web utilisant le protocole HTTP dans un esprit Restful, c’est-à-dire qu’elle est “orientée ressources”. Mais l’API n’a pas été conçue pour une utilisation humaine directe. Elle doit être interfacée, par exemple sous la forme d’un site web, d’une application, de widgets…"}]}],"name":"d3"},{"label":"Title","scheme":"http://purl.org/dc/terms/title","language":"fr","displayAreas":{"facet":false,"table":true},"cover":"collection","transformers":[{"operation":"COLUMN","args":[{"name":"column","value":"titre","type":"column"}]}],"name":"c1"},{"label":"URL","scheme":"http://purl.org/dc/terms/description","cover":"collection","transformers":[{"operation":"COLUMN","args":[{"name":"column","value":"url","type":"column"}]}],"name":"c3"},{"label":"Licence","scheme":"https://schema.org/license","cover":"dataset","transformers":[{"operation":"COLUMN","args":[{"name":"column","value":"licence","type":"column"}]}],"name":"d8"},{"label":"Précisions","scheme":"https://schema.org/comment","cover":"dataset","transformers":[{"operation":"COLUMN","args":[{"name":"column","value":"Précisions","type":"column"}]}],"name":"d7"},{"label":"Lien projet","scheme":"https://schema.org/url","cover":"dataset","transformers":[{"operation":"COLUMN","args":[{"name":"column","value":"Lien projet","type":"column"}]}],"name":"d6"},{"label":"gérés et maintenus par","scheme":"https://schema.org/editor","cover":"dataset","transformers":[{"operation":"COLUMN","args":[{"name":"column","value":"gérés et maintenus par","type":"column"}]}],"name":"d4"},{"label":"Dataset title","scheme":"http://purl.org/dc/terms/title","language":"fr","cover":"dataset","transformers":[{"operation":"VALUE","args":[{"name":"value","type":"string","value":"Liste des tutotriels réalisés pour ISTEX"}]}],"name":"d1"},{"label":"Note","scheme":"https://schema.org/comment","cover":"dataset","transformers":[{"operation":"COLUMN","args":[{"name":"column","value":"note","type":"column"}]}],"name":"d5"},{"cover":"collection","label":"uri","name":"uri","display_on_list":true,"transformers":[{"args":[],"operation":"AUTOGENERATE_URI"}]},{"label":"Suivant","cover":"collection","transformers":[{"args":[{"name":"reference","type":"column","value":"numéro"},{"name":"identifier","type":"column","value":"suivant"}],"operation":"LINK"}],"name":"c4"}]
+[
+    {
+        "cover": "collection",
+        "label": "uri",
+        "name": "uri",
+        "display_on_list": true,
+        "transformers": [
+            {
+                "args": [],
+                "operation": "AUTOGENERATE_URI"
+            }
+        ],
+        "position" : 0
+    },
+    {
+        "label": "Objectif",
+        "scheme": "http://purl.org/dc/terms/description",
+        "cover": "collection",
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "value": "objectif",
+                        "type": "column"
+                    }
+                ]
+            }
+        ],
+        "name": "c2",
+        "position" : 1
+    },
+    {
+        "label": "Updated",
+        "scheme": "http://purl.org/dc/terms/modified",
+        "cover": "dataset",
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "La plate-forme ISTEX (initiative d’excellence en Information scientifique et technique) fournit l’ensemble de ses services sous la forme d’une API Web utilisant le protocole HTTP dans un esprit Restful, c’est-à-dire qu’elle est “orientée ressources”. Mais l’API n’a pas été conçue pour une utilisation humaine directe. Elle doit être interfacée, par exemple sous la forme d’un site web, d’une application, de widgets…"
+                    }
+                ]
+            }
+        ],
+        "name": "d3",
+        "position" : 2
+    },
+    {
+        "label": "Title",
+        "scheme": "http://purl.org/dc/terms/title",
+        "language": "fr",
+        "displayAreas": {
+            "facet": false,
+            "table": true
+        },
+        "cover": "collection",
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "value": "titre",
+                        "type": "column"
+                    }
+                ]
+            }
+        ],
+        "name": "c1",
+        "position" : 3
+    },
+    {
+        "label": "URL",
+        "scheme": "http://purl.org/dc/terms/description",
+        "cover": "collection",
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "value": "url",
+                        "type": "column"
+                    }
+                ]
+            }
+        ],
+        "name": "c3",
+        "position" : 4
+
+    },
+    {
+        "label": "Licence",
+        "scheme": "https://schema.org/license",
+        "cover": "dataset",
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "value": "licence",
+                        "type": "column"
+                    }
+                ]
+            }
+        ],
+        "name": "d8",
+        "position" : 5
+    },
+    {
+        "label": "Précisions",
+        "scheme": "https://schema.org/comment",
+        "cover": "dataset",
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "value": "Précisions",
+                        "type": "column"
+                    }
+                ]
+            }
+        ],
+        "name": "d7",
+        "position" : 6
+    },
+    {
+        "label": "Lien projet",
+        "scheme": "https://schema.org/url",
+        "cover": "dataset",
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "value": "Lien projet",
+                        "type": "column"
+                    }
+                ]
+            }
+        ],
+        "name": "d6",
+        "position" : 7
+    },
+    {
+        "label": "gérés et maintenus par",
+        "scheme": "https://schema.org/editor",
+        "cover": "dataset",
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "value": "gérés et maintenus par",
+                        "type": "column"
+                    }
+                ]
+            }
+        ],
+        "name": "d4",
+        "position" : 8
+    },
+    {
+        "label": "Dataset title",
+        "scheme": "http://purl.org/dc/terms/title",
+        "language": "fr",
+        "cover": "dataset",
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "Liste des tutotriels réalisés pour ISTEX"
+                    }
+                ]
+            }
+        ],
+        "name": "d1",
+        "position" : 9
+    },
+    {
+        "label": "Note",
+        "scheme": "https://schema.org/comment",
+        "cover": "dataset",
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "value": "note",
+                        "type": "column"
+                    }
+                ]
+            }
+        ],
+        "name": "d5",
+        "position" : 10
+    },
+    {
+        "label": "Suivant",
+        "cover": "collection",
+        "transformers": [
+            {
+                "args": [
+                    {
+                        "name": "reference",
+                        "type": "column",
+                        "value": "numéro"
+                    },
+                    {
+                        "name": "identifier",
+                        "type": "column",
+                        "value": "suivant"
+                    }
+                ],
+                "operation": "LINK"
+            }
+        ],
+        "name": "c4",
+        "position" : 11
+    }
+]

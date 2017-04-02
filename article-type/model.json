@@ -1,170 +1,315 @@
-{
-  "defaultRootCollection": "data",
-  "collectionNameHotFolder": "data",
-  "uniqueIdentifierWith" : {
-    "get": "_content.json.Nomenclature ISTEX"
-  },
-  "datasetFields": {
-    "isRoot": {
-      "label": "Is on main page",
-      "scheme": "https://schema.org/isAccessibleForFree",
-      "type": "https://www.w3.org/TR/xmlschema-2/#boolean",
-      "content": true
+[
+    {
+        "cover": "collection",
+        "label": "uri",
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Nomenclature ISTEX"
+                    }
+                ]
+            }
+        ],
+        "position": 0,
+        "name": "uri"
     },
-    "title1": {
-      "label": "Title",
-      "scheme": "http://purl.org/dc/terms/title",
-      "type": "https://www.w3.org/TR/xmlschema-2/#string",
-      "lang": "en",
-      "comment": "Always get a title - displayed in corpus/overview",
-      "content": "Article types"
+    {
+        "cover": "dataset",
+        "label": "Title",
+        "scheme": "http://purl.org/dc/terms/title",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": false,
+        "position": 2,
+        "language": "en",
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "Article types"
+                    }
+                ]
+            }
+        ],
+        "name": "aaab"
     },
-    "description1": {
-      "label": "Description",
-      "scheme": "http://purl.org/dc/terms/description",
-      "type": "string",
-      "lang": "fr",
-      "content": "Cette table correspond à la sélection retenue et assumée par l'équipe Istex data et adoptée par l'équipe LODEX. Elle résulte de l'analyse des informations fournies par les éditeurs sur l'élément type de document-article. Ceux-ci constituent une des facettes permettant de valoriser les ressources ISTEX conformément aux normes du web sémantique."
+    {
+        "cover": "dataset",
+        "label": "Description",
+        "scheme": "http://purl.org/dc/terms/description",
+        "language": "fr",
+        "position": 3,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "Cette table correspond à la sélection retenue et assumée par l'équipe Istex data et adoptée par l'équipe LODEX. Elle résulte de l'analyse des informations fournies par les éditeurs sur l'élément type de document-article. Ceux-ci constituent une des facettes permettant de valoriser les ressources ISTEX conformément aux normes du web sémantique."
+                    }
+                ]
+            }
+        ],
+        "name": "aaac"
     },
-    "date1": {
-      "label": "Updated",
-      "scheme": "http://purl.org/dc/terms/modified",
-      "type": "date",
-      "format" : "LL",
-      "content<": {
-        "get": "_collection._dataset._updated"
-      }
+    {
+        "cover": "dataset",
+        "label": "Name",
+        "scheme": "http://purl.org/dc/terms/identifier",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": false,
+        "position": 5,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Nomenclature ISTEX"
+                    }
+                ]
+            }
+        ],
+        "name": "aaae"
     },
-    "name1": {
-      "label": "Name",
-      "scheme": "http://purl.org/dc/terms/identifier",
-      "type": "https://www.w3.org/TR/xmlschema-2/#string",
-      "content<": {
-        "get": "_content.json.Nomenclature ISTEX"
-      }
+    {
+        "cover": "collection",
+        "label": "Title",
+        "scheme": "http://purl.org/dc/terms/title",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": false,
+        "position": 7,
+        "language": "en",
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "étiquette en"
+                    }
+                ]
+            }
+        ],
+        "name": "aaag"
     },
-    "updated": {
-      "label": "Updated",
-      "scheme": "http://purl.org/dc/terms/modified",
-      "type": "https://www.w3.org/TR/xmlschema-2/#date",
-      "content<": {
-        "get": "dateSynchronised"
-      }
+    {
+        "cover": "collection",
+        "label": "Definition",
+        "scheme": "http://purl.org/dc/terms/description",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": false,
+        "position": 8,
+        "language": "en",
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "définition eng"
+                    }
+                ]
+            }
+        ],
+        "name": "aaah"
+    },
+    {
+        "cover": "collection",
+        "label": "French label",
+        "scheme": "http://www.w3.org/2004/02/skos/core#prefLabel",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": false,
+        "position": 9,
+        "language": "fr",
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "étiquette fr"
+                    }
+                ]
+            }
+        ],
+        "name": "aaai"
+    },
+    {
+        "cover": "collection",
+        "label": "English label",
+        "scheme": "http://www.w3.org/2004/02/skos/core#prefLabel",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": false,
+        "position": 10,
+        "language": "en",
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "étiquette en"
+                    }
+                ]
+            }
+        ],
+        "name": "aaaj"
+    },
+    {
+        "cover": "collection",
+        "label": "French definition",
+        "scheme": "http://www.w3.org/2004/02/skos/core#definition",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": false,
+        "position": 11,
+        "language": "fr",
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "définition fr"
+                    }
+                ]
+            }
+        ],
+        "name": "aaak"
+    },
+    {
+        "cover": "collection",
+        "label": "English definition",
+        "scheme": "http://www.w3.org/2004/02/skos/core#definition",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": false,
+        "position": 12,
+        "language": "en",
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "définition eng"
+                    }
+                ]
+            }
+        ],
+        "name": "aaal"
+    },
+    {
+        "cover": "collection",
+        "label": "English definition",
+        "scheme": "http://www.w3.org/2004/02/skos/core#definition",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": false,
+        "position": 13,
+        "language": "en",
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "définition eng NLM"
+                    }
+                ]
+            }
+        ],
+        "name": "aaam"
+    },
+    {
+        "cover": "collection",
+        "label": "French comments",
+        "scheme": "http://www.w3.org/2004/02/skos/core#note",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": false,
+        "position": 14,
+        "language": "fr",
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Commentaires"
+                    }
+                ]
+            }
+        ],
+        "name": "aaan"
+    },
+    {
+        "cover": "collection",
+        "label": "Additional notes",
+        "scheme": "http://www.w3.org/2004/02/skos/core#scopeNote",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": false,
+        "position": 15,
+        "language": "fr",
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Note supplémentaire"
+                    }
+                ]
+            }
+        ],
+        "name": "aaao"
+    },
+    {
+        "cover": "collection",
+        "label": "Examples",
+        "scheme": "http://www.w3.org/2004/02/skos/core#example",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": false,
+        "position": 16,
+        "language": "en",
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "exemples"
+                    }
+                ]
+            }
+        ],
+        "name": "aaap"
     }
-  },
-  "collectionFields": {
-    "title": {
-      "label": "Title",
-      "scheme": "http://purl.org/dc/terms/title",
-      "type": "https://www.w3.org/TR/xmlschema-2/#string",
-      "lang": "en",
-      "content<": {
-        "get": "_content.json.étiquette en"
-      }
-    },
-    "description": {
-      "label": "Definition",
-      "scheme": "http://purl.org/dc/terms/description",
-      "type": "https://www.w3.org/TR/xmlschema-2/#string",
-      "lang": "en",
-      "comment": "Always get a description - displayed in corpus/overview",
-      "content<": {
-        "get": "_content.json.définition eng"
-      }
-    },
-    "frenchLabel": {
-      "label": "French label",
-      "scheme": "http://www.w3.org/2004/02/skos/core#prefLabel",
-      "type": "https://www.w3.org/TR/xmlschema-2/#string",
-      "lang": "fr",
-      "content<": {
-        "get": "_content.json.étiquette fr"
-      }
-    },
-    "englishLabel": {
-      "label": "English label",
-      "scheme": "http://www.w3.org/2004/02/skos/core#prefLabel",
-      "type": "https://www.w3.org/TR/xmlschema-2/#string",
-      "lang": "en",
-      "content<": {
-        "get": "_content.json.étiquette en"
-      },
-      "displayAreas": {
-        "table": true
-      }
-    },
-    "frenchDefinition": {
-      "label": "French definition",
-      "scheme": "http://www.w3.org/2004/02/skos/core#definition",
-      "type": "https://www.w3.org/TR/xmlschema-2/#string",
-      "lang": "fr",
-      "content<": {
-        "get": "_content.json.définition fr"
-      }
-    },
-    "englishDefinition": {
-      "label": "English definition",
-      "scheme": "http://www.w3.org/2004/02/skos/core#definition",
-      "type": "https://www.w3.org/TR/xmlschema-2/#string",
-      "lang": "en",
-      "content<": {
-        "get": "_content.json.définition eng"
-      },
-      "displayAreas": {
-        "table": true
-      }
-    },
-    "englishDefinitionNLM": {
-      "label": "English definition",
-      "scheme": "http://www.w3.org/2004/02/skos/core#definition",
-      "type": "https://www.w3.org/TR/xmlschema-2/#string",
-      "lang": "en",
-      "content<": {
-        "get": "_content.json.définition eng NLM"
-      }
-    },
-    "frenchComments": {
-      "label": "French comments",
-      "scheme": "http://www.w3.org/2004/02/skos/core#note",
-      "type": "https://www.w3.org/TR/xmlschema-2/#string",
-      "lang": "fr",
-      "content<": {
-        "get": "_content.json.Commentaires"
-      }
-    },
-    "frenchNote": {
-      "label": "Additional notes",
-      "scheme": "http://www.w3.org/2004/02/skos/core#scopeNote",
-      "type": "https://www.w3.org/TR/xmlschema-2/#string",
-      "lang": "fr",
-      "content<": {
-        "get": "_content.json.Note supplémentaire"
-      }
-    },
-    "examples": {
-      "label": "Examples",
-      "scheme": "http://www.w3.org/2004/02/skos/core#example",
-      "type": "https://www.w3.org/TR/xmlschema-2/#string",
-      "lang": "en",
-      "content<": {
-        "get": "_content.json.exemples"
-      },
-      "displayAreas": {
-        "table": true
-      }
-    },
-    "updated": {
-      "label": "Updated",
-      "scheme": "http://purl.org/dc/terms/modified",
-      "type": "https://www.w3.org/TR/xmlschema-2/#date",
-      "content<": {
-        "get": "dateSynchronised"
-      }
-    }
-  },
-  "access": [{
-    "login": "bob",
-    "plain": "dylan",
-    "display": "Bob Dylan"
-  }]
-}
+]

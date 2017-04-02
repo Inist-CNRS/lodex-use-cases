@@ -1,1 +1,253 @@
-[{"cover":"collection","label":"uri","display_on_list":true,"transformers":[{"operation":"AUTOGENERATE_URI","args":[]}],"scheme":"http://purl.org/dc/terms/identifier","format":{"args":{"type":"value","value":""},"name":"uri"},"position":0,"name":"uri"},{"cover":"collection","label":"Zone","display_in_list":false,"display_in_resource":true,"searchable":true,"transformers":[{"operation":"COLUMN","args":[{"name":"column","type":"column","value":"zone_pays"}]}],"position":1,"scheme":"http://purl.org/dc/terms/relation","language":"fr","isFacet":true,"name":"3ifr"},{"cover":"collection","label":"Code Pays","display_in_list":false,"display_in_resource":true,"searchable":false,"transformers":[{"operation":"COLUMN","args":[{"name":"column","type":"column","value":"pays_code"}]}],"position":2,"isFacet":true,"name":"DPjh"},{"cover":"collection","label":"Pays","display_in_list":true,"display_in_resource":true,"searchable":true,"transformers":[{"operation":"COLUMN","args":[{"name":"column","type":"column","value":"pays_lib"}]}],"position":3,"language":"fr","scheme":"http://www.w3.org/2000/01/rdf-schema#label","completes":"DPjh","name":"vxqh"},{"cover":"collection","label":"Nombre de  projets","display_in_list":true,"display_in_resource":true,"searchable":false,"transformers":[{"operation":"COLUMN","args":[{"name":"column","type":"column","value":"nb_projet"}]}],"position":4,"name":"Ddxu"},{"cover":"collection","label":"Nombre de coordination","display_in_list":true,"display_in_resource":true,"searchable":false,"transformers":[{"operation":"COLUMN","args":[{"name":"column","type":"column","value":"nb_coordination"}]}],"position":5,"name":"//k/"},{"cover":"collection","label":"Total des contributions","display_in_list":true,"display_in_resource":true,"searchable":false,"transformers":[{"operation":"COLUMN","args":[{"name":"column","type":"column","value":"montant_contribution"}]}],"position":6,"name":"WAyP"},{"cover":"collection","label":"Geolocalisation","display_in_list":false,"display_in_resource":true,"searchable":false,"transformers":[{"operation":"COLUMN","args":[{"name":"column","type":"column","value":"geolocalisation"}]}],"position":7,"name":"yhRQ"},{"cover":"dataset","label":"Titre","display_in_list":true,"display_in_resource":true,"searchable":false,"transformers":[{"operation":"VALUE","args":[{"name":"value","type":"string","value":"Contrats signés du programme-cadre cadre pour la recherche et l’innovation (H2020) de la Commission européenne"}]}],"position":8,"scheme":"http://purl.org/dc/terms/title","language":"fr","name":"rHoA"},{"cover":"dataset","label":"Source","display_in_list":true,"display_in_resource":true,"searchable":true,"transformers":[{"operation":"VALUE","args":[{"name":"value","type":"string","value":"https://data.enseignementsup-recherche.gouv.fr/explore/dataset/fr-esr-h2020_pcrdt-contrats-signes/"}]}],"position":9,"scheme":"http://purl.org/dc/terms/source","format":{"args":{"value":"Portail OpenData","type":"text"},"name":"uri"},"name":"oWN0"},{"cover":"collection","label":"Producateur","display_in_list":true,"display_in_resource":true,"searchable":true,"transformers":[{"operation":"VALUE","args":[{"name":"value","type":"string","value":"Commission européenne"}]}],"position":10,"scheme":"http://purl.org/dc/terms/creator","language":"fr","name":"YwsY"}]
+[
+    {
+        "cover": "collection",
+        "label": "uri",
+        "display_on_list": true,
+        "transformers": [
+            {
+                "operation": "AUTOGENERATE_URI",
+                "args": []
+            }
+        ],
+        "scheme": "http://purl.org/dc/terms/identifier",
+        "format": {
+            "args": {
+                "type": "value",
+                "value": ""
+            },
+            "name": "uri"
+        },
+        "position": 0,
+        "name": "uri"
+    },
+    {
+        "cover": "collection",
+        "label": "Zone",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "zone_pays"
+                    }
+                ]
+            }
+        ],
+        "position": 1,
+        "scheme": "http://purl.org/dc/terms/relation",
+        "language": "fr",
+        "isFacet": true,
+        "name": "3ifr"
+    },
+    {
+        "cover": "collection",
+        "label": "Code Pays",
+        "scheme": "https://schema.org/addressCountry",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": false,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "pays_code"
+                    }
+                ]
+            }
+        ],
+        "position": 2,
+        "isFacet": true,
+        "name": "DPjh"
+    },
+    {
+        "cover": "collection",
+        "label": "Pays",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "pays_lib"
+                    }
+                ]
+            }
+        ],
+        "position": 3,
+        "language": "fr",
+        "scheme": "http://www.w3.org/2000/01/rdf-schema#label",
+        "completes": "DPjh",
+        "name": "vxqh"
+    },
+    {
+        "cover": "collection",
+        "label": "Nombre de projets",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": false,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "nb_projet"
+                    }
+                ]
+            }
+        ],
+        "position": 4,
+        "name": "Ddxu"
+    },
+    {
+        "cover": "collection",
+        "label": "Nombre de coordinations",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": false,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "nb_coordination"
+                    }
+                ]
+            }
+        ],
+        "position": 5,
+        "name": "//k/"
+    },
+    {
+        "cover": "collection",
+        "label": "Total des contributions",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": false,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "montant_contribution"
+                    }
+                ]
+            }
+        ],
+        "position": 6,
+        "name": "WAyP"
+    },
+    {
+        "cover": "collection",
+        "label": "Geolocalisation",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": false,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "geolocalisation"
+                    }
+                ]
+            }
+        ],
+        "position": 7,
+        "name": "yhRQ"
+    },
+    {
+        "cover": "dataset",
+        "label": "Titre",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": false,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "Contrats signés du programme-cadre cadre pour la recherche et l’innovation (H2020) de la Commission européenne"
+                    }
+                ]
+            }
+        ],
+        "position": 8,
+        "scheme": "http://purl.org/dc/terms/title",
+        "language": "fr",
+        "name": "rHoA"
+    },
+    {
+        "cover": "dataset",
+        "label": "Source",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "https://data.enseignementsup-recherche.gouv.fr/explore/dataset/fr-esr-h2020_pcrdt-contrats-signes/"
+                    }
+                ]
+            }
+        ],
+        "position": 9,
+        "scheme": "http://purl.org/dc/terms/source",
+        "format": {
+            "args": {
+                "value": "Portail OpenData",
+                "type": "text"
+            },
+            "name": "uri"
+        },
+        "name": "oWN0"
+    },
+    {
+        "cover": "dataset",
+        "label": "Producteur",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": false,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "Commission européenne"
+                    }
+                ]
+            }
+        ],
+        "position": 10,
+        "scheme": "http://purl.org/dc/terms/creator",
+        "language": "fr",
+        "name": "YwsY"
+    }
+]
