@@ -1,0 +1,13 @@
+Destinataire : INIST/DOS - Termino
+Objectif     : détecter des définitions dans un corpus d’articles au moyen de graphes Unitex
+Description  : corpus issu de revues d’Astronomie-Astrophysique présentes dans Istex
+
+step1 : établissement d’une liste de revues (cœur et complémentaires)
+step2 : vérification présence dans Istex
+step3 : extraction d’un corpus d’entraînement pour Unitex en fonction de certains critères
+step4 : extraction du corpus Istex avec des critères affinés selon les résultats de l’étape précédente
+
+
+[ISTEX]
+
+query issn:"0935-4956" OR (issn:"0922-6435" AND publicationDate:1995) OR (issn:"1387-6473" AND publicationDate:2001) OR (host.title:"JOURNAL OF GEOPHYSICAL RESEARCH: SPACE PHYSICS" AND publicationDate:1980 AND host.issue.raw:A1)

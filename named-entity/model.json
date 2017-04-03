@@ -1,0 +1,294 @@
+[
+	{
+		"cover": "collection",
+		"label": "uri",
+		"transformers": [
+			{
+				"operation": "COLUMN",
+				"args": [
+					{
+						"name": "column",
+						"type": "column",
+						"value": "Identifiant"
+					}
+				]
+			}
+		],
+		"position": 0,
+		"name": "uri"
+	},
+	{
+		"cover": "dataset",
+		"name": "aaaa",
+		"display_in_list": false,
+		"display_in_resource": true,
+		"searchable": false,
+		"position": 1,
+		"label": "Is on main page",
+		"scheme": "https://schema.org/isAccessibleForFree",
+		"transformers": [
+			{
+				"operation": "VALUE",
+				"args": [
+					{
+						"name": "value",
+						"type": "string",
+						"value": "true"
+					}
+				]
+			}
+		]
+	},
+	{
+		"cover": "dataset",
+		"name": "aaab",
+		"display_in_list": false,
+		"display_in_resource": true,
+		"searchable": false,
+		"position": 2,
+		"label": "Title",
+		"scheme": "http://purl.org/dc/terms/title",
+		"language": "en",
+		"transformers": [
+			{
+				"operation": "VALUE",
+				"args": [
+					{
+						"name": "value",
+						"type": "string",
+						"value": "Named entities"
+					}
+				]
+			}
+		]
+	},
+	{
+		"cover": "dataset",
+		"name": "aaac",
+		"display_in_list": false,
+		"display_in_resource": true,
+		"searchable": false,
+		"position": 3,
+		"label": "Description",
+		"scheme": "http://purl.org/dc/terms/description",
+		"language": "fr",
+		"transformers": [
+			{
+				"operation": "VALUE",
+				"args": [
+					{
+						"name": "value",
+						"type": "string",
+						"value": "Cette table correspond à une reprise du choix d'annotation des données ISTEX avec des entités nommées : mots ou groupes de mots présentant un intérêt particulier sur le plan sémantique et pouvant être catégorisés. Il s’agit de noms propres (personnes, lieux,organisations) ou d’autres unités lexicales (dates, projets financés, URL)."
+					}
+				]
+			}
+		]
+	},
+	{
+		"cover": "collection",
+		"name": "aaag",
+		"display_in_list": true,
+		"display_in_resource": true,
+		"searchable": false,
+		"position": 5,
+		"label": "Title",
+		"scheme": "http://purl.org/dc/terms/title",
+		"transformers": [
+			{
+				"operation": "COLUMN",
+				"args": [
+					{
+						"name": "column",
+						"type": "column",
+						"value": "Titre"
+					}
+				]
+			}
+		]
+	},
+	{
+		"cover": "collection",
+		"name": "aaah",
+		"display_in_list": false,
+		"display_in_resource": true,
+		"searchable": false,
+		"position": 6,
+		"label": "Title",
+		"scheme": "http://purl.org/dc/terms/description",
+		"language": "en",
+		"transformers": [
+			{
+				"operation": "COLUMN",
+				"args": [
+					{
+						"name": "column",
+						"type": "column",
+						"value": "Libellé anglais"
+					}
+				]
+			}
+		]
+	},
+	{
+		"cover": "collection",
+		"name": "aaai",
+		"display_in_list": false,
+		"display_in_resource": true,
+		"searchable": false,
+		"position": 7,
+		"label": "French label",
+		"scheme": "http://www.w3.org/2004/02/skos/core#prefLabel",
+		"language": "fr",
+		"transformers": [
+			{
+				"operation": "COLUMN",
+				"args": [
+					{
+						"name": "column",
+						"type": "column",
+						"value": "Libellé français"
+					}
+				]
+			}
+		]
+	},
+	{
+		"cover": "collection",
+		"name": "aaaj",
+		"display_in_list": true,
+		"display_in_resource": true,
+		"searchable": false,
+		"position": 8,
+		"label": "English label",
+		"scheme": "http://www.w3.org/2004/02/skos/core#prefLabel",
+		"language": "en",
+		"transformers": [
+			{
+				"operation": "COLUMN",
+				"args": [
+					{
+						"name": "column",
+						"type": "column",
+						"value": "Libellé anglais"
+					}
+				]
+			}
+		]
+	},
+	{
+		"cover": "collection",
+		"name": "aaak",
+		"display_in_list": false,
+		"display_in_resource": true,
+		"searchable": false,
+		"position": 9,
+		"label": "French definition",
+		"scheme": "http://www.w3.org/2004/02/skos/core#definition",
+		"language": "fr",
+		"transformers": [
+			{
+				"operation": "COLUMN",
+				"args": [
+					{
+						"name": "column",
+						"type": "column",
+						"value": "Définition fr"
+					}
+				]
+			}
+		]
+	},
+	{
+		"cover": "collection",
+		"name": "aaal",
+		"display_in_list": true,
+		"display_in_resource": true,
+		"searchable": false,
+		"position": 10,
+		"label": "English definition",
+		"scheme": "http://www.w3.org/2004/02/skos/core#definition",
+		"language": "en",
+		"transformers": [
+			{
+				"operation": "COLUMN",
+				"args": [
+					{
+						"name": "column",
+						"type": "column",
+						"value": "Définition eng"
+					}
+				]
+			}
+		]
+	},
+	{
+		"cover": "collection",
+		"name": "aaam",
+		"display_in_list": false,
+		"display_in_resource": true,
+		"searchable": false,
+		"position": 11,
+		"label": "French example",
+		"scheme": "http://www.w3.org/2004/02/skos/core#example",
+		"language": "fr",
+		"transformers": [
+			{
+				"operation": "COLUMN",
+				"args": [
+					{
+						"name": "column",
+						"type": "column",
+						"value": "Exemple fr"
+					}
+				]
+			}
+		]
+	},
+	{
+		"cover": "collection",
+		"name": "aaan",
+		"display_in_list": true,
+		"display_in_resource": true,
+		"searchable": false,
+		"position": 12,
+		"label": "English example",
+		"scheme": "http://www.w3.org/2004/02/skos/core#example",
+		"language": "en",
+		"transformers": [
+			{
+				"operation": "COLUMN",
+				"args": [
+					{
+						"name": "column",
+						"type": "column",
+						"value": "Exemple eng"
+					}
+				]
+			}
+		]
+	},
+	{
+		"cover": "collection",
+		"name": "aaae",
+		"display_in_list": false,
+		"display_in_resource": true,
+		"searchable": false,
+		"position": 13,
+		"label": "Writing instructions",
+		"scheme": "http://www.w3.org/2004/02/skos/core#note",
+		"language": "fr",
+		"transformers": [
+			{
+				"operation": "COLUMN",
+				"args": [
+					{
+						"name": "column",
+						"type": "column",
+						"value": "Consigne d'écriture"
+					}
+				]
+			}
+		]
+	}
+]
