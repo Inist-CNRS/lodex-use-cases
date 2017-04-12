@@ -92,7 +92,7 @@
         "language": "fr",
         "completes": "eVCp",
         "format": {
-            "name": "uri"
+            "name": "link"
         },
         "name": "CwLo"
     },
@@ -182,7 +182,7 @@
                 "type": "value",
                 "value": ""
             },
-            "name": "uri"
+            "name": "link"
         },
         "name": "miTs"
     },
@@ -230,7 +230,7 @@
             }
         ],
         "position": 17,
-        "scheme": "http://purl.org/dc/terms/temporal",        
+        "scheme": "http://purl.org/dc/terms/temporal",
         "format": {
             "name": "istex"
         },
@@ -255,7 +255,7 @@
             }
         ],
         "position": 23,
-        "scheme": "http://purl.org/dc/terms/temporal",        
+        "scheme": "http://purl.org/dc/terms/temporal",
         "format": {
             "name": "istex"
         },
@@ -355,7 +355,7 @@
             }
         ],
         "position": 27,
-        "scheme": "http://purl.org/dc/terms/temporal",        
+        "scheme": "http://purl.org/dc/terms/temporal",
         "format": {
             "name": "istex"
         },
@@ -380,7 +380,7 @@
             }
         ],
         "position": 28,
-        "scheme": "http://purl.org/dc/terms/temporal",     
+        "scheme": "http://purl.org/dc/terms/temporal",
         "format": {
             "name": "istex"
         },
@@ -432,7 +432,7 @@
         "language": "fr",
         "completes": "cVTJ",
         "format": {
-            "name": "uri"
+            "name": "link"
         },
         "name": "MQRx"
     },
@@ -495,7 +495,7 @@
         "language": "fr",
         "completes": "75pQ",
         "format": {
-            "name": "uri"
+            "name": "link"
         },
         "name": "pVlR"
     },
@@ -677,7 +677,7 @@
         "scheme": "http://purl.org/dc/terms/source",
         "language": "fr",
         "format": {
-            "name": "uri"
+            "name": "link"
         },
         "completes": "Wk9N",
         "name": "fy39"
