@@ -1,12 +1,12 @@
 #
-# Exemple de fichier coprus
+# Exemple de fichier 
 # 
-title        Exemple de corpus ISTEX
-author       Nicolas
-publisher    CNRS
-description  Ensemble de requetes pour montrer comment consituer un corpus ISTEX chargeable dans lodex
-licence      CC-By
-versionInfo  1
+title       : Exemple de corpus ISTEX
+author      : Nicolas
+publisher   : CNRS
+description : Ensemble de requetes pour montrer comment consituer un corpus ISTEX chargeable dans lodex
+licence     : CC-By
+versionInfo : 1
 
 [ISTEX]
 query  "Les Châtiments"

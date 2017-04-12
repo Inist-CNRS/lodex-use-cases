@@ -1,0 +1,685 @@
+[
+    {
+        "cover": "collection",
+        "label": "uri",
+        "display_on_list": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "URI LEXVO"
+                    }
+                ]
+            }
+        ],
+        "position": 0,
+        "name": "uri"
+    },
+    {
+        "cover": "collection",
+        "label": "Code langue",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Code"
+                    }
+                ]
+            }
+        ],
+        "position": 2,
+        "scheme": "http://www.w3.org/2004/02/skos/core#notation",
+        "language": "fr",
+        "format": {
+            "name": "None"
+        },
+        "isFacet": true,
+        "name": "eVCp"
+    },
+    {
+        "cover": "collection",
+        "label": "Verbalisation du code",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Langue"
+                    }
+                ]
+            }
+        ],
+        "position": 3,
+        "scheme": "http://www.w3.org/2004/02/skos/core#prefLabel",
+        "language": "fr",
+        "isFacet": true,
+        "name": "oEjA"
+    },
+    {
+        "cover": "collection",
+        "label": "Site ISO",
+        "display_in_list": false,
+        "display_in_resource": false,
+        "searchable": false,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Source1"
+                    }
+                ]
+            }
+        ],
+        "position": 4,
+        "scheme": "http://purl.org/dc/terms/source",
+        "language": "fr",
+        "completes": "eVCp",
+        "format": {
+            "name": "uri"
+        },
+        "name": "CwLo"
+    },
+    {
+        "cover": "collection",
+        "label": "Description",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Description"
+                    }
+                ]
+            }
+        ],
+        "position": 4,
+        "scheme": "http://www.w3.org/2004/02/skos/core#definition",
+        "language": "en",
+        "name": "Vt1c"
+    },
+    {
+        "cover": "collection",
+        "label": "Note de catalogage",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Infos RERO"
+                    }
+                ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "separator",
+                        "type": "string",
+                        "value": ";"
+                    }
+                ],
+                "operation": "SPLIT"
+            }
+        ],
+        "position": 6,
+        "scheme": "http://www.w3.org/2004/02/skos/core#scopeNote",
+        "language": "fr",
+        "format": {
+            "name": "list"
+        },
+        "name": "rvPG"
+    },
+    {
+        "cover": "collection",
+        "label": "Site RERO",
+        "display_in_list": false,
+        "display_in_resource": false,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Source2"
+                    }
+                ]
+            }
+        ],
+        "position": 7,
+        "scheme": "http://purl.org/dc/terms/source",
+        "language": "fr",
+        "completes": "rvPG",
+        "format": {
+            "args": {
+                "type": "value",
+                "value": ""
+            },
+            "name": "uri"
+        },
+        "name": "miTs"
+    },
+    {
+        "cover": "collection",
+        "label": "Document ISTEX entre 1301-1400",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": false,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Document ISTEX entre 1301-1400"
+                    }
+                ]
+            }
+        ],
+        "position": 12,
+        "scheme": "http://purl.org/dc/terms/temporal",
+        "format": {
+            "name": "istex"
+        },
+        "name": "w4pL"
+    },
+    {
+        "cover": "collection",
+        "label": "Document ISTEX entre 1401-1500",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": false,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Document ISTEX entre 1401-1500"
+                    }
+                ]
+            }
+        ],
+        "position": 17,
+        "scheme": "http://purl.org/dc/terms/temporal",        
+        "format": {
+            "name": "istex"
+        },
+        "name": "D7Cp"
+    },
+    {
+        "cover": "collection",
+        "label": "Document ISTEX entre 1501-1600",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": false,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Document ISTEX entre 1501-1600"
+                    }
+                ]
+            }
+        ],
+        "position": 23,
+        "scheme": "http://purl.org/dc/terms/temporal",        
+        "format": {
+            "name": "istex"
+        },
+        "name": "dIdR"
+    },
+    {
+        "cover": "collection",
+        "label": "Document ISTEX entre 1601-1700",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": false,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Document ISTEX entre 1601-1700"
+                    }
+                ]
+            }
+        ],
+        "position": 24,
+        "scheme": "http://purl.org/dc/terms/temporal",
+        "format": {
+            "name": "istex"
+        },
+        "name": "rJLz"
+    },
+    {
+        "cover": "collection",
+        "label": "Document ISTEX  1701-1800",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": false,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Document ISTEX  1701-1800"
+                    }
+                ]
+            }
+        ],
+        "position": 25,
+        "scheme": "http://purl.org/dc/terms/temporal",
+        "format": {
+            "name": "istex"
+        },
+        "name": "paaM"
+    },
+    {
+        "cover": "collection",
+        "label": "Document ISTEX entre 1801-1900",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": false,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Document ISTEX entre 1801-1900"
+                    }
+                ]
+            }
+        ],
+        "position": 26,
+        "scheme": "http://purl.org/dc/terms/temporal",
+        "format": {
+            "name": "istex"
+        },
+        "name": "OPxS"
+    },
+    {
+        "cover": "collection",
+        "label": "Document ISTEX entre 1901-2000",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": false,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Document ISTEX entre 1901-2000"
+                    }
+                ]
+            }
+        ],
+        "position": 27,
+        "scheme": "http://purl.org/dc/terms/temporal",        
+        "format": {
+            "name": "istex"
+        },
+        "name": "yL0c"
+    },
+    {
+        "cover": "collection",
+        "label": "Document ISTEX entre 2001-2100",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": false,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Document ISTEX entre 2001-2100"
+                    }
+                ]
+            }
+        ],
+        "position": 28,
+        "scheme": "http://purl.org/dc/terms/temporal",     
+        "format": {
+            "name": "istex"
+        },
+        "name": "UNft"
+    },
+    {
+        "cover": "collection",
+        "label": "Statut Ethonologue description",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": false,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Statut  description"
+                    }
+                ]
+            }
+        ],
+        "position": 29,
+        "scheme": "http://purl.org/dc/terms/type",
+        "language": "en",
+        "name": "cVTJ"
+    },
+    {
+        "cover": "collection",
+        "label": " Source statut ethnologue",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": false,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Statut  source"
+                    }
+                ]
+            }
+        ],
+        "position": 30,
+        "scheme": "http://purl.org/dc/terms/source",
+        "language": "fr",
+        "completes": "cVTJ",
+        "format": {
+            "name": "uri"
+        },
+        "name": "MQRx"
+    },
+    {
+        "cover": "collection",
+        "label": "Ethonogue Classification",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Classification"
+                    }
+                ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "separator",
+                        "type": "string",
+                        "value": ","
+                    }
+                ],
+                "operation": "SPLIT"
+            }
+        ],
+        "position": 31,
+        "scheme": "http://www.w3.org/2004/02/skos/core#historyNote",
+        "language": "en",
+        "format": {
+            "name": "list"
+        },
+        "name": "75pQ"
+    },
+    {
+        "cover": "collection",
+        "label": "Source Classification  Ethnologue",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": false,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Classification  source"
+                    }
+                ]
+            }
+        ],
+        "position": 32,
+        "scheme": "http://purl.org/dc/terms/source",
+        "language": "fr",
+        "completes": "75pQ",
+        "format": {
+            "name": "uri"
+        },
+        "name": "pVlR"
+    },
+    {
+        "cover": "dataset",
+        "label": "Nom du jeu de données",
+        "display_in_list": true,
+        "display_in_resource": false,
+        "searchable": false,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "Jeu de données langue de publication ISTEX"
+                    }
+                ]
+            }
+        ],
+        "position": 33,
+        "scheme": "http://purl.org/dc/terms/title",
+        "language": "fr",
+        "format": {
+            "name": "None"
+        },
+        "name": "cG6q"
+    },
+    {
+        "cover": "dataset",
+        "label": "Description",
+        "display_in_list": true,
+        "display_in_resource": false,
+        "searchable": false,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "Jeu test des langues de publication chargées dans LODEXV2"
+                    }
+                ]
+            }
+        ],
+        "position": 34,
+        "scheme": "http://purl.org/dc/terms/description",
+        "language": "fr",
+        "format": {
+            "name": "None"
+        },
+        "name": "ELEM"
+    },
+    {
+        "cover": "dataset",
+        "label": "Créateur",
+        "display_in_list": true,
+        "display_in_resource": false,
+        "searchable": false,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "ISTEX"
+                    }
+                ]
+            }
+        ],
+        "position": 35,
+        "scheme": "http://purl.org/dc/terms/creator",
+        "language": "fr",
+        "format": {
+            "name": "None"
+        },
+        "name": "9wzY"
+    },
+    {
+        "cover": "dataset",
+        "label": "Editeur",
+        "display_in_list": true,
+        "display_in_resource": false,
+        "searchable": false,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "LODEX Team"
+                    }
+                ]
+            }
+        ],
+        "position": 36,
+        "scheme": "http://purl.org/dc/terms/publisher",
+        "language": "fr",
+        "format": {
+            "name": "None"
+        },
+        "name": "sJHo"
+    },
+    {
+        "cover": "dataset",
+        "label": "Date de création",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": false,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "06 avril 2017"
+                    }
+                ]
+            }
+        ],
+        "position": 37,
+        "scheme": "http://purl.org/dc/terms/date",
+        "language": "fr",
+        "format": {
+            "name": "None"
+        },
+        "name": "Bz5S"
+    },
+    {
+        "cover": "dataset",
+        "label": "Licence",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": false,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "Licenceetalab"
+                    }
+                ]
+            }
+        ],
+        "position": 38,
+        "scheme": "http://purl.org/dc/terms/license",
+        "language": "fr",
+        "format": {
+            "name": "None"
+        },
+        "name": "Wk9N"
+    },
+    {
+        "cover": "dataset",
+        "label": "Source Licence",
+        "display_in_list": true,
+        "display_in_resource": false,
+        "searchable": false,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "http://www.istex.fr/wp-content/uploads/2015/02/2015_Licence-type-ISTEX.pdf"
+                    }
+                ]
+            }
+        ],
+        "position": 39,
+        "scheme": "http://purl.org/dc/terms/source",
+        "language": "fr",
+        "format": {
+            "name": "uri"
+        },
+        "completes": "Wk9N",
+        "name": "fy39"
+    }
+]
