@@ -1,0 +1,121 @@
+[
+    {
+        "cover": "collection",
+        "label": "uri",
+        "name": "uri",
+        "display_on_list": true,
+        "transformers": [
+            {
+                "operation": "AUTOGENERATE_URI",
+                "args": []
+            }
+        ],
+        "position": 0
+    },
+    {
+        "cover": "collection",
+        "label": "email",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "email"
+                    }
+                ]
+            }
+        ],
+        "position": 1,
+        "format": {
+            "name": "email"
+        },
+        "name": "E5l6"
+    },
+    {
+        "cover": "collection",
+        "label": "website",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "website"
+                    }
+                ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "stylesheet",
+                        "type": "text",
+                        "value": "{ \"prepend\": \"http://\" }"
+                    }
+                ],
+                "operation": "JBJ"
+            }
+        ],
+        "position": 2,
+        "format": {
+            "name": "link"
+        },
+        "name": "tWt2",
+        "scheme": ""
+    },
+    {
+        "cover": "collection",
+        "label": "address",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "CONCAT",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "address/street"
+                    },
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "address/suite"
+                    },
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "address/zipcode"
+                    },
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "address/city"
+                    }
+                ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "separator",
+                        "type": "string",
+                        "value": ", "
+                    }
+                ],
+                "operation": "JOIN"
+            }
+        ],
+        "position": 3,
+        "scheme": "http://www.w3.org/2006/vcard/ns#street-address",
+        "name": "D41p"
+    }
+]

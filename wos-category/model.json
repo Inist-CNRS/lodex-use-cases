@@ -1,0 +1,238 @@
+[
+    {
+        "cover": "collection",
+        "label": "uri",
+        "name": "uri",
+        "display_on_list": true,
+        "transformers": [
+            {
+                "operation": "AUTOGENERATE_URI",
+                "args": []
+            }
+        ],
+        "position": 0
+    },
+    {
+        "cover": "collection",
+        "label": "Nom de la catégorie",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Titre"
+                    }
+                ]
+            }
+        ],
+        "position": 1,
+        "scheme": "http://purl.org/dc/terms/title",
+        "name": "VmPY"
+    },
+    {
+        "cover": "collection",
+        "label": "Description",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": false,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Description"
+                    }
+                ]
+            }
+        ],
+        "position": 2,
+        "scheme": "http://purl.org/dc/terms/description",
+        "name": "TgJq"
+    },
+    {
+        "cover": "collection",
+        "label": "Est tête d'arborescence",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Est tête d'arborescence"
+                    }
+                ]
+            }
+        ],
+        "position": 3,
+        "scheme": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+        "name": "qIbO"
+    },
+    {
+        "cover": "collection",
+        "label": "Terme Générique",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Terme Générique"
+                    }
+                ]
+            }
+        ],
+        "position": 4,
+        "scheme": "http://www.w3.org/2004/02/skos/core#broader",
+        "name": "galK"
+    },
+    {
+        "cover": "collection",
+        "label": "Libellé en français",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Verbalisation française"
+                    }
+                ]
+            }
+        ],
+        "position": 5,
+        "scheme": "http://www.w3.org/2004/02/skos/core#prefLabel",
+        "name": "VrY7"
+    },
+    {
+        "cover": "collection",
+        "label": "Dans ISTEX",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": false,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Titre"
+                    }
+                ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "stylesheet",
+                        "type": "text",
+                        "value": "{ \"downcase\": true, \"prepend\": \"categories.wos.raw:(\\\"\", \"append\": \"\\\")\" }"
+                    }
+                ],
+                "operation": "JBJ"
+            }
+        ],
+        "position": 6,
+        "scheme": "http://lod.istex.fr/ontology/istex#query",
+        "name": "dRDT",
+        "format": {
+            "name": "istex"
+        }
+    },
+    {
+        "cover": "dataset",
+        "label": "Dataset Title",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": false,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "Jeu de données catégories web of science"
+                    }
+                ]
+            }
+        ],
+        "position": 7,
+        "scheme": "http://purl.org/dc/terms/title",
+        "format": {
+            "name": "title"
+        },
+        "name": "XDNc"
+    },
+    {
+        "cover": "dataset",
+        "label": "Dataset description",
+        "display_in_list": true,
+        "display_in_resource": false,
+        "searchable": false,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "Cette table correspond au choix de documenter des données ISTEX et plus particulièrement les catégories [web of science](http://ip-science.thomsonreuters.com/mjl/scope/scope_scie/)."
+                    }
+                ]
+            }
+        ],
+        "position": 8,
+        "scheme": "http://purl.org/dc/terms/description",
+        "format": {
+            "name": "markdown"
+        },
+        "name": "zqzH"
+    },
+    {
+        "cover": "dataset",
+        "label": "Ontology Model",
+        "display_in_list": true,
+        "display_in_resource": false,
+        "searchable": false,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "https://docs.google.com/drawings/d/1GmowZv8QwtVT7MJnRi1h34qlZ_IPLP1x4KjdYVsht4I/pub?w=960&h=720"
+                    }
+                ]
+            }
+        ],
+        "position": 9,
+        "scheme": "https://www.w3.org/TR/xmlschema-2/#anyURI",
+        "format": {
+            "args": {
+                "imageWidth": "80%"
+            },
+            "name": "image"
+        },
+        "name": "JvIP"
+    }
+]
