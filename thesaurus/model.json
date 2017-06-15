@@ -1,0 +1,218 @@
+[
+    {
+        "cover": "collection",
+        "label": "uri",
+        "name": "uri",
+        "display_on_list": true,
+        "transformers": [
+            {
+                "operation": "AUTOGENERATE_URI",
+                "args": []
+            }
+        ],
+        "position": 0
+    },
+    {
+        "cover": "collection",
+        "label": "Identifier",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "dc$identifier"
+                    }
+                ]
+            }
+        ],
+        "position": 1,
+        "scheme": "http://purl.org/dc/terms/identifier",
+        "format": {
+            "name": "None"
+        },
+        "isFacet": false,
+        "name": "OEOA"
+    },
+    {
+        "cover": "collection",
+        "label": "Préférentiel",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "prefLabel@fr"
+                    }
+                ]
+            }
+        ],
+        "position": 2,
+        "language": "fr",
+        "scheme": "http://www.w3.org/2004/02/skos/core#prefLabel",
+        "name": "igs2"
+    },
+    {
+        "cover": "collection",
+        "label": "Définition",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "definition@fr"
+                    }
+                ]
+            }
+        ],
+        "position": 3,
+        "language": "fr",
+        "scheme": "http://www.w3.org/2004/02/skos/core#definition",
+        "name": "88M5"
+    },
+    {
+        "cover": "collection",
+        "label": "Exemple",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "example@fr"
+                    }
+                ]
+            }
+        ],
+        "position": 4,
+        "scheme": "http://www.w3.org/2004/02/skos/core#example",
+        "language": "fr",
+        "name": "F3Qg"
+    },
+    {
+        "cover": "collection",
+        "label": "Générique",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "LINK",
+                "args": [
+                    {
+                        "name": "identifier",
+                        "type": "column",
+                        "value": "broader"
+                    },
+                    {
+                        "name": "reference",
+                        "type": "column",
+                        "value": "dc$identifier"
+                    }
+                ]
+            }
+        ],
+        "position": 5,
+        "scheme": "http://www.w3.org/2004/02/skos/core#broader",
+        "format": {
+            "name": "uri",
+            "args": {
+                "type": "value"
+            }
+        },
+        "name": "0yck"
+    },
+    {
+        "cover": "dataset",
+        "label": "Thésaurus",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "Catégories sémantiques des bases Pascal/Francis"
+                    }
+                ]
+            }
+        ],
+        "position": 6,
+        "scheme": "http://purl.org/dc/terms/title",
+        "language": "fr",
+        "name": "cDhW"
+    },
+    {
+        "cover": "dataset",
+        "label": "Producteur",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "Inist-CNRS"
+                    }
+                ]
+            }
+        ],
+        "position": 7,
+        "scheme": "http://purl.org/dc/terms/publisher",
+        "name": "PiGd"
+    },
+    {
+        "cover": "dataset",
+        "label": "Licence",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "http://creativecommons.org/licenses/by/4.0/"
+                    }
+                ]
+            }
+        ],
+        "position": 8,
+        "overview": 0,
+        "scheme": "http://purl.org/dc/terms/license",
+        "format": {
+            "args": {
+                "value": "CC-By 4.0",
+                "type": "text"
+            },
+            "name": "link"
+        },
+        "name": "4NKN"
+    }
+]
