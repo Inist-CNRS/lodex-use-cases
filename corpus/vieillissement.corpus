@@ -1,8 +1,7 @@
-Corpus      “Vieillissement”
-Application Corpus de test et de démonstration pour le clustering diachronique
-Thématique  Gérontologie
-Langue      Anglais
-Nombre de documents  9797
+Corpus        : Vieillissement
+Application   : Corpus de test et de démonstration pour le clustering diachronique
+Thématique    : Gérontologie
+Langue        : Anglais
 
 [ISTEX]
 id EC2AEDC35AEE067247941C2E4FCDBC02064CD3F0

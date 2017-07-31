@@ -2,7 +2,6 @@
     {
         "cover": "collection",
         "label": "uri",
-        "name": "uri",
         "display_on_list": true,
         "transformers": [
             {
@@ -10,7 +9,10 @@
                 "operation": "AUTOGENERATE_URI"
             }
         ],
-        "position" : 0
+        "position": 0,
+        "name": "uri",
+        "display_in_list": true,
+        "display_in_resource": true
     },
     {
         "label": "Objectif",
@@ -28,8 +30,10 @@
                 ]
             }
         ],
+        "position": 1,
         "name": "c2",
-        "position" : 1
+        "display_in_list": true,
+        "display_in_resource": true
     },
     {
         "label": "Updated",
@@ -47,8 +51,8 @@
                 ]
             }
         ],
-        "name": "d3",
-        "position" : 2
+        "position": 2,
+        "name": "d3"
     },
     {
         "label": "Title",
@@ -71,8 +75,10 @@
                 ]
             }
         ],
+        "position": 3,
         "name": "c1",
-        "position" : 3
+        "display_in_list": true,
+        "display_in_resource": true
     },
     {
         "label": "URL",
@@ -90,9 +96,10 @@
                 ]
             }
         ],
+        "position": 4,
         "name": "c3",
-        "position" : 4
-
+        "display_in_list": true,
+        "display_in_resource": true
     },
     {
         "label": "Licence",
@@ -110,8 +117,8 @@
                 ]
             }
         ],
-        "name": "d8",
-        "position" : 5
+        "position": 5,
+        "name": "d8"
     },
     {
         "label": "Précisions",
@@ -129,8 +136,8 @@
                 ]
             }
         ],
-        "name": "d7",
-        "position" : 6
+        "position": 6,
+        "name": "d7"
     },
     {
         "label": "Lien projet",
@@ -148,8 +155,10 @@
                 ]
             }
         ],
+        "position": 7,
         "name": "d6",
-        "position" : 7
+        "display_in_list": true,
+        "display_in_resource": true
     },
     {
         "label": "gérés et maintenus par",
@@ -167,8 +176,8 @@
                 ]
             }
         ],
-        "name": "d4",
-        "position" : 8
+        "position": 8,
+        "name": "d4"
     },
     {
         "label": "Dataset title",
@@ -187,8 +196,8 @@
                 ]
             }
         ],
-        "name": "d1",
-        "position" : 9
+        "position": 9,
+        "name": "d1"
     },
     {
         "label": "Note",
@@ -206,8 +215,8 @@
                 ]
             }
         ],
-        "name": "d5",
-        "position" : 10
+        "position": 10,
+        "name": "d5"
     },
     {
         "label": "Suivant",
@@ -229,7 +238,16 @@
                 "operation": "LINK"
             }
         ],
+        "position": 11,
         "name": "c4",
-        "position" : 11
+        "display_in_list": true,
+        "display_in_resource": true,
+        "format": {
+            "args": {
+                "value": "Parent",
+                "type": "text"
+            },
+            "name": "uri"
+        }
     }
 ]
