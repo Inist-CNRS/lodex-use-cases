@@ -108,7 +108,7 @@
                 ]
             }
         ],
-        "scheme": "http://schema.org/Rating",
+        "scheme": "http://dbpedia.org/ontology/rating",
         "position": 5,
         "isFacet": true,
         "name": "bZE+"
@@ -278,7 +278,7 @@
             }
         ],
         "position": 12,
-        "scheme": "http://dbpedia.org/ontology/rating",
+        "scheme": "http://purl.org/dc/terms/source",
         "completes": "bZE+",
         "name": "73Hi"
     }
