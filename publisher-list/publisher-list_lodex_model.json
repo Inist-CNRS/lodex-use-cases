@@ -1,0 +1,634 @@
+[
+    {
+        "cover": "collection",
+        "label": "uri",
+        "name": "uri",
+        "display_on_list": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "uri"
+                    }
+                ]
+            }
+        ],
+        "position": 0
+    },
+    {
+        "cover": "collection",
+        "label": "Nom Editeur - forme retenue",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Nom Editeur - forme retenue"
+                    }
+                ]
+            }
+        ],
+        "position": 1,
+        "scheme": "http://purl.org/dc/terms/title",
+        "language": null,
+        "name": "5Wbz",
+        "overview": 1
+    },
+    {
+        "cover": "collection",
+        "label": "Nom Editeur - forme abrégée",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Nom Editeur - forme abrégée"
+                    }
+                ]
+            }
+        ],
+        "position": 2,
+        "scheme": "http://www.w3.org/2004/02/skos/core#altLabel",
+        "name": "zpJV"
+    },
+    {
+        "cover": "collection",
+        "label": "Nom corpus dans Istex",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Nom corpus dans Istex"
+                    }
+                ]
+            }
+        ],
+        "position": 3,
+        "scheme": "http://www.w3.org/2004/02/skos/core#prefLabel",
+        "name": "9aoQ"
+    },
+    {
+        "cover": "collection",
+        "label": "Site internet",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Site internet"
+                    }
+                ]
+            }
+        ],
+        "position": 4,
+        "scheme": "http://www.w3.org/2006/vcard/ns#hasURL",
+        "format": {
+            "name": "link"
+        },
+        "name": "bGi1"
+    },
+    {
+        "cover": "collection",
+        "label": "Présentation de l'éditeur en français",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Présentation de l'éditeur en français"
+                    }
+                ]
+            }
+        ],
+        "position": 5,
+        "scheme": "http://purl.org/dc/terms/description",
+        "language": "fr",
+        "name": "IPeo",
+        "overview": 2
+    },
+    {
+        "cover": "collection",
+        "label": "Source",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Source1"
+                    }
+                ]
+            }
+        ],
+        "position": 6,
+        "scheme": "http://purl.org/dc/terms/source",
+        "language": "fr",
+        "completes": "IPeo",
+        "name": "RC16",
+        "format": {
+            "name": "link"
+        }
+    },
+    {
+        "cover": "collection",
+        "label": "Présentation de l'éditeur en anglais",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Présentation de l'éditeur en anglais"
+                    }
+                ]
+            }
+        ],
+        "position": 7,
+        "scheme": "http://purl.org/dc/terms/description",
+        "language": "en",
+        "name": "zT4Z"
+    },
+    {
+        "cover": "collection",
+        "label": "Source",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Source2"
+                    }
+                ]
+            }
+        ],
+        "position": 8,
+        "scheme": "http://purl.org/dc/terms/source",
+        "language": "en",
+        "completes": "zT4Z",
+        "format": {
+            "name": "link"
+        },
+        "name": "z62N"
+    },
+    {
+        "cover": "collection",
+        "label": "Adresse",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Adresse"
+                    }
+                ]
+            }
+        ],
+        "position": 9,
+        "scheme": "http://xmlns.com/foaf/spec/#term_Organization",
+        "language": "fr",
+        "name": "6Ecc"
+    },
+    {
+        "cover": "collection",
+        "label": "Identifiant VIAF",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Identifiant VIAF"
+                    }
+                ]
+            }
+        ],
+        "position": 10,
+        "scheme": "http://www.w3.org/2002/07/owl#sameAs",
+        "format": {
+            "name": "link"
+        },
+        "name": "HEcq"
+    },
+    {
+        "cover": "collection",
+        "label": "Identifiant IdRef",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Identifiant IdRef"
+                    }
+                ]
+            }
+        ],
+        "position": 11,
+        "scheme": "http://www.w3.org/2002/07/owl#sameAs",
+        "format": {
+            "name": "link"
+        },
+        "name": "V8lR"
+    },
+    {
+        "cover": "collection",
+        "label": "Identifiant ISNI",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Identifiant ISNI"
+                    }
+                ]
+            }
+        ],
+        "position": 12,
+        "scheme": "http://www.w3.org/2002/07/owl#sameAs",
+        "format": {
+            "name": "link"
+        },
+        "name": "Uz1j"
+    },
+    {
+        "cover": "collection",
+        "label": "Identifiant dbpedia",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Identifiant dbpedia"
+                    }
+                ]
+            }
+        ],
+        "position": 13,
+        "scheme": "http://www.w3.org/2002/07/owl#sameAs",
+        "format": {
+            "name": "link"
+        },
+        "name": "gE7f"
+    },
+    {
+        "cover": "collection",
+        "label": "Identifiant wikidata",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Identifiant wikidata"
+                    }
+                ]
+            }
+        ],
+        "position": 14,
+        "scheme": "http://www.w3.org/2002/07/owl#sameAs",
+        "format": {
+            "name": "link"
+        },
+        "name": "t5VJ"
+    },
+    {
+        "cover": "collection",
+        "label": "Identifiant Bnf",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Identifiant Bnf"
+                    }
+                ]
+            }
+        ],
+        "position": 15,
+        "scheme": "http://www.w3.org/2002/07/owl#sameAs",
+        "format": {
+            "name": "link"
+        },
+        "name": "5Wwa"
+    },
+    {
+        "cover": "collection",
+        "label": "Identifiant Library Of Congress",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Identifiant Library Of Congress"
+                    }
+                ]
+            }
+        ],
+        "position": 16,
+        "scheme": "http://www.w3.org/2002/07/owl#sameAs",
+        "format": {
+            "name": "link"
+        },
+        "name": "MFq3"
+    },
+    {
+        "cover": "collection",
+        "label": "Liens vers jeu \"Liste des corpus ISTEX chargés\"",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Liens vers jeu \"Liste des corpus ISTEX chargés\""
+                    }
+                ]
+            }
+        ],
+        "position": 17,
+        "scheme": "http://purl.org/dc/terms/hasPart",
+        "format": {
+            "name": "link"
+        },
+        "name": "nzFF"
+    },
+    {
+        "cover": "dataset",
+        "label": "Titre du jeu de données",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Titre du jeu de données"
+                    }
+                ]
+            }
+        ],
+        "position": 18,
+        "scheme": "http://purl.org/dc/terms/title",
+        "language": "fr",
+        "name": "NQy2",
+        "format": {
+            "name": "title"
+        }
+    },
+    {
+        "cover": "dataset",
+        "label": "Description",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Description"
+                    }
+                ]
+            }
+        ],
+        "position": 19,
+        "scheme": "http://purl.org/dc/terms/description",
+        "name": "GkDb",
+        "language": "fr"
+    },
+    {
+        "cover": "dataset",
+        "label": "Modèle conceptuel",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Modèle conceptuel"
+                    }
+                ]
+            }
+        ],
+        "position": 20,
+        "scheme": "http://schema.org/image",
+        "format": {
+            "args": {
+                "imageWidth": "50%"
+            },
+            "name": "image"
+        },
+        "name": "LQiz"
+    },
+    {
+        "cover": "dataset",
+        "label": "Date de création",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Date de création"
+                    }
+                ]
+            }
+        ],
+        "position": 21,
+        "scheme": "http://purl.org/dc/terms/created",
+        "name": "Qmme"
+    },
+    {
+        "cover": "dataset",
+        "label": "Créateur",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Créateur"
+                    }
+                ]
+            }
+        ],
+        "position": 22,
+        "overview": 0,
+        "scheme": "http://purl.org/dc/terms/creator",
+        "name": "egz4"
+    },
+    {
+        "cover": "dataset",
+        "label": "Editeur",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Editeur"
+                    }
+                ]
+            }
+        ],
+        "position": 23,
+        "overview": 0,
+        "scheme": "http://purl.org/dc/terms/publisher",
+        "name": "a1le"
+    },
+    {
+        "cover": "dataset",
+        "label": "Licence",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Licence"
+                    }
+                ]
+            }
+        ],
+        "position": 24,
+        "overview": 0,
+        "scheme": "http://purl.org/dc/terms/license",
+        "language": "fr",
+        "name": "xszO"
+    },
+    {
+        "cover": "dataset",
+        "label": "Source de la licence",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Source de la licence"
+                    }
+                ]
+            }
+        ],
+        "position": 25,
+        "overview": 0,
+        "scheme": "http://purl.org/dc/terms/source",
+        "completes": "xszO",
+        "format": {
+            "name": "link"
+        },
+        "name": "u3in"
+    }
+]
