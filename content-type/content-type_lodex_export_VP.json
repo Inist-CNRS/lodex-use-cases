@@ -261,10 +261,7 @@
         ],
         "position": 10,
         "scheme": "http://purl.org/dc/terms/isPartOf",
-        "name": "vlM0",
-        "format": {
-            "name": "link"
-        }
+        "name": "vlM0"
     },
     {
         "cover": "collection",

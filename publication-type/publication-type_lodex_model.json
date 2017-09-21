@@ -36,16 +36,19 @@
                 ]
             }
         ],
+        "classes": [
+            "http://purl.org/dc/terms/BibliographicResource"
+        ],
         "position": 1,
         "overview": 1,
         "scheme": "http://purl.org/dc/terms/title",
-        "language": "en",
-        "name": "zoTO"
+        "language": "fr",
+        "name": "OBwz"
     },
     {
         "cover": "collection",
         "label": "libellé anglais",
-        "display_in_list": false,
+        "display_in_list": "",
         "display_in_resource": true,
         "searchable": true,
         "transformers": [
@@ -60,10 +63,13 @@
                 ]
             }
         ],
+        "classes": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
         "position": 2,
         "scheme": "http://www.w3.org/2004/02/skos/core#prefLabel",
         "language": "en",
-        "name": "NXS7"
+        "name": "BRQ5"
     },
     {
         "cover": "collection",
@@ -83,14 +89,17 @@
                 ]
             }
         ],
+        "classes": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
         "position": 3,
         "scheme": "http://www.w3.org/2004/02/skos/core#altLabel",
         "language": "fr",
-        "name": "2VH1"
+        "name": "Kq4x"
     },
     {
         "cover": "collection",
-        "label": "définition anglais",
+        "label": "définition de la BNF",
         "display_in_list": true,
         "display_in_resource": true,
         "searchable": true,
@@ -101,19 +110,22 @@
                     {
                         "name": "column",
                         "type": "column",
-                        "value": "définition anglais1"
+                        "value": "définition de la BNF"
                     }
                 ]
             }
+        ],
+        "classes": [
+            "https://data.istex.fr/ontology/istex#PublicationTypeConcept"
         ],
         "position": 4,
         "scheme": "http://www.w3.org/2004/02/skos/core#definition",
-        "language": "en",
-        "name": "oTm6"
+        "language": "fr",
+        "name": "ngEX"
     },
     {
         "cover": "collection",
-        "label": "source de la définition en anglais",
+        "label": "source de la définition",
         "display_in_list": true,
         "display_in_resource": true,
         "searchable": true,
@@ -124,25 +136,26 @@
                     {
                         "name": "column",
                         "type": "column",
-                        "value": "source de la définition en anglais"
+                        "value": "source de la définition"
                     }
                 ]
             }
         ],
-        "classes": [],
+        "classes": [
+            "https://data.istex.fr/ontology/istex#PublicationTypeConcept"
+        ],
         "position": 5,
         "scheme": "http://purl.org/dc/terms/source",
-        "language": "en",
-        "completes": "4hVh",
         "format": {
             "name": "link"
         },
-        "name": "1Vab"
+        "completes": "ngEX",
+        "name": "icxD"
     },
     {
         "cover": "collection",
-        "label": "source de la définition en français",
-        "display_in_list": false,
+        "label": "définition traduite en anglais",
+        "display_in_list": "",
         "display_in_resource": true,
         "searchable": true,
         "transformers": [
@@ -152,48 +165,51 @@
                     {
                         "name": "column",
                         "type": "column",
-                        "value": "source de la définition en français1"
+                        "value": "définition traduite en anglais"
                     }
                 ]
             }
+        ],
+        "classes": [
+            "https://data.istex.fr/ontology/istex#PublicationTypeConcept"
+        ],
+        "position": 6,
+        "scheme": "http://www.w3.org/2004/02/skos/core#definition",
+        "language": "en",
+        "completes": "ngEX",
+        "name": "9n8v"
+    },
+    {
+        "cover": "collection",
+        "label": "définition Wikipedia (fr)",
+        "display_in_list": "",
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "définition de Wikipedia (fr)"
+                    }
+                ]
+            }
+        ],
+        "classes": [
+            "https://data.istex.fr/ontology/istex#PublicationTypeConcept"
         ],
         "position": 7,
-        "scheme": "http://purl.org/dc/terms/source",
-        "language": "fr",
-        "completes": "XUzb",
-        "format": {
-            "name": "link"
-        },
-        "name": "WFyz"
-    },
-    {
-        "cover": "collection",
-        "label": "définition français",
-        "display_in_list": true,
-        "display_in_resource": true,
-        "searchable": true,
-        "transformers": [
-            {
-                "operation": "COLUMN",
-                "args": [
-                    {
-                        "name": "column",
-                        "type": "column",
-                        "value": "définition français1"
-                    }
-                ]
-            }
-        ],
-        "position": 8,
-        "overview": 2,
         "scheme": "http://www.w3.org/2004/02/skos/core#definition",
         "language": "fr",
-        "name": "XUzb"
+        "overview": 2,
+        "name": "kyGs"
     },
     {
         "cover": "collection",
-        "label": "définition anglais",
-        "display_in_list": true,
+        "label": "source Wikipedia (fr)",
+        "display_in_list": "",
         "display_in_resource": true,
         "searchable": true,
         "transformers": [
@@ -203,21 +219,49 @@
                     {
                         "name": "column",
                         "type": "column",
-                        "value": "définition anglais2"
+                        "value": "source Wikipedia (fr)"
                     }
                 ]
             }
         ],
-        "classes": [],
+        "classes": [
+            "https://data.istex.fr/ontology/istex#PublicationTypeConcept"
+        ],
+        "position": 8,
+        "scheme": "http://purl.org/dc/terms/source",
+        "completes": "kyGs",
+        "name": "UHAz"
+    },
+    {
+        "cover": "collection",
+        "label": "définition Wikipedia (en)",
+        "display_in_list": "",
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "définition de Wikipedia (en)"
+                    }
+                ]
+            }
+        ],
+        "classes": [
+            "https://data.istex.fr/ontology/istex#PublicationTypeConcept"
+        ],
         "position": 9,
         "scheme": "http://www.w3.org/2004/02/skos/core#definition",
         "language": "en",
-        "name": "4hVh"
+        "name": "ZypC"
     },
     {
         "cover": "collection",
-        "label": "définition français",
-        "display_in_list": true,
+        "label": "source Wikipedia (en)",
+        "display_in_list": "",
         "display_in_resource": true,
         "searchable": true,
         "transformers": [
@@ -227,50 +271,24 @@
                     {
                         "name": "column",
                         "type": "column",
-                        "value": "définition français2"
+                        "value": "source Wikipedia (en)"
                     }
                 ]
             }
         ],
-        "classes": [],
+        "classes": [
+            "https://data.istex.fr/ontology/istex#PublicationTypeConcept"
+        ],
         "position": 10,
-        "scheme": "http://www.w3.org/2004/02/skos/core#definition",
-        "language": "fr",
-        "name": "nJLU"
-    },
-    {
-        "cover": "collection",
-        "label": "source de la définition en français2",
-        "display_in_list": true,
-        "display_in_resource": true,
-        "searchable": true,
-        "transformers": [
-            {
-                "operation": "COLUMN",
-                "args": [
-                    {
-                        "name": "column",
-                        "type": "column",
-                        "value": "source de la définition en français2"
-                    }
-                ]
-            }
-        ],
-        "classes": [],
-        "position": 11,
         "overview": 0,
         "scheme": "http://purl.org/dc/terms/source",
-        "language": "fr",
-        "completes": "nJLU",
-        "format": {
-            "name": "link"
-        },
-        "name": "zKLV"
+        "completes": "ZypC",
+        "name": "XzhB"
     },
     {
         "cover": "collection",
         "label": "commentaire",
-        "display_in_list": false,
+        "display_in_list": "",
         "display_in_resource": true,
         "searchable": true,
         "transformers": [
@@ -285,15 +303,18 @@
                 ]
             }
         ],
-        "position": 12,
+        "classes": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "position": 11,
         "scheme": "http://www.w3.org/2004/02/skos/core#note",
         "language": "fr",
-        "name": "xApG"
+        "name": "2pUE"
     },
     {
         "cover": "collection",
         "label": "note supplémentaire",
-        "display_in_list": false,
+        "display_in_list": "",
         "display_in_resource": true,
         "searchable": true,
         "transformers": [
@@ -308,15 +329,18 @@
                 ]
             }
         ],
-        "position": 14,
+        "classes": [
+            "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "position": 12,
         "scheme": "http://www.w3.org/2004/02/skos/core#scopeNote",
-        "language": null,
-        "name": "heiq"
+        "language": "fr",
+        "name": "oNDq"
     },
     {
         "cover": "collection",
         "label": "contient",
-        "display_in_list": false,
+        "display_in_list": "",
         "display_in_resource": true,
         "searchable": true,
         "transformers": [
@@ -335,23 +359,26 @@
                     {
                         "name": "separator",
                         "type": "string",
-                        "value": ","
+                        "value": ";"
                     }
                 ],
                 "operation": "SPLIT"
             }
         ],
-        "position": 14,
+        "classes": [
+            "http://purl.org/dc/terms/BibliographicResource"
+        ],
+        "position": 13,
         "scheme": "http://purl.org/dc/terms/hasPart",
         "format": {
             "name": "link"
         },
-        "name": "mrIy"
+        "name": "hbMQ"
     },
     {
         "cover": "collection",
         "label": "cette ressource dans ISTEX",
-        "display_in_list": false,
+        "display_in_list": "",
         "display_in_resource": true,
         "searchable": true,
         "transformers": [
@@ -366,35 +393,15 @@
                 ]
             }
         ],
-        "position": 15,
+        "classes": [
+            "https://www.w3.org/TR/rdf-schema/#ch_literal"
+        ],
+        "position": 14,
         "scheme": "https://data.istex.fr/ontology/istex#query",
         "format": {
             "name": "istex"
         },
-        "name": "FW5E"
-    },
-    {
-        "cover": "dataset",
-        "label": "Description",
-        "display_in_list": true,
-        "display_in_resource": true,
-        "searchable": true,
-        "transformers": [
-            {
-                "operation": "COLUMN",
-                "args": [
-                    {
-                        "name": "column",
-                        "type": "column",
-                        "value": "Description"
-                    }
-                ]
-            }
-        ],
-        "position": 17,
-        "scheme": "http://purl.org/dc/terms/description",
-        "language": "fr",
-        "name": "7TP5"
+        "name": "CQq2"
     },
     {
         "cover": "dataset",
@@ -414,7 +421,10 @@
                 ]
             }
         ],
-        "position": 18,
+        "classes": [
+            "https://data.istex.fr/ontology/istex#PublicationTypeConcept"
+        ],
+        "position": 15,
         "scheme": "http://purl.org/dc/terms/title",
         "language": "fr",
         "format": {
@@ -423,7 +433,33 @@
             },
             "name": "title"
         },
-        "name": "KPIN"
+        "name": "wDV5"
+    },
+    {
+        "cover": "dataset",
+        "label": "Description",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Description"
+                    }
+                ]
+            }
+        ],
+        "classes": [
+            "https://data.istex.fr/ontology/istex#PublicationTypeConcept"
+        ],
+        "position": 16,
+        "scheme": "http://purl.org/dc/terms/description",
+        "language": "fr",
+        "name": "uJA3"
     },
     {
         "cover": "dataset",
@@ -443,7 +479,10 @@
                 ]
             }
         ],
-        "position": 18,
+        "classes": [
+            "https://data.istex.fr/ontology/istex#PublicationTypeConcept"
+        ],
+        "position": 17,
         "scheme": "http://schema.org/image",
         "format": {
             "args": {
@@ -451,7 +490,7 @@
             },
             "name": "image"
         },
-        "name": "e3qz"
+        "name": "Hz54"
     },
     {
         "cover": "dataset",
@@ -471,31 +510,12 @@
                 ]
             }
         ],
-        "position": 20,
-        "scheme": "http://purl.org/dc/terms/created",
-        "name": "C3Ef"
-    },
-    {
-        "cover": "dataset",
-        "label": "Licence",
-        "display_in_list": true,
-        "display_in_resource": true,
-        "searchable": true,
-        "transformers": [
-            {
-                "operation": "COLUMN",
-                "args": [
-                    {
-                        "name": "column",
-                        "type": "column",
-                        "value": "Licence"
-                    }
-                ]
-            }
+        "classes": [
+            "https://data.istex.fr/ontology/istex#PublicationTypeConcept"
         ],
-        "position": 22,
-        "scheme": "http://purl.org/dc/terms/license",
-        "name": "1HOV"
+        "position": 18,
+        "scheme": "http://purl.org/dc/terms/created",
+        "name": "3ANq"
     },
     {
         "cover": "dataset",
@@ -515,35 +535,12 @@
                 ]
             }
         ],
-        "position": 23,
-        "scheme": "http://purl.org/dc/terms/creator",
-        "name": "0sAT"
-    },
-    {
-        "cover": "dataset",
-        "label": "Source de la licence",
-        "display_in_list": true,
-        "display_in_resource": true,
-        "searchable": true,
-        "transformers": [
-            {
-                "operation": "COLUMN",
-                "args": [
-                    {
-                        "name": "column",
-                        "type": "column",
-                        "value": "Source de la licence"
-                    }
-                ]
-            }
+        "classes": [
+            "https://data.istex.fr/ontology/istex#PublicationTypeConcept"
         ],
-        "position": 23,
-        "scheme": "http://purl.org/dc/terms/source",
-        "format": {
-            "name": "link"
-        },
-        "completes": "1HOV",
-        "name": "omlr"
+        "position": 19,
+        "scheme": "http://purl.org/dc/terms/creator",
+        "name": "IqxA"
     },
     {
         "cover": "dataset",
@@ -563,8 +560,67 @@
                 ]
             }
         ],
-        "position": 24,
+        "classes": [
+            "https://data.istex.fr/ontology/istex#PublicationTypeConcept"
+        ],
+        "position": 20,
         "scheme": "http://purl.org/dc/terms/publisher",
-        "name": "q7QT"
+        "name": "8Hz3"
+    },
+    {
+        "cover": "dataset",
+        "label": "Licence",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Licence"
+                    }
+                ]
+            }
+        ],
+        "classes": [
+            "https://data.istex.fr/ontology/istex#PublicationTypeConcept"
+        ],
+        "position": 21,
+        "scheme": "http://purl.org/dc/terms/license",
+        "language": "fr",
+        "name": "sLJT"
+    },
+    {
+        "cover": "dataset",
+        "label": "Source de la licence",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Source de la licence"
+                    }
+                ]
+            }
+        ],
+        "classes": [
+            "https://data.istex.fr/ontology/istex#PublicationTypeConcept"
+        ],
+        "position": 22,
+        "scheme": "http://purl.org/dc/terms/source",
+        "language": null,
+        "format": {
+            "name": "link"
+        },
+        "completes": "sLJT",
+        "name": "poD6"
     }
 ]
