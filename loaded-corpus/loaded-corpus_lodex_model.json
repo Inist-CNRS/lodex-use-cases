@@ -16,6 +16,8 @@
             }
         ],
         "position": 0,
+        "display_in_list": false,
+        "display_in_resource": true,
         "name": "uri"
     },
     {
@@ -50,7 +52,7 @@
     {
         "cover": "collection",
         "label": "nom de l’éditeur",
-        "display_in_list": false,
+        "display_in_list": true,
         "display_in_resource": true,
         "searchable": true,
         "transformers": [
@@ -82,13 +84,13 @@
                     {
                         "name": "column",
                         "type": "column",
-                        "value": "description de l’éditeur"
+                        "value": "information sur l’éditeur"
                     }
                 ]
             }
         ],
-        "position": 4,
-        "scheme": "http://purl.org/dc/terms/description",
+        "position": 3,
+        "scheme": "http://www.w3.org/2004/02/skos/core#definition",
         "completes": "WHZy",
         "format": {
             "name": "link"
@@ -147,7 +149,7 @@
             }
         ],
         "position": 5,
-        "scheme": "http://www.w3.org/2002/07/owl#sameAs",
+        "scheme": "https://data.istex.fr/ontology/istex#subjectLabel",
         "completes": "jz3G",
         "format": {
             "name": "link"
@@ -610,7 +612,7 @@
     {
         "cover": "dataset",
         "label": "Licence",
-        "display_in_list": true,
+        "display_in_list": "",
         "display_in_resource": true,
         "searchable": true,
         "transformers": [
@@ -628,32 +630,9 @@
         "position": 25,
         "scheme": "http://purl.org/dc/terms/license",
         "language": "fr",
-        "name": "yrTX"
-    },
-    {
-        "cover": "dataset",
-        "label": "Site de la licence",
-        "display_in_list": true,
-        "display_in_resource": true,
-        "searchable": true,
-        "transformers": [
-            {
-                "operation": "COLUMN",
-                "args": [
-                    {
-                        "name": "column",
-                        "type": "column",
-                        "value": "Site de la licence"
-                    }
-                ]
-            }
-        ],
-        "position": 26,
-        "scheme": "http://purl.org/dc/terms/source",
         "format": {
             "name": "link"
         },
-        "completes": "yrTX",
-        "name": "yFx2"
+        "name": "yrTX"
     }
 ]
