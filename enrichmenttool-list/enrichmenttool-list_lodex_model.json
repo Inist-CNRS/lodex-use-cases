@@ -185,31 +185,6 @@
     },
     {
         "cover": "collection",
-        "label": "Requête Istex",
-        "display_in_list": false,
-        "display_in_resource": true,
-        "searchable": true,
-        "transformers": [
-            {
-                "operation": "COLUMN",
-                "args": [
-                    {
-                        "name": "column",
-                        "type": "column",
-                        "value": "Requête Istex"
-                    }
-                ]
-            }
-        ],
-        "position": 8,
-        "scheme": "https://data.istex.fr/ontology/istex#query",
-        "format": {
-            "name": "istex"
-        },
-        "name": "aCLw"
-    },
-    {
-        "cover": "collection",
         "label": "Liens vers jeux de données",
         "display_in_list": false,
         "display_in_resource": true,
@@ -226,7 +201,7 @@
                 ]
             }
         ],
-        "position": 9,
+        "position": 8,
         "scheme": "http://purl.org/dc/terms/hasPart",
         "format": {
             "name": "link"
@@ -251,7 +226,7 @@
                 ]
             }
         ],
-        "position": 10,
+        "position": 9,
         "scheme": "http://purl.org/dc/terms/requires",
         "name": "QANp"
     },
@@ -273,7 +248,7 @@
                 ]
             }
         ],
-        "position": 11,
+        "position": 10,
         "scheme": "http://purl.org/dc/terms/description",
         "language": "fr",
         "completes": "QANp",
@@ -307,13 +282,38 @@
                 "operation": "SPLIT"
             }
         ],
-        "position": 12,
+        "position": 11,
         "scheme": "http://purl.org/dc/terms/source",
         "completes": "V3mD",
         "format": {
             "name": "link"
         },
         "name": "DvlM"
+    },
+    {
+        "cover": "collection",
+        "label": "Requête Istex",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Requête Istex"
+                    }
+                ]
+            }
+        ],
+        "position": 12,
+        "scheme": "https://data.istex.fr/ontology/istex#query",
+        "format": {
+            "name": "istex"
+        },
+        "name": "aCLw"
     },
     {
         "cover": "dataset",
