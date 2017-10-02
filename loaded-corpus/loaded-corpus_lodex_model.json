@@ -113,12 +113,25 @@
                         "value": "domaine scientifique"
                     }
                 ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "separator",
+                        "type": "string",
+                        "value": ";"
+                    }
+                ],
+                "operation": "SPLIT"
             }
         ],
         "position": 4,
         "scheme": "http://purl.org/dc/terms/subject",
         "language": "fr",
-        "name": "jz3G"
+        "name": "jz3G",
+        "format": {
+            "name": "list"
+        }
     },
     {
         "cover": "collection",
