@@ -58,7 +58,10 @@
         "format": {
             "name": "link"
         },
-        "name": "zBA5"
+        "name": "zBA5",
+        "classes": [
+            "http://www.w3.org/2001/XMLSchema#anyURI"
+        ]
     },
     {
         "cover": "dataset",
@@ -129,7 +132,10 @@
         ],
         "position": 5,
         "scheme": "http://purl.org/dc/terms/created",
-        "name": "NTCv"
+        "name": "NTCv",
+        "classes": [
+            "https://www.w3.org/TR/rdf-schema/#dateTime"
+        ]
     },
     {
         "cover": "dataset",
@@ -188,62 +194,20 @@
                     {
                         "name": "column",
                         "type": "column",
-                        "value": "Licence"
-                    }
-                ]
-            }
-        ],
-        "position": 8,
-        "scheme": "http://purl.org/dc/terms/license",
-        "language": "fr",
-        "name": "RGKJ"
-    },
-    {
-        "cover": "dataset",
-        "label": "Source de la licence",
-        "display_in_list": true,
-        "display_in_resource": true,
-        "searchable": true,
-        "transformers": [
-            {
-                "operation": "COLUMN",
-                "args": [
-                    {
-                        "name": "column",
-                        "type": "column",
                         "value": "Source de la licence"
                     }
                 ]
             }
         ],
-        "position": 9,
-        "scheme": "http://purl.org/dc/terms/source",
-        "completes": "RGKJ",
+        "classes": [
+            "http://www.w3.org/2001/XMLSchema#anyURI"
+        ],
+        "position": 8,
+        "overview": 0,
+        "scheme": "http://purl.org/dc/terms/license",
+        "name": "MtvM",
         "format": {
             "name": "link"
-        },
-        "name": "MGvz"
-    },
-    {
-        "cover": "dataset",
-        "label": "Version",
-        "display_in_list": true,
-        "display_in_resource": true,
-        "searchable": true,
-        "transformers": [
-            {
-                "operation": "COLUMN",
-                "args": [
-                    {
-                        "name": "column",
-                        "type": "column",
-                        "value": "Version"
-                    }
-                ]
-            }
-        ],
-        "position": 10,
-        "scheme": "http://www.w3.org/2002/07/owl#versionInfo",
-        "name": "354L"
+        }
     }
 ]

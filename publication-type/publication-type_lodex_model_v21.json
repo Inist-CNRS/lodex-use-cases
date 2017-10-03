@@ -36,9 +36,7 @@
                 ]
             }
         ],
-        "classes": [
-            "http://purl.org/dc/terms/BibliographicResource"
-        ],
+        "classes": [],
         "position": 1,
         "overview": 1,
         "scheme": "http://purl.org/dc/terms/title",
@@ -63,9 +61,7 @@
                 ]
             }
         ],
-        "classes": [
-            "http://www.w3.org/2004/02/skos/core#Concept"
-        ],
+        "classes": [],
         "position": 2,
         "scheme": "http://www.w3.org/2004/02/skos/core#prefLabel",
         "language": "en",
@@ -89,9 +85,7 @@
                 ]
             }
         ],
-        "classes": [
-            "http://www.w3.org/2004/02/skos/core#Concept"
-        ],
+        "classes": [],
         "position": 3,
         "scheme": "http://www.w3.org/2004/02/skos/core#altLabel",
         "language": "fr",
@@ -115,9 +109,7 @@
                 ]
             }
         ],
-        "classes": [
-            "https://data.istex.fr/ontology/istex#PublicationTypeConcept"
-        ],
+        "classes": [],
         "position": 4,
         "scheme": "http://www.w3.org/2004/02/skos/core#definition",
         "language": "fr",
@@ -142,7 +134,7 @@
             }
         ],
         "classes": [
-            "https://data.istex.fr/ontology/istex#PublicationTypeConcept"
+            "http://www.w3.org/2001/XMLSchema#anyURI"
         ],
         "position": 5,
         "scheme": "http://purl.org/dc/terms/source",
@@ -170,9 +162,7 @@
                 ]
             }
         ],
-        "classes": [
-            "https://data.istex.fr/ontology/istex#PublicationTypeConcept"
-        ],
+        "classes": [],
         "position": 6,
         "scheme": "http://www.w3.org/2004/02/skos/core#definition",
         "language": "en",
@@ -197,9 +187,7 @@
                 ]
             }
         ],
-        "classes": [
-            "https://data.istex.fr/ontology/istex#PublicationTypeConcept"
-        ],
+        "classes": [],
         "position": 7,
         "scheme": "http://www.w3.org/2004/02/skos/core#definition",
         "language": "fr",
@@ -225,7 +213,7 @@
             }
         ],
         "classes": [
-            "https://data.istex.fr/ontology/istex#PublicationTypeConcept"
+            "http://www.w3.org/2001/XMLSchema#anyURI"
         ],
         "position": 8,
         "scheme": "http://purl.org/dc/terms/source",
@@ -250,9 +238,7 @@
                 ]
             }
         ],
-        "classes": [
-            "https://data.istex.fr/ontology/istex#PublicationTypeConcept"
-        ],
+        "classes": [],
         "position": 9,
         "scheme": "http://www.w3.org/2004/02/skos/core#definition",
         "language": "en",
@@ -277,7 +263,7 @@
             }
         ],
         "classes": [
-            "https://data.istex.fr/ontology/istex#PublicationTypeConcept"
+            "http://www.w3.org/2001/XMLSchema#anyURI"
         ],
         "position": 10,
         "overview": 0,
@@ -303,9 +289,7 @@
                 ]
             }
         ],
-        "classes": [
-            "http://www.w3.org/2004/02/skos/core#Concept"
-        ],
+        "classes": [],
         "position": 11,
         "scheme": "http://www.w3.org/2004/02/skos/core#note",
         "language": "fr",
@@ -327,15 +311,29 @@
                         "value": "note supplémentaire"
                     }
                 ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "separator",
+                        "type": "string",
+                        "value": ";"
+                    }
+                ],
+                "operation": "SPLIT"
             }
         ],
-        "classes": [
-            "http://www.w3.org/2004/02/skos/core#Concept"
-        ],
+        "classes": [],
         "position": 12,
         "scheme": "http://www.w3.org/2004/02/skos/core#scopeNote",
         "language": "fr",
-        "name": "oNDq"
+        "name": "oNDq",
+        "format": {
+            "args": {
+                "type": "unordered"
+            },
+            "name": "list"
+        }
     },
     {
         "cover": "collection",
@@ -366,7 +364,7 @@
             }
         ],
         "classes": [
-            "http://purl.org/dc/terms/BibliographicResource"
+            "http://www.w3.org/2001/XMLSchema#anyURI"
         ],
         "position": 13,
         "scheme": "http://purl.org/dc/terms/hasPart",
@@ -394,7 +392,7 @@
             }
         ],
         "classes": [
-            "https://www.w3.org/TR/rdf-schema/#ch_literal"
+            "http://www.w3.org/2001/XMLSchema#anyURI"
         ],
         "position": 14,
         "scheme": "https://data.istex.fr/ontology/istex#query",
@@ -422,7 +420,7 @@
             }
         ],
         "classes": [
-            "https://data.istex.fr/ontology/istex#PublicationTypeConcept"
+            "https://www.w3.org/TR/rdf-schema/#ch_literal"
         ],
         "position": 15,
         "scheme": "http://purl.org/dc/terms/title",
@@ -454,7 +452,7 @@
             }
         ],
         "classes": [
-            "https://data.istex.fr/ontology/istex#PublicationTypeConcept"
+            "https://www.w3.org/TR/rdf-schema/#ch_literal"
         ],
         "position": 16,
         "scheme": "http://purl.org/dc/terms/description",
@@ -480,7 +478,7 @@
             }
         ],
         "classes": [
-            "https://data.istex.fr/ontology/istex#PublicationTypeConcept"
+            "http://www.w3.org/2001/XMLSchema#anyURI"
         ],
         "position": 17,
         "scheme": "http://schema.org/image",
@@ -511,7 +509,7 @@
             }
         ],
         "classes": [
-            "https://data.istex.fr/ontology/istex#PublicationTypeConcept"
+            "https://www.w3.org/TR/rdf-schema/#dateTime"
         ],
         "position": 18,
         "scheme": "http://purl.org/dc/terms/created",
@@ -535,9 +533,7 @@
                 ]
             }
         ],
-        "classes": [
-            "https://data.istex.fr/ontology/istex#PublicationTypeConcept"
-        ],
+        "classes": [],
         "position": 19,
         "scheme": "http://purl.org/dc/terms/creator",
         "name": "IqxA"
@@ -560,9 +556,7 @@
                 ]
             }
         ],
-        "classes": [
-            "https://data.istex.fr/ontology/istex#PublicationTypeConcept"
-        ],
+        "classes": [],
         "position": 20,
         "scheme": "http://purl.org/dc/terms/publisher",
         "name": "8Hz3"
@@ -586,41 +580,14 @@
             }
         ],
         "classes": [
-            "https://data.istex.fr/ontology/istex#PublicationTypeConcept"
+            "http://www.w3.org/2001/XMLSchema#anyURI"
         ],
         "position": 21,
         "scheme": "http://purl.org/dc/terms/license",
         "language": "fr",
-        "name": "sLJT"
-    },
-    {
-        "cover": "dataset",
-        "label": "Source de la licence",
-        "display_in_list": true,
-        "display_in_resource": true,
-        "searchable": true,
-        "transformers": [
-            {
-                "operation": "COLUMN",
-                "args": [
-                    {
-                        "name": "column",
-                        "type": "column",
-                        "value": "Source de la licence"
-                    }
-                ]
-            }
-        ],
-        "classes": [
-            "https://data.istex.fr/ontology/istex#PublicationTypeConcept"
-        ],
-        "position": 22,
-        "scheme": "http://purl.org/dc/terms/source",
-        "language": null,
         "format": {
             "name": "link"
         },
-        "completes": "sLJT",
-        "name": "poD6"
+        "name": "sLJT"
     }
 ]
