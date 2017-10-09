@@ -69,7 +69,10 @@
         ],
         "position": 2,
         "scheme": "http://purl.org/dc/terms/publisher",
-        "name": "WHZy"
+        "name": "WHZy",
+        "classes": [
+            "https://data.istex.fr/ontology/istex#PublisherConcept"
+        ]
     },
     {
         "cover": "collection",
@@ -167,7 +170,10 @@
         "format": {
             "name": "link"
         },
-        "name": "kEyw"
+        "name": "kEyw",
+        "classes": [
+            "https://data.istex.fr/ontology/istex#InistConcept"
+        ]
     },
     {
         "cover": "collection",
@@ -190,7 +196,10 @@
         "position": 6,
         "scheme": "http://purl.org/dc/terms/temporal",
         "language": "fr",
-        "name": "w3Nn"
+        "name": "w3Nn",
+        "classes": [
+            "http://purl.org/dc/terms/PeriodOfTime"
+        ]
     },
     {
         "cover": "collection",
@@ -213,7 +222,10 @@
         "position": 7,
         "scheme": "http://schema.org/startDate",
         "completes": "w3Nn",
-        "name": "DDU1"
+        "name": "DDU1",
+        "classes": [
+            "https://www.w3.org/TR/rdf-schema/#dateTime"
+        ]
     },
     {
         "cover": "collection",
@@ -236,7 +248,10 @@
         "position": 8,
         "scheme": "http://schema.org/endDate",
         "completes": "w3Nn",
-        "name": "dMc5"
+        "name": "dMc5",
+        "classes": [
+            "https://www.w3.org/TR/rdf-schema/#dateTime"
+        ]
     },
     {
         "cover": "collection",
@@ -257,10 +272,11 @@
             }
         ],
         "position": 9,
-        "scheme": "https://data.istex.fr/ontology/istex#itemQuantityOfItem",
+        "scheme": "https://data.istex.fr/ontology/istex#quantityOfItems",
         "language": "fr",
         "overview": 2,
-        "name": "68is"
+        "name": "68is",
+        "classes": []
     },
     {
         "cover": "collection",
@@ -331,7 +347,10 @@
         ],
         "position": 12,
         "scheme": "http://schema.org/purchaseDate",
-        "name": "6Lrq"
+        "name": "6Lrq",
+        "classes": [
+            "https://www.w3.org/TR/rdf-schema/#dateTime"
+        ]
     },
     {
         "cover": "collection",
@@ -356,7 +375,10 @@
         "format": {
             "name": "link"
         },
-        "name": "6RSz"
+        "name": "6RSz",
+        "classes": [
+            "http://xmlns.com/foaf/spec/#term_Document"
+        ]
     },
     {
         "cover": "collection",
@@ -405,7 +427,10 @@
         "format": {
             "name": "link"
         },
-        "name": "popi"
+        "name": "popi",
+        "classes": [
+            "http://www.w3.org/2001/XMLSchema#anyURI"
+        ]
     },
     {
         "cover": "collection",
@@ -450,7 +475,10 @@
         "position": 17,
         "scheme": "http://www.w3.org/ns/prov#wasGeneratedBy",
         "language": "fr",
-        "name": "aERT"
+        "name": "aERT",
+        "classes": [
+            "https://www.w3.org/TR/prov-o/#Activity"
+        ]
     },
     {
         "cover": "collection",
@@ -473,7 +501,10 @@
         "position": 18,
         "scheme": "http://www.w3.org/ns/prov#startedAtTime",
         "completes": "aERT",
-        "name": "sclW"
+        "name": "sclW",
+        "classes": [
+            "https://www.w3.org/TR/rdf-schema/#dateTime"
+        ]
     },
     {
         "cover": "collection",
@@ -576,7 +607,10 @@
             },
             "name": "image"
         },
-        "name": "oKMk"
+        "name": "oKMk",
+        "classes": [
+            "http://www.w3.org/2001/XMLSchema#anyURI"
+        ]
     },
     {
         "cover": "dataset",
@@ -598,7 +632,10 @@
         ],
         "position": 23,
         "scheme": "http://purl.org/dc/terms/created",
-        "name": "yJtf"
+        "name": "yJtf",
+        "classes": [
+            "https://www.w3.org/TR/rdf-schema/#dateTime"
+        ]
     },
     {
         "cover": "dataset",
@@ -646,6 +683,9 @@
         "format": {
             "name": "link"
         },
-        "name": "yrTX"
+        "name": "yrTX",
+        "classes": [
+            "http://www.w3.org/2001/XMLSchema#anyURI"
+        ]
     }
 ]

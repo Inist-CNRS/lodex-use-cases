@@ -228,7 +228,10 @@
         ],
         "position": 9,
         "scheme": "http://purl.org/dc/terms/requires",
-        "name": "QANp"
+        "name": "QANp",
+        "classes": [
+            "https://www.w3.org/ns/dcat#Dataset"
+        ]
     },
     {
         "cover": "collection",
@@ -252,7 +255,10 @@
         "scheme": "http://purl.org/dc/terms/description",
         "language": "fr",
         "completes": "QANp",
-        "name": "V3mD"
+        "name": "V3mD",
+        "classes": [
+            "https://www.w3.org/ns/dcat#Dataset"
+        ]
     },
     {
         "cover": "collection",
@@ -288,7 +294,10 @@
         "format": {
             "name": "link"
         },
-        "name": "DvlM"
+        "name": "DvlM",
+        "classes": [
+            "https://www.w3.org/ns/dcat#Dataset"
+        ]
     },
     {
         "cover": "collection",
@@ -507,33 +516,9 @@
         "position": 20,
         "scheme": "http://purl.org/dc/terms/license",
         "language": "fr",
-        "name": "zynu"
-    },
-    {
-        "cover": "dataset",
-        "label": "Site de la licence",
-        "display_in_list": true,
-        "display_in_resource": true,
-        "searchable": true,
-        "transformers": [
-            {
-                "operation": "COLUMN",
-                "args": [
-                    {
-                        "name": "column",
-                        "type": "column",
-                        "value": "Site de la licence"
-                    }
-                ]
-            }
-        ],
-        "position": 21,
-        "scheme": "http://purl.org/dc/terms/source",
-        "language": "fr",
-        "completes": "zynu",
+        "name": "zynu",
         "format": {
             "name": "link"
-        },
-        "name": "p08o"
+        }
     }
 ]

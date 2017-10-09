@@ -79,7 +79,7 @@
                     {
                         "name": "column",
                         "type": "column",
-                        "value": "Contient"
+                        "value": "lien"
                     }
                 ]
             }
@@ -89,7 +89,10 @@
         "format": {
             "name": "link"
         },
-        "name": "Uwlc"
+        "name": "Uwlc",
+        "classes": [
+            "http://www.w3.org/2001/XMLSchema#anyURI"
+        ]
     },
     {
         "cover": "dataset",
@@ -169,7 +172,10 @@
             },
             "name": "image"
         },
-        "name": "djGX"
+        "name": "djGX",
+        "classes": [
+            "http://www.w3.org/2001/XMLSchema#anyURI"
+        ]
     },
     {
         "cover": "dataset",
@@ -191,7 +197,10 @@
         ],
         "position": 7,
         "scheme": "http://purl.org/dc/terms/created",
-        "name": "Oeru"
+        "name": "Oeru",
+        "classes": [
+            "https://www.w3.org/TR/rdf-schema/#dateTime"
+        ]
     },
     {
         "cover": "dataset",
@@ -213,7 +222,10 @@
         ],
         "position": 8,
         "scheme": "http://purl.org/dc/terms/modified",
-        "name": "NISS"
+        "name": "NISS",
+        "classes": [
+            "https://www.w3.org/TR/rdf-schema/#dateTime"
+        ]
     },
     {
         "cover": "dataset",
@@ -279,55 +291,12 @@
         ],
         "position": 11,
         "scheme": "http://purl.org/dc/terms/publisher",
-        "name": "aF0D"
-    },
-    {
-        "cover": "dataset",
-        "label": "Source de la licence",
-        "display_in_list": true,
-        "display_in_resource": true,
-        "searchable": true,
-        "transformers": [
-            {
-                "operation": "COLUMN",
-                "args": [
-                    {
-                        "name": "column",
-                        "type": "column",
-                        "value": "Source de la licence"
-                    }
-                ]
-            }
-        ],
-        "position": 12,
-        "overview": 0,
-        "scheme": "http://purl.org/dc/terms/source",
-        "completes": "aF0D",
+        "name": "aF0D",
         "format": {
             "name": "link"
         },
-        "name": "F9bm"
-    },
-    {
-        "cover": "dataset",
-        "label": "Version",
-        "display_in_list": true,
-        "display_in_resource": true,
-        "searchable": true,
-        "transformers": [
-            {
-                "operation": "COLUMN",
-                "args": [
-                    {
-                        "name": "column",
-                        "type": "column",
-                        "value": "Version"
-                    }
-                ]
-            }
-        ],
-        "position": 13,
-        "scheme": "http://www.w3.org/2002/07/owl#versionInfo",
-        "name": "maLq"
+        "classes": [
+            "http://www.w3.org/2001/XMLSchema#anyURI"
+        ]
     }
 ]

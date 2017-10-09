@@ -2,7 +2,6 @@
     {
         "cover": "collection",
         "label": "uri",
-        "name": "uri",
         "display_on_list": true,
         "transformers": [
             {
@@ -16,7 +15,8 @@
                 ]
             }
         ],
-        "position": 0
+        "position": 0,
+        "name": "uri"
     },
     {
         "cover": "collection",
@@ -39,8 +39,8 @@
         "position": 1,
         "scheme": "http://purl.org/dc/terms/title",
         "language": null,
-        "name": "5Wbz",
-        "overview": 1
+        "overview": 1,
+        "name": "5Wbz"
     },
     {
         "cover": "collection",
@@ -80,11 +80,24 @@
                         "value": "Nom corpus dans Istex"
                     }
                 ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "separator",
+                        "type": "string",
+                        "value": ";"
+                    }
+                ],
+                "operation": "SPLIT"
             }
         ],
         "position": 3,
         "scheme": "http://www.w3.org/2004/02/skos/core#prefLabel",
-        "name": "9aoQ"
+        "name": "9aoQ",
+        "format": {
+            "name": "list"
+        }
     },
     {
         "cover": "collection",
@@ -102,6 +115,16 @@
                         "value": "Site internet"
                     }
                 ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "separator",
+                        "type": "string",
+                        "value": ";"
+                    }
+                ],
+                "operation": "SPLIT"
             }
         ],
         "position": 4,
@@ -109,7 +132,10 @@
         "format": {
             "name": "link"
         },
-        "name": "bGi1"
+        "name": "bGi1",
+        "classes": [
+            "http://www.w3.org/2001/XMLSchema#anyURI"
+        ]
     },
     {
         "cover": "collection",
@@ -132,8 +158,8 @@
         "position": 5,
         "scheme": "http://purl.org/dc/terms/description",
         "language": "fr",
-        "name": "IPeo",
-        "overview": 2
+        "overview": 2,
+        "name": "IPeo"
     },
     {
         "cover": "collection",
@@ -157,10 +183,13 @@
         "scheme": "http://purl.org/dc/terms/source",
         "language": "fr",
         "completes": "IPeo",
-        "name": "RC16",
         "format": {
             "name": "link"
-        }
+        },
+        "name": "RC16",
+        "classes": [
+            "http://www.w3.org/2001/XMLSchema#anyURI"
+        ]
     },
     {
         "cover": "collection",
@@ -210,7 +239,10 @@
         "format": {
             "name": "link"
         },
-        "name": "z62N"
+        "name": "z62N",
+        "classes": [
+            "http://www.w3.org/2001/XMLSchema#anyURI"
+        ]
     },
     {
         "cover": "collection",
@@ -258,7 +290,10 @@
         "format": {
             "name": "link"
         },
-        "name": "HEcq"
+        "name": "HEcq",
+        "classes": [
+            "https://www.w3.org/2002/07/owl#Thing"
+        ]
     },
     {
         "cover": "collection",
@@ -283,7 +318,10 @@
         "format": {
             "name": "link"
         },
-        "name": "V8lR"
+        "name": "V8lR",
+        "classes": [
+            "https://www.w3.org/2002/07/owl#Thing"
+        ]
     },
     {
         "cover": "collection",
@@ -308,7 +346,10 @@
         "format": {
             "name": "link"
         },
-        "name": "Uz1j"
+        "name": "Uz1j",
+        "classes": [
+            "https://www.w3.org/2002/07/owl#Thing"
+        ]
     },
     {
         "cover": "collection",
@@ -333,7 +374,10 @@
         "format": {
             "name": "link"
         },
-        "name": "gE7f"
+        "name": "gE7f",
+        "classes": [
+            "https://www.w3.org/2002/07/owl#Thing"
+        ]
     },
     {
         "cover": "collection",
@@ -358,7 +402,10 @@
         "format": {
             "name": "link"
         },
-        "name": "t5VJ"
+        "name": "t5VJ",
+        "classes": [
+            "https://www.w3.org/2002/07/owl#Thing"
+        ]
     },
     {
         "cover": "collection",
@@ -383,7 +430,10 @@
         "format": {
             "name": "link"
         },
-        "name": "5Wwa"
+        "name": "5Wwa",
+        "classes": [
+            "https://www.w3.org/2002/07/owl#Thing"
+        ]
     },
     {
         "cover": "collection",
@@ -408,7 +458,10 @@
         "format": {
             "name": "link"
         },
-        "name": "MFq3"
+        "name": "MFq3",
+        "classes": [
+            "https://www.w3.org/2002/07/owl#Thing"
+        ]
     },
     {
         "cover": "collection",
@@ -426,6 +479,16 @@
                         "value": "Liens vers jeu \"Liste des corpus ISTEX chargés\""
                     }
                 ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "separator",
+                        "type": "string",
+                        "value": ";"
+                    }
+                ],
+                "operation": "SPLIT"
             }
         ],
         "position": 17,
@@ -433,7 +496,10 @@
         "format": {
             "name": "link"
         },
-        "name": "nzFF"
+        "name": "nzFF",
+        "classes": [
+            "http://www.w3.org/2001/XMLSchema#anyURI"
+        ]
     },
     {
         "cover": "dataset",
@@ -456,10 +522,10 @@
         "position": 18,
         "scheme": "http://purl.org/dc/terms/title",
         "language": "fr",
-        "name": "NQy2",
         "format": {
             "name": "title"
-        }
+        },
+        "name": "NQy2"
     },
     {
         "cover": "dataset",
@@ -481,8 +547,8 @@
         ],
         "position": 19,
         "scheme": "http://purl.org/dc/terms/description",
-        "name": "GkDb",
-        "language": "fr"
+        "language": "fr",
+        "name": "GkDb"
     },
     {
         "cover": "dataset",
@@ -510,7 +576,10 @@
             },
             "name": "image"
         },
-        "name": "LQiz"
+        "name": "LQiz",
+        "classes": [
+            "http://www.w3.org/2001/XMLSchema#anyURI"
+        ]
     },
     {
         "cover": "dataset",
@@ -532,7 +601,10 @@
         ],
         "position": 21,
         "scheme": "http://purl.org/dc/terms/created",
-        "name": "Qmme"
+        "name": "Qmme",
+        "classes": [
+            "https://www.w3.org/TR/rdf-schema/#dateTime"
+        ]
     },
     {
         "cover": "dataset",
@@ -553,7 +625,6 @@
             }
         ],
         "position": 22,
-        "overview": 0,
         "scheme": "http://purl.org/dc/terms/creator",
         "name": "egz4"
     },
@@ -576,7 +647,6 @@
             }
         ],
         "position": 23,
-        "overview": 0,
         "scheme": "http://purl.org/dc/terms/publisher",
         "name": "a1le"
     },
@@ -602,33 +672,9 @@
         "overview": 0,
         "scheme": "http://purl.org/dc/terms/license",
         "language": "fr",
-        "name": "xszO"
-    },
-    {
-        "cover": "dataset",
-        "label": "Source de la licence",
-        "display_in_list": true,
-        "display_in_resource": true,
-        "searchable": true,
-        "transformers": [
-            {
-                "operation": "COLUMN",
-                "args": [
-                    {
-                        "name": "column",
-                        "type": "column",
-                        "value": "Source de la licence"
-                    }
-                ]
-            }
-        ],
-        "position": 25,
-        "overview": 0,
-        "scheme": "http://purl.org/dc/terms/source",
-        "completes": "xszO",
+        "name": "xszO",
         "format": {
             "name": "link"
-        },
-        "name": "u3in"
+        }
     }
 ]
