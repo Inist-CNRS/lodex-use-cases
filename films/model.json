@@ -41,7 +41,10 @@
         "position": 1,
         "scheme": "http://purl.org/dc/terms/title",
         "language": "fr",
-        "name": "WXc1"
+        "name": "WXc1",
+        "format": {
+            "name": "title"
+        }
     },
     {
         "cover": "dataset",
@@ -64,7 +67,13 @@
         "position": 2,
         "scheme": "http://purl.org/dc/terms/description",
         "language": "fr",
-        "name": "Doay"
+        "name": "Doay",
+        "format": {
+            "args": {
+                "paragraphWidth": "80%"
+            },
+            "name": "None"
+        }
     },
     {
         "cover": "collection",
@@ -83,7 +92,7 @@
         ],
         "scheme": "http://purl.org/dc/terms/title",
         "format": {
-            "name": "None"
+            "name": "title"
         },
         "display_in_list": true,
         "display_in_resource": true,
@@ -121,10 +130,10 @@
         "searchable": true,
         "display_in_resource": true,
         "position": 5,
-        "name": "K8Lu",
         "format": {
             "name": "list"
-        }
+        },
+        "name": "K8Lu"
     },
     {
         "cover": "collection",
@@ -285,14 +294,28 @@
         "searchable": true,
         "isFacet": true,
         "position": 11,
-        "name": "xqgM",
         "format": {
             "args": {
                 "maxSize": "10",
                 "chartWidth": "50%"
             },
             "name": "chart"
-        }
+        },
+        "name": "xqgM"
+    },
+    {
+        "label": "Répartition par année",
+        "format": {
+            "args": {
+                "maxSize": "8",
+                "orderBy": "value/desc",
+                "colors": "#1D1A31 #4D2D52 #9A4C95 #F08CAE #C1A5A9"
+            },
+            "name": "globalPiechart"
+        },
+        "cover": "dataset",
+        "position": 12,
+        "name": "vPYU"
     },
     {
         "cover": "collection",
@@ -316,5 +339,19 @@
         "scheme": "http://purl.org/dc/terms/source",
         "completes": "bZE+",
         "name": "73Hi"
+    },
+    {
+        "label": "Répartition par réalisateurs ",
+        "format": {
+            "args": {
+                "maxSize": "10",
+                "orderBy": "label/desc",
+                "colors": "#FF00FF #4D2D52 #9A4C95 #F08CAE #C1A5A9"
+            },
+            "name": "globalRadarchart"
+        },
+        "cover": "dataset",
+        "position": 13,
+        "name": "xkNT"
     }
 ]
