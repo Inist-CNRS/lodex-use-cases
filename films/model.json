@@ -313,6 +313,18 @@
             },
             "name": "globalPiechart"
         },
+		"transformers": [
+            {
+			"operation": "VALUE",
+			"args": [
+				{
+					"name": "value",
+					"type": "string",
+					"value": "/api/run/distinct-by/xqgM/"
+				}
+			]
+        }
+    ],
         "cover": "dataset",
         "position": 12,
         "name": "vPYU"
@@ -350,8 +362,20 @@
             },
             "name": "globalRadarchart"
         },
-        "cover": "dataset",
-        "position": 13,
-        "name": "xkNT"
-    }
+		"transformers": [
+            {
+			"operation": "VALUE",
+			"args": [
+				{
+					"name": "value",
+					"type": "string",
+					"value": "/api/run/distinct-by/nekS/"
+				}
+			]
+        }
+    ],
+		"cover": "dataset",
+		"position": 13,
+		"name": "xkNT"
+	}
 ]
