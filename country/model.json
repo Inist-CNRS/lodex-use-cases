@@ -1,0 +1,138 @@
+[
+    {
+        "cover": "collection",
+        "label": "uri",
+        "name": "uri",
+        "display_on_list": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Num"
+                    }
+                ]
+            }
+        ],
+        "position": 0
+    },
+    {
+        "cover": "collection",
+        "label": "English name",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "English name"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 1,
+        "scheme": "http://www.w3.org/2004/02/skos/core#prefLabel",
+        "language": "en",
+        "name": "Z4zM"
+    },
+    {
+        "cover": "collection",
+        "label": "French name",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "French name"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 2,
+        "scheme": "http://www.w3.org/2004/02/skos/core#prefLabel",
+        "language": "fr",
+        "name": "CntP"
+    },
+    {
+        "cover": "collection",
+        "label": "alpha-2 code",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "alpha-2 code"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 3,
+        "overview": 0,
+        "name": "HDkA",
+        "scheme": "http://www.geonames.org/ontology#countryCode"
+    },
+    {
+        "cover": "collection",
+        "label": "alpha-3 code",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "alpha-3 code"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 4,
+        "name": "TDIh"
+    },
+    {
+        "cover": "collection",
+        "label": "Published Subject Identifier",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Published Subject Identifier"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 5,
+        "scheme": "http://purl.org/dc/terms/identifier",
+        "name": "3C2h"
+    }
+]
