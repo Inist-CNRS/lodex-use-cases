@@ -31,7 +31,7 @@
                     {
                         "name": "column",
                         "type": "column",
-                        "value": "Code Catégorie Inist"
+                        "value": "Code de classement catégorie Inist"
                     }
                 ]
             }
@@ -40,28 +40,6 @@
         "scheme": "http://www.w3.org/2004/02/skos/core#notation",
         "overview": 1,
         "name": "4YMj"
-    },
-    {
-        "cover": "collection",
-        "label": "Est tête d'arborescence",
-        "display_in_list": false,
-        "display_in_resource": true,
-        "searchable": true,
-        "transformers": [
-            {
-                "operation": "COLUMN",
-                "args": [
-                    {
-                        "name": "column",
-                        "type": "column",
-                        "value": "Est tête d'arborescence"
-                    }
-                ]
-            }
-        ],
-        "position": 2,
-        "scheme": "http://www.w3.org/2004/02/skos/core#topConceptOf",
-        "name": "2zhR"
     },
     {
         "cover": "collection",
@@ -81,32 +59,16 @@
                 ]
             }
         ],
-        "position": 3,
+        "position": 2,
         "scheme": "http://www.w3.org/2004/02/skos/core#broader",
+        "format": {
+            "args": {
+                "value": "LibelléTerme Générique",
+                "type": "column"
+            },
+            "name": "resource"
+        },
         "name": "zqIY"
-    },
-    {
-        "cover": "collection",
-        "label": "Terme Spécifique",
-        "display_in_list": false,
-        "display_in_resource": true,
-        "searchable": true,
-        "transformers": [
-            {
-                "operation": "COLUMN",
-                "args": [
-                    {
-                        "name": "column",
-                        "type": "column",
-                        "value": "Terme Spécifique"
-                    }
-                ]
-            }
-        ],
-        "position": 4,
-        "scheme": "http://www.w3.org/2004/02/skos/core#narrower",
-        "language": "fr",
-        "name": "sur8"
     },
     {
         "cover": "collection",
@@ -126,8 +88,8 @@
                 ]
             }
         ],
-        "position": 5,
-        "scheme": "http://purl.org/dc/terms/title",
+        "position": 3,
+        "scheme": "http://www.w3.org/2004/02/skos/core#prefLabel",
         "language": "fr",
         "overview": 2,
         "name": "T2Ld"
@@ -150,7 +112,7 @@
                 ]
             }
         ],
-        "position": 6,
+        "position": 4,
         "scheme": "http://www.w3.org/2004/02/skos/core#prefLabel",
         "language": "en",
         "name": "0p48"
@@ -173,13 +135,13 @@
                 ]
             }
         ],
-        "position": 7,
+        "position": 5,
         "scheme": "http://purl.org/dc/terms/description",
         "language": "fr",
-        "name": "vCcn",
         "format": {
             "name": "paragraph"
-        }
+        },
+        "name": "vCcn"
     },
     {
         "cover": "collection",
@@ -197,9 +159,19 @@
                         "value": "Source"
                     }
                 ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "separator",
+                        "type": "string",
+                        "value": " ; "
+                    }
+                ],
+                "operation": "SPLIT"
             }
         ],
-        "position": 8,
+        "position": 6,
         "scheme": "http://purl.org/dc/terms/source",
         "language": "fr",
         "completes": "vCcn",
@@ -226,7 +198,7 @@
                 ]
             }
         ],
-        "position": 9,
+        "position": 7,
         "scheme": "http://www.w3.org/2004/02/skos/core#scopeNote",
         "language": "fr",
         "name": "awiD"
@@ -249,37 +221,12 @@
                 ]
             }
         ],
-        "position": 10,
+        "position": 8,
         "scheme": "http://www.w3.org/2004/02/skos/core#exactMatch",
         "format": {
             "name": "link"
         },
         "name": "gksH"
-    },
-    {
-        "cover": "collection",
-        "label": "Cette ressource dans la classification MESH",
-        "display_in_list": false,
-        "display_in_resource": true,
-        "searchable": true,
-        "transformers": [
-            {
-                "operation": "COLUMN",
-                "args": [
-                    {
-                        "name": "column",
-                        "type": "column",
-                        "value": "Cette ressource dans la classification MESH"
-                    }
-                ]
-            }
-        ],
-        "position": 11,
-        "scheme": "http://www.w3.org/2004/02/skos/core#exactMatch",
-        "format": {
-            "name": "link"
-        },
-        "name": "BC5T"
     },
     {
         "cover": "collection",
@@ -299,7 +246,7 @@
                 ]
             }
         ],
-        "position": 12,
+        "position": 9,
         "scheme": "https://data.istex.fr/ontology/istex#query",
         "format": {
             "name": "istex"
@@ -324,7 +271,7 @@
                 ]
             }
         ],
-        "position": 13,
+        "position": 10,
         "scheme": "http://purl.org/dc/terms/title",
         "language": "fr",
         "format": {
@@ -353,7 +300,7 @@
                 ]
             }
         ],
-        "position": 14,
+        "position": 11,
         "scheme": "http://purl.org/dc/terms/description",
         "language": "fr",
         "name": "43dy"
@@ -376,7 +323,7 @@
                 ]
             }
         ],
-        "position": 15,
+        "position": 12,
         "scheme": "http://schema.org/image",
         "format": {
             "args": {
@@ -404,9 +351,95 @@
                 ]
             }
         ],
-        "position": 16,
+        "position": 13,
         "scheme": "http://purl.org/dc/terms/creator",
         "name": "VEBj"
+    },
+    {
+        "cover": "dataset",
+        "label": "Date de modification",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Date de modification"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 14,
+        "scheme": "http://purl.org/dc/terms/modified",
+        "name": "TJgQ"
+    },
+    {
+        "cover": "collection",
+        "label": "Est tête d'arborescence",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Est tête d'arborescence"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 15,
+        "scheme": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+        "format": {
+            "name": "resource"
+        },
+        "name": "YWH6"
+    },
+    {
+        "cover": "collection",
+        "label": "Cette ressource dans le vocabulaire MESH",
+        "display_in_list": "",
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Cette ressource dans la classification MESH"
+                    }
+                ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "separator",
+                        "type": "string",
+                        "value": " ; "
+                    }
+                ],
+                "operation": "SPLIT"
+            }
+        ],
+        "classes": [],
+        "position": 16,
+        "overview": 0,
+        "scheme": "http://www.w3.org/2004/02/skos/core#exactMatch",
+        "format": {
+            "name": "link"
+        },
+        "name": "gPut"
     },
     {
         "cover": "dataset",
@@ -473,33 +506,9 @@
         "position": 19,
         "scheme": "http://purl.org/dc/terms/license",
         "language": "fr",
-        "name": "2bmB"
-    },
-    {
-        "cover": "dataset",
-        "label": "Site de la licence",
-        "display_in_list": true,
-        "display_in_resource": true,
-        "searchable": true,
-        "transformers": [
-            {
-                "operation": "COLUMN",
-                "args": [
-                    {
-                        "name": "column",
-                        "type": "column",
-                        "value": "Site de la licence"
-                    }
-                ]
-            }
-        ],
-        "position": 20,
-        "overview": 0,
-        "scheme": "http://purl.org/dc/terms/source",
-        "completes": "2bmB",
         "format": {
             "name": "link"
         },
-        "name": "nYdI"
+        "name": "2bmB"
     }
 ]
