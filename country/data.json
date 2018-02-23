@@ -1908,7 +1908,7 @@
       "Published Subject Identifier" : "http://psi.oasis-open.org/iso/3166/#891",
       "Num" : "891",
       "alpha-2 code" : "CS",
-      "alpha-3 code" : "CSG",
+      "alpha-3 code" : "SCG",
       "French name" : "SERBIE-ET-MONTÉNÉGRO"
    },
    {
@@ -1918,5 +1918,29 @@
       "alpha-3 code" : "ZMB",
       "Published Subject Identifier" : "http://psi.oasis-open.org/iso/3166/#894",
       "English name" : "ZAMBIA"
+   },
+   {
+      "English name" : "SAINT-MARTIN",
+      "alpha-2 code" : "MF",
+      "alpha-3 code" : "MAF",
+      "French name" : "SAINT-MARTIN"
+   },
+   {
+      "English name" : "SINT MAARTEN",
+      "alpha-2 code" : "SX",
+      "alpha-3 code" : "SXM",
+      "French name" : "SINT MAARTEN"
+   },
+   {
+      "English name" : "SERBIA",
+      "alpha-2 code" : "RS",
+      "alpha-3 code" : "SRB",
+      "French name" : "SERBIE"
+   },
+   {
+      "English name" : "MONTENEGRO",
+      "alpha-2 code" : "ME",
+      "alpha-3 code" : "MNE",
+      "French name" : "MONTÉNÉGRO"
    }
 ]
