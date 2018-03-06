@@ -41,10 +41,13 @@
         "position": 1,
         "scheme": "http://purl.org/dc/terms/title",
         "language": "fr",
-        "name": "WXc1",
         "format": {
             "name": "title"
-        }
+        },
+        "name": "WXc1",
+        "count": 0,
+        "display_in_home": true,
+        "overview": 100
     },
     {
         "cover": "dataset",
@@ -67,13 +70,16 @@
         "position": 2,
         "scheme": "http://purl.org/dc/terms/description",
         "language": "fr",
-        "name": "Doay",
         "format": {
             "args": {
                 "paragraphWidth": "80%"
             },
             "name": "None"
-        }
+        },
+        "name": "Doay",
+        "count": 0,
+        "display_in_home": true,
+        "overview": 200
     },
     {
         "cover": "collection",
@@ -92,13 +98,18 @@
         ],
         "scheme": "http://purl.org/dc/terms/title",
         "format": {
+            "args": {
+                "level": 1
+            },
             "name": "title"
         },
         "display_in_list": true,
         "display_in_resource": true,
         "searchable": true,
         "position": 3,
-        "name": "Q98n"
+        "name": "Q98n",
+        "count": 29,
+        "overview": 1
     },
     {
         "cover": "collection",
@@ -131,9 +142,16 @@
         "display_in_resource": true,
         "position": 5,
         "format": {
+            "args": {
+                "type": "unordered",
+                "subFormat": "None",
+                "subFormatOptions": {},
+                "args": {}
+            },
             "name": "list"
         },
-        "name": "K8Lu"
+        "name": "K8Lu",
+        "count": 29
     },
     {
         "cover": "collection",
@@ -206,7 +224,9 @@
             }
         ],
         "position": 8,
-        "name": "uWGm"
+        "name": "uWGm",
+        "count": 29,
+        "scheme": "http://xmlns.com/foaf/0.1/#term_firstName"
     },
     {
         "cover": "collection",
@@ -227,7 +247,9 @@
             }
         ],
         "position": 9,
-        "name": "nekS"
+        "name": "nekS",
+        "count": 29,
+        "scheme": "http://xmlns.com/foaf/0.1/#term_lastName"
     },
     {
         "cover": "collection",
@@ -271,7 +293,9 @@
             ]
         },
         "scheme": "http://schema.org/director",
-        "name": "sovY"
+        "name": "sovY",
+        "count": 29,
+        "overview": 2
     },
     {
         "cover": "collection",
@@ -304,32 +328,6 @@
         "name": "xqgM"
     },
     {
-        "label": "Répartition par année",
-        "format": {
-            "args": {
-                "maxSize": "8",
-                "orderBy": "value/desc",
-                "colors": "#1D1A31 #4D2D52 #9A4C95 #F08CAE #C1A5A9"
-            },
-            "name": "globalPiechart"
-        },
-		"transformers": [
-            {
-			"operation": "VALUE",
-			"args": [
-				{
-					"name": "value",
-					"type": "string",
-					"value": "/api/run/distinct-by/xqgM/"
-				}
-			]
-        }
-    ],
-        "cover": "dataset",
-        "position": 12,
-        "name": "vPYU"
-    },
-    {
         "cover": "collection",
         "label": "Rating Source",
         "display_in_list": false,
@@ -353,6 +351,35 @@
         "name": "73Hi"
     },
     {
+        "label": "Liste des films",
+        "format": {
+            "args": {
+                "spaceWidth": "20%",
+                "pageSize": 50,
+                "orderBy": "value/asc"
+            },
+            "name": "resourcesGrid"
+        },
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "/api/run/syndication"
+                    }
+                ]
+            }
+        ],
+        "cover": "dataset",
+        "position": 12,
+        "name": "vPYU",
+        "count": 0,
+        "display_in_home": true,
+        "width": "100"
+    },
+    {
         "label": "Répartition par réalisateurs ",
         "format": {
             "args": {
@@ -362,20 +389,24 @@
             },
             "name": "globalRadarchart"
         },
-		"transformers": [
+        "transformers": [
             {
-			"operation": "VALUE",
-			"args": [
-				{
-					"name": "value",
-					"type": "string",
-					"value": "/api/run/distinct-by/nekS/"
-				}
-			]
-        }
-    ],
-		"cover": "dataset",
-		"position": 13,
-		"name": "xkNT"
-	}
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "/api/run/distinct-by/nekS/"
+                    }
+                ]
+            }
+        ],
+        "cover": "dataset",
+        "position": 13,
+        "name": "xkNT",
+        "count": 0,
+        "display_in_home": true,
+        "width": "",
+        "display_in_graph": true
+    }
 ]
