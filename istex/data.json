@@ -1,0 +1,3738 @@
+{
+  "total": 112,
+  "nextPageURI": "https://api.istex.fr/document/?q=lodex&size=10&output=*&defaultOperator=OR&from=10",
+  "firstPageURI": "https://api.istex.fr/document/?q=lodex&size=10&output=*&defaultOperator=OR&from=0",
+  "lastPageURI": "https://api.istex.fr/document/?q=lodex&size=10&output=*&defaultOperator=OR&from=102",
+  "hits": [
+    {
+      "corpusName": "elsevier",
+      "keywords": {
+        "teeft": [
+          "glucose",
+          "troglitazone",
+          "hidex",
+          "lodex",
+          "insulin resistance",
+          "hepatic",
+          "basal",
+          "insulin",
+          "receptor",
+          "control rats",
+          "fasting",
+          "dexamethasone",
+          "infusion",
+          "plasma glucose",
+          "dexamethasone treatment",
+          "hidex rats",
+          "peripheral insulin resistance",
+          "lodex rats",
+          "control group",
+          "hepatic insulin resistance",
+          "insulin infusion",
+          "glucose tolerance",
+          "metabolic effects",
+          "present study",
+          "control value",
+          "treatment groups",
+          "biol chem",
+          "body weight",
+          "insulin receptor",
+          "cellular glucose transport",
+          "rat"
+        ]
+      },
+      "author": [
+        {
+          "name": "Shoji Okumura",
+          "affiliations": [
+            "Third Department of Internal Medicine, Gifu University School of Medicine, Gifu, Japan"
+          ]
+        },
+        {
+          "name": "Noriyuki Takeda",
+          "affiliations": [
+            "Third Department of Internal Medicine, Gifu University School of Medicine, Gifu, Japan"
+          ]
+        },
+        {
+          "name": "Kazuhisa Takami",
+          "affiliations": [
+            "Third Department of Internal Medicine, Gifu University School of Medicine, Gifu, Japan"
+          ]
+        },
+        {
+          "name": "Kouji Yoshino",
+          "affiliations": [
+            "Third Department of Internal Medicine, Gifu University School of Medicine, Gifu, Japan"
+          ]
+        },
+        {
+          "name": "Junko Hattori",
+          "affiliations": [
+            "Third Department of Internal Medicine, Gifu University School of Medicine, Gifu, Japan"
+          ]
+        },
+        {
+          "name": "Kazuya Nakashima",
+          "affiliations": [
+            "Third Department of Internal Medicine, Gifu University School of Medicine, Gifu, Japan"
+          ]
+        },
+        {
+          "name": "Miyuki Sugimoto",
+          "affiliations": [
+            "Third Department of Internal Medicine, Gifu University School of Medicine, Gifu, Japan"
+          ]
+        },
+        {
+          "name": "Masatoshi Ishimori",
+          "affiliations": [
+            "Third Department of Internal Medicine, Gifu University School of Medicine, Gifu, Japan"
+          ]
+        },
+        {
+          "name": "Rieko Takami",
+          "affiliations": [
+            "Third Department of Internal Medicine, Gifu University School of Medicine, Gifu, Japan"
+          ]
+        },
+        {
+          "name": "Keigo Yasuda",
+          "affiliations": [
+            "Third Department of Internal Medicine, Gifu University School of Medicine, Gifu, Japan"
+          ]
+        }
+      ],
+      "arkIstex": "ark:/67375/6H6-B9LQF04B-D",
+      "language": [
+        "eng"
+      ],
+      "originalGenre": [
+        "Full-length article"
+      ],
+      "abstract": "Abstract: Troglitazone, a thiazolidinedione derivative, has been shown to counteract insulin resistance in obesity and non—insulin-dependent diabetes mellitus (NIDDM). To test its effects on dexamethasone-induced insulin resistance, we measured hepatic glucose production (HGP) and the insulin-stimulated glucose disposal rate (Rd) by a euglycemic-hyperinsulinemic glucose clamp technique coupled with 3-3H-glucose infusion in male Wistar rats treated with low-dose dexamethasone ([LoDex] 0.05 mg/kg/d, n = 7), high-dose dexamethasone ([HiDex] 0.1 mg/kg/d, n = 7), or dexamethasone plus troglitazone (LoDex + T, n = 8; HiDex + T, n = 6). Dexamethasone was injected subcutaneously for 4 days. Troglitazone was administered orally at 20 mg/d for 3 days before and for 4 days along with the dexamethasone treatment. The glucose clamp study was performed after an overnight fast in chronically catheterized conscious rats with a continuous insulin infusion of 57.4 pmol/kg/min. Basal HGP was comparable among the control (45.8 ± 2.1 μmol/kg/min, n = 7), LoDex (47.9 ± 4.7 μmol/kg/min), LoDex + T (46.0 ± 2.6 μmol/kg/min), and HiDex + T (54.7 ± 3.4 μmol/kg/min) groups. It increased about twofold in the HiDex group (80.1 ± 5.2 μmol/kg/min, P < .05 v control). Under hyperinsulinemia, HGP was suppressed to a similar level in the control (11.3 ± 8.8 μmol/kg/min), LoDex (10.2 ± 8.4 μmol/kg/min), and LoDex + T (7.8 ± 7.9 μmol/kg/min) groups. The suppressive effect of insulin on steady-state HGP during the clamp was impaired in HiDex (63.7 ± 9.7 μmol/kg/min, P < .05) and HiDex + T (64.0 ± 6.5 μmol/kg/min, P < .05). Rd decreased 27% in LoDex (81.5 ± 5.8 μmol/kg/min, P < .05) and 36% in HiDex (71.3 ± 9.4 μmol/kg/min, P < .05) compared with the controls (111.4 ± 7.4 μmol/kg/min). Troglitazone prevented the decrease in Rd in LoDex + T (102.6 ± 5.7 μmol/kg/min), but not in HiDex + T (67.0 ± 6.4 μmol/kg/min). These results indicate that the development of peripheral insulin resistance was prevented by troglitazone in LoDex rats. Troglitazone may be a useful drug to treat steroid-induced diabetes.",
+      "qualityIndicators": {
+        "score": 8.175,
+        "pdfWordCount": 3175,
+        "pdfCharCount": 19470,
+        "pdfVersion": 1.3,
+        "pdfPageCount": 4,
+        "pdfPageSize": "576 x 792 pts",
+        "refBibsNative": true,
+        "abstractWordCount": 335,
+        "abstractCharCount": 2097,
+        "keywordCount": 0
+      },
+      "title": "Effects of troglitazone on dexamethasone-induced insulin resistance in rats",
+      "pmid": [
+        "9500576"
+      ],
+      "pii": [
+        "S0026-0495(98)90270-0"
+      ],
+      "refBibs": [
+        {
+          "title": "Characterization of CS-045, a new oral antidiabetic agent. I. Studies in KK and ob ob mice and Zucker fatty rats",
+          "author": [
+            {
+              "name": "T Fujiwara"
+            },
+            {
+              "name": "S Yoshioka"
+            },
+            {
+              "name": "T Yoshioka"
+            }
+          ],
+          "host": {
+            "title": "Diabetes",
+            "author": [],
+            "volume": "37",
+            "pages": {
+              "first": "1549",
+              "last": "1558"
+            }
+          }
+        },
+        {
+          "title": "Characterization of CS-045, a new oral antidiabetic agent. II. Effects on glycemic control and pancreatic islet structure at a late stage of the diabetic syndrome in C57BL/KsJ-db/db mice",
+          "author": [
+            {
+              "name": "T Fujiwara"
+            },
+            {
+              "name": "M Wada"
+            },
+            {
+              "name": "K Fukuda"
+            }
+          ],
+          "host": {
+            "title": "Metabolism",
+            "author": [],
+            "volume": "40",
+            "pages": {
+              "first": "1213",
+              "last": "1218"
+            }
+          }
+        },
+        {
+          "title": "Effect of new oral antidiabetic agent CS-045 on glucose tolerance and insulin secretion in patients with NIDDM",
+          "author": [
+            {
+              "name": "Y Iwamoto"
+            },
+            {
+              "name": "T Kuzuya"
+            },
+            {
+              "name": "A Matsuda"
+            }
+          ],
+          "host": {
+            "title": "Diabetes Care",
+            "author": [],
+            "volume": "14",
+            "pages": {
+              "first": "1083",
+              "last": "1086"
+            }
+          }
+        },
+        {
+          "title": "A pilot clinical trial of a new oral hypoglycemic agent, CS-045, in patients with non—insulin dependent diabetes mellitus",
+          "author": [
+            {
+              "name": "T Kuzuya"
+            },
+            {
+              "name": "Y Iwamoto"
+            },
+            {
+              "name": "K Kosaka"
+            }
+          ],
+          "host": {
+            "title": "Diabetes Res Clin Pract",
+            "author": [],
+            "volume": "11",
+            "pages": {
+              "first": "147",
+              "last": "154"
+            }
+          }
+        },
+        {
+          "title": "Metabolic effects of new oral hypoglycemic agent CS-045 in NIDDM subjects",
+          "author": [
+            {
+              "name": "SL Suter"
+            },
+            {
+              "name": "JJ Nolan"
+            },
+            {
+              "name": "P Wallace"
+            }
+          ],
+          "host": {
+            "title": "Diabetes Care",
+            "author": [],
+            "volume": "15",
+            "pages": {
+              "first": "193",
+              "last": "203"
+            }
+          }
+        },
+        {
+          "title": "Improvement in glucose tolerance and insulin resistance in obese subjects treated with troglitazone",
+          "author": [
+            {
+              "name": "JJ Nolan"
+            },
+            {
+              "name": "B Ludvik"
+            },
+            {
+              "name": "P Beerdsen"
+            }
+          ],
+          "host": {
+            "title": "N Engl J Med",
+            "author": [],
+            "volume": "331",
+            "pages": {
+              "first": "1188",
+              "last": "1193"
+            }
+          }
+        },
+        {
+          "title": "Metabolic effects of troglitazone on fructose-induced insulin resistance in the rat",
+          "author": [
+            {
+              "name": "MK Lee"
+            },
+            {
+              "name": "PDG Miles"
+            },
+            {
+              "name": "M Khoursheed"
+            }
+          ],
+          "host": {
+            "title": "Diabetes",
+            "author": [],
+            "volume": "43",
+            "pages": {
+              "first": "1435",
+              "last": "1439"
+            }
+          }
+        },
+        {
+          "title": "Troglitazone prevents glucose-induced insulin resistance of insulin receptor in rat-1 fibroblasts",
+          "author": [
+            {
+              "name": "M Kellerer"
+            },
+            {
+              "name": "G Kroder"
+            },
+            {
+              "name": "S Tippmer"
+            }
+          ],
+          "host": {
+            "title": "Diabetes",
+            "author": [],
+            "volume": "43",
+            "pages": {
+              "first": "447",
+              "last": "453"
+            }
+          }
+        },
+        {
+          "title": "Tumor necrosis factor-α— and hyperglycemia-induced insulin resistance",
+          "author": [
+            {
+              "name": "G Kroder"
+            },
+            {
+              "name": "B Bossenmaier"
+            },
+            {
+              "name": "M Kellerer"
+            }
+          ],
+          "host": {
+            "title": "J Clin Invest",
+            "author": []
+          },
+          "serie": {
+            "title": "Evidence for different mechanisms and different effects on insulin signaling",
+            "author": []
+          }
+        },
+        {
+          "title": "Metabolic effects of troglitazone on fat-induced insulin resistance in the rat",
+          "author": [
+            {
+              "name": "M Khoursheed"
+            },
+            {
+              "name": "PDG Miles"
+            },
+            {
+              "name": "KM Gao"
+            }
+          ],
+          "host": {
+            "title": "Metabolism",
+            "author": [],
+            "volume": "44",
+            "pages": {
+              "first": "1489",
+              "last": "1494"
+            }
+          }
+        },
+        {
+          "title": "Insulinlike activity of new antidiabetic agent CP68722 in 3T3-L1 adipocytes",
+          "author": [
+            {
+              "name": "DK Kreutter"
+            },
+            {
+              "name": "KM Andrews"
+            },
+            {
+              "name": "EM Gibbs"
+            }
+          ],
+          "host": {
+            "title": "Diabetes",
+            "author": [],
+            "volume": "39",
+            "pages": {
+              "first": "1414",
+              "last": "1419"
+            }
+          }
+        },
+        {
+          "title": "Effects of thiazolidinediones on glucocorticoid-induced insulin resistance and GLUT4 glucose transporter expression in rat skeletal muscle",
+          "author": [
+            {
+              "name": "SP Weinstein"
+            },
+            {
+              "name": "A Holand"
+            },
+            {
+              "name": "E O'Boyle"
+            }
+          ],
+          "host": {
+            "title": "Metabolism",
+            "author": [],
+            "volume": "42",
+            "pages": {
+              "first": "1365",
+              "last": "1369"
+            }
+          }
+        },
+        {
+          "title": "In vivo hepatic and peripheral insulin resistance in genetically obese ( fa fa) rats",
+          "author": [
+            {
+              "name": "J Terttaz"
+            },
+            {
+              "name": "B Jeanrenaud"
+            }
+          ],
+          "host": {
+            "title": "Endocrinology",
+            "author": [],
+            "volume": "112",
+            "pages": {
+              "first": "1346",
+              "last": "1351"
+            }
+          }
+        },
+        {
+          "title": "Determination of blood sugar",
+          "author": [
+            {
+              "name": "M Somogyi"
+            }
+          ],
+          "host": {
+            "title": "J Biol Chem",
+            "author": [],
+            "volume": "160",
+            "pages": {
+              "first": "69",
+              "last": "73"
+            }
+          }
+        },
+        {
+          "title": "Influences of glucose loading and of injected insulin on hepatic glucose output",
+          "author": [
+            {
+              "name": "R Steele"
+            }
+          ],
+          "host": {
+            "title": "Ann NY Acad Sci",
+            "author": [],
+            "volume": "82",
+            "pages": {
+              "first": "420",
+              "last": "430"
+            }
+          }
+        },
+        {
+          "title": "Effects of glucocorticoids on carbohydrate metabolism",
+          "author": [
+            {
+              "name": "M McMahon"
+            },
+            {
+              "name": "J Gerich"
+            },
+            {
+              "name": "R Rizza"
+            }
+          ],
+          "host": {
+            "title": "Diabetes Metab Rev",
+            "author": [],
+            "volume": "4",
+            "pages": {
+              "first": "17",
+              "last": "30"
+            }
+          }
+        },
+        {
+          "title": "Free fatty acid as a link in the regulation of hepatic glucose output by peripheral insulin",
+          "author": [
+            {
+              "name": "K Rebrin"
+            },
+            {
+              "name": "GM Steil"
+            },
+            {
+              "name": "L Getty"
+            }
+          ],
+          "host": {
+            "title": "Diabetes",
+            "author": [],
+            "volume": "44",
+            "pages": {
+              "first": "1038",
+              "last": "1045"
+            }
+          }
+        },
+        {
+          "title": "Pioglitazone increases insulin sensitivity by activating insulin receptor kinase",
+          "author": [
+            {
+              "name": "M Kobayashi"
+            },
+            {
+              "name": "M Iwanishi"
+            },
+            {
+              "name": "K Egawa"
+            }
+          ],
+          "host": {
+            "title": "Diabetes",
+            "author": [],
+            "volume": "41",
+            "pages": {
+              "first": "476",
+              "last": "483"
+            }
+          }
+        },
+        {
+          "title": "The oxazolidinedione CP-92, 768-2 partially protects insulin receptor substrate-1 from dexamethasone down-regulation in 3T3-L1 adipocytes",
+          "author": [
+            {
+              "name": "MA Turnbow"
+            },
+            {
+              "name": "LK Smith"
+            },
+            {
+              "name": "CW Garner"
+            }
+          ],
+          "host": {
+            "title": "Endocrinology",
+            "author": [],
+            "volume": "136",
+            "pages": {
+              "first": "1450",
+              "last": "1458"
+            }
+          }
+        },
+        {
+          "title": "Pioglitazone promotes insulin-induced activation of phosphoinositide 3-kinase in 3T3-L1 adipocytes by inhibiting a negative control mechanism",
+          "author": [
+            {
+              "name": "KM Sizer"
+            },
+            {
+              "name": "CL Smith"
+            },
+            {
+              "name": "CS Jacob"
+            }
+          ],
+          "host": {
+            "title": "Mol Cell Endocrinol",
+            "author": [],
+            "volume": "102",
+            "pages": {
+              "first": "119",
+              "last": "129"
+            }
+          }
+        },
+        {
+          "title": "Potentiation of insulin stimulation of phosphatidylinositol 3-kinase by thiazolidinedione-derived antidiabetic agents in Chinese hamster ovary cells expressing human insulin receptors and L6 myotubes",
+          "author": [
+            {
+              "name": "B Zhang"
+            },
+            {
+              "name": "D Szalkowski"
+            },
+            {
+              "name": "E Diaz"
+            }
+          ],
+          "host": {
+            "title": "J Biol Chem",
+            "author": [],
+            "volume": "269",
+            "pages": {
+              "first": "25735",
+              "last": "25741"
+            }
+          }
+        },
+        {
+          "title": "Glucose transport deficiency in diabetic animals is corrected by treatment with the oral antihyperglycemic agent pioglitazone",
+          "author": [
+            {
+              "name": "C Hofmann"
+            },
+            {
+              "name": "K Lorenz"
+            },
+            {
+              "name": "JR Colca"
+            }
+          ],
+          "host": {
+            "title": "Endocrinology",
+            "author": [],
+            "volume": "129",
+            "pages": {
+              "first": "1915",
+              "last": "1925"
+            }
+          }
+        },
+        {
+          "title": "Regulation of glucose transport by pioglitazone in cultured muscle cells",
+          "author": [
+            {
+              "name": "IM El-Kebbi"
+            },
+            {
+              "name": "S Roser"
+            },
+            {
+              "name": "R Pollet"
+            }
+          ],
+          "host": {
+            "title": "Metabolism",
+            "author": [],
+            "volume": "43",
+            "pages": {
+              "first": "953",
+              "last": "958"
+            }
+          }
+        },
+        {
+          "title": "Regulation of glucose transport in cultured muscle cells by novel hypoglycemic agents",
+          "author": [
+            {
+              "name": "TP Ciaraldi"
+            },
+            {
+              "name": "K Huber-Knudsen"
+            },
+            {
+              "name": "M Hickman"
+            }
+          ],
+          "host": {
+            "title": "Metabolism",
+            "author": [],
+            "volume": "44",
+            "pages": {
+              "first": "976",
+              "last": "982"
+            }
+          }
+        },
+        {
+          "title": "An antidiabetic thiazolidinedione is a high affinity ligand for peroxisome proliferator—activated receptor γ (PPARγ)",
+          "author": [
+            {
+              "name": "JM Lehmann"
+            },
+            {
+              "name": "LB Moore"
+            },
+            {
+              "name": "TA Smith-Oliver"
+            }
+          ],
+          "host": {
+            "title": "J Biol Chem",
+            "author": [],
+            "volume": "270",
+            "pages": {
+              "first": "12953",
+              "last": "12956"
+            }
+          }
+        },
+        {
+          "title": "15-Deoxy-Δ12,14-prostaglandin J2 is a ligand for the adipocyte determination factor PPAR γ",
+          "author": [
+            {
+              "name": "BM Forman"
+            },
+            {
+              "name": "P Tontonoz"
+            },
+            {
+              "name": "J Chen"
+            }
+          ],
+          "host": {
+            "title": "Cell",
+            "author": [],
+            "volume": "83",
+            "pages": {
+              "first": "803",
+              "last": "812"
+            }
+          }
+        }
+      ],
+      "genre": [
+        "research-article"
+      ],
+      "serie": {
+        "title": "Evidence for different mechanisms and different effects on insulin signaling",
+        "language": [
+          "unknown"
+        ],
+        "pages": {
+          "first": "1471",
+          "last": "1477"
+        }
+      },
+      "host": {
+        "title": "Metabolism",
+        "language": [
+          "unknown"
+        ],
+        "publicationDate": "1998",
+        "issn": [
+          "0026-0495"
+        ],
+        "pii": [
+          "S0026-0495(00)X0450-7"
+        ],
+        "volume": "47",
+        "issue": "3",
+        "pages": {
+          "first": "351",
+          "last": "354"
+        },
+        "genre": [
+          "journal"
+        ]
+      },
+      "namedEntities": {
+        "unitex": {
+          "date": [
+            "1998"
+          ],
+          "geogName": [],
+          "orgName": [
+            "Department of Internal Medicine, Gifu University School of Medicine",
+            "Research Committee on Disorders of Adrenal Hormones",
+            "Japan",
+            "Ministry of Health and Welfare"
+          ],
+          "orgName_funder": [
+            "Research Committee on Disorders of Adrenal Hormones",
+            "Japan",
+            "Ministry of Health and Welfare"
+          ],
+          "orgName_provider": [],
+          "persName": [
+            "Eli Lilly"
+          ],
+          "placeName": [
+            "Kyoto",
+            "IN",
+            "Gifu",
+            "Shizuoka",
+            "Boston",
+            "Japan",
+            "Cupertino",
+            "Tokyo",
+            "CA",
+            "MA",
+            "Indianapolis",
+            "Osaka"
+          ],
+          "ref_url": [],
+          "ref_bibl": [],
+          "bibl": []
+        }
+      },
+      "ark": [
+        "ark:/67375/6H6-B9LQF04B-D"
+      ],
+      "categories": {
+        "wos": [
+          "1 - science",
+          "2 - endocrinology & metabolism"
+        ],
+        "scienceMetrix": [
+          "1 - health sciences",
+          "2 - clinical medicine",
+          "3 - endocrinology & metabolism"
+        ],
+        "scopus": [
+          "1 - Life Sciences",
+          "2 - Biochemistry, Genetics and Molecular Biology",
+          "3 - Endocrinology",
+          "1 - Health Sciences",
+          "2 - Medicine",
+          "3 - Endocrinology, Diabetes and Metabolism"
+        ],
+        "inist": [
+          "1 - sciences appliquees, technologies et medecines",
+          "2 - sciences biologiques et medicales",
+          "3 - sciences medicales"
+        ]
+      },
+      "publicationDate": "1998",
+      "copyrightDate": "1998",
+      "enrichments": {
+        "multicat": [
+          {
+            "original": false,
+            "mimetype": "application/tei+xml",
+            "extension": "tei",
+            "uri": "https://api.istex.fr/document/2519BB11EB1DB569494B8C976B49E9F7D767D2A1/enrichments/multicat"
+          }
+        ],
+        "nb": [
+          {
+            "original": false,
+            "mimetype": "application/tei+xml",
+            "extension": "tei",
+            "uri": "https://api.istex.fr/document/2519BB11EB1DB569494B8C976B49E9F7D767D2A1/enrichments/nb"
+          }
+        ],
+        "teeft": [
+          {
+            "original": false,
+            "mimetype": "application/tei+xml",
+            "extension": "tei",
+            "uri": "https://api.istex.fr/document/2519BB11EB1DB569494B8C976B49E9F7D767D2A1/enrichments/teeft"
+          }
+        ],
+        "unitex": [
+          {
+            "original": false,
+            "mimetype": "application/tei+xml",
+            "extension": "tei",
+            "uri": "https://api.istex.fr/document/2519BB11EB1DB569494B8C976B49E9F7D767D2A1/enrichments/unitex"
+          }
+        ]
+      },
+      "doi": [
+        "10.1016/S0026-0495(98)90270-0"
+      ],
+      "id": "2519BB11EB1DB569494B8C976B49E9F7D767D2A1",
+      "score": 24.316742,
+      "fulltext": [
+        {
+          "extension": "pdf",
+          "original": true,
+          "mimetype": "application/pdf",
+          "uri": "https://api.istex.fr/document/2519BB11EB1DB569494B8C976B49E9F7D767D2A1/fulltext/pdf"
+        },
+        {
+          "extension": "zip",
+          "original": false,
+          "mimetype": "application/zip",
+          "uri": "https://api.istex.fr/document/2519BB11EB1DB569494B8C976B49E9F7D767D2A1/fulltext/zip"
+        },
+        {
+          "extension": "tei",
+          "original": false,
+          "mimetype": "application/tei+xml",
+          "uri": "https://api.istex.fr/document/2519BB11EB1DB569494B8C976B49E9F7D767D2A1/fulltext/tei"
+        },
+        {
+          "extension": "txt",
+          "original": false,
+          "mimetype": "text/plain",
+          "uri": "https://api.istex.fr/document/2519BB11EB1DB569494B8C976B49E9F7D767D2A1/fulltext/txt"
+        }
+      ],
+      "metadata": [
+        {
+          "extension": "xml",
+          "original": true,
+          "mimetype": "application/xml",
+          "uri": "https://api.istex.fr/document/2519BB11EB1DB569494B8C976B49E9F7D767D2A1/metadata/xml"
+        },
+        {
+          "extension": "mods",
+          "original": false,
+          "mimetype": "application/mods+xml",
+          "uri": "https://api.istex.fr/document/2519BB11EB1DB569494B8C976B49E9F7D767D2A1/metadata/mods"
+        },
+        {
+          "extension": "json",
+          "original": false,
+          "mimetype": "application/json",
+          "uri": "https://api.istex.fr/document/2519BB11EB1DB569494B8C976B49E9F7D767D2A1/metadata/json"
+        }
+      ]
+    },
+    {
+      "corpusName": "wiley",
+      "keywords": {
+        "teeft": [
+          "node",
+          "datapath",
+          "constraint",
+          "path design agent",
+          "remarkable advance",
+          "taeko kakuda",
+          "nobuaki kawato",
+          "constraint violations",
+          "yusuke matsunaga",
+          "maintenance system",
+          "design agent",
+          "hierarchical design description",
+          "shuho sawada",
+          "component node",
+          "lcpl comp datapath",
+          "design automation conf"
+        ]
+      },
+      "author": [
+        {
+          "name": "Fumihiro Maruyama",
+          "affiliations": [
+            "Fujitsu Laboratories Ltd., Kawasaki, Japan 211"
+          ]
+        },
+        {
+          "name": "Taeko Kakuda",
+          "affiliations": [
+            "Fujitsu Laboratories Ltd., Kawasaki, Japan 211"
+          ]
+        },
+        {
+          "name": "Yusuke Matsunaga",
+          "affiliations": [
+            "Fujitsu Laboratories Ltd., Kawasaki, Japan 211"
+          ]
+        },
+        {
+          "name": "Nobuaki Kawato",
+          "affiliations": [
+            "Fujitsu Laboratories Ltd., Kawasaki, Japan 211"
+          ]
+        },
+        {
+          "name": "Yoriko Minoda",
+          "affiliations": [
+            "Fujitsu Laboratories Ltd., Kawasaki, Japan 211"
+          ]
+        },
+        {
+          "name": "Shuho Sawada",
+          "affiliations": [
+            "Fujitsu Laboratories Ltd., Kawasaki, Japan 211"
+          ]
+        }
+      ],
+      "articleId": [
+        "ECJC4430730511"
+      ],
+      "arkIstex": "ark:/67375/WNG-H1DF92Q9-L",
+      "language": [
+        "eng"
+      ],
+      "originalGenre": [
+        "article"
+      ],
+      "abstract": "Sophisticated CAD (Computer‐Aided Design) systems that can produce quality designs quickly are anticipated to keep pace with the remarkable advance of VLSI technology. This paper presents a cooperative logic design system, co‐LODEX, in the two streams of design, datapath design and control design. The feature of co‐LODEX is its evaluation‐redesign mechanism using assumption‐based reasoning, which automates the evaluate‐redesign cycle under constraints. As constraints co‐LODEX takes those on area and speed. Design alternatives are considered as assumptions and constraint violations as contradictions. Redesign was implemented as contraction resolution. Here, justifications are defined for constraint violations whose forms are independent of actual constraint values, and the evaluation‐redesign mechanism based on these justifications is described. An experimental system was implemented and it was observed that it could correctly carry out the evaluation‐redesign mechanism. It enables the user to specify constraints in terms of numbers and obtain a circuit satisfying all of them. It also allows the user to obtain a variety of circuits efficiently with different characteristics conforming to the same specification by changing constraints.",
+      "qualityIndicators": {
+        "score": 9.064,
+        "pdfWordCount": 13988,
+        "pdfCharCount": 23204,
+        "pdfVersion": 1.3,
+        "pdfPageCount": 9,
+        "pdfPageSize": "579.84 x 776.639 pts",
+        "refBibsNative": true,
+        "abstractWordCount": 172,
+        "abstractCharCount": 1253,
+        "keywordCount": 0
+      },
+      "title": "Logic design system with evaluation‐redesign mechanism",
+      "genre": [
+        "article"
+      ],
+      "host": {
+        "title": "Electronics and Communications in Japan (Part III: Fundamental Electronic Science)",
+        "language": [
+          "unknown"
+        ],
+        "doi": [
+          "10.1002/(ISSN)1520-6440"
+        ],
+        "issn": [
+          "1042-0967"
+        ],
+        "eissn": [
+          "1520-6440"
+        ],
+        "publisherId": [
+          "ECJC"
+        ],
+        "volume": "73",
+        "issue": "5",
+        "pages": {
+          "first": "105",
+          "last": "113",
+          "total": "9"
+        },
+        "genre": [
+          "journal"
+        ],
+        "subject": [
+          {
+            "value": "Article"
+          }
+        ]
+      },
+      "namedEntities": {
+        "unitex": {
+          "date": [
+            "1990",
+            "1989"
+          ],
+          "geogName": [],
+          "orgName": [],
+          "orgName_funder": [],
+          "orgName_provider": [],
+          "persName": [
+            "C. Equation"
+          ],
+          "placeName": [
+            "Japan",
+            "Kawasaki"
+          ],
+          "ref_url": [],
+          "ref_bibl": [
+            "[ 2 ]",
+            "[ 9 ]",
+            "[ 3 ]",
+            "[5]",
+            "[ 4 ]",
+            "[ 6 ]"
+          ],
+          "bibl": []
+        }
+      },
+      "ark": [
+        "ark:/67375/WNG-H1DF92Q9-L"
+      ],
+      "categories": {
+        "wos": [],
+        "scienceMetrix": [
+          "1 - applied sciences",
+          "2 - information & communication technologies",
+          "3 - networking & telecommunications"
+        ],
+        "scopus": [
+          "1 - Physical Sciences",
+          "2 - Engineering",
+          "3 - Electrical and Electronic Engineering"
+        ],
+        "inist": [
+          "1 - sciences appliquees, technologies et medecines",
+          "2 - sciences exactes et technologie",
+          "3 - sciences appliquees",
+          "4 - pollution"
+        ]
+      },
+      "publicationDate": "1990",
+      "copyrightDate": "1990",
+      "enrichments": {
+        "multicat": [
+          {
+            "original": false,
+            "mimetype": "application/tei+xml",
+            "extension": "tei",
+            "uri": "https://api.istex.fr/document/1EB127598D1AC4177EFCDCC23E3FAC627817DFE8/enrichments/multicat"
+          }
+        ],
+        "nb": [
+          {
+            "original": false,
+            "mimetype": "application/tei+xml",
+            "extension": "tei",
+            "uri": "https://api.istex.fr/document/1EB127598D1AC4177EFCDCC23E3FAC627817DFE8/enrichments/nb"
+          }
+        ],
+        "teeft": [
+          {
+            "original": false,
+            "mimetype": "application/tei+xml",
+            "extension": "tei",
+            "uri": "https://api.istex.fr/document/1EB127598D1AC4177EFCDCC23E3FAC627817DFE8/enrichments/teeft"
+          }
+        ],
+        "unitex": [
+          {
+            "original": false,
+            "mimetype": "application/tei+xml",
+            "extension": "tei",
+            "uri": "https://api.istex.fr/document/1EB127598D1AC4177EFCDCC23E3FAC627817DFE8/enrichments/unitex"
+          }
+        ]
+      },
+      "doi": [
+        "10.1002/ecjc.4430730511"
+      ],
+      "id": "1EB127598D1AC4177EFCDCC23E3FAC627817DFE8",
+      "score": 24.169968,
+      "fulltext": [
+        {
+          "extension": "pdf",
+          "original": true,
+          "mimetype": "application/pdf",
+          "uri": "https://api.istex.fr/document/1EB127598D1AC4177EFCDCC23E3FAC627817DFE8/fulltext/pdf"
+        },
+        {
+          "extension": "zip",
+          "original": false,
+          "mimetype": "application/zip",
+          "uri": "https://api.istex.fr/document/1EB127598D1AC4177EFCDCC23E3FAC627817DFE8/fulltext/zip"
+        },
+        {
+          "extension": "tei",
+          "original": false,
+          "mimetype": "application/tei+xml",
+          "uri": "https://api.istex.fr/document/1EB127598D1AC4177EFCDCC23E3FAC627817DFE8/fulltext/tei"
+        },
+        {
+          "extension": "txt",
+          "original": false,
+          "mimetype": "text/plain",
+          "uri": "https://api.istex.fr/document/1EB127598D1AC4177EFCDCC23E3FAC627817DFE8/fulltext/txt"
+        }
+      ],
+      "metadata": [
+        {
+          "extension": "xml",
+          "original": true,
+          "mimetype": "application/xml",
+          "uri": "https://api.istex.fr/document/1EB127598D1AC4177EFCDCC23E3FAC627817DFE8/metadata/xml"
+        },
+        {
+          "extension": "mods",
+          "original": false,
+          "mimetype": "application/mods+xml",
+          "uri": "https://api.istex.fr/document/1EB127598D1AC4177EFCDCC23E3FAC627817DFE8/metadata/mods"
+        },
+        {
+          "extension": "json",
+          "original": false,
+          "mimetype": "application/json",
+          "uri": "https://api.istex.fr/document/1EB127598D1AC4177EFCDCC23E3FAC627817DFE8/metadata/json"
+        }
+      ],
+      "serie": {}
+    },
+    {
+      "corpusName": "springer-journals",
+      "articleId": [
+        "176",
+        "s00740-013-0176-6"
+      ],
+      "arkIstex": "ark:/67375/VQC-J02M2RH5-W",
+      "language": [
+        "ger"
+      ],
+      "originalGenre": [
+        "Announcement"
+      ],
+      "qualityIndicators": {
+        "refBibsNative": false,
+        "abstractWordCount": 1,
+        "abstractCharCount": 0,
+        "keywordCount": 0,
+        "score": 2.941,
+        "pdfWordCount": 929,
+        "pdfCharCount": 7345,
+        "pdfVersion": 1.3,
+        "pdfPageCount": 2,
+        "pdfPageSize": "595.276 x 841.89 pts (A4)"
+      },
+      "title": "Myelodysplastische Syndrome (MDS) und multiples Myelom (MM)",
+      "genre": [
+        "other"
+      ],
+      "host": {
+        "title": "Wiener klinisches Magazin",
+        "language": [
+          "unknown"
+        ],
+        "publicationDate": "2014",
+        "copyrightDate": "2013",
+        "issn": [
+          "1869-1757"
+        ],
+        "eissn": [
+          "1613-7817"
+        ],
+        "journalId": [
+          "740"
+        ],
+        "volume": "16",
+        "issue": "6",
+        "pages": {
+          "first": "30",
+          "last": "31"
+        },
+        "genre": [
+          "journal"
+        ],
+        "subject": [
+          {
+            "value": "Medicine"
+          },
+          {
+            "value": "Medicine & Public Health"
+          },
+          {
+            "value": "Medicine/Public Health, general"
+          }
+        ]
+      },
+      "ark": [
+        "ark:/67375/VQC-J02M2RH5-W"
+      ],
+      "publicationDate": "2013",
+      "copyrightDate": "2013",
+      "enrichments": {
+        "refBibs": [
+          {
+            "original": false,
+            "mimetype": "application/tei+xml",
+            "extension": "tei",
+            "uri": "https://api.istex.fr/document/904F793A17C36C424390DA344FE5F19D76CC0E7E/enrichments/refBibs"
+          }
+        ]
+      },
+      "doi": [
+        "10.1007/s00740-013-0176-6"
+      ],
+      "id": "904F793A17C36C424390DA344FE5F19D76CC0E7E",
+      "score": 24.031458,
+      "fulltext": [
+        {
+          "extension": "pdf",
+          "original": true,
+          "mimetype": "application/pdf",
+          "uri": "https://api.istex.fr/document/904F793A17C36C424390DA344FE5F19D76CC0E7E/fulltext/pdf"
+        },
+        {
+          "extension": "zip",
+          "original": false,
+          "mimetype": "application/zip",
+          "uri": "https://api.istex.fr/document/904F793A17C36C424390DA344FE5F19D76CC0E7E/fulltext/zip"
+        },
+        {
+          "extension": "txt",
+          "original": false,
+          "mimetype": "text/plain",
+          "uri": "https://api.istex.fr/document/904F793A17C36C424390DA344FE5F19D76CC0E7E/fulltext/txt"
+        },
+        {
+          "extension": "tei",
+          "original": false,
+          "mimetype": "application/tei+xml",
+          "uri": "https://api.istex.fr/document/904F793A17C36C424390DA344FE5F19D76CC0E7E/fulltext/tei"
+        }
+      ],
+      "metadata": [
+        {
+          "extension": "xml",
+          "original": true,
+          "mimetype": "application/xml",
+          "uri": "https://api.istex.fr/document/904F793A17C36C424390DA344FE5F19D76CC0E7E/metadata/xml"
+        },
+        {
+          "extension": "mods",
+          "original": false,
+          "mimetype": "application/mods+xml",
+          "uri": "https://api.istex.fr/document/904F793A17C36C424390DA344FE5F19D76CC0E7E/metadata/mods"
+        },
+        {
+          "extension": "json",
+          "original": false,
+          "mimetype": "application/json",
+          "uri": "https://api.istex.fr/document/904F793A17C36C424390DA344FE5F19D76CC0E7E/metadata/json"
+        }
+      ],
+      "author": [],
+      "serie": {}
+    },
+    {
+      "corpusName": "springer-journals",
+      "articleId": [
+        "170",
+        "s00740-013-0170-z"
+      ],
+      "arkIstex": "ark:/67375/VQC-282RWK9X-8",
+      "language": [
+        "ger"
+      ],
+      "originalGenre": [
+        "Announcement"
+      ],
+      "qualityIndicators": {
+        "score": 2.936,
+        "pdfWordCount": 924,
+        "pdfCharCount": 8205,
+        "pdfVersion": 1.3,
+        "pdfPageCount": 2,
+        "pdfPageSize": "595.276 x 841.89 pts (A4)",
+        "refBibsNative": false,
+        "abstractWordCount": 1,
+        "abstractCharCount": 0,
+        "keywordCount": 0
+      },
+      "title": "Produkt Imnovid",
+      "refBibs": [
+        {
+          "author": [],
+          "publicationDate": "2013-08",
+          "host": {
+            "title": "Imnovid®-Fachinformation",
+            "publicationDate": "2013-08",
+            "author": []
+          }
+        },
+        {
+          "host": {
+            "title": "Bitte beachten Sie zusätzlich die gültige Fassung der Fachinformation Literatur",
+            "author": []
+          }
+        },
+        {
+          "host": {
+            "title": "Community register of medicinal products for human use",
+            "publicationDate": "2013-11",
+            "author": [
+              {
+                "name": "Europäische Kommission"
+              }
+            ]
+          }
+        },
+        {
+          "title": "New drugs in melanoma: it's a whole new world",
+          "author": [
+            {
+              "name": "A Eggermont"
+            },
+            {
+              "name": "C Robert"
+            }
+          ],
+          "publicationDate": "1200",
+          "host": {
+            "title": "European J Cancer Bristol-Myers Squibb GesmbH Informationen: Bristol-Myers Squibb GesmbH Dr. Clemens Schödl Rivergate/GateOG Handelskai",
+            "publicationDate": "1200",
+            "author": [],
+            "volume": "475",
+            "issue": "92",
+            "pages": {
+              "first": "2150",
+              "last": "2157"
+            }
+          }
+        },
+        {
+          "title": "Improved survival with ipilimumab in patients with metastatic melanoma",
+          "author": [
+            {
+              "name": "Fs Hodi"
+            }
+          ],
+          "publicationDate": "2010",
+          "host": {
+            "title": "N Engl J Med",
+            "publicationDate": "2010",
+            "author": [],
+            "volume": "363",
+            "pages": {
+              "first": "711",
+              "last": "723"
+            }
+          }
+        },
+        {
+          "host": {
+            "publicationDate": "2013-11",
+            "author": [
+              {
+                "name": "Yervoy® Fachinformation"
+              }
+            ]
+          }
+        },
+        {
+          "title": "Ipilimumab plus Dacarbazine for Previously Untreated Metastatic Melanoma",
+          "author": [
+            {
+              "name": "C Robert"
+            }
+          ],
+          "publicationDate": "2011",
+          "host": {
+            "title": "N Engl J Med",
+            "publicationDate": "2011",
+            "author": [],
+            "volume": "364",
+            "pages": {
+              "first": "2517",
+              "last": "2526"
+            }
+          }
+        },
+        {
+          "title": "Effectiveness and safety of first-line ipilimumab (IPI) 3mg/kg therapy for advanced melanoma (AM): Evidence from a U.S. multisite retrospective chart review",
+          "author": [
+            {
+              "name": "K Margolin"
+            },
+            {
+              "name": "Sl Wong"
+            },
+            {
+              "name": "Jr Penrod"
+            }
+          ],
+          "host": {
+            "title": "Eur J Cancer",
+            "author": [],
+            "volume": "2013",
+            "issue": "492",
+            "pages": {
+              "first": "488"
+            }
+          }
+        }
+      ],
+      "genre": [
+        "other"
+      ],
+      "host": {
+        "title": "Wiener klinisches Magazin",
+        "language": [
+          "unknown"
+        ],
+        "publicationDate": "2014",
+        "copyrightDate": "2013",
+        "issn": [
+          "1869-1757"
+        ],
+        "eissn": [
+          "1613-7817"
+        ],
+        "journalId": [
+          "740"
+        ],
+        "volume": "16",
+        "issue": "6",
+        "pages": {
+          "first": "54",
+          "last": "55"
+        },
+        "genre": [
+          "journal"
+        ],
+        "subject": [
+          {
+            "value": "Medicine"
+          },
+          {
+            "value": "Medicine & Public Health"
+          },
+          {
+            "value": "Medicine/Public Health, general"
+          }
+        ]
+      },
+      "ark": [
+        "ark:/67375/VQC-282RWK9X-8"
+      ],
+      "publicationDate": "2013",
+      "copyrightDate": "2013",
+      "enrichments": {
+        "refBibs": [
+          {
+            "original": false,
+            "mimetype": "application/tei+xml",
+            "extension": "tei",
+            "uri": "https://api.istex.fr/document/D2422E3256A3C26B7C82D69867DA782D8D789FDD/enrichments/refBibs"
+          }
+        ]
+      },
+      "doi": [
+        "10.1007/s00740-013-0170-z"
+      ],
+      "id": "D2422E3256A3C26B7C82D69867DA782D8D789FDD",
+      "score": 23.590454,
+      "fulltext": [
+        {
+          "extension": "pdf",
+          "original": true,
+          "mimetype": "application/pdf",
+          "uri": "https://api.istex.fr/document/D2422E3256A3C26B7C82D69867DA782D8D789FDD/fulltext/pdf"
+        },
+        {
+          "extension": "zip",
+          "original": false,
+          "mimetype": "application/zip",
+          "uri": "https://api.istex.fr/document/D2422E3256A3C26B7C82D69867DA782D8D789FDD/fulltext/zip"
+        },
+        {
+          "extension": "txt",
+          "original": false,
+          "mimetype": "text/plain",
+          "uri": "https://api.istex.fr/document/D2422E3256A3C26B7C82D69867DA782D8D789FDD/fulltext/txt"
+        },
+        {
+          "extension": "tei",
+          "original": false,
+          "mimetype": "application/tei+xml",
+          "uri": "https://api.istex.fr/document/D2422E3256A3C26B7C82D69867DA782D8D789FDD/fulltext/tei"
+        }
+      ],
+      "metadata": [
+        {
+          "extension": "xml",
+          "original": true,
+          "mimetype": "application/xml",
+          "uri": "https://api.istex.fr/document/D2422E3256A3C26B7C82D69867DA782D8D789FDD/metadata/xml"
+        },
+        {
+          "extension": "mods",
+          "original": false,
+          "mimetype": "application/mods+xml",
+          "uri": "https://api.istex.fr/document/D2422E3256A3C26B7C82D69867DA782D8D789FDD/metadata/mods"
+        },
+        {
+          "extension": "json",
+          "original": false,
+          "mimetype": "application/json",
+          "uri": "https://api.istex.fr/document/D2422E3256A3C26B7C82D69867DA782D8D789FDD/metadata/json"
+        }
+      ],
+      "author": [],
+      "serie": {}
+    },
+    {
+      "corpusName": "springer-journals",
+      "author": [
+        {
+          "name": "F. Peyrade",
+          "affiliations": [
+            "Centre de lutte contre le cancer Antoine-Lacassagne, 33, avenue Valombrose, F-06100, Nice, France",
+            "E-mail: frederic.peyrade@nice.unicancer.fr"
+          ]
+        }
+      ],
+      "articleId": [
+        "2309",
+        "s10269-013-2309-3"
+      ],
+      "arkIstex": "ark:/67375/VQC-MG2VGB9L-B",
+      "language": [
+        "fre"
+      ],
+      "originalGenre": [
+        "OriginalPaper"
+      ],
+      "qualityIndicators": {
+        "score": 3.849,
+        "pdfWordCount": 1837,
+        "pdfCharCount": 11255,
+        "pdfVersion": 1.3,
+        "pdfPageCount": 3,
+        "pdfPageSize": "595.276 x 790.866 pts",
+        "refBibsNative": false,
+        "abstractWordCount": 1,
+        "abstractCharCount": 0,
+        "keywordCount": 0
+      },
+      "title": "Hématologie maligne",
+      "genre": [
+        "research-article"
+      ],
+      "host": {
+        "title": "Oncologie",
+        "language": [
+          "unknown"
+        ],
+        "publicationDate": "2013",
+        "copyrightDate": "2013",
+        "issn": [
+          "1292-3818"
+        ],
+        "eissn": [
+          "1765-2839"
+        ],
+        "journalId": [
+          "10269"
+        ],
+        "volume": "15",
+        "issue": "7-8",
+        "pages": {
+          "first": "402",
+          "last": "404"
+        },
+        "genre": [
+          "journal"
+        ],
+        "subject": [
+          {
+            "value": "Medicine"
+          },
+          {
+            "value": "Medicine & Public Health"
+          },
+          {
+            "value": "Oncology"
+          }
+        ]
+      },
+      "ark": [
+        "ark:/67375/VQC-MG2VGB9L-B"
+      ],
+      "publicationDate": "2013",
+      "copyrightDate": "2013",
+      "enrichments": {
+        "refBibs": [
+          {
+            "original": false,
+            "mimetype": "application/tei+xml",
+            "extension": "tei",
+            "uri": "https://api.istex.fr/document/C45093E9AF82FAE8ADF71351CE65648C06FE9332/enrichments/refBibs"
+          }
+        ]
+      },
+      "doi": [
+        "10.1007/s10269-013-2309-3"
+      ],
+      "id": "C45093E9AF82FAE8ADF71351CE65648C06FE9332",
+      "score": 21.022774,
+      "fulltext": [
+        {
+          "extension": "pdf",
+          "original": true,
+          "mimetype": "application/pdf",
+          "uri": "https://api.istex.fr/document/C45093E9AF82FAE8ADF71351CE65648C06FE9332/fulltext/pdf"
+        },
+        {
+          "extension": "zip",
+          "original": false,
+          "mimetype": "application/zip",
+          "uri": "https://api.istex.fr/document/C45093E9AF82FAE8ADF71351CE65648C06FE9332/fulltext/zip"
+        },
+        {
+          "extension": "txt",
+          "original": false,
+          "mimetype": "text/plain",
+          "uri": "https://api.istex.fr/document/C45093E9AF82FAE8ADF71351CE65648C06FE9332/fulltext/txt"
+        },
+        {
+          "extension": "tei",
+          "original": false,
+          "mimetype": "application/tei+xml",
+          "uri": "https://api.istex.fr/document/C45093E9AF82FAE8ADF71351CE65648C06FE9332/fulltext/tei"
+        }
+      ],
+      "metadata": [
+        {
+          "extension": "xml",
+          "original": true,
+          "mimetype": "application/xml",
+          "uri": "https://api.istex.fr/document/C45093E9AF82FAE8ADF71351CE65648C06FE9332/metadata/xml"
+        },
+        {
+          "extension": "mods",
+          "original": false,
+          "mimetype": "application/mods+xml",
+          "uri": "https://api.istex.fr/document/C45093E9AF82FAE8ADF71351CE65648C06FE9332/metadata/mods"
+        },
+        {
+          "extension": "json",
+          "original": false,
+          "mimetype": "application/json",
+          "uri": "https://api.istex.fr/document/C45093E9AF82FAE8ADF71351CE65648C06FE9332/metadata/json"
+        }
+      ],
+      "serie": {}
+    },
+    {
+      "corpusName": "elsevier",
+      "keywords": {
+        "teeft": [
+          "glutamine",
+          "glutaminase",
+          "intestinal",
+          "glucocorticoid",
+          "synthetase",
+          "hidex",
+          "skeletal muscle",
+          "efflux",
+          "middex",
+          "intestinal glutaminase",
+          "glutamine metabolism",
+          "intestine",
+          "small intestine",
+          "dexamethasone administration",
+          "glutaminase activity",
+          "specific activity",
+          "dexamethasone",
+          "glutamine release",
+          "control group",
+          "glutamine uptake",
+          "academic press",
+          "glutamine synthetase",
+          "surgical research",
+          "glutamine synthetase activity",
+          "metabolism",
+          "hidex groups",
+          "significant increase",
+          "exogenous corticosteroids",
+          "colonic segments",
+          "final volume",
+          "nitrogen determination",
+          "liquid scintillation",
+          "nitrogen balance",
+          "significant differences",
+          "elemental diet",
+          "negative nitrogen balance",
+          "gastrointestinal tract",
+          "vivo uptake",
+          "intestinal glutamine consumption",
+          "major stress",
+          "catheterized dogs",
+          "glutamine efflux",
+          "stress dose",
+          "intestinal uptake",
+          "glutamine utilization",
+          "steroid administration",
+          "severe stress",
+          "exogenous glucocorticoids",
+          "intestinal tract"
+        ]
+      },
+      "author": [
+        {
+          "name": "A.D. Fox M.D.",
+          "affiliations": [
+            "Department of Surgery, University of Pennsylvania and the Philadelphia Veterans Medical Center, Philadelphia, Pennsylvania, 19104 USA"
+          ]
+        },
+        {
+          "name": "S.A. Kripke M.D.",
+          "affiliations": [
+            "Department of Surgery, University of Pennsylvania and the Philadelphia Veterans Medical Center, Philadelphia, Pennsylvania, 19104 USA"
+          ]
+        },
+        {
+          "name": "J.M. Berman B.A.",
+          "affiliations": [
+            "Department of Otorhinolaryngology, University of Pennsylvania and the Philadelphia Veterans Medical Center, Philadelphia, Pennsylvania, 19104 USA"
+          ]
+        },
+        {
+          "name": "R.M. McGintey B.A.",
+          "affiliations": [
+            "Department of Otorhinolaryngology, University of Pennsylvania and the Philadelphia Veterans Medical Center, Philadelphia, Pennsylvania, 19104 USA"
+          ]
+        },
+        {
+          "name": "R.G. Settle Ph.D.",
+          "affiliations": [
+            "Department of Otorhinolaryngology, University of Pennsylvania and the Philadelphia Veterans Medical Center, Philadelphia, Pennsylvania, 19104 USA"
+          ]
+        },
+        {
+          "name": "J.L. Rombeau M.D.",
+          "affiliations": [
+            "Department of Surgery, University of Pennsylvania and the Philadelphia Veterans Medical Center, Philadelphia, Pennsylvania, 19104 USA"
+          ]
+        }
+      ],
+      "arkIstex": "ark:/67375/6H6-L7P3FCH4-2",
+      "language": [
+        "eng"
+      ],
+      "originalGenre": [
+        "Full-length article"
+      ],
+      "abstract": "Abstract: Exogenous glucocorticoids markedly increase the in vivo uptake and utilization of glutamine by the intestine. Since glutamine is the major oxidative fuel for the small intestine, we investigated whether glucocorticoids induce changes in the specific activity of the enzymes that mediate glutamine degradation (glutaminase) and synthesis (glutamine synthetase). Male Sprague-Dawley rats received a 7-day elemental diet. On Day 5, animals were randomized to one of four groups and received either saline (Control) or one of three doses of dexamethasone im: 0.1 mg/kg (Lodex); 0.3 mg/kg (Middex); or 0.6 mg/kg (Hidex). Forty-eight hours later jejunal and colonic segments were assayed for protein, glutaminase, and glutamine synthetase activity. A stress dose of dexamethasone (Hidex) produced a significant increase in both jejunal and colonic glutaminase specific activity (P < 0.02 vs Control and P < 0.05 vs Control, respectively). These data suggest a mechanism whereby glucocorticoids increase the intestinal utilization of glutamine by increasing the specific activity of intestinal glutaminase.",
+      "qualityIndicators": {
+        "score": 6.319,
+        "pdfWordCount": 2423,
+        "pdfCharCount": 16340,
+        "pdfVersion": 1.3,
+        "pdfPageCount": 6,
+        "pdfPageSize": "504 x 720 pts",
+        "refBibsNative": true,
+        "abstractWordCount": 158,
+        "abstractCharCount": 1109,
+        "keywordCount": 0
+      },
+      "title": "Dexamethasone administration induces increased glutaminase specific activity in the jejunum and colon",
+      "pmid": [
+        "2896275"
+      ],
+      "pii": [
+        "0022-4804(88)90181-3"
+      ],
+      "refBibs": [
+        {
+          "title": "Nitrogen determination by the Kjeldahl method",
+          "author": [
+            {
+              "name": "P.M. Archibald"
+            }
+          ],
+          "host": {
+            "title": "Standard Methods of Clinical Chemistry",
+            "author": []
+          }
+        },
+        {
+          "title": "The adrenal cortex",
+          "author": [
+            {
+              "name": "P.K. Bondy"
+            }
+          ],
+          "host": {
+            "title": "The Metabolic Control and Disease",
+            "author": [],
+            "pages": {
+              "first": "1444"
+            }
+          }
+        },
+        {
+          "title": "The excretion pattern of 17-ketosteroids and corticosteroids in surgical stress",
+          "author": [
+            {
+              "name": "G. Burke"
+            },
+            {
+              "name": "C. Framlsspm"
+            },
+            {
+              "name": "C.O. Plantin"
+            }
+          ],
+          "host": {
+            "title": "Acta. Endocrinol. Copenhagen",
+            "author": [],
+            "volume": "18",
+            "pages": {
+              "first": "201"
+            }
+          }
+        },
+        {
+          "host": {
+            "title": "Current Veterinary Therapy, Vol. VII, Small Animal Practice",
+            "author": []
+          }
+        },
+        {
+          "title": "Glucagon: An important stimulator of gut and hepatic glutamine metabolism",
+          "author": [
+            {
+              "name": "R.J. Geer"
+            },
+            {
+              "name": "P.E. Williams"
+            },
+            {
+              "name": "P. Lairmore"
+            },
+            {
+              "name": "N.N. Abumrad"
+            }
+          ],
+          "host": {
+            "title": "Surg. Forum",
+            "author": [],
+            "volume": "38",
+            "pages": {
+              "first": "27"
+            }
+          }
+        },
+        {
+          "title": "Alterations in glutamine metabolism in response to operative stress and food deprivation",
+          "author": [
+            {
+              "name": "C.R. Kapadia"
+            },
+            {
+              "name": "M.F. Colpoys"
+            },
+            {
+              "name": "Z. Jiang"
+            },
+            {
+              "name": "D.W. Wilmore"
+            }
+          ],
+          "host": {
+            "title": "Surg. Forum",
+            "author": [],
+            "volume": "33",
+            "pages": {
+              "first": "19"
+            }
+          }
+        },
+        {
+          "title": "Protein measurement with the folin phenol reagent",
+          "author": [
+            {
+              "name": "O.H. Lowry"
+            },
+            {
+              "name": "N.J. Rosebrough"
+            },
+            {
+              "name": "A.L. Farr"
+            }
+          ],
+          "host": {
+            "title": "J. Biol. Chem.",
+            "author": [],
+            "volume": "193",
+            "pages": {
+              "first": "265"
+            }
+          }
+        },
+        {
+          "title": "Glutamine metabolism in the rat",
+          "author": [
+            {
+              "name": "P. Lund"
+            }
+          ],
+          "host": {
+            "title": "FEBS Lett.",
+            "author": [],
+            "volume": "117",
+            "pages": {
+              "first": "86"
+            }
+          }
+        },
+        {
+          "title": "The Metabolic Care of the Surgical Patient",
+          "author": [
+            {
+              "name": "F.D. Moore"
+            }
+          ],
+          "host": {
+            "author": [],
+            "pages": {
+              "first": "55",
+              "last": "69"
+            }
+          }
+        },
+        {
+          "title": "Effects of glucocorticoids on glutamine metabolism in skeletal muscle",
+          "author": [
+            {
+              "name": "F. Muhlbacher"
+            },
+            {
+              "name": "C.R. Kapadia"
+            },
+            {
+              "name": "M.F. Colpoys"
+            },
+            {
+              "name": "R.J. Smith"
+            },
+            {
+              "name": "D.W. Wilmore"
+            }
+          ],
+          "host": {
+            "title": "Amer. J. Physiol.",
+            "author": [],
+            "volume": "247",
+            "pages": {
+              "first": "75"
+            }
+          }
+        },
+        {
+          "title": "A rapid radioactive assay for glutamine synthetase, glutaminase, asparagine synthetase, and asparaginase",
+          "author": [
+            {
+              "name": "S. Prusiner"
+            },
+            {
+              "name": "L. Milner"
+            }
+          ],
+          "host": {
+            "title": "Anal. Biochem.",
+            "author": [],
+            "volume": "37",
+            "pages": {
+              "first": "429"
+            }
+          }
+        },
+        {
+          "title": "Muscle amino acid metabolism and gluconeogenesis",
+          "author": [
+            {
+              "name": "N. Ruderman"
+            }
+          ],
+          "host": {
+            "title": "Annu. Rev. Med.",
+            "author": [],
+            "volume": "26",
+            "pages": {
+              "first": "245"
+            }
+          }
+        },
+        {
+          "host": {
+            "title": "Smith, R. J. Personal communication.",
+            "author": []
+          }
+        },
+        {
+          "title": "Glutamine Metabolism in Catabolic States: Role of the Intestinal Tract",
+          "author": [
+            {
+              "name": "W.W. Souba"
+            }
+          ],
+          "host": {
+            "title": "A thesis submitted to the Harvard School of Public Health in partial fulfillment of the requirements for the degree of Doctor of Science in Nutritional Biochemistry",
+            "author": []
+          }
+        },
+        {
+          "title": "Effect of glucocorticoids on glutamine metabolism in visceral organs",
+          "author": [
+            {
+              "name": "W.W. Souba"
+            },
+            {
+              "name": "R.J. Smith"
+            },
+            {
+              "name": "D.W. Wilmore"
+            }
+          ],
+          "host": {
+            "title": "Metabolism",
+            "author": [],
+            "volume": "34",
+            "pages": {
+              "first": "450"
+            }
+          }
+        },
+        {
+          "title": "Glucocorticoids regulate intestinal glutamine consumption",
+          "author": [
+            {
+              "name": "W.W. Souba"
+            },
+            {
+              "name": "R.J. Smith"
+            },
+            {
+              "name": "D.W. Wilmore"
+            }
+          ],
+          "host": {
+            "title": "Curr. Surg.",
+            "author": [],
+            "volume": "385"
+          }
+        },
+        {
+          "title": "Glutamine metabolism by the intestinal tract",
+          "author": [
+            {
+              "name": "W.W. Souba"
+            },
+            {
+              "name": "R.J. Smith"
+            },
+            {
+              "name": "D.W. Wilmore"
+            }
+          ],
+          "host": {
+            "title": "JPEN",
+            "author": [],
+            "volume": "9",
+            "pages": {
+              "first": "608"
+            }
+          }
+        },
+        {
+          "title": "Post-operative alteration of arteriovenous exchange of amino acids across the gastrointestinal tract",
+          "author": [
+            {
+              "name": "W.W. Souba"
+            },
+            {
+              "name": "D.W. Wilmore"
+            }
+          ],
+          "host": {
+            "title": "Surgery",
+            "author": [],
+            "volume": "94",
+            "pages": {
+              "first": "342"
+            }
+          }
+        },
+        {
+          "title": "Cortisol and corticotropin in burned patients",
+          "author": [
+            {
+              "name": "G.M. Vaughn"
+            },
+            {
+              "name": "R.A. Becker"
+            },
+            {
+              "name": "J.P. Allen"
+            },
+            {
+              "name": "G.W. Goodwin"
+            },
+            {
+              "name": "B.A. Pruitt"
+            },
+            {
+              "name": "A.D. Mason"
+            }
+          ],
+          "host": {
+            "title": "J. Trauma",
+            "author": [],
+            "volume": "22",
+            "pages": {
+              "first": "263"
+            }
+          }
+        },
+        {
+          "title": "Glutamine utilization by the small intestine",
+          "author": [
+            {
+              "name": "H.G. Windmueller"
+            }
+          ],
+          "host": {
+            "title": "Adv. Enzymol.",
+            "author": [],
+            "volume": "53",
+            "pages": {
+              "first": "202"
+            }
+          }
+        },
+        {
+          "title": "Respiratory fuels and nitrogen metabolism in vivo in small intestine of fed rats",
+          "author": [
+            {
+              "name": "H.G. Windmeuller"
+            },
+            {
+              "name": "A.E. Spaeth"
+            }
+          ],
+          "host": {
+            "title": "J. Biol. Chem.",
+            "author": [],
+            "volume": "255",
+            "pages": {
+              "first": "107"
+            }
+          }
+        },
+        {
+          "title": "Uptake and metabolism of plasma glutamine by the small intestine",
+          "author": [
+            {
+              "name": "H.G. Windmueller"
+            },
+            {
+              "name": "A.E. Spaeth"
+            }
+          ],
+          "host": {
+            "title": "J. Biol. Chem.",
+            "author": [],
+            "volume": "249",
+            "pages": {
+              "first": "5070"
+            }
+          }
+        }
+      ],
+      "genre": [
+        "research-article"
+      ],
+      "host": {
+        "title": "Journal of Surgical Research",
+        "language": [
+          "unknown"
+        ],
+        "publicationDate": "1988",
+        "issn": [
+          "0022-4804"
+        ],
+        "pii": [
+          "S0022-4804(00)X0341-1"
+        ],
+        "volume": "44",
+        "issue": "4",
+        "pages": {
+          "first": "391",
+          "last": "396"
+        },
+        "genre": [
+          "journal"
+        ]
+      },
+      "namedEntities": {
+        "unitex": {
+          "date": [
+            "1988"
+          ],
+          "geogName": [],
+          "orgName": [
+            "Academic Press, Inc",
+            "Philadelphia Medical Center, Philadelphia",
+            "National Research Award",
+            "NIH"
+          ],
+          "orgName_funder": [
+            "National Research Award",
+            "NIH"
+          ],
+          "orgName_provider": [],
+          "persName": [
+            "John Rhea",
+            "Windmueller"
+          ],
+          "placeName": [
+            "Hanover",
+            "Boston",
+            "MA",
+            "NJ",
+            "FL"
+          ],
+          "ref_url": [],
+          "ref_bibl": [
+            "Geer et al. [5]",
+            "[4]",
+            "[6]",
+            "[22]",
+            "[20]",
+            "[7]",
+            "[9]",
+            "Souba et al."
+          ],
+          "bibl": []
+        }
+      },
+      "ark": [
+        "ark:/67375/6H6-L7P3FCH4-2"
+      ],
+      "categories": {
+        "wos": [
+          "1 - science",
+          "2 - surgery"
+        ],
+        "scienceMetrix": [
+          "1 - health sciences",
+          "2 - clinical medicine",
+          "3 - surgery"
+        ],
+        "scopus": [],
+        "inist": [
+          "1 - sciences appliquees, technologies et medecines",
+          "2 - sciences biologiques et medicales",
+          "3 - sciences medicales"
+        ]
+      },
+      "publicationDate": "1988",
+      "copyrightDate": "1988",
+      "enrichments": {
+        "multicat": [
+          {
+            "original": false,
+            "mimetype": "application/tei+xml",
+            "extension": "tei",
+            "uri": "https://api.istex.fr/document/BF25DAA146D9BB27E10E2C275010BB5426194407/enrichments/multicat"
+          }
+        ],
+        "nb": [
+          {
+            "original": false,
+            "mimetype": "application/tei+xml",
+            "extension": "tei",
+            "uri": "https://api.istex.fr/document/BF25DAA146D9BB27E10E2C275010BB5426194407/enrichments/nb"
+          }
+        ],
+        "teeft": [
+          {
+            "original": false,
+            "mimetype": "application/tei+xml",
+            "extension": "tei",
+            "uri": "https://api.istex.fr/document/BF25DAA146D9BB27E10E2C275010BB5426194407/enrichments/teeft"
+          }
+        ],
+        "unitex": [
+          {
+            "original": false,
+            "mimetype": "application/tei+xml",
+            "extension": "tei",
+            "uri": "https://api.istex.fr/document/BF25DAA146D9BB27E10E2C275010BB5426194407/enrichments/unitex"
+          }
+        ]
+      },
+      "doi": [
+        "10.1016/0022-4804(88)90181-3"
+      ],
+      "id": "BF25DAA146D9BB27E10E2C275010BB5426194407",
+      "score": 19.783197,
+      "fulltext": [
+        {
+          "extension": "pdf",
+          "original": true,
+          "mimetype": "application/pdf",
+          "uri": "https://api.istex.fr/document/BF25DAA146D9BB27E10E2C275010BB5426194407/fulltext/pdf"
+        },
+        {
+          "extension": "zip",
+          "original": false,
+          "mimetype": "application/zip",
+          "uri": "https://api.istex.fr/document/BF25DAA146D9BB27E10E2C275010BB5426194407/fulltext/zip"
+        },
+        {
+          "extension": "tei",
+          "original": false,
+          "mimetype": "application/tei+xml",
+          "uri": "https://api.istex.fr/document/BF25DAA146D9BB27E10E2C275010BB5426194407/fulltext/tei"
+        },
+        {
+          "extension": "txt",
+          "original": false,
+          "mimetype": "text/plain",
+          "uri": "https://api.istex.fr/document/BF25DAA146D9BB27E10E2C275010BB5426194407/fulltext/txt"
+        }
+      ],
+      "metadata": [
+        {
+          "extension": "xml",
+          "original": true,
+          "mimetype": "application/xml",
+          "uri": "https://api.istex.fr/document/BF25DAA146D9BB27E10E2C275010BB5426194407/metadata/xml"
+        },
+        {
+          "extension": "mods",
+          "original": false,
+          "mimetype": "application/mods+xml",
+          "uri": "https://api.istex.fr/document/BF25DAA146D9BB27E10E2C275010BB5426194407/metadata/mods"
+        },
+        {
+          "extension": "json",
+          "original": false,
+          "mimetype": "application/json",
+          "uri": "https://api.istex.fr/document/BF25DAA146D9BB27E10E2C275010BB5426194407/metadata/json"
+        }
+      ],
+      "serie": {}
+    },
+    {
+      "corpusName": "springer-journals",
+      "author": [
+        {
+          "name": "F. Klein",
+          "affiliations": [
+            "München, Amalienstraße 15, Rückgeb., 80333, München, Deutschland",
+            "E-mail: klein.friederike@mnet-online.de"
+          ]
+        }
+      ],
+      "articleId": [
+        "2544",
+        "s00761-013-2544-7"
+      ],
+      "arkIstex": "ark:/67375/VQC-T4GH9XMK-H",
+      "language": [
+        "ger"
+      ],
+      "originalGenre": [
+        "OriginalPaper"
+      ],
+      "qualityIndicators": {
+        "refBibsNative": false,
+        "abstractWordCount": 1,
+        "abstractCharCount": 0,
+        "keywordCount": 0,
+        "score": 3.498,
+        "pdfWordCount": 1486,
+        "pdfCharCount": 12034,
+        "pdfVersion": 1.3,
+        "pdfPageCount": 5,
+        "pdfPageSize": "595.276 x 790.866 pts"
+      },
+      "title": "18. Kongress der Europäischen Hämatologischen Gesellschaft (EHA)",
+      "refBibs": [
+        {
+          "host": {
+            "title": "Curing or caring for patients with multiple myeloma",
+            "author": [
+              {
+                "name": "Lunch Debate"
+              }
+            ],
+            "pages": {
+              "first": "14"
+            }
+          }
+        },
+        {
+          "title": "Final results of a frontline phase 1/2 study of carfilzomib, lenalidomide, and low-dose dexamethasone (CRd) in multiple myeloma (MM)",
+          "author": [
+            {
+              "name": "Aj Jakubowiak"
+            }
+          ],
+          "publicationDate": "2011",
+          "host": {
+            "title": "Blood (ASH Annual Meeting Abstracts )",
+            "publicationDate": "2011",
+            "author": [],
+            "volume": "118"
+          }
+        },
+        {
+          "host": {
+            "title": "Daratumumab, a CD38 monoclonal antibody study in advanced multiple myeloma – an open-label, dose-escalation followed by open-label extension in a single-arm phase I/II study",
+            "publicationDate": "2013-06-14",
+            "author": [
+              {
+                "name": "H Lokhorst"
+              }
+            ]
+          }
+        },
+        {
+          "host": {
+            "title": "Efficacy, safety, and qol in MM-003, a phase 3, multicenter, randomized, open-label study of pomalidomide (POM) + lowdose dexamethasone (LODEX) vs high-dose dexamerhason (HIDEX) in RRMM. EHA 2013, Stockholm , 14.6.2013, Abstract S1151 5. Lunch Debate \" Curing or caring for patients with multiple myeloma",
+            "publicationDate": "2013",
+            "author": [
+              {
+                "name": "San Miguel"
+              },
+              {
+                "name": "J "
+              }
+            ]
+          }
+        },
+        {
+          "title": "Impact of azacitidine before allogeneic stem-cell transplantation for myelodysplastic syndromes: a study by the Société Française de Greffe de Moelle et de Thérapie-Cellulaire and the Groupe-Francophone des Myélodysplasies",
+          "author": [
+            {
+              "name": "G Damaj"
+            }
+          ],
+          "publicationDate": "2012",
+          "host": {
+            "title": "J Clin Oncol",
+            "publicationDate": "2012",
+            "author": [],
+            "volume": "30",
+            "issue": "36",
+            "pages": {
+              "first": "4533",
+              "last": "4540"
+            }
+          }
+        },
+        {
+          "title": "Infectious challenges in hematology",
+          "author": [],
+          "host": {
+            "title": "Symposium",
+            "author": []
+          }
+        },
+        {
+          "title": "Gudiol C et al (2013) Changing aetiology, clinical features, antimicrobial resistance, and outcomes of bloodstream infection in neutropenic cancer patients",
+          "author": [
+            {
+              "name": " Kongress Der Europäischen Hämatologischen"
+            },
+            {
+              "name": " Gesellschaft"
+            }
+          ],
+          "host": {
+            "title": "15. Juni 2013 in Stockholm 8",
+            "author": [],
+            "pages": {
+              "first": "474",
+              "last": "479"
+            }
+          }
+        },
+        {
+          "title": "Rapid evolution and spread of carbapenemases among Enterobacteriaceae in Europe",
+          "author": [
+            {
+              "name": "R Canton"
+            }
+          ],
+          "publicationDate": "2012",
+          "host": {
+            "title": "Clin Microbiol Infect",
+            "publicationDate": "2012",
+            "author": [],
+            "volume": "18",
+            "issue": "5",
+            "pages": {
+              "first": "413",
+              "last": "431"
+            }
+          }
+        }
+      ],
+      "genre": [
+        "research-article"
+      ],
+      "host": {
+        "title": "Der Onkologe",
+        "language": [
+          "unknown"
+        ],
+        "publicationDate": "2013",
+        "copyrightDate": "2013",
+        "issn": [
+          "0947-8965"
+        ],
+        "eissn": [
+          "1433-0415"
+        ],
+        "journalId": [
+          "761"
+        ],
+        "volume": "19",
+        "issue": "9",
+        "pages": {
+          "first": "773",
+          "last": "777"
+        },
+        "subject": [
+          {
+            "value": "Medicine"
+          },
+          {
+            "value": "Medicine & Public Health"
+          },
+          {
+            "value": "Oncology"
+          }
+        ]
+      },
+      "ark": [
+        "ark:/67375/VQC-T4GH9XMK-H"
+      ],
+      "publicationDate": "2013",
+      "copyrightDate": "2013",
+      "enrichments": {
+        "refBibs": [
+          {
+            "original": false,
+            "mimetype": "application/tei+xml",
+            "extension": "tei",
+            "uri": "https://api.istex.fr/document/323A1D0F048B8BDC9AB1B5E7183F21C9C64F0DA1/enrichments/refBibs"
+          }
+        ]
+      },
+      "doi": [
+        "10.1007/s00761-013-2544-7"
+      ],
+      "id": "323A1D0F048B8BDC9AB1B5E7183F21C9C64F0DA1",
+      "score": 19.15904,
+      "fulltext": [
+        {
+          "extension": "pdf",
+          "original": true,
+          "mimetype": "application/pdf",
+          "uri": "https://api.istex.fr/document/323A1D0F048B8BDC9AB1B5E7183F21C9C64F0DA1/fulltext/pdf"
+        },
+        {
+          "extension": "zip",
+          "original": false,
+          "mimetype": "application/zip",
+          "uri": "https://api.istex.fr/document/323A1D0F048B8BDC9AB1B5E7183F21C9C64F0DA1/fulltext/zip"
+        },
+        {
+          "extension": "txt",
+          "original": false,
+          "mimetype": "text/plain",
+          "uri": "https://api.istex.fr/document/323A1D0F048B8BDC9AB1B5E7183F21C9C64F0DA1/fulltext/txt"
+        },
+        {
+          "extension": "tei",
+          "original": false,
+          "mimetype": "application/tei+xml",
+          "uri": "https://api.istex.fr/document/323A1D0F048B8BDC9AB1B5E7183F21C9C64F0DA1/fulltext/tei"
+        }
+      ],
+      "metadata": [
+        {
+          "extension": "xml",
+          "original": true,
+          "mimetype": "application/xml",
+          "uri": "https://api.istex.fr/document/323A1D0F048B8BDC9AB1B5E7183F21C9C64F0DA1/metadata/xml"
+        },
+        {
+          "extension": "mods",
+          "original": false,
+          "mimetype": "application/mods+xml",
+          "uri": "https://api.istex.fr/document/323A1D0F048B8BDC9AB1B5E7183F21C9C64F0DA1/metadata/mods"
+        },
+        {
+          "extension": "json",
+          "original": false,
+          "mimetype": "application/json",
+          "uri": "https://api.istex.fr/document/323A1D0F048B8BDC9AB1B5E7183F21C9C64F0DA1/metadata/json"
+        }
+      ],
+      "serie": {}
+    },
+    {
+      "corpusName": "wiley",
+      "keywords": {
+        "teeft": [
+          "physiol",
+          "umbilical",
+          "hernia",
+          "neurol",
+          "umbilical hernia",
+          "zbid",
+          "spontaneous rupture",
+          "small bowel"
+        ]
+      },
+      "author": [
+        {
+          "name": "A. Bruce MacLean",
+          "affiliations": [
+            "Glasgow"
+          ]
+        }
+      ],
+      "articleId": [
+        "BJS18003815012"
+      ],
+      "arkIstex": "ark:/67375/WNG-11QVM532-R",
+      "language": [
+        "eng"
+      ],
+      "originalGenre": [
+        "miscellaneous"
+      ],
+      "qualityIndicators": {
+        "score": 2.729,
+        "pdfWordCount": 717,
+        "pdfCharCount": 4016,
+        "pdfVersion": 1.3,
+        "pdfPageCount": 1,
+        "pdfPageSize": "522 x 720 pts",
+        "refBibsNative": true,
+        "abstractWordCount": 1,
+        "abstractCharCount": 0,
+        "keywordCount": 0
+      },
+      "title": "Spontaneous rupture of an umbilical hernia in an infant",
+      "pmid": [
+        "14791967"
+      ],
+      "refBibs": [],
+      "genre": [
+        "other"
+      ],
+      "host": {
+        "title": "British Journal of Surgery",
+        "language": [
+          "unknown"
+        ],
+        "doi": [
+          "10.1002/(ISSN)1365-2168"
+        ],
+        "issn": [
+          "0007-1323"
+        ],
+        "eissn": [
+          "1365-2168"
+        ],
+        "publisherId": [
+          "BJS"
+        ],
+        "volume": "38",
+        "issue": "150",
+        "pages": {
+          "first": "239",
+          "last": "239",
+          "total": "1"
+        },
+        "genre": [
+          "journal"
+        ],
+        "subject": [
+          {
+            "value": "Short Notes of Rare or Obscure Case"
+          }
+        ]
+      },
+      "namedEntities": {
+        "unitex": {
+          "date": [
+            "1950"
+          ],
+          "geogName": [],
+          "orgName": [],
+          "orgName_funder": [],
+          "orgName_provider": [],
+          "persName": [],
+          "placeName": [],
+          "ref_url": [],
+          "ref_bibl": [],
+          "bibl": []
+        }
+      },
+      "ark": [
+        "ark:/67375/WNG-11QVM532-R"
+      ],
+      "categories": {
+        "wos": [
+          "1 - science",
+          "2 - surgery"
+        ],
+        "scienceMetrix": [
+          "1 - health sciences",
+          "2 - clinical medicine",
+          "3 - surgery"
+        ],
+        "scopus": [
+          "1 - Health Sciences",
+          "2 - Medicine",
+          "3 - Surgery"
+        ]
+      },
+      "publicationDate": "1950",
+      "copyrightDate": "1950",
+      "enrichments": {
+        "multicat": [
+          {
+            "original": false,
+            "mimetype": "application/tei+xml",
+            "extension": "tei",
+            "uri": "https://api.istex.fr/document/3675B9031D2DDB77DCD1A88687A638EB4D8FFB2B/enrichments/multicat"
+          }
+        ],
+        "teeft": [
+          {
+            "original": false,
+            "mimetype": "application/tei+xml",
+            "extension": "tei",
+            "uri": "https://api.istex.fr/document/3675B9031D2DDB77DCD1A88687A638EB4D8FFB2B/enrichments/teeft"
+          }
+        ],
+        "unitex": [
+          {
+            "original": false,
+            "mimetype": "application/tei+xml",
+            "extension": "tei",
+            "uri": "https://api.istex.fr/document/3675B9031D2DDB77DCD1A88687A638EB4D8FFB2B/enrichments/unitex"
+          }
+        ]
+      },
+      "doi": [
+        "10.1002/bjs.18003815012"
+      ],
+      "id": "3675B9031D2DDB77DCD1A88687A638EB4D8FFB2B",
+      "score": 19.072802,
+      "fulltext": [
+        {
+          "extension": "pdf",
+          "original": true,
+          "mimetype": "application/pdf",
+          "uri": "https://api.istex.fr/document/3675B9031D2DDB77DCD1A88687A638EB4D8FFB2B/fulltext/pdf"
+        },
+        {
+          "extension": "zip",
+          "original": false,
+          "mimetype": "application/zip",
+          "uri": "https://api.istex.fr/document/3675B9031D2DDB77DCD1A88687A638EB4D8FFB2B/fulltext/zip"
+        },
+        {
+          "extension": "tei",
+          "original": false,
+          "mimetype": "application/tei+xml",
+          "uri": "https://api.istex.fr/document/3675B9031D2DDB77DCD1A88687A638EB4D8FFB2B/fulltext/tei"
+        },
+        {
+          "extension": "txt",
+          "original": false,
+          "mimetype": "text/plain",
+          "uri": "https://api.istex.fr/document/3675B9031D2DDB77DCD1A88687A638EB4D8FFB2B/fulltext/txt"
+        }
+      ],
+      "metadata": [
+        {
+          "extension": "xml",
+          "original": true,
+          "mimetype": "application/xml",
+          "uri": "https://api.istex.fr/document/3675B9031D2DDB77DCD1A88687A638EB4D8FFB2B/metadata/xml"
+        },
+        {
+          "extension": "mods",
+          "original": false,
+          "mimetype": "application/mods+xml",
+          "uri": "https://api.istex.fr/document/3675B9031D2DDB77DCD1A88687A638EB4D8FFB2B/metadata/mods"
+        },
+        {
+          "extension": "json",
+          "original": false,
+          "mimetype": "application/json",
+          "uri": "https://api.istex.fr/document/3675B9031D2DDB77DCD1A88687A638EB4D8FFB2B/metadata/json"
+        }
+      ],
+      "serie": {}
+    },
+    {
+      "corpusName": "elsevier",
+      "keywords": {
+        "teeft": [
+          "pharmaceutical preparations",
+          "attractive exhibit",
+          "large number",
+          "tablet form",
+          "wide range",
+          "large display",
+          "fine display",
+          "general practice",
+          "thallium acetate",
+          "venereal disease",
+          "intensive treatment injections",
+          "high cases",
+          "negative result",
+          "wassermann tests",
+          "second year",
+          "large doses",
+          "many cases",
+          "wise arsenic",
+          "lesser doses",
+          "small doses",
+          "colonel harrison",
+          "positive wassermann reactions",
+          "closer liaison",
+          "child welfare",
+          "venereal departments",
+          "venereal treatment",
+          "maternity centres",
+          "great importance",
+          "antenatal treatment",
+          "arsenical treatment",
+          "average amount",
+          "control bismuth",
+          "misleading advertisements",
+          "untested preparations",
+          "dual therapy",
+          "pregnant women",
+          "rhoeal urethritis",
+          "good results",
+          "protein shock",
+          "local vaccine spraying",
+          "careful bacteriological inspection",
+          "congress dinner",
+          "hotel cecil",
+          "monday evening",
+          "burton chadwick",
+          "walter willson",
+          "william schooling",
+          "winifred cullis",
+          "imperial health",
+          "london school",
+          "tropical medicine",
+          "medical school",
+          "west london hospital",
+          "local authorities",
+          "true economy",
+          "hygiene council",
+          "further meetings",
+          "administrative aspects",
+          "social hygiene",
+          "trtm exhibition",
+          "central hall",
+          "available inch",
+          "lower halls",
+          "overseas doctors",
+          "whole range",
+          "surgical treatment",
+          "busy practitioner",
+          "pregnancy london",
+          "burroughs wellconif",
+          "snow hillbuildings",
+          "particular interest",
+          "medical practitioner",
+          "such diseases",
+          "coloured transparencies",
+          "various medicaments",
+          "special attention",
+          "important products",
+          "chaulmoogric series avenyl",
+          "great interest",
+          "other methods",
+          "tabloid salicin",
+          "vitamincontaining products",
+          "pure drug company",
+          "several additions",
+          "large list",
+          "scientific products",
+          "notable feature",
+          "large container",
+          "synthetic thyroxile",
+          "various stages",
+          "coli infection",
+          "sodiumtetra iodo phenolphthalein",
+          "highest percentage",
+          "positive results",
+          "long series",
+          "pharmaceutical products",
+          "sterile emulsion",
+          "many advantages",
+          "aqueous solution",
+          "specific treatment products",
+          "gonococcal vaccines",
+          "acute urethritis",
+          "liquid beef",
+          "yeast nuclein",
+          "particular attention",
+          "iodolysin preparations",
+          "rheumatoid arthritis",
+          "other diseases",
+          "soluble compound",
+          "queen london",
+          "instructive display",
+          "colloidal therapy",
+          "powder pills",
+          "palatinoid form",
+          "hormone products",
+          "much interest",
+          "other exhibits",
+          "peptonised cocoa",
+          "peptonised milk",
+          "preparation zimmermann",
+          "standardised suprarenal",
+          "intramuscular asthma",
+          "wide selection",
+          "agotan brand",
+          "other affections",
+          "agotan ointrnent",
+          "standard blher",
+          "dangerous complication diathermy",
+          "morphia treatment",
+          "duodenal ulcers",
+          "sodium tetrabromphenol",
+          "sodium tetraiodo",
+          "inunction antipyretic",
+          "lodex products",
+          "liquid lodex",
+          "british alkaloids",
+          "vitamin chloro",
+          "winchester house",
+          "methyliodosalicylic acid",
+          "colloigen preparations",
+          "destructive action",
+          "noxious germs",
+          "vitalising action",
+          "many drugs",
+          "surgical instru",
+          "tabelle cerevisise compound",
+          "yeast london",
+          "satisfactory results",
+          "demand preparations",
+          "standard yeast tablet",
+          "oracton tonic food",
+          "subcutaneous squares",
+          "calcium glyceroco",
+          "intramuscular injections",
+          "tiresome complication",
+          "oral administration",
+          "scalp london",
+          "cent saline combination",
+          "principal cholecystography",
+          "intravenous injection",
+          "medical salts",
+          "natural mineral",
+          "sodium phosphate",
+          "more ipana",
+          "large amount",
+          "fruit salt",
+          "dimol laboratories",
+          "bronchial asthma",
+          "lavage powder",
+          "antirachitic treatment",
+          "pure phenol",
+          "chemical constitution bayer products",
+          "presence london",
+          "special exhibit",
+          "constant stream",
+          "vitamin test",
+          "national council",
+          "medical research",
+          "colour laboratory",
+          "uniform product",
+          "fine selection",
+          "high sulphidic sulphur",
+          "ceutical specialties",
+          "biological products",
+          "prominent compounds",
+          "victory house",
+          "various cyllin preparations",
+          "chloretone inhalant",
+          "base newton chambers",
+          "sanocrysin cides",
+          "thomas christy",
+          "certain forms",
+          "upper london",
+          "remarkable freedom",
+          "high london",
+          "bacillus acidophilus emulsion",
+          "irritant effects",
+          "high degree",
+          "penetrative power",
+          "ethereal oils",
+          "haywards heath",
+          "baby clinics",
+          "particular feature",
+          "oily suspension",
+          "rapid convalescence",
+          "roche chemical works",
+          "treupel tablets",
+          "efficient medinal",
+          "preparation allonal",
+          "bismuth hydroxide",
+          "mesothorium bromide",
+          "euphorian ampoules",
+          "polyvalent coliform vaccine",
+          "intestinal flora",
+          "chronic diseases",
+          "blood coagulant",
+          "mineral water",
+          "grande source",
+          "sandoz chemical works",
+          "calcium sandoz",
+          "ergotamine tartrate",
+          "central origin",
+          "diuretic glucoside",
+          "saccharin corporation",
+          "sterilised solution",
+          "morgan richards",
+          "holborn viaduct",
+          "digestive disturbances",
+          "collosol preparations",
+          "crookes laboratories",
+          "british colloids",
+          "collosol lactalumina",
+          "colloidal aluminium hydroxide",
+          "same preparation",
+          "collosol lactalumina laxative",
+          "pluriglandular compound",
+          "other pluriglandular products",
+          "general antisepsis",
+          "standardised parathyroid",
+          "high blood pressure",
+          "useful books",
+          "gland treatment",
+          "free disposal",
+          "representative exhibit",
+          "digestive ferments",
+          "corpus luteum substance",
+          "orchitic substance",
+          "suprarenal crystals",
+          "endocrine remedies",
+          "defective lactation",
+          "venereal disease centre",
+          "medical profession",
+          "british organotherapy",
+          "organotherapeutical products",
+          "infective fevers",
+          "opocaps enterostasin",
+          "chronic constipation",
+          "distributand urticaria",
+          "great tower",
+          "agents street",
+          "glandular preparations",
+          "pancrobilin brand",
+          "physiological product",
+          "dehydrated bile",
+          "peptenzyme digestant",
+          "many inquirers",
+          "ordinary preparations",
+          "single salines",
+          "collective action",
+          "several constituents",
+          "deshell laboratories",
+          "several forms",
+          "palatable emulsion",
+          "emulsifying agent",
+          "fermentative gums",
+          "angier chemical",
+          "many paraffin preparations",
+          "colloidal kaolin",
+          "emulsoid combination",
+          "other preparations",
+          "same firm",
+          "swedish health bread",
+          "camden town",
+          "intestinal lubricant",
+          "pure mineral",
+          "intimate contact",
+          "charles george macvicker",
+          "clifton nursing home",
+          "edinburgh university",
+          "high honours",
+          "various appointments",
+          "medical officer",
+          "street district",
+          "wells union",
+          "abbey grange school",
+          "deficient children",
+          "butleigh hospital",
+          "important activities",
+          "somerset county nursing association",
+          "parochial church council",
+          "england society",
+          "council school manager",
+          "county antiquities",
+          "professional adviser",
+          "solicitous care",
+          "social status",
+          "fullest resources",
+          "good deal"
+        ]
+      },
+      "arkIstex": "ark:/67375/6H6-8X7MW5GF-W",
+      "language": [
+        "eng"
+      ],
+      "originalGenre": [
+        "Discussion"
+      ],
+      "qualityIndicators": {
+        "score": 5.063,
+        "pdfWordCount": 3051,
+        "pdfCharCount": 20445,
+        "pdfVersion": 1.2,
+        "pdfPageCount": 3,
+        "pdfPageSize": "637 x 916 pts",
+        "refBibsNative": false,
+        "abstractWordCount": 1,
+        "abstractCharCount": 0,
+        "keywordCount": 0
+      },
+      "title": "LONDON MEDICAL EXHIBITION.",
+      "pii": [
+        "S0140-6736(01)35050-X"
+      ],
+      "genre": [
+        "article"
+      ],
+      "host": {
+        "title": "The Lancet",
+        "language": [
+          "unknown"
+        ],
+        "publicationDate": "1927",
+        "issn": [
+          "0140-6736"
+        ],
+        "pii": [
+          "S0140-6736(00)X5274-9"
+        ],
+        "volume": "210",
+        "issue": "5432",
+        "pages": {
+          "first": "784",
+          "last": "786"
+        },
+        "genre": [
+          "journal"
+        ]
+      },
+      "namedEntities": {
+        "unitex": {
+          "date": [
+            "1899",
+            "1891",
+            "1927",
+            "1905"
+          ],
+          "geogName": [],
+          "orgName": [
+            "ARMOUR AND Co.",
+            "India and the Colonies",
+            "Colour Laboratory, Salisbury",
+            "JOHN MORGAN RICHARDS AND SONS, LTD.",
+            "COMPOUNDS Co.",
+            "Boors DRUG COMPANY, LTD.",
+            "SonERiNG, LTD.",
+            "FRENCH DRUG Co.",
+            "BRITISH COLLOIDS, LTD.",
+            "ANGIER CHEMICAL Co.",
+            "THE BRITISH ORGANOTHERAPY Co.",
+            "NUJOL LABORATORIES",
+            "BN, LTD.",
+            "CARNRICK Co.",
+            "SONS, LTD.",
+            "LA ROCHE CHEMICAL WORKS, LTD",
+            "BAYER PRODUCTS, LTD.",
+            "THE THERMOGENE Co.",
+            "SON AND Co.",
+            "DESHELL LABORATORIES, LTD.",
+            "THE BRITISH ALKALOIDS, LTD.",
+            "SAVORY AND MOORE, LTD.",
+            "SHIRE Co.",
+            "BENGUE AND Co.",
+            "CROOKES LABORATORIES",
+            "MODERN PHARMACALS, LTD.",
+            "IcHTHyoL Co.",
+            "TINTOMETER, LTD",
+            "THE SACCHARIN CORPORATION, LTD.",
+            "SPICER AND Co.",
+            "Plammoid Co.",
+            "HEWLETT AND SON, LTD.",
+            "KAYLENE, LTD.",
+            "ENO, LTD.",
+            "NAPP, LTD.",
+            "Opocaps Lymphoid-Adrenal Co.",
+            "NEWTON CHAMBERS AND Co.",
+            "DAVIS AND Co.",
+            "Edinburgh University",
+            "ENDOCRINES, LTD.",
+            "Congress",
+            "AND CO.",
+            "TETMAL, LTD.",
+            "DIMOL LABORATORIES"
+          ],
+          "orgName_funder": [],
+          "orgName_provider": [],
+          "persName": [
+            "Walter Willson",
+            "E. B. Turner",
+            "London School",
+            "Camden Town",
+            "Burton Chadwick",
+            "J. E. B. Seely",
+            "Victory House",
+            "MacVicker",
+            "Thomas Christy",
+            "C. G. MacVicker",
+            "Winifred Cullis"
+          ],
+          "placeName": [
+            "Bristol",
+            "Loughborough",
+            "London",
+            "Nottingham",
+            "St. Thomas",
+            "Cambridgeshire",
+            "Belfast",
+            "Europe",
+            "Leicestershire",
+            "York",
+            "England",
+            "St. Dunst"
+          ],
+          "ref_url": [],
+          "ref_bibl": [],
+          "bibl": []
+        }
+      },
+      "ark": [
+        "ark:/67375/6H6-8X7MW5GF-W"
+      ],
+      "categories": {
+        "wos": [
+          "1 - science",
+          "2 - medicine, general & internal"
+        ],
+        "scienceMetrix": [
+          "1 - health sciences",
+          "2 - clinical medicine",
+          "3 - general & internal medicine"
+        ],
+        "scopus": [
+          "1 - Health Sciences",
+          "2 - Medicine",
+          "3 - General Medicine"
+        ]
+      },
+      "publicationDate": "1927",
+      "copyrightDate": "1927",
+      "enrichments": {
+        "multicat": [
+          {
+            "original": false,
+            "mimetype": "application/tei+xml",
+            "extension": "tei",
+            "uri": "https://api.istex.fr/document/9B782D7B162B8B74E0391E9F705A35031004CDA8/enrichments/multicat"
+          }
+        ],
+        "refBibs": [
+          {
+            "original": false,
+            "mimetype": "application/tei+xml",
+            "extension": "tei",
+            "uri": "https://api.istex.fr/document/9B782D7B162B8B74E0391E9F705A35031004CDA8/enrichments/refBibs"
+          }
+        ],
+        "teeft": [
+          {
+            "original": false,
+            "mimetype": "application/tei+xml",
+            "extension": "tei",
+            "uri": "https://api.istex.fr/document/9B782D7B162B8B74E0391E9F705A35031004CDA8/enrichments/teeft"
+          }
+        ],
+        "unitex": [
+          {
+            "original": false,
+            "mimetype": "application/tei+xml",
+            "extension": "tei",
+            "uri": "https://api.istex.fr/document/9B782D7B162B8B74E0391E9F705A35031004CDA8/enrichments/unitex"
+          }
+        ]
+      },
+      "doi": [
+        "10.1016/S0140-6736(01)35050-X"
+      ],
+      "id": "9B782D7B162B8B74E0391E9F705A35031004CDA8",
+      "score": 18.94818,
+      "fulltext": [
+        {
+          "extension": "pdf",
+          "original": true,
+          "mimetype": "application/pdf",
+          "uri": "https://api.istex.fr/document/9B782D7B162B8B74E0391E9F705A35031004CDA8/fulltext/pdf"
+        },
+        {
+          "extension": "zip",
+          "original": false,
+          "mimetype": "application/zip",
+          "uri": "https://api.istex.fr/document/9B782D7B162B8B74E0391E9F705A35031004CDA8/fulltext/zip"
+        },
+        {
+          "extension": "tei",
+          "original": false,
+          "mimetype": "application/tei+xml",
+          "uri": "https://api.istex.fr/document/9B782D7B162B8B74E0391E9F705A35031004CDA8/fulltext/tei"
+        },
+        {
+          "extension": "txt",
+          "original": false,
+          "mimetype": "text/plain",
+          "uri": "https://api.istex.fr/document/9B782D7B162B8B74E0391E9F705A35031004CDA8/fulltext/txt"
+        }
+      ],
+      "metadata": [
+        {
+          "extension": "xml",
+          "original": true,
+          "mimetype": "application/xml",
+          "uri": "https://api.istex.fr/document/9B782D7B162B8B74E0391E9F705A35031004CDA8/metadata/xml"
+        },
+        {
+          "extension": "mods",
+          "original": false,
+          "mimetype": "application/mods+xml",
+          "uri": "https://api.istex.fr/document/9B782D7B162B8B74E0391E9F705A35031004CDA8/metadata/mods"
+        },
+        {
+          "extension": "json",
+          "original": false,
+          "mimetype": "application/json",
+          "uri": "https://api.istex.fr/document/9B782D7B162B8B74E0391E9F705A35031004CDA8/metadata/json"
+        }
+      ],
+      "author": [],
+      "serie": {}
+    },
+    {
+      "corpusName": "springer-journals",
+      "author": [
+        {
+          "name": "Dr. A. Junker",
+          "affiliations": [
+            "Apothekerin für klinische und onkologische Pharmazie, Sellscheid 100, 42929, Wermelskirchen, Deutschland",
+            "E-mail: junker.wermelskirchen@t-online.de"
+          ]
+        }
+      ],
+      "articleId": [
+        "2428",
+        "s00761-013-2428-x"
+      ],
+      "arkIstex": "ark:/67375/VQC-5Z8D2TG5-3",
+      "language": [
+        "ger"
+      ],
+      "originalGenre": [
+        "OriginalPaper"
+      ],
+      "qualityIndicators": {
+        "score": 3.902,
+        "pdfWordCount": 1890,
+        "pdfCharCount": 13927,
+        "pdfVersion": 1.3,
+        "pdfPageCount": 4,
+        "pdfPageSize": "595.276 x 790.866 pts",
+        "refBibsNative": false,
+        "abstractWordCount": 1,
+        "abstractCharCount": 0,
+        "keywordCount": 0
+      },
+      "title": "ASH 2012 – Höhepunkte und Schlaglichter",
+      "refBibs": [
+        {
+          "host": {
+            "title": "ATRA and Arsenic Trioxide (ATO) Versus ATRA and Idarubicin (AIDA) for newly diagnosed, non high-risk Acute Promyelocytic Leukemia (APL): results of the phase III, prospective , randomized, intergroup APL0406 study by the Italian-German cooperative groups Gimema-SAL- AMLSG. Presented at plenary scientific session",
+            "publicationDate": "2012",
+            "author": [
+              {
+                "name": "F Lo-Coco"
+              }
+            ]
+          }
+        },
+        {
+          "host": {
+            "title": "The Bruton's Tyrosine Kinase (BTK) Inhibitor Ibrutinib (PCI-32765) Promotes High Response Rate, Durable Remissions, and Is Tolerable in Treatment Naïve (TN) and Relapsed or Refractory (RR) Chronic Lymphocytic Leukemia (CLL) or Small Lymphocytic Lymphoma (SLL) Patients Including Patients with High-Risk (HR) Disease: New and Updated Results of 116 Patients in a Phase Ib/II Study",
+            "publicationDate": "2012",
+            "author": [
+              {
+                "name": "Jc Byrd"
+              }
+            ],
+            "pages": {
+              "first": "189"
+            }
+          }
+        },
+        {
+          "host": {
+            "title": "The Btk Inhibitor Ibrutinib (PCI-32765) in Combination with Rituximab Is Well Tolerated and Displays Profound Activity in High- Risk Chronic Lymphocytic Leukemia (CLL) Patients . Presented at Session: 642. CLL – Therapy, excluding Transplantation: new Targeted Therapies",
+            "publicationDate": "2012",
+            "author": [
+              {
+                "name": "Ja Burger"
+              }
+            ],
+            "pages": {
+              "first": "187"
+            }
+          }
+        },
+        {
+          "host": {
+            "title": "Interim Results of an International , Multicenter, Phase 2 Study of Bruton's Tyrosine Kinase (BTK) Inhibitor, Ibrutinib (PCI-32765), in Relapsed or Refractory Mantle Cell Lymphoma (MCL): Durable Efficacy and Tolerability with Longer Follow-up. Presented at Session: 624. Lymphoma – Therapy with Biologic Agents, excluding Pre-Clinical Models: optimizing Current Treatment Strategies",
+            "publicationDate": "2012",
+            "author": [
+              {
+                "name": "M Wang"
+              }
+            ]
+          }
+        },
+        {
+          "title": "The Bruton's Tyrosine Kinase (BTK) Inhibitor, Ibrutinib (PCI-32765), Has Preferential Activity in the ABC Subtype of Relapsed/Refractory De Novo Diffuse Large B-Cell Lymphoma (DLBCL): Interim Results of a Multicenter , Open-Label, Phase 2 Study. Presented at Session: 623",
+          "author": [
+            {
+              "name": "W Wilson"
+            }
+          ],
+          "publicationDate": "2012",
+          "host": {
+            "title": "Lymphoma – Chemotherapy, excluding Pre-Clinical Models: aggressive B-Cell Lymphoma",
+            "publicationDate": "2012",
+            "author": [],
+            "pages": {
+              "first": "686"
+            }
+          }
+        },
+        {
+          "host": {
+            "title": "Pomalidomide in Combination with Low-Dose Dexamethasone Demonstrates a Significant Progression-Free Survival and Overall Survival Advantage, in Relapsed/ Refractory MM: A Phase 3, Multicenter, Randomized , Open-Label Study. Presented at Late-breaking Abstract Session",
+            "publicationDate": "2012",
+            "author": [
+              {
+                "name": "Ma Dimopoulos"
+              }
+            ]
+          }
+        },
+        {
+          "title": "A Large-Scale Trial Testing the Intensity of Cytoreductive Therapy to Prevent Cardiovascular Events in Patients with Polycythemia Vera (CYTO-PV trial)",
+          "author": [
+            {
+              "name": "T Barbui"
+            }
+          ],
+          "publicationDate": "2012",
+          "host": {
+            "title": "Blood",
+            "publicationDate": "2012",
+            "author": [],
+            "volume": "120"
+          }
+        },
+        {
+          "title": "Two Doses of Apixaban for the Extended Treatment of Venous Thromboembolism",
+          "author": [
+            {
+              "name": "G Agnelli"
+            }
+          ],
+          "publicationDate": "2012",
+          "host": {
+            "title": "Blood",
+            "publicationDate": "2012",
+            "author": [],
+            "volume": "120"
+          }
+        },
+        {
+          "title": "Monotherapy Efficacy and Safety Study of Quizartinib (AC220) in Patients with FLT3- ITD Positive or Negative Relapsed/Refractory Acute Myeloid Leukemia After Second-Line Chemotherapy or Hematopoietic Stem Cell Transplantation",
+          "author": [
+            {
+              "name": " Open"
+            }
+          ],
+          "host": {
+            "title": "Blood",
+            "author": [],
+            "volume": "120"
+          }
+        },
+        {
+          "title": "A Pivotal Phase 2 Trial of Ponatinib in Patients with Chronic Myeloid Leukemia (CML) and Philadelphia Chromosome-Positive Acute Lymphoblastic Leukemia (Ph + ALL) Resistant or Intolerant to Dasatinib or Nilotinib, or with the T315I BCR-ABL Mutation: 12-Month Follow-up of the PACE Trial",
+          "author": [
+            {
+              "name": "Je Cortes"
+            }
+          ],
+          "publicationDate": "2012",
+          "host": {
+            "title": "Blood",
+            "publicationDate": "2012",
+            "author": [],
+            "volume": "120"
+          }
+        },
+        {
+          "title": "Targeting Histone Deacetylases As a New Strategy for Graft Versus Host Disease Prevention",
+          "author": [
+            {
+              "name": "Sw Choi"
+            }
+          ],
+          "publicationDate": "2012",
+          "host": {
+            "title": "Blood",
+            "publicationDate": "2012",
+            "author": [],
+            "volume": "120"
+          }
+        },
+        {
+          "title": "A Phase 1/2 Study of Weekly MLN9708, an Investigational Oral Proteasome Inhibitor, in Combination with Lenalidomide and Dexamethasone in Patients with Previously Untreated Multiple Myeloma (MM)",
+          "author": [
+            {
+              "name": "Sk Kumar"
+            }
+          ],
+          "publicationDate": "2012",
+          "host": {
+            "title": "Blood",
+            "publicationDate": "2012",
+            "author": [],
+            "volume": "120"
+          }
+        }
+      ],
+      "genre": [
+        "research-article"
+      ],
+      "host": {
+        "title": "Der Onkologe",
+        "language": [
+          "unknown"
+        ],
+        "publicationDate": "2013",
+        "copyrightDate": "2013",
+        "issn": [
+          "0947-8965"
+        ],
+        "eissn": [
+          "1433-0415"
+        ],
+        "journalId": [
+          "761"
+        ],
+        "volume": "19",
+        "issue": "4",
+        "pages": {
+          "first": "319",
+          "last": "322"
+        },
+        "subject": [
+          {
+            "value": "Medicine"
+          },
+          {
+            "value": "Medicine & Public Health"
+          },
+          {
+            "value": "Oncology"
+          }
+        ]
+      },
+      "ark": [
+        "ark:/67375/VQC-5Z8D2TG5-3"
+      ],
+      "publicationDate": "2013",
+      "copyrightDate": "2013",
+      "enrichments": {
+        "refBibs": [
+          {
+            "original": false,
+            "mimetype": "application/tei+xml",
+            "extension": "tei",
+            "uri": "https://api.istex.fr/document/59BFE6E3CE6DF4324B36ECE7F88ABB88AEC4EFA2/enrichments/refBibs"
+          }
+        ]
+      },
+      "doi": [
+        "10.1007/s00761-013-2428-x"
+      ],
+      "id": "59BFE6E3CE6DF4324B36ECE7F88ABB88AEC4EFA2",
+      "score": 18.290323,
+      "fulltext": [
+        {
+          "extension": "pdf",
+          "original": true,
+          "mimetype": "application/pdf",
+          "uri": "https://api.istex.fr/document/59BFE6E3CE6DF4324B36ECE7F88ABB88AEC4EFA2/fulltext/pdf"
+        },
+        {
+          "extension": "zip",
+          "original": false,
+          "mimetype": "application/zip",
+          "uri": "https://api.istex.fr/document/59BFE6E3CE6DF4324B36ECE7F88ABB88AEC4EFA2/fulltext/zip"
+        },
+        {
+          "extension": "txt",
+          "original": false,
+          "mimetype": "text/plain",
+          "uri": "https://api.istex.fr/document/59BFE6E3CE6DF4324B36ECE7F88ABB88AEC4EFA2/fulltext/txt"
+        },
+        {
+          "extension": "tei",
+          "original": false,
+          "mimetype": "application/tei+xml",
+          "uri": "https://api.istex.fr/document/59BFE6E3CE6DF4324B36ECE7F88ABB88AEC4EFA2/fulltext/tei"
+        }
+      ],
+      "metadata": [
+        {
+          "extension": "xml",
+          "original": true,
+          "mimetype": "application/xml",
+          "uri": "https://api.istex.fr/document/59BFE6E3CE6DF4324B36ECE7F88ABB88AEC4EFA2/metadata/xml"
+        },
+        {
+          "extension": "mods",
+          "original": false,
+          "mimetype": "application/mods+xml",
+          "uri": "https://api.istex.fr/document/59BFE6E3CE6DF4324B36ECE7F88ABB88AEC4EFA2/metadata/mods"
+        },
+        {
+          "extension": "json",
+          "original": false,
+          "mimetype": "application/json",
+          "uri": "https://api.istex.fr/document/59BFE6E3CE6DF4324B36ECE7F88ABB88AEC4EFA2/metadata/json"
+        }
+      ],
+      "serie": {}
+    }
+  ]
+}

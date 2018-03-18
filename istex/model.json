@@ -1,0 +1,1224 @@
+[
+    {
+        "cover": "collection",
+        "label": "uri",
+        "display_on_list": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "arkIstex"
+                    }
+                ]
+            }
+        ],
+        "position": 0,
+        "name": "uri"
+    },
+    {
+        "cover": "collection",
+        "label": "Title",
+        "display_in_list": "",
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "title"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 2,
+        "overview": 1,
+        "format": {
+            "args": {
+                "level": 4
+            },
+            "name": "title"
+        },
+        "count": 500,
+        "name": "No04"
+    },
+    {
+        "cover": "collection",
+        "label": "Title",
+        "display_in_list": true,
+        "display_in_resource": "",
+        "searchable": "",
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "title"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 2,
+        "format": {
+            "args": {},
+            "name": "None"
+        },
+        "count": 500,
+        "name": "aJX4"
+    },
+    {
+        "cover": "collection",
+        "label": "Publication Year",
+        "display_in_list": "",
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "publicationDate"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 4,
+        "format": {
+            "args": {
+                "level": 4
+            },
+            "name": "title"
+        },
+        "isFacet": true,
+        "overview": 2,
+        "count": 500,
+        "name": "Bzu3"
+    },
+    {
+        "cover": "collection",
+        "label": "Year",
+        "display_in_list": true,
+        "display_in_resource": "",
+        "searchable": "",
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "copyrightDate"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 5,
+        "format": {
+            "args": {},
+            "name": "None"
+        },
+        "count": 500,
+        "name": "Yq6u"
+    },
+    {
+        "cover": "collection",
+        "label": "Author(s)",
+        "display_in_list": "",
+        "display_in_resource": true,
+        "searchable": "",
+        "transformers": [
+            {
+                "operation": "CONCAT",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "author/0/name"
+                    },
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "author/1/name"
+                    },
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "author/2/name"
+                    },
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "author/3/name"
+                    },
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "author/4/name"
+                    },
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "author/5/name"
+                    },
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "author/6/name"
+                    },
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "author/7/name"
+                    },
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "author/8/name"
+                    },
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "author/9/name"
+                    }
+                ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "separator",
+                        "type": "string",
+                        "value": "; "
+                    }
+                ],
+                "operation": "SPLIT"
+            }
+        ],
+        "classes": [],
+        "position": 5,
+        "isFacet": "",
+        "format": {
+            "args": {
+                "type": "unordered",
+                "subFormat": "none",
+                "subFormatOptions": {}
+            },
+            "name": "list"
+        },
+        "count": 500,
+        "name": "QgYa"
+    },
+    {
+        "cover": "collection",
+        "label": "Source",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "CONCAT",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "host/title"
+                    },
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "host/publicationDate"
+                    },
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "host/volume"
+                    },
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "host/pages/first"
+                    },
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "host/pages/last"
+                    },
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "host/issue"
+                    }
+                ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "separator",
+                        "type": "string",
+                        "value": " "
+                    }
+                ],
+                "operation": "JOIN"
+            }
+        ],
+        "classes": [],
+        "position": 8,
+        "isFacet": true,
+        "format": {
+            "args": {
+                "type": "unordered",
+                "subFormat": "none",
+                "subFormatOptions": {}
+            },
+            "name": "list"
+        },
+        "count": 500,
+        "name": "y4AO"
+    },
+    {
+        "cover": "collection",
+        "label": "DOI",
+        "display_in_list": "",
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "doi"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 9,
+        "format": {
+            "args": {
+                "typid": "DOI",
+                "colors": "#8B8B8B #5B5B5B #818181"
+            },
+            "name": "identifierBadge"
+        },
+        "count": 500,
+        "width": "50",
+        "name": "zHho"
+    },
+    {
+        "cover": "collection",
+        "label": "PMID",
+        "display_in_list": "",
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "pmid"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 10,
+        "format": {
+            "args": {
+                "typid": "PMID",
+                "colors": "#8B8B8B #5B5B5B #818181"
+            },
+            "name": "identifierBadge"
+        },
+        "count": 500,
+        "width": "50",
+        "name": "jZfI"
+    },
+    {
+        "cover": "collection",
+        "label": "ISSN",
+        "display_in_list": "",
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "host/issn"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 11,
+        "count": 500,
+        "name": "zHxt"
+    },
+    {
+        "cover": "collection",
+        "label": "Abstract",
+        "display_in_list": "",
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "abstract"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 12,
+        "format": {
+            "args": {
+                "paragraphWidth": "100%"
+            },
+            "name": "paragraph"
+        },
+        "count": 0,
+        "name": "JDGh"
+    },
+    {
+        "cover": "collection",
+        "label": "Catégories Inist",
+        "display_in_list": "",
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "categories/inist"
+                    }
+                ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "separator",
+                        "type": "string",
+                        "value": "; "
+                    }
+                ],
+                "operation": "SPLIT"
+            }
+        ],
+        "classes": [],
+        "position": 13,
+        "format": {
+            "args": {
+                "type": "unordered",
+                "subFormat": "none",
+                "subFormatOptions": {}
+            },
+            "name": "list"
+        },
+        "count": 500,
+        "width": "50",
+        "name": "SKbu"
+    },
+    {
+        "cover": "collection",
+        "label": "Catégorie Scopus",
+        "display_in_list": "",
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "categories/scopus"
+                    }
+                ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "separator",
+                        "type": "string",
+                        "value": "; "
+                    }
+                ],
+                "operation": "SPLIT"
+            }
+        ],
+        "classes": [],
+        "position": 14,
+        "format": {
+            "args": {
+                "type": "unordered",
+                "subFormat": "none",
+                "subFormatOptions": {}
+            },
+            "name": "list"
+        },
+        "count": 500,
+        "width": "50",
+        "name": "adsO"
+    },
+    {
+        "cover": "collection",
+        "label": "Notoriété",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": "",
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "qualityIndicators/pdfPageSize"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 15,
+        "overview": 0,
+        "isFacet": true,
+        "format": {
+            "args": {},
+            "name": "None"
+        },
+        "count": 500,
+        "name": "ds9V"
+    },
+    {
+        "cover": "collection",
+        "label": "Science Metrix",
+        "display_in_list": "",
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "categories/scienceMetrix"
+                    }
+                ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "separator",
+                        "type": "string",
+                        "value": "; "
+                    }
+                ],
+                "operation": "SPLIT"
+            }
+        ],
+        "classes": [],
+        "position": 16,
+        "isFacet": true,
+        "format": {
+            "args": {
+                "type": "unordered",
+                "subFormat": "none",
+                "subFormatOptions": {}
+            },
+            "name": "list"
+        },
+        "count": 500,
+        "width": "50",
+        "name": "CDdB"
+    },
+    {
+        "cover": "collection",
+        "label": "Web of Science Category(ies)",
+        "display_in_list": "",
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "categories/wos"
+                    }
+                ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "separator",
+                        "type": "string",
+                        "value": "; "
+                    }
+                ],
+                "operation": "SPLIT"
+            }
+        ],
+        "classes": [],
+        "position": 17,
+        "format": {
+            "args": {
+                "type": "unordered",
+                "subFormat": "none",
+                "subFormatOptions": {}
+            },
+            "name": "list"
+        },
+        "isFacet": true,
+        "count": 500,
+        "width": "50",
+        "name": "WXcA"
+    },
+    {
+        "cover": "collection",
+        "label": "Termes extraits",
+        "display_in_list": "",
+        "display_in_resource": true,
+        "searchable": "",
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "keywords/teeft"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 18,
+        "format": {
+            "args": {
+                "paragraphWidth": "100%"
+            },
+            "name": "paragraph"
+        },
+        "count": 500,
+        "name": "PAFR"
+    },
+    {
+        "cover": "collection",
+        "label": "Genre",
+        "display_in_list": "",
+        "display_in_resource": true,
+        "searchable": "",
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "genre"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 19,
+        "format": {
+            "args": {
+                "paragraphWidth": "100%"
+            },
+            "name": "paragraph"
+        },
+        "count": 500,
+        "name": "P0So"
+    },
+    {
+        "cover": "collection",
+        "label": "Corpus Editeur",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": "",
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "corpusName"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 20,
+        "isFacet": true,
+        "count": 500,
+        "name": "J67x"
+    },
+    {
+        "cover": "collection",
+        "label": "Country(ies)",
+        "display_in_list": "",
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "namedEntities/unitex/placeName"
+                    }
+                ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "separator",
+                        "type": "string",
+                        "value": "; "
+                    }
+                ],
+                "operation": "SPLIT"
+            }
+        ],
+        "classes": [],
+        "position": 21,
+        "format": {
+            "args": {
+                "type": "unordered",
+                "subFormat": "none",
+                "subFormatOptions": {}
+            },
+            "name": "list"
+        },
+        "isFacet": true,
+        "count": 500,
+        "name": "KiDM"
+    },
+    {
+        "cover": "collection",
+        "label": "Personnes",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": "",
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "namedEntities/unitex/persName"
+                    }
+                ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "separator",
+                        "type": "string",
+                        "value": ";"
+                    }
+                ],
+                "operation": "SPLIT"
+            }
+        ],
+        "classes": [],
+        "position": 22,
+        "isFacet": true,
+        "count": 500,
+        "name": "GazI"
+    },
+    {
+        "cover": "collection",
+        "label": "Organismes",
+        "display_in_list": "",
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "namedEntities/unitex/orgName"
+                    }
+                ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "separator",
+                        "type": "string",
+                        "value": "; "
+                    }
+                ],
+                "operation": "SPLIT"
+            }
+        ],
+        "classes": [],
+        "position": 23,
+        "format": {
+            "args": {
+                "type": "unordered",
+                "subFormat": "none",
+                "subFormatOptions": {}
+            },
+            "name": "list"
+        },
+        "isFacet": true,
+        "count": 500,
+        "name": "Weo0"
+    },
+    {
+        "label": "Tableau de bord",
+        "format": {
+            "args": {},
+            "name": "markdown"
+        },
+        "cover": "dataset",
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "### **![CNRS](http://bibliotheque-image.lodex-dev.inist.fr/CNRS_logo.gif) Changement climatique - Recherche française (avec laboratoires CNRS) - 2010-2015.**\n*Etude commanditée par la [DIST-CNRS](http://www.cnrs.fr/dist/), réalisée par l'[Inist](http://www.inist.fr/) et le [Service d'appui à la politique et à la prospective scientifiques (SAP2S)](http://www.cnrs.fr/dastr/SAP2S/) à partir des données Thomson Reuters (déchargées en novembre 2015) et de l'outil libre [Lodex](https://github.com/Inist-CNRS/lodex).* "
+                    }
+                ]
+            }
+        ],
+        "position": 24,
+        "display_in_home": true,
+        "count": 0,
+        "name": "vszT"
+    },
+    {
+        "label": "Corpus - Nombre de publications",
+        "format": {
+            "args": {
+                "size": 3,
+                "colors": "#5ca33e"
+            },
+            "name": "emphasedNumber"
+        },
+        "cover": "dataset",
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "/api/run/count-all/"
+                    }
+                ]
+            }
+        ],
+        "position": 25,
+        "display_in_home": true,
+        "count": 0,
+        "name": "MzM2"
+    },
+    {
+        "label": "Années",
+        "format": {
+            "args": {
+                "params": {
+                    "maxSize": "",
+                    "orderBy": "_id/asc",
+                    "minValue": ""
+                },
+                "colors": "#5ca33e",
+                "axisRoundValue": true,
+                "diagonalCategoryAxis": false,
+                "diagonalValueAxis": false,
+                "direction": "vertical",
+                "scale": "linear",
+                "categoryMargin": "30",
+                "valueMargin": "15",
+                "barSize": "50",
+                "rightMargin": "400"
+            },
+            "name": "globalBarchart"
+        },
+        "width": "100",
+        "cover": "dataset",
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "/api/run/distinct-by/Bzu3/"
+                    }
+                ]
+            }
+        ],
+        "position": 26,
+        "display_in_graph": true,
+        "count": 0,
+        "isFacet": "",
+        "name": "PbkK"
+    },
+    {
+        "label": "Collaborations internationales",
+        "format": {
+            "args": {},
+            "name": "html"
+        },
+        "composedOf": {
+            "isComposedOf": true,
+            "fields": [
+                "zsRU",
+                "ZOzz"
+            ]
+        },
+        "cover": "dataset",
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "<b>Répartition des publications (nombre de publications) en collaboration internationale (au moins un pays étranger)</b><BR><BR>"
+                    }
+                ]
+            }
+        ],
+        "position": 27,
+        "display_in_graph": true,
+        "count": 0,
+        "width": "100",
+        "name": "syQT"
+    },
+    {
+        "label": "Total - 2010-2015",
+        "format": {
+            "args": {
+                "params": {
+                    "maxSize": "",
+                    "orderBy": "value/desc"
+                },
+                "colors": "#fc8d59 #a4fdc1"
+            },
+            "name": "globalPiechart"
+        },
+        "cover": "dataset",
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "/api/run/distinct-by/J67x"
+                    }
+                ]
+            }
+        ],
+        "position": 28,
+        "display_in_graph": "",
+        "width": "60",
+        "count": 0,
+        "name": "zsRU"
+    },
+    {
+        "label": "Années",
+        "format": {
+            "args": {
+                "colorScheme": [
+                    "#fff7ec",
+                    "#fee8c8",
+                    "#fdd49e",
+                    "#fdbb84",
+                    "#fc8d59",
+                    "#ef6548",
+                    "#d7301f",
+                    "#b30000",
+                    "#7f0000"
+                ],
+                "flipAxis": false
+            },
+            "name": "heatmap"
+        },
+        "width": "",
+        "cover": "dataset",
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "/api/run/pairing-with/Bzu3/J67x/"
+                    }
+                ]
+            }
+        ],
+        "position": 29,
+        "display_in_graph": "",
+        "count": 0,
+        "name": "ZOzz"
+    },
+    {
+        "label": "CNRS - Années",
+        "format": {
+            "args": {
+                "colorScheme": [
+                    "#fff7fb",
+                    "#ece7f2",
+                    "#d0d1e6",
+                    "#a6bddb",
+                    "#74a9cf",
+                    "#3690c0",
+                    "#0570b0",
+                    "#045a8d",
+                    "#023858"
+                ],
+                "flipAxis": true
+            },
+            "name": "heatmap"
+        },
+        "width": "100",
+        "cover": "dataset",
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "/api/run/pairing-with/Bzu3/GazI/"
+                    }
+                ]
+            }
+        ],
+        "position": 32,
+        "display_in_graph": true,
+        "count": 0,
+        "name": "gJaF"
+    },
+    {
+        "label": "Qualité de PDF",
+        "format": {
+            "args": {
+                "params": {
+                    "maxSize": "",
+                    "orderBy": "_id/asc"
+                },
+                "colors": "#f1ba25",
+                "axisRoundValue": true,
+                "scale": "linear"
+            },
+            "name": "globalRadarchart"
+        },
+        "cover": "dataset",
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "/api/run/distinct-by/ds9V/"
+                    }
+                ]
+            }
+        ],
+        "position": 35,
+        "display_in_graph": true,
+        "count": 0,
+        "name": "jlz1"
+    },
+    {
+        "label": " DiscESI - Graphique à barres",
+        "format": {
+            "args": {
+                "params": {
+                    "maxSize": "",
+                    "orderBy": "value/desc"
+                },
+                "colors": "#b2df8a",
+                "axisRoundValue": true,
+                "diagonalCategoryAxis": false,
+                "diagonalValueAxis": false,
+                "direction": "horizontal",
+                "scale": "linear",
+                "categoryMargin": "200",
+                "valueMargin": "30",
+                "barSize": "29"
+            },
+            "name": "globalBarchart"
+        },
+        "cover": "dataset",
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "/api/run/distinct-by/CDdB/"
+                    }
+                ]
+            }
+        ],
+        "position": 37,
+        "count": 0,
+        "display_in_graph": "",
+        "width": "",
+        "name": "z7OL"
+    },
+    {
+        "label": " DiscESI - Graphique à bulles",
+        "format": {
+            "args": {
+                "colorScheme": [
+                    "#7fc97f",
+                    "#beaed4",
+                    "#fdc086",
+                    "#ffff99",
+                    "#386cb0",
+                    "#f0027f",
+                    "#bf5b17",
+                    "#666666"
+                ],
+                "diameter": "550"
+            },
+            "name": "bubbleChart"
+        },
+        "cover": "dataset",
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "/api/run/distinct-by/CDdB/"
+                    }
+                ]
+            }
+        ],
+        "position": 38,
+        "display_in_graph": "",
+        "width": "",
+        "count": 0,
+        "name": "jHBs"
+    },
+    {
+        "label": "",
+        "format": {
+            "args": {},
+            "name": "markdown"
+        },
+        "completes": "jlz1",
+        "cover": "dataset",
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "*Ses indicateurs montre la défintion des PDF*"
+                    }
+                ]
+            }
+        ],
+        "position": 50,
+        "count": 0,
+        "name": "aMeX"
+    },
+    {
+        "label": "Légende",
+        "format": {
+            "args": {},
+            "name": "markdown"
+        },
+        "completes": "PbkK",
+        "cover": "dataset",
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "<b>Répartition des publications (nombre de publications) par année.</b><BR><i>Les données pour l’année de publication 2015 sont incomplètes (année en cours au moment du déchargement et délais d’enregistrement des références bibliographiques dans les bases).</i>"
+                    }
+                ]
+            }
+        ],
+        "position": 52,
+        "count": 0,
+        "name": "Smk9"
+    },
+    {
+        "cover": "dataset",
+        "label": "Documents",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": "",
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "/api/run/syndication/"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 56,
+        "display_in_home": true,
+        "format": {
+            "args": {
+                "spaceWidth": "100%",
+                "pageSize": 10,
+                "orderBy": "value/desc"
+            },
+            "name": "resourcesGrid"
+        },
+        "count": 0,
+        "width": "",
+        "name": "gcKQ"
+    }
+]
