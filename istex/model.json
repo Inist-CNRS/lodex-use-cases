@@ -200,7 +200,7 @@
                     {
                         "name": "separator",
                         "type": "string",
-                        "value": "; "
+                        "value": ";"
                     }
                 ],
                 "operation": "SPLIT"
@@ -423,7 +423,7 @@
                     {
                         "name": "separator",
                         "type": "string",
-                        "value": "; "
+                        "value": ";"
                     }
                 ],
                 "operation": "SPLIT"
@@ -465,7 +465,7 @@
                     {
                         "name": "separator",
                         "type": "string",
-                        "value": "; "
+                        "value": ";"
                     }
                 ],
                 "operation": "SPLIT"
@@ -536,7 +536,7 @@
                     {
                         "name": "separator",
                         "type": "string",
-                        "value": "; "
+                        "value": ";"
                     }
                 ],
                 "operation": "SPLIT"
@@ -579,7 +579,7 @@
                     {
                         "name": "separator",
                         "type": "string",
-                        "value": "; "
+                        "value": ";"
                     }
                 ],
                 "operation": "SPLIT"
@@ -704,7 +704,7 @@
                     {
                         "name": "separator",
                         "type": "string",
-                        "value": "; "
+                        "value": ";"
                     }
                 ],
                 "operation": "SPLIT"
@@ -780,7 +780,7 @@
                     {
                         "name": "separator",
                         "type": "string",
-                        "value": "; "
+                        "value": ";"
                     }
                 ],
                 "operation": "SPLIT"
