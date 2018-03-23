@@ -801,30 +801,6 @@
         "name": "Weo0"
     },
     {
-        "label": "Tableau de bord",
-        "format": {
-            "args": {},
-            "name": "markdown"
-        },
-        "cover": "dataset",
-        "transformers": [
-            {
-                "operation": "VALUE",
-                "args": [
-                    {
-                        "name": "value",
-                        "type": "string",
-                        "value": "### **![CNRS](http://bibliotheque-image.lodex-dev.inist.fr/CNRS_logo.gif) Changement climatique - Recherche française (avec laboratoires CNRS) - 2010-2015.**\n*Etude commanditée par la [DIST-CNRS](http://www.cnrs.fr/dist/), réalisée par l'[Inist](http://www.inist.fr/) et le [Service d'appui à la politique et à la prospective scientifiques (SAP2S)](http://www.cnrs.fr/dastr/SAP2S/) à partir des données Thomson Reuters (déchargées en novembre 2015) et de l'outil libre [Lodex](https://github.com/Inist-CNRS/lodex).* "
-                    }
-                ]
-            }
-        ],
-        "position": 24,
-        "display_in_home": true,
-        "count": 0,
-        "name": "vszT"
-    },
-    {
         "label": "Corpus - Nombre de publications",
         "format": {
             "args": {
