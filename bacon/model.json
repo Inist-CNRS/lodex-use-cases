@@ -2,7 +2,6 @@
     {
         "cover": "collection",
         "label": "uri",
-        "name": "uri",
         "display_on_list": true,
         "transformers": [
             {
@@ -10,7 +9,8 @@
                 "args": []
             }
         ],
-        "position": 0
+        "position": 0,
+        "name": "uri"
     },
     {
         "cover": "collection",
@@ -32,9 +32,9 @@
         ],
         "classes": [],
         "position": 1,
-        "name": "XXRn",
         "overview": 1,
-        "count": 2223
+        "count": 2223,
+        "name": "XXRn"
     },
     {
         "cover": "collection",
@@ -56,7 +56,6 @@
         ],
         "classes": [],
         "position": 2,
-        "name": "j7uI",
         "format": {
             "args": {
                 "type": "value",
@@ -64,7 +63,8 @@
             },
             "name": "link"
         },
-        "count": 2223
+        "count": 64,
+        "name": "j7uI"
     },
     {
         "cover": "collection",
@@ -86,9 +86,9 @@
         ],
         "classes": [],
         "position": 3,
-        "name": "khbR",
-        "count": 2223,
-        "width": "50"
+        "count": 64,
+        "width": "50",
+        "name": "khbR"
     },
     {
         "cover": "collection",
@@ -110,9 +110,9 @@
         ],
         "classes": [],
         "position": 4,
-        "name": "Encb",
         "count": 2223,
-        "width": "50"
+        "width": "50",
+        "name": "Encb"
     },
     {
         "cover": "collection",
@@ -134,10 +134,10 @@
         ],
         "classes": [],
         "position": 5,
-        "name": "Rijz",
         "isFacet": true,
-        "count": 2223,
-        "width": "100"
+        "count": 64,
+        "width": "50",
+        "name": "Rijz"
     },
     {
         "cover": "collection",
@@ -159,10 +159,10 @@
         ],
         "classes": [],
         "position": 6,
-        "name": "ZLPq",
         "isFacet": true,
-        "count": 2223,
-        "width": "100"
+        "count": 64,
+        "width": "50",
+        "name": "ZLPq"
     },
     {
         "cover": "collection",
@@ -184,10 +184,10 @@
         ],
         "classes": [],
         "position": 7,
-        "name": "XG29",
         "isFacet": true,
         "count": 2223,
-        "width": "25"
+        "width": "25",
+        "name": "XG29"
     },
     {
         "cover": "collection",
@@ -209,36 +209,11 @@
         ],
         "classes": [],
         "position": 8,
-        "name": "UVFW",
         "isFacet": true,
         "overview": 2,
         "count": 2223,
-        "width": "25"
-    },
-    {
-        "cover": "collection",
-        "label": "Type",
-        "display_in_list": "",
-        "display_in_resource": true,
-        "searchable": "",
-        "transformers": [
-            {
-                "operation": "COLUMN",
-                "args": [
-                    {
-                        "name": "column",
-                        "type": "column",
-                        "value": "publication_type"
-                    }
-                ]
-            }
-        ],
-        "classes": [],
-        "position": 9,
-        "name": "WmzM",
-        "isFacet": true,
-        "count": 2223,
-        "width": "25"
+        "width": "25",
+        "name": "UVFW"
     },
     {
         "cover": "collection",
@@ -259,10 +234,62 @@
             }
         ],
         "classes": [],
+        "position": 9,
+        "count": 64,
+        "width": "25",
+        "name": "Fr7z"
+    },
+    {
+        "cover": "collection",
+        "label": "Type",
+        "display_in_list": "",
+        "display_in_resource": true,
+        "searchable": "",
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "publication_type"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
         "position": 10,
-        "name": "Fr7z",
-        "count": 2223,
-        "width": "25"
+        "isFacet": true,
+        "count": 64,
+        "width": "25",
+        "name": "WmzM"
+    },
+    {
+        "label": "",
+        "format": {
+            "args": {
+                "level": 1
+            },
+            "name": "title"
+        },
+        "width": "100",
+        "cover": "dataset",
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "Quelques revues présentes dans ISTEX"
+                    }
+                ]
+            }
+        ],
+        "position": 11,
+        "count": 0,
+        "display_in_home": true,
+        "name": "ExFk"
     },
     {
         "cover": "dataset",
@@ -283,26 +310,25 @@
             }
         ],
         "classes": [],
-        "position": 11,
+        "position": 12,
         "overview": 0,
-        "name": "hzEL",
         "display_in_home": true,
         "count": 0,
         "format": {
             "args": {
                 "spaceWidth": "30%",
-                "pageSize": 5,
+                "pageSize": 15,
                 "orderBy": "value/asc"
             },
             "name": "resourcesGrid"
-        }
+        },
+        "name": "hzEL"
     },
     {
         "label": "Articles",
-        "name": "afRt",
-        "cover": "document",
+        "cover": "collection",
         "contribution": true,
-        "position": 12,
+        "position": 13,
         "transformers": [
             {
                 "operation": "COLUMN",
@@ -310,7 +336,52 @@
                     {
                         "name": "column",
                         "type": "column",
-                        "value": "Articles"
+                        "value": "print_identifier"
+                    }
+                ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "with",
+                        "type": "string",
+                        "value": "host.issn=\""
+                    }
+                ],
+                "operation": "PREFIX"
+            },
+            {
+                "args": [
+                    {
+                        "name": "with",
+                        "type": "string",
+                        "value": "\""
+                    }
+                ],
+                "operation": "SUFFIX"
+            }
+        ],
+        "format": {
+            "args": {},
+            "name": "istex"
+        },
+        "count": 64,
+        "display_in_resource": true,
+        "name": "afRt"
+    },
+    {
+        "label": "Dans ISTEX",
+        "cover": "document",
+        "contribution": true,
+        "position": 14,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Dans ISTEX"
                     }
                 ]
             }
@@ -319,7 +390,40 @@
             "args": {},
             "name": "istex"
         },
-        "count": 0,
-        "display_in_resource": true
+        "display_in_resource": true,
+        "name": "zEVz",
+        "count": 0
+    },
+    {
+        "label": "Editeur",
+        "cover": "document",
+        "contribution": true,
+        "position": 15,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Editeur"
+                    }
+                ]
+            }
+        ],
+        "format": {
+            "args": {
+                "param": {
+                    "labelArray": [
+                        "W0zn",
+                        "V8Si",
+                        "gEbL"
+                    ]
+                }
+            },
+            "name": "lodexField"
+        },
+        "name": "yuYo",
+        "count": 0
     }
 ]
