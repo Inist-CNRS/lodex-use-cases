@@ -1,10 +1,10 @@
 [
    {
       "Published Subject Identifier" : "http://psi.oasis-open.org/iso/3166/#004",
-      "English name" : "AFGHANISTAN ",
-      "French name" : "AFGHANISTAN ",
-      "alpha-3 code" : "AFG ",
-      "alpha-2 code" : "AF ",
+      "English name" : "AFGHANISTAN",
+      "French name" : "AFGHANISTAN",
+      "alpha-3 code" : "AFG",
+      "alpha-2 code" : "AF",
       "Num" : "004 "
    },
    {
@@ -1942,5 +1942,47 @@
       "alpha-2 code" : "ME",
       "alpha-3 code" : "MNE",
       "French name" : "MONTÉNÉGRO"
+   },
+   {
+      "Published Subject Identifier" : "https://www.iso.org/obp/ui/#iso:code:3166:BL",
+      "English name" : "SAINT BARTHELEMY",
+      "French name" : "SAINT BARTHÉLEMY",
+      "alpha-3 code" : "BLM",
+      "alpha-2 code" : "BL"
+   },
+   {
+      "Published Subject Identifier" : "https://www.iso.org/obp/ui/#iso:code:3166:JE",
+      "English name" : "JERSEY",
+      "French name" : "JERSEY",
+      "alpha-3 code" : "JEY",
+      "alpha-2 code" : "JE"
+   },
+   {
+      "Published Subject Identifier" : "https://www.iso.org/obp/ui/#iso:code:3166:GG",
+      "English name" : "GUERNSEY",
+      "French name" : "GUERNESEY",
+      "alpha-3 code" : "GGY",
+      "alpha-2 code" : "GG"
+   },
+   {
+      "Published Subject Identifier" : "https://www.iso.org/obp/ui/#iso:code:3166:IM",
+      "English name" : "ISLE OF MAN",
+      "French name" : "ILE DE MAN",
+      "alpha-3 code" : "IMN",
+      "alpha-2 code" : "IM"
+   },
+   {
+      "Published Subject Identifier" : "https://www.iso.org/obp/ui/#iso:code:3166:BQ",
+      "English name" : "BONAIRE, SINT EUSTATIUS AND SABA",
+      "French name" : "BONAIRE, SAINT-EUSTACHE ET SABA",
+      "alpha-3 code" : "BES",
+      "alpha-2 code" : "BQ"
+   },
+   {
+      "Published Subject Identifier" : "https://www.iso.org/obp/ui/#iso:code:3166:CW",
+      "English name" : "CURAÇAO",
+      "French name" : "CURAÇAO",
+      "alpha-3 code" : "CUW",
+      "alpha-2 code" : "CW"
    }
 ]
