@@ -1,0 +1,2329 @@
+[
+    {
+        "cover": "collection",
+        "label": "uri",
+        "display_on_list": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "ARK"
+                    }
+                ]
+            }
+        ],
+        "position": 0,
+        "count": 0,
+        "name": "uri"
+    },
+    {
+        "cover": "dataset",
+        "label": " ",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "<span style=\"color: #DEA21E\"><h1><b>Corpus Food S&T</b></h1></span>"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 1,
+        "display_in_home": true,
+        "count": 0,
+        "format": {
+            "args": {},
+            "name": "html"
+        },
+        "name": "O1OZ"
+    },
+    {
+        "label": " ",
+        "format": {
+            "args": {},
+            "name": "html"
+        },
+        "cover": "dataset",
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "<span style=\"color: #FA5858\"><h3><i>Titre long qui explicite le nom du corpus</i></h3></span>[Entre dans la composition de la citation du corpus]"
+                    }
+                ]
+            }
+        ],
+        "position": 2,
+        "count": 0,
+        "display_in_home": true,
+        "completes": "O1OZ",
+        "searchable": true,
+        "name": "nqot"
+    },
+    {
+        "label": "Version",
+        "cover": "dataset",
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "<span style=\"color:  #DEA21E\"><h4><b>v1</b></h4></span>"
+                    }
+                ]
+            }
+        ],
+        "position": 3,
+        "display_in_home": true,
+        "count": 0,
+        "width": "100",
+        "format": {
+            "args": {},
+            "name": "html"
+        },
+        "name": "aTZH"
+    },
+    {
+        "cover": "dataset",
+        "label": "Nombre de documents",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "/api/run/count-all"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 4,
+        "display_in_home": true,
+        "count": 0,
+        "format": {
+            "args": {
+                "size": 3,
+                "colors": "#DEA21E "
+            },
+            "name": "emphasedNumber"
+        },
+        "width": "100",
+        "scheme": "https://data.istex.fr/ontology/istex#quantityOfItems",
+        "name": "gzvM"
+    },
+    {
+        "cover": "dataset",
+        "label": "Description du corpus",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": " "
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 5,
+        "display_in_home": true,
+        "count": 0,
+        "format": {
+            "args": {
+                "paragraphWidth": "100%"
+            },
+            "name": "paragraph"
+        },
+        "composedOf": {
+            "isComposedOf": true,
+            "fields": [
+                "t4Us",
+                "zEQ1",
+                "fiup",
+                "a06M",
+                "p7xV",
+                "K1FV"
+            ]
+        },
+        "width": "",
+        "name": "AdQw"
+    },
+    {
+        "cover": "dataset",
+        "label": "Type de corpus",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "Corpus thématique ou corpus gold"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 6,
+        "display_in_home": "",
+        "count": 0,
+        "width": "50",
+        "completes": null,
+        "name": "t4Us"
+    },
+    {
+        "cover": "dataset",
+        "label": "Domaine(s)",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "Préciser le ou les domaine(s) scientifique(s) concerné(s) par la thématique ; Utiliser de préférence les domaines référencés dans data.istex (soit grands domaines Istex, soit domaines plus précis issus de la classification Inist ; pour corpus non thématiques, indiquer \"multidomaines\""
+                    }
+                ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "separator",
+                        "type": "string",
+                        "value": ";"
+                    }
+                ],
+                "operation": "SPLIT"
+            }
+        ],
+        "classes": [],
+        "position": 7,
+        "display_in_home": "",
+        "count": 0,
+        "width": "50",
+        "completes": null,
+        "format": {
+            "args": {
+                "paragraphWidth": "100%"
+            },
+            "name": "paragraph"
+        },
+        "name": "zEQ1"
+    },
+    {
+        "cover": "dataset",
+        "label": "Langue(s)",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "Si plusieurs langues, indiquer \"multilingue\""
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 8,
+        "display_in_home": "",
+        "count": 0,
+        "width": "50",
+        "completes": null,
+        "scheme": "http://purl.org/dc/terms/language",
+        "name": "fiup"
+    },
+    {
+        "cover": "dataset",
+        "label": "Destinataire",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "Organisme auquel est destiné le corpus. Si INIST, préciser l'équipe"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 9,
+        "display_in_home": "",
+        "count": 0,
+        "width": "100",
+        "name": "a06M",
+        "format": {
+            "args": {},
+            "name": "markdown"
+        }
+    },
+    {
+        "cover": "dataset",
+        "label": "Objectif",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "Objectif final auquel répond le corpus"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 10,
+        "display_in_home": "",
+        "count": 0,
+        "width": "50",
+        "scheme": "http://dbpedia.org/ontology/purpose",
+        "name": "p7xV"
+    },
+    {
+        "cover": "dataset",
+        "label": "Application",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "Type d'analyse TAL ou TDM réalisée sur ce corpus"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 11,
+        "display_in_home": "",
+        "count": 0,
+        "width": "50",
+        "name": "K1FV"
+    },
+    {
+        "cover": "dataset",
+        "label": "Méthode de constitution du corpus",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": " "
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 12,
+        "display_in_home": true,
+        "count": 0,
+        "format": {
+            "args": {
+                "paragraphWidth": "100%"
+            },
+            "name": "paragraph"
+        },
+        "composedOf": {
+            "isComposedOf": true,
+            "fields": [
+                "a3dZ",
+                "azZn"
+            ]
+        },
+        "width": "",
+        "name": "oN5h"
+    },
+    {
+        "cover": "dataset",
+        "label": "Critères",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "Présenter ici les critères de sélection des documents et/ou la verbalisation de la requête"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 13,
+        "overview": 0,
+        "count": 0,
+        "name": "a3dZ"
+    },
+    {
+        "cover": "dataset",
+        "label": " ",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "<i>NB : Cette requête peut être réutilisée telle quelle sur le <a href=\"http://demo.istex.fr/\">démonstrateur ISTEX</a> ou directement sur l'API ISTEX en ajoutant le préfixe \"https://api.istex.fr/document/?q=\".<br/>Quel que soit le mode d'interrogation, cette requête est susceptible de ramener des résultats différents en fonction de la date d'interrogation car de nouveaux documents ont été chargés sur la plateforme depuis la création initiale de ce corpus.</i>"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 14,
+        "completes": "azZn",
+        "display_in_home": true,
+        "format": {
+            "args": {},
+            "name": "html"
+        },
+        "count": 0,
+        "name": "kJZR"
+    },
+    {
+        "label": "La requête",
+        "format": {
+            "args": {
+                "type": "text",
+                "value": "http://scodex-images-1.lodex-dev.inist.fr/icone_fichier_18dp.png"
+            },
+            "name": "linkImage"
+        },
+        "cover": "dataset",
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "http://requetes1-corpus-1.lodex-dev.inist.fr/requete_ortho_v2.txt"
+                    }
+                ]
+            }
+        ],
+        "position": 15,
+        "searchable": true,
+        "count": 0,
+        "name": "azZn"
+    },
+    {
+        "label": "Liste des documents",
+        "format": {
+            "args": {
+                "type": "text",
+                "value": "http://scodex-images-1.lodex-dev.inist.fr/baseline_list_alt_black_18dp.png"
+            },
+            "name": "linkImage"
+        },
+        "cover": "dataset",
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "http://niveau2-foodtest-1.lodex-dev.inist.fr/graph"
+                    }
+                ]
+            }
+        ],
+        "position": 16,
+        "count": 0,
+        "display_in_home": true,
+        "display_in_resource": "",
+        "display_in_graph": "",
+        "width": "100",
+        "name": "USfo"
+    },
+    {
+        "label": "Télécharger ce corpus",
+        "format": {
+            "args": {
+                "type": "text",
+                "value": "http://scodex-images-1.lodex-dev.inist.fr/favicon-dl-istex.png"
+            },
+            "name": "linkImage"
+        },
+        "cover": "dataset",
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "https://dl.istex.fr/?q=arkIstex%3A%28%22ark%3A%2F67375%2F6H6-C6N9VT6B-J%22+%22ark%3A%2F67375%2F6H6-FG1DKS97-K%22+%22ark%3A%2F67375%2F6H6-184CPV6X-1%22+%22ark%3A%2F67375%2F6H6-J3FQ71K0-D%22+%22ark%3A%2F67375%2F6H6-7SNJCN9T-S%22+%22ark%3A%2F67375%2F6H6-1WGD5VWC-X%22+%22ark%3A%2F67375%2F1BB-Z9XR1RHS-K%22+%22ark%3A%2F67375%2F6H6-4PL23X33-3%22+%22ark%3A%2F67375%2F6H6-04KTZSRD-8%22+%22ark%3A%2F67375%2F6H6-TQ4XM01R-J%22+%22ark%3A%2F67375%2F6H6-LBCVCDGG-1%22+%22ark%3A%2F67375%2F6H6-NHCZ3Q1M-V%22+%22ark%3A%2F67375%2F6H6-XSMN35QX-Z%22+%22ark%3A%2F67375%2F6H6-F8QPBWDR-8%22+%22ark%3A%2F67375%2F6H6-WK0266DN-N%22+%22ark%3A%2F67375%2F6H6-2D7PHLVN-5%22+%22ark%3A%2F67375%2F6H6-NXK8J5TW-Z%22+%22ark%3A%2F67375%2F6H6-W92G29S5-6%22+%22ark%3A%2F67375%2F6H6-74NF5LC2-4%22+%22ark%3A%2F67375%2F6H6-69D6X8TL-L%22+%22ark%3A%2F67375%2F6H6-CPFVBWKD-B%22+%22ark%3A%2F67375%2F6H6-J8X7JS1J-Q%22+%22ark%3A%2F67375%2F6H6-CTSCT7M3-2%22+%22ark%3A%2F67375%2F6H6-TSS057Q9-K%22+%22ark%3A%2F67375%2F6H6-J365645T-B%22+%22ark%3A%2F67375%2F6H6-JWMLQB4V-2%22+%22ark%3A%2F67375%2F6H6-51J43Q2K-Z%22+%22ark%3A%2F67375%2F6H6-7DRHSVC5-8%22+%22ark%3A%2F67375%2F6H6-9L3XBXWH-X%22+%22ark%3A%2F67375%2F6H6-JPDRJF7P-4%22+%22ark%3A%2F67375%2F6H6-092WDHS4-W%22+%22ark%3A%2F67375%2F6H6-01FRJNM8-C%22+%22ark%3A%2F67375%2F6H6-0N9XFMKB-J%22+%22ark%3A%2F67375%2F6H6-PQDJWZSQ-F%22+%22ark%3A%2F67375%2F6H6-CMBD1N97-4%22+%22ark%3A%2F67375%2F6H6-ZH8VVCTZ-F%22+%22ark%3A%2F67375%2F6H6-XFFM0J6G-2%22+%22ark%3A%2F67375%2F6H6-W1QM6VFG-T%22+%22ark%3A%2F67375%2F6H6-HPWC7WCD-C%22%29&extract=&size=39&rankBy=relevance&sid=istex-dl"
+                    }
+                ]
+            }
+        ],
+        "position": 17,
+        "count": 0,
+        "display_in_home": "",
+        "width": "50",
+        "name": "N80a"
+    },
+    {
+        "cover": "dataset",
+        "label": "Comment citer ce corpus",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "ISTEX (2018) : Corpus Food S&T (Documents issus d'ISTEX sur les sciences et technologies alimentaires). Version 1. INIST-CNRS. http://niveau2-food-1.lodex-dev.inist.fr/ark:/67375/GNN-6KQMDRVD-0"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 18,
+        "display_in_home": true,
+        "count": 0,
+        "format": {
+            "args": {},
+            "name": "markdown"
+        },
+        "completes": null,
+        "width": "50",
+        "name": "aqJo"
+    },
+    {
+        "label": "Mentions légales ISTEX",
+        "format": {
+            "args": {
+                "type": "text",
+                "value": "Voir page \"Corpus spécialisés\""
+            },
+            "name": "link"
+        },
+        "cover": "dataset",
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "http://niveau1b-test-3.lodex-dev.inist.fr/"
+                    }
+                ]
+            }
+        ],
+        "position": 19,
+        "count": 0,
+        "display_in_home": true,
+        "width": "50",
+        "name": "a7kK"
+    },
+    {
+        "cover": "dataset",
+        "label": "Créateur",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "ISTEX"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 20,
+        "display_in_home": true,
+        "count": 0,
+        "scheme": "http://purl.org/dc/terms/creator",
+        "width": "50",
+        "name": "LqQb"
+    },
+    {
+        "cover": "dataset",
+        "label": "Contributeur(s)",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "Romain Loth (collecteur de données)"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 21,
+        "display_in_home": true,
+        "count": 0,
+        "format": {
+            "args": {},
+            "name": "None"
+        },
+        "scheme": "http://purl.org/dc/terms/contributor",
+        "width": "50",
+        "name": "khAN"
+    },
+    {
+        "cover": "dataset",
+        "label": "Date de création",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "2015-01-15"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 22,
+        "display_in_home": true,
+        "count": 0,
+        "scheme": "http://purl.org/dc/terms/created",
+        "width": "50",
+        "name": "kRxl"
+    },
+    {
+        "cover": "dataset",
+        "label": "Date de publication sur data.istex.fr",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "2018-12-01"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 23,
+        "display_in_home": true,
+        "count": 0,
+        "width": "50",
+        "name": "cWu1"
+    },
+    {
+        "cover": "dataset",
+        "label": "Auteurs",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": " "
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 24,
+        "composedOf": {
+            "isComposedOf": false,
+            "fields": []
+        },
+        "display_in_home": "",
+        "count": 0,
+        "width": "50",
+        "name": "AB1m"
+    },
+    {
+        "label": "Dates",
+        "composedOf": {
+            "isComposedOf": false,
+            "fields": []
+        },
+        "cover": "dataset",
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": " "
+                    }
+                ]
+            }
+        ],
+        "position": 25,
+        "display_in_home": "",
+        "count": 0,
+        "width": "50",
+        "name": "iVzg"
+    },
+    {
+        "cover": "dataset",
+        "label": "Naviguer dans le contenu du corpus",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "Les graphiques ci-dessous permettent de visualiser la répartition des documents du corpus selon différents angles de vue bibliométriques."
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 26,
+        "display_in_home": true,
+        "count": 0,
+        "name": "phED"
+    },
+    {
+        "label": "Langue des documents",
+        "format": {
+            "args": {
+                "params": {
+                    "maxSize": 5,
+                    "orderBy": "value/asc"
+                },
+                "colors": "#533B05 #82611A #DEA21E #FBCF6F #E0C486"
+            },
+            "name": "globalPiechart"
+        },
+        "cover": "dataset",
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "/api/run/distinct-by/My08"
+                    }
+                ]
+            }
+        ],
+        "position": 27,
+        "display_in_graph": true,
+        "count": 0,
+        "name": "aHq0",
+        "width": "50"
+    },
+    {
+        "cover": "dataset",
+        "label": "Editeurs",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "/api/run/distinct-by/ar8K"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 28,
+        "display_in_home": "",
+        "display_in_graph": true,
+        "format": {
+            "args": {
+                "params": {
+                    "maxSize": 5,
+                    "orderBy": "value/asc"
+                },
+                "colors": "#533B05 #82611A #DEA21E #FBCF6F #E0C486"
+            },
+            "name": "globalPiechart"
+        },
+        "count": 0,
+        "width": "50",
+        "name": "EgLl"
+    },
+    {
+        "cover": "dataset",
+        "label": "Types de publication",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "/api/run/distinct-by/YWUH"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 29,
+        "display_in_graph": true,
+        "format": {
+            "args": {
+                "params": {
+                    "maxSize": 5,
+                    "orderBy": "value/asc"
+                },
+                "colors": "#533B05 #82611A #DEA21E #FBCF6F #E0C486"
+            },
+            "name": "globalPiechart"
+        },
+        "count": 0,
+        "width": "50",
+        "name": "m73d"
+    },
+    {
+        "cover": "dataset",
+        "label": "Types de documents",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "/api/run/distinct-by/Bwtd"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 30,
+        "display_in_graph": true,
+        "format": {
+            "args": {
+                "params": {
+                    "maxSize": 5,
+                    "orderBy": "value/asc"
+                },
+                "colors": "#533B05 #82611A #DEA21E #FBCF6F #E0C486"
+            },
+            "name": "globalPiechart"
+        },
+        "count": 0,
+        "width": "50",
+        "name": "Hfpw"
+    },
+    {
+        "cover": "dataset",
+        "label": "Mots-clés d'auteur",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "/api/run/distinct-by/cSRT"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 31,
+        "display_in_graph": "",
+        "format": {
+            "args": {
+                "colorScheme": [
+                    "#7fc97f",
+                    "#beaed4",
+                    "#fdc086",
+                    "#ffff99",
+                    "#386cb0",
+                    "#f0027f",
+                    "#bf5b17",
+                    "#666666"
+                ],
+                "diameter": "700"
+            },
+            "name": "bubbleChart"
+        },
+        "count": 0,
+        "name": "apWo"
+    },
+    {
+        "cover": "dataset",
+        "label": "Années de publication",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "/api/run/distinct-by/cb8a"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 32,
+        "display_in_graph": true,
+        "format": {
+            "args": {
+                "params": {
+                    "maxSize": "20",
+                    "orderBy": "_id/asc"
+                },
+                "colors": "#533B05 #82611A #DEA21E #FBCF6F #E0C486",
+                "axisRoundValue": true,
+                "diagonalCategoryAxis": true,
+                "diagonalValueAxis": false,
+                "direction": "vertical",
+                "scale": "linear",
+                "categoryMargin": "200",
+                "valueMargin": "40",
+                "barSize": 20
+            },
+            "name": "globalBarchart"
+        },
+        "count": 0,
+        "width": "80",
+        "name": "Tzg2"
+    },
+    {
+        "label": "Catégorie Scopus - Niveau 1",
+        "format": {
+            "args": {
+                "params": {
+                    "maxSize": "",
+                    "orderBy": "value/desc"
+                },
+                "colors": "#82611A",
+                "axisRoundValue": true,
+                "diagonalCategoryAxis": false,
+                "diagonalValueAxis": false,
+                "direction": "horizontal",
+                "scale": "linear",
+                "categoryMargin": "300",
+                "valueMargin": "80",
+                "barSize": 20
+            },
+            "name": "globalBarchart"
+        },
+        "cover": "dataset",
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "/api/run/distinct-by/Vz5j/"
+                    }
+                ]
+            }
+        ],
+        "position": 33,
+        "display_in_graph": true,
+        "count": 0,
+        "name": "EJcz"
+    },
+    {
+        "cover": "dataset",
+        "label": "Catégories Scopus",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "/api/run/distinct-by/XDQE"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 34,
+        "display_in_graph": "",
+        "format": {
+            "args": {
+                "colors": "#533B05 #82611A #DEA21E #FBCF6F #E0C486",
+                "params": {
+                    "maxSize": "25",
+                    "orderBy": "_id/asc"
+                }
+            },
+            "name": "globalPiechart"
+        },
+        "count": 0,
+        "completes": null,
+        "composedOf": {
+            "isComposedOf": false,
+            "fields": []
+        },
+        "name": "aDzX"
+    },
+    {
+        "cover": "dataset",
+        "label": "Catégories Science Metrix",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "/api/run/distinct-by/FYbD"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 35,
+        "display_in_graph": true,
+        "format": {
+            "args": {
+                "params": {
+                    "maxSize": 5,
+                    "orderBy": "_id/asc"
+                },
+                "colors": "#533B05 #82611A #DEA21E #FBCF6F #E0C486"
+            },
+            "name": "globalPiechart"
+        },
+        "count": 0,
+        "width": "100",
+        "name": "ZlUl"
+    },
+    {
+        "cover": "collection",
+        "label": "Nom du corpus",
+        "display_in_list": "",
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "Ortho"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 36,
+        "count": 8779,
+        "format": {
+            "args": {
+                "level": 4
+            },
+            "name": "title"
+        },
+        "name": "qze6"
+    },
+    {
+        "label": "Catégorie Scopus - Niveau 2",
+        "format": {
+            "args": {
+                "params": {
+                    "maxSize": "20",
+                    "orderBy": "value/desc"
+                },
+                "colors": "#DEA21E",
+                "axisRoundValue": true,
+                "diagonalCategoryAxis": false,
+                "diagonalValueAxis": false,
+                "direction": "horizontal",
+                "scale": "linear",
+                "categoryMargin": "300",
+                "valueMargin": "80",
+                "barSize": "15"
+            },
+            "name": "globalBarchart"
+        },
+        "cover": "dataset",
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "/api/run/distinct-by/sOfh/"
+                    }
+                ]
+            }
+        ],
+        "position": 37,
+        "display_in_graph": true,
+        "count": 0,
+        "name": "aBrT"
+    },
+    {
+        "label": "Catégorie Scopus - Niveau 3",
+        "format": {
+            "args": {
+                "params": {
+                    "maxSize": "20",
+                    "orderBy": "value/desc"
+                },
+                "colors": "#FBCF6F",
+                "axisRoundValue": true,
+                "diagonalCategoryAxis": false,
+                "diagonalValueAxis": false,
+                "direction": "horizontal",
+                "scale": "linear",
+                "categoryMargin": "300",
+                "valueMargin": "80",
+                "barSize": "15"
+            },
+            "name": "globalBarchart"
+        },
+        "cover": "dataset",
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "/api/run/distinct-by/HTNF/"
+                    }
+                ]
+            }
+        ],
+        "position": 38,
+        "display_in_graph": true,
+        "count": 0,
+        "name": "WzHK"
+    },
+    {
+        "cover": "dataset",
+        "label": "Catégories Inist",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "/api/run/distinct-by/ptPw"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 39,
+        "display_in_graph": true,
+        "format": {
+            "args": {
+                "params": {
+                    "maxSize": "5",
+                    "orderBy": "value/asc"
+                },
+                "colors": "#533B05 #82611A #DEA21E #FBCF6F #E0C486"
+            },
+            "name": "globalPiechart"
+        },
+        "count": 0,
+        "width": "100",
+        "name": "a5bi"
+    },
+    {
+        "cover": "dataset",
+        "label": "Catégories WOS",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "/api/run/distinct-by/ankY"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 40,
+        "display_in_graph": true,
+        "format": {
+            "args": {
+                "params": {
+                    "maxSize": 5,
+                    "orderBy": "value/asc"
+                },
+                "colors": "#533B05 #82611A #DEA21E #FBCF6F #E0C486"
+            },
+            "name": "globalPiechart"
+        },
+        "count": 0,
+        "width": "100",
+        "name": "a6F8"
+    },
+    {
+        "cover": "dataset",
+        "label": "Présence de XML structuré",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "/api/run/distinct-by/vrJ9"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 41,
+        "display_in_graph": true,
+        "format": {
+            "args": {
+                "params": {
+                    "maxSize": 5,
+                    "orderBy": "value/asc"
+                },
+                "colors": "#533B05 #82611A #DEA21E #FBCF6F #E0C486"
+            },
+            "name": "globalPiechart"
+        },
+        "count": 0,
+        "name": "nBdo",
+        "width": "50"
+    },
+    {
+        "cover": "dataset",
+        "label": "Versions PDF",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "/api/run/distinct-by/dfeP"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 42,
+        "display_in_graph": true,
+        "format": {
+            "args": {
+                "params": {
+                    "maxSize": "20",
+                    "orderBy": "_id/asc"
+                },
+                "colors": "#533B05 #82611A #DEA21E #FBCF6F #E0C486",
+                "axisRoundValue": true,
+                "diagonalCategoryAxis": false,
+                "diagonalValueAxis": false,
+                "direction": "horizontal",
+                "scale": "linear",
+                "categoryMargin": 120,
+                "valueMargin": 120,
+                "barSize": "25"
+            },
+            "name": "globalBarchart"
+        },
+        "count": 0,
+        "name": "wPPz",
+        "width": "50"
+    },
+    {
+        "cover": "collection",
+        "label": "Titre du document",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Titre"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 43,
+        "count": 8779,
+        "format": {
+            "args": {
+                "level": 2
+            },
+            "name": "title"
+        },
+        "name": "C3oC"
+    },
+    {
+        "cover": "dataset",
+        "label": "Scores de qualité",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "/api/run/pairing-with/FFnf/cb8a"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 44,
+        "display_in_graph": "",
+        "format": {
+            "args": {
+                "colorScheme": [
+                    "#fff7ec",
+                    "#fee8c8",
+                    "#fdd49e",
+                    "#fdbb84",
+                    "#fc8d59",
+                    "#ef6548",
+                    "#d7301f",
+                    "#b30000",
+                    "#7f0000"
+                ],
+                "flipAxis": false
+            },
+            "name": "heatmap"
+        },
+        "count": 0,
+        "name": "aJvW"
+    },
+    {
+        "cover": "collection",
+        "label": "Lien vers le document",
+        "display_in_list": "",
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Identifiant ISTEX"
+                    }
+                ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "with",
+                        "type": "string",
+                        "value": "https://api.istex.fr/document/"
+                    }
+                ],
+                "operation": "PREFIX"
+            },
+            {
+                "args": [
+                    {
+                        "name": "with",
+                        "type": "string",
+                        "value": "/fulltext/pdf"
+                    }
+                ],
+                "operation": "SUFFIX"
+            }
+        ],
+        "classes": [],
+        "position": 45,
+        "format": {
+            "args": {
+                "type": "text",
+                "value": "http://scodex-images-1.lodex-dev.inist.fr/Pdf_by_mimooh.svg_64px.png"
+            },
+            "name": "linkImage"
+        },
+        "count": 8779,
+        "name": "gBBC"
+    },
+    {
+        "cover": "collection",
+        "label": "Auteur(s)",
+        "display_in_list": "",
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Auteur(s)"
+                    }
+                ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "separator",
+                        "type": "string",
+                        "value": ";"
+                    }
+                ],
+                "operation": "SPLIT"
+            }
+        ],
+        "classes": [],
+        "position": 46,
+        "count": 8779,
+        "format": {
+            "args": {
+                "type": "unordered",
+                "subFormat": "html",
+                "subFormatOptions": {},
+                "args": {}
+            },
+            "name": "list"
+        },
+        "name": "CecD"
+    },
+    {
+        "cover": "collection",
+        "label": "Revue",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Revue ou monographie"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 47,
+        "count": 8779,
+        "isFacet": true,
+        "format": {
+            "args": {
+                "level": 4
+            },
+            "name": "title"
+        },
+        "name": "l2zl"
+    },
+    {
+        "cover": "collection",
+        "label": "Année de publication",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Date de publication"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 48,
+        "count": 8779,
+        "isFacet": true,
+        "width": "50",
+        "name": "cb8a"
+    },
+    {
+        "cover": "collection",
+        "label": "Langue(s) du document",
+        "display_in_list": "",
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Langue(s) du document"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 49,
+        "count": 8779,
+        "isFacet": true,
+        "name": "My08"
+    },
+    {
+        "cover": "collection",
+        "label": "Type de document",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Type de document"
+                    }
+                ]
+            },
+            {
+                "operation": "CAPITALIZE"
+            }
+        ],
+        "classes": [],
+        "position": 50,
+        "count": 8779,
+        "isFacet": true,
+        "width": "50",
+        "name": "Bwtd"
+    },
+    {
+        "cover": "collection",
+        "label": "Résumé",
+        "display_in_list": "",
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Résumé"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 51,
+        "count": 8779,
+        "format": {
+            "args": {
+                "paragraphWidth": "100%"
+            },
+            "name": "paragraph"
+        },
+        "name": "kRq5"
+    },
+    {
+        "cover": "collection",
+        "label": "Mots-clés d'auteur",
+        "display_in_list": "",
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Mots-clés d’auteur"
+                    }
+                ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "separator",
+                        "type": "string",
+                        "value": ";"
+                    }
+                ],
+                "operation": "SPLIT"
+            }
+        ],
+        "classes": [],
+        "position": 52,
+        "count": 8779,
+        "format": {
+            "args": {
+                "type": "unordered",
+                "subFormat": "none",
+                "subFormatOptions": {}
+            },
+            "name": "list"
+        },
+        "name": "cSRT"
+    },
+    {
+        "cover": "collection",
+        "label": "Catégories WoS",
+        "display_in_list": "",
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Catégories WoS"
+                    }
+                ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "stylesheet",
+                        "type": "text",
+                        "value": "{\"replace\": [\" ; 1 - \",\" / 1 - \"]}"
+                    }
+                ],
+                "operation": "JBJ"
+            },
+            {
+                "args": [
+                    {
+                        "name": "separator",
+                        "type": "string",
+                        "value": "/"
+                    }
+                ],
+                "operation": "SPLIT"
+            }
+        ],
+        "classes": [],
+        "position": 53,
+        "count": 8779,
+        "isFacet": true,
+        "format": {
+            "args": {
+                "type": "unordered",
+                "subFormat": "none",
+                "subFormatOptions": {}
+            },
+            "name": "list"
+        },
+        "name": "ankY"
+    },
+    {
+        "cover": "collection",
+        "label": "Éditeur",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Éditeur"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 54,
+        "count": 8779,
+        "isFacet": true,
+        "width": "50",
+        "name": "ar8K"
+    },
+    {
+        "cover": "collection",
+        "label": "Affiliation(s)",
+        "display_in_list": "",
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Affiliation(s)"
+                    }
+                ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "separator",
+                        "type": "string",
+                        "value": ";"
+                    }
+                ],
+                "operation": "SPLIT"
+            }
+        ],
+        "classes": [],
+        "position": 55,
+        "count": 8779,
+        "format": {
+            "args": {
+                "type": "unordered",
+                "subFormat": "none",
+                "subFormatOptions": {}
+            },
+            "name": "list"
+        },
+        "name": "a9UH"
+    },
+    {
+        "cover": "collection",
+        "label": "Catégories Scopus - Niveau 3",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Catégories Scopus"
+                    }
+                ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "stylesheet",
+                        "type": "text",
+                        "value": "{\"parseCSV\": \";\",\"remove\": \"\",\"foreach\": {\"trim\": true,\"replace\": \"^1 - .*\",\"replace#2\": \"^2 - .*\",\"replace#3\": \"^4 - .* \",\"replace#4\": \"3 -\"},\"remove#2\": \"\",\"deduplicate\": true}"
+                    }
+                ],
+                "operation": "JBJ"
+            }
+        ],
+        "classes": [],
+        "position": 57,
+        "format": {
+            "args": {
+                "type": "unordered",
+                "subFormat": "none",
+                "subFormatOptions": {}
+            },
+            "name": "list"
+        },
+        "isFacet": true,
+        "count": 8779,
+        "name": "HTNF"
+    },
+    {
+        "cover": "dataset",
+        "label": "Revues",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "/api/run/distinct-by/l2zl"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 58,
+        "display_in_graph": true,
+        "format": {
+            "args": {
+                "params": {
+                    "maxSize": "20",
+                    "orderBy": "value/asc"
+                },
+                "colors": "#533B05 #82611A #DEA21E #FBCF6F #E0C486",
+                "axisRoundValue": false,
+                "diagonalCategoryAxis": false,
+                "diagonalValueAxis": false,
+                "direction": "horizontal",
+                "scale": "linear",
+                "categoryMargin": "400",
+                "valueMargin": "50",
+                "barSize": "20"
+            },
+            "name": "globalBarchart"
+        },
+        "count": 0,
+        "width": "100",
+        "name": "FDdy"
+    },
+    {
+        "cover": "collection",
+        "label": "Score qualité du texte",
+        "display_in_list": "",
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Score qualité"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 59,
+        "count": 8779,
+        "isFacet": true,
+        "width": "50",
+        "name": "FFnf"
+    },
+    {
+        "cover": "collection",
+        "label": "Type de publication",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Type de publication"
+                    }
+                ]
+            },
+            {
+                "operation": "CAPITALIZE"
+            }
+        ],
+        "classes": [],
+        "position": 60,
+        "count": 8779,
+        "isFacet": true,
+        "width": "50",
+        "name": "YWUH"
+    },
+    {
+        "cover": "collection",
+        "label": "Catégories Scopus - Niveau 1",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": "",
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Catégories Scopus"
+                    }
+                ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "stylesheet",
+                        "type": "text",
+                        "value": "{\"parseCSV\": \";\",\"remove\": \"\",\"foreach\": {\"trim\": true,\"replace\": \"^2 - .*\",\"replace#2\": \"^3 - .*\",\"replace#3\": \"^4 - .* \",\"replace#4\": \"1 -\"},\"remove#2\": \"\",\"deduplicate\": true}"
+                    }
+                ],
+                "operation": "JBJ"
+            }
+        ],
+        "classes": [],
+        "position": 61,
+        "format": {
+            "args": {
+                "type": "unordered",
+                "subFormat": "none",
+                "subFormatOptions": {}
+            },
+            "name": "list"
+        },
+        "isFacet": true,
+        "count": 8779,
+        "name": "Vz5j"
+    },
+    {
+        "cover": "collection",
+        "label": "Catégories Science-Metrix",
+        "display_in_list": "",
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Catégories Science-Metrix"
+                    }
+                ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "separator",
+                        "type": "string",
+                        "value": "£"
+                    }
+                ],
+                "operation": "SPLIT"
+            }
+        ],
+        "classes": [],
+        "position": 62,
+        "count": 8779,
+        "isFacet": true,
+        "format": {
+            "args": {
+                "type": "unordered",
+                "subFormat": "none",
+                "subFormatOptions": {}
+            },
+            "name": "list"
+        },
+        "name": "FYbD"
+    },
+    {
+        "cover": "collection",
+        "label": "Identifiant ISTEX",
+        "display_in_list": "",
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Identifiant ISTEX"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 63,
+        "count": 8779,
+        "width": "50",
+        "name": "RIUb"
+    },
+    {
+        "cover": "collection",
+        "label": "DOI",
+        "display_in_list": "",
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "DOI"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 64,
+        "count": 8779,
+        "width": "50",
+        "format": {
+            "args": {
+                "typid": "DOI",
+                "colors": "#8B8B8B #5B5B5B #818181"
+            },
+            "name": "identifierBadge"
+        },
+        "name": "a6sA"
+    },
+    {
+        "cover": "collection",
+        "label": "Version PDF",
+        "display_in_list": "",
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Version PDF"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 65,
+        "count": 8779,
+        "isFacet": true,
+        "width": "50",
+        "name": "dfeP"
+    },
+    {
+        "cover": "collection",
+        "label": "PMID",
+        "display_in_list": "",
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "PMID"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 66,
+        "count": 8779,
+        "width": "50",
+        "format": {
+            "args": {
+                "typid": "PMID",
+                "colors": "#8B8B8B #5B5B5B #818181"
+            },
+            "name": "identifierBadge"
+        },
+        "name": "a3Dz"
+    },
+    {
+        "cover": "collection",
+        "label": "Catégories INIST",
+        "display_in_list": "",
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Catégories INIST"
+                    }
+                ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "separator",
+                        "type": "string",
+                        "value": "£"
+                    }
+                ],
+                "operation": "SPLIT"
+            }
+        ],
+        "classes": [],
+        "position": 67,
+        "count": 8779,
+        "isFacet": true,
+        "format": {
+            "args": {
+                "type": "unordered",
+                "subFormat": "none",
+                "subFormatOptions": {}
+            },
+            "name": "list"
+        },
+        "name": "ptPw"
+    },
+    {
+        "cover": "collection",
+        "label": "Nom du fichier dans la ressource",
+        "display_in_list": "",
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Nom de fichier"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 68,
+        "count": 8779,
+        "name": "ziU7"
+    },
+    {
+        "cover": "collection",
+        "label": "Catégories Scopus - Niveau 2",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Catégories Scopus"
+                    }
+                ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "stylesheet",
+                        "type": "text",
+                        "value": "{\"parseCSV\": \";\",\"remove\": \"\",\"foreach\": {\"trim\": true,\"replace\": \"^1 - .*\",\"replace#2\": \"^3 - .*\",\"replace#3\": \"^4 - .* \",\"replace#4\": \"2 -\"},\"remove#2\": \"\",\"deduplicate\": true}"
+                    }
+                ],
+                "operation": "JBJ"
+            }
+        ],
+        "classes": [],
+        "position": 69,
+        "format": {
+            "args": {
+                "type": "unordered",
+                "subFormat": "none",
+                "subFormatOptions": {}
+            },
+            "name": "list"
+        },
+        "isFacet": true,
+        "count": 8779,
+        "name": "sOfh"
+    },
+    {
+        "cover": "collection",
+        "label": "Présence de XML structuré",
+        "display_in_list": "",
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "XML structuré"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 70,
+        "count": 8779,
+        "isFacet": true,
+        "width": "50",
+        "name": "vrJ9"
+    },
+    {
+        "cover": "collection",
+        "label": "Catégories Scopus",
+        "display_in_list": "",
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Catégories Scopus"
+                    }
+                ]
+            },
+            {
+                "operation": "JBJ",
+                "args": [
+                    {
+                        "name": "stylesheet",
+                        "type": "text",
+                        "value": "{\"replace\": [\" ; 1 - \",\" / 1 - \"]}"
+                    }
+                ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "separator",
+                        "type": "string",
+                        "value": "/"
+                    }
+                ],
+                "operation": "SPLIT"
+            }
+        ],
+        "classes": [],
+        "position": 71,
+        "format": {
+            "args": {
+                "type": "unordered",
+                "subFormat": "none",
+                "subFormatOptions": {}
+            },
+            "name": "list"
+        },
+        "count": 8779,
+        "isFacet": "",
+        "name": "XDQE"
+    }
+]
