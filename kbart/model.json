@@ -719,7 +719,7 @@
         "cover": "collection",
         "label": "parent_publication_title_id",
         "display_in_list": "",
-        "display_in_resource": true,
+        "display_in_resource": "",
         "searchable": "",
         "transformers": [
             {
@@ -736,7 +736,7 @@
         "classes": [],
         "position": 17,
         "overview": 0,
-        "count": 3816,
+        "count": 3613,
         "name": "XX3r"
     },
     {
