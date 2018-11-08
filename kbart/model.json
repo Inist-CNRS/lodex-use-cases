@@ -28,6 +28,16 @@
                         "value": "publication_title"
                     }
                 ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "with",
+                        "type": "string",
+                        "value": "^.+$"
+                    }
+                ],
+                "operation": "MASK"
             }
         ],
         "classes": [],
@@ -62,6 +72,16 @@
                     }
                 ],
                 "operation": "PREFIX"
+            },
+            {
+                "args": [
+                    {
+                        "name": "with",
+                        "type": "string",
+                        "value": "^/api/run/syndication-from/V7IG/.+$"
+                    }
+                ],
+                "operation": "MASK"
             }
         ],
         "classes": [],
@@ -135,6 +155,16 @@
                     }
                 ],
                 "operation": "PREFIX"
+            },
+            {
+                "args": [
+                    {
+                        "name": "with",
+                        "type": "string",
+                        "value": "^/api/run/syndication-from/XX3r/.+$"
+                    }
+                ],
+                "operation": "MASK"
             }
         ],
         "classes": [],
@@ -190,6 +220,16 @@
                         "value": "print_identifier"
                     }
                 ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "with",
+                        "type": "string",
+                        "value": "^\\d{4}-\\d{3}[\\dxX]$"
+                    }
+                ],
+                "operation": "MASK"
             }
         ],
         "classes": [],
@@ -221,6 +261,16 @@
                         "value": "online_identifier"
                     }
                 ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "with",
+                        "type": "string",
+                        "value": "^\\d{4}-\\d{3}[\\dxX]$"
+                    }
+                ],
+                "operation": "MASK"
             }
         ],
         "classes": [],
@@ -251,6 +301,16 @@
                         "value": "print_identifier"
                     }
                 ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "with",
+                        "type": "string",
+                        "value": "([-]*(1[03])*[ ]*(: ){0,1})*(([0-9Xx][- ]*){13}|([0-9Xx][- ]*){10})"
+                    }
+                ],
+                "operation": "MASK"
             }
         ],
         "classes": [],
@@ -282,6 +342,16 @@
                         "value": "online_identifier"
                     }
                 ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "with",
+                        "type": "string",
+                        "value": "([-]*(1[03])*[ ]*(: ){0,1})*(([0-9Xx][- ]*){13}|([0-9Xx][- ]*){10})"
+                    }
+                ],
+                "operation": "MASK"
             }
         ],
         "classes": [],
@@ -367,7 +437,7 @@
     },
     {
         "cover": "collection",
-        "label": "Première mise de ligne en",
+        "label": "Début de collection",
         "display_in_list": "",
         "display_in_resource": true,
         "searchable": "",
@@ -381,18 +451,28 @@
                         "value": "date_first_issue_online"
                     }
                 ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "with",
+                        "type": "string",
+                        "value": "^\\d{4}$"
+                    }
+                ],
+                "operation": "MASK"
             }
         ],
         "classes": [],
         "position": 9,
         "isFacet": true,
-        "count": 64,
+        "count": 6128,
         "width": "50",
         "name": "Rijz"
     },
     {
         "cover": "collection",
-        "label": "Dernière mise en ligne en",
+        "label": "Fin de collection",
         "display_in_list": "",
         "display_in_resource": true,
         "searchable": "",
@@ -406,12 +486,22 @@
                         "value": "date_last_issue_online"
                     }
                 ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "with",
+                        "type": "string",
+                        "value": "^\\d{4}$"
+                    }
+                ],
+                "operation": "MASK"
             }
         ],
         "classes": [],
         "position": 10,
         "isFacet": true,
-        "count": 64,
+        "count": 6128,
         "width": "50",
         "name": "ZLPq"
     },
@@ -464,6 +554,16 @@
                         "value": "coverage_depth"
                     }
                 ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "with",
+                        "type": "string",
+                        "value": "^.+$"
+                    }
+                ],
+                "operation": "MASK"
             }
         ],
         "classes": [],
@@ -489,6 +589,16 @@
                         "value": "publisher_name"
                     }
                 ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "with",
+                        "type": "string",
+                        "value": "^.+$"
+                    }
+                ],
+                "operation": "MASK"
             }
         ],
         "classes": [],
@@ -515,6 +625,16 @@
                         "value": "access_type"
                     }
                 ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "with",
+                        "type": "string",
+                        "value": "^.+$"
+                    }
+                ],
+                "operation": "MASK"
             }
         ],
         "classes": [],
@@ -539,6 +659,16 @@
                         "value": "publication_type"
                     }
                 ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "with",
+                        "type": "string",
+                        "value": "^.+$"
+                    }
+                ],
+                "operation": "MASK"
             }
         ],
         "classes": [],
@@ -698,6 +828,16 @@
                         "value": "Editeur"
                     }
                 ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "with",
+                        "type": "string",
+                        "value": "^.+$"
+                    }
+                ],
+                "operation": "MASK"
             }
         ],
         "format": {
@@ -731,6 +871,16 @@
                         "value": "parent_publication_title_id"
                     }
                 ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "with",
+                        "type": "string",
+                        "value": "^.+$"
+                    }
+                ],
+                "operation": "MASK"
             }
         ],
         "classes": [],
@@ -782,6 +932,16 @@
                         "value": "title_id"
                     }
                 ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "with",
+                        "type": "string",
+                        "value": "^.+$"
+                    }
+                ],
+                "operation": "MASK"
             }
         ],
         "classes": [],
@@ -806,6 +966,16 @@
                         "value": "print_identifier"
                     }
                 ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "with",
+                        "type": "string",
+                        "value": "^.+$"
+                    }
+                ],
+                "operation": "MASK"
             }
         ],
         "classes": [],
@@ -835,6 +1005,16 @@
                         "value": "online_identifier"
                     }
                 ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "with",
+                        "type": "string",
+                        "value": "^.+$"
+                    }
+                ],
+                "operation": "MASK"
             }
         ],
         "classes": [],
