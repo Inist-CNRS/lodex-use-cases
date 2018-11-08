@@ -336,7 +336,7 @@
     },
     {
         "cover": "collection",
-        "label": "URL",
+        "label": "Site dédié chez l'éditeur",
         "display_in_list": "",
         "display_in_resource": true,
         "searchable": "",
@@ -361,7 +361,7 @@
             },
             "name": "link"
         },
-        "count": 203,
+        "count": 6128,
         "width": "100",
         "name": "j7uI"
     },
@@ -927,5 +927,42 @@
         "display_in_home": true,
         "width": "50",
         "name": "6MVB"
+    },
+    {
+        "cover": "dataset",
+        "label": "Quelques titres de références",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": "",
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "n/a"
+                    }
+                ]
+            },
+            {
+                "operation": "ARRAY"
+            }
+        ],
+        "classes": [],
+        "position": 30,
+        "overview": 0,
+        "display_in_home": true,
+        "format": {
+            "args": {
+                "type": "unordered",
+                "subFormat": "resource",
+                "subFormatOptions": {},
+                "args": {}
+            },
+            "name": "list"
+        },
+        "width": "100",
+        "name": "jB1Z"
     }
 ]
