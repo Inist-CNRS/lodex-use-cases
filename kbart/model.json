@@ -34,7 +34,7 @@
                     {
                         "name": "with",
                         "type": "string",
-                        "value": "^.+$"
+                        "value": "^\\S+$"
                     }
                 ],
                 "operation": "MASK"
@@ -78,7 +78,7 @@
                     {
                         "name": "with",
                         "type": "string",
-                        "value": "^/api/run/syndication-from/V7IG/.+$"
+                        "value": "^/api/run/syndication-from/V7IG/\\S+$"
                     }
                 ],
                 "operation": "MASK"
@@ -161,7 +161,7 @@
                     {
                         "name": "with",
                         "type": "string",
-                        "value": "^/api/run/syndication-from/XX3r/.+$"
+                        "value": "^/api/run/syndication-from/XX3r/\\S+$"
                     }
                 ],
                 "operation": "MASK"
@@ -560,7 +560,7 @@
                     {
                         "name": "with",
                         "type": "string",
-                        "value": "^.+$"
+                        "value": "^\\S+$"
                     }
                 ],
                 "operation": "MASK"
@@ -595,7 +595,7 @@
                     {
                         "name": "with",
                         "type": "string",
-                        "value": "^.+$"
+                        "value": "^\\S+$"
                     }
                 ],
                 "operation": "MASK"
@@ -631,7 +631,7 @@
                     {
                         "name": "with",
                         "type": "string",
-                        "value": "^.+$"
+                        "value": "^\\S+$"
                     }
                 ],
                 "operation": "MASK"
@@ -665,7 +665,7 @@
                     {
                         "name": "with",
                         "type": "string",
-                        "value": "^.+$"
+                        "value": "^\\S+$"
                     }
                 ],
                 "operation": "MASK"
@@ -834,7 +834,7 @@
                     {
                         "name": "with",
                         "type": "string",
-                        "value": "^.+$"
+                        "value": "^\\S+$"
                     }
                 ],
                 "operation": "MASK"
@@ -877,7 +877,7 @@
                     {
                         "name": "with",
                         "type": "string",
-                        "value": "^.+$"
+                        "value": "^\\S+$"
                     }
                 ],
                 "operation": "MASK"
@@ -938,7 +938,7 @@
                     {
                         "name": "with",
                         "type": "string",
-                        "value": "^.+$"
+                        "value": "^\\S+$"
                     }
                 ],
                 "operation": "MASK"
@@ -972,7 +972,7 @@
                     {
                         "name": "with",
                         "type": "string",
-                        "value": "^.+$"
+                        "value": "^\\S+$"
                     }
                 ],
                 "operation": "MASK"
@@ -1011,7 +1011,7 @@
                     {
                         "name": "with",
                         "type": "string",
-                        "value": "^.+$"
+                        "value": "^\\S+$"
                     }
                 ],
                 "operation": "MASK"
