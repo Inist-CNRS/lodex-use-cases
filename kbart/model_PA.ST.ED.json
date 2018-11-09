@@ -1,0 +1,1181 @@
+[
+    {
+        "cover": "collection",
+        "label": "uri",
+        "display_on_list": true,
+        "transformers": [
+            {
+                "operation": "AUTOGENERATE_URI",
+                "args": []
+            }
+        ],
+        "position": 0,
+        "name": "uri"
+    },
+    {
+        "cover": "collection",
+        "label": " ",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "publication_title"
+                    }
+                ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "with",
+                        "type": "string",
+                        "value": "^\\S+.*$"
+                    }
+                ],
+                "operation": "MASK"
+            }
+        ],
+        "classes": [],
+        "position": 1,
+        "overview": 1,
+        "count": 9555,
+        "name": "XXRn",
+        "format": {
+            "args": {
+                "level": 1,
+                "textColor": "#000"
+            },
+            "name": "title"
+        }
+    },
+    {
+        "cover": "collection",
+        "label": "Corpus",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "corpus"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 2,
+        "overview": 2,
+        "isFacet": true,
+        "name": "aCG7",
+        "count": 9555,
+        "width": "50"
+    },
+    {
+        "label": "",
+        "format": {
+            "args": {
+                "level": 1
+            },
+            "name": "title"
+        },
+        "width": "100",
+        "cover": "dataset",
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "Revue de sommaire ISTEX"
+                    }
+                ]
+            }
+        ],
+        "position": 2,
+        "count": 0,
+        "display_in_home": true,
+        "overview": 100,
+        "scheme": "http://purl.org/dc/terms/title",
+        "name": "ExFk"
+    },
+    {
+        "cover": "collection",
+        "label": "Editeur",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": "",
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "publisher_name"
+                    }
+                ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "with",
+                        "type": "string",
+                        "value": "^\\S+.*$"
+                    }
+                ],
+                "operation": "MASK"
+            }
+        ],
+        "classes": [],
+        "position": 3,
+        "isFacet": true,
+        "overview": 0,
+        "count": 9479,
+        "width": "50",
+        "name": "UVFW"
+    },
+    {
+        "cover": "collection",
+        "label": "Début de collection",
+        "display_in_list": "",
+        "display_in_resource": true,
+        "searchable": "",
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "date_first_issue_online"
+                    }
+                ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "with",
+                        "type": "string",
+                        "value": "^\\d{4}$"
+                    }
+                ],
+                "operation": "MASK"
+            }
+        ],
+        "classes": [],
+        "position": 4,
+        "isFacet": true,
+        "count": 6128,
+        "width": "50",
+        "name": "Rijz"
+    },
+    {
+        "label": "Description",
+        "scheme": "http://purl.org/dc/terms/description",
+        "position": 4,
+        "cover": "dataset",
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "Ce jeu correspond au choix de documenter des données ISTEX et plus particulièrement la liste des ressources acquises (journal, book serie, serie, etc.). Pour le moment, nous ne présentons que les ressources présentes dans les fichiers kbart."
+                    }
+                ]
+            }
+        ],
+        "display_in_home": true,
+        "overview": 200,
+        "name": "bJzy"
+    },
+    {
+        "cover": "collection",
+        "label": "Fin de collection",
+        "display_in_list": "",
+        "display_in_resource": true,
+        "searchable": "",
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "date_last_issue_online"
+                    }
+                ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "with",
+                        "type": "string",
+                        "value": "^\\d{4}$"
+                    }
+                ],
+                "operation": "MASK"
+            }
+        ],
+        "classes": [],
+        "position": 5,
+        "isFacet": true,
+        "count": 6128,
+        "width": "50",
+        "name": "ZLPq"
+    },
+    {
+        "cover": "collection",
+        "label": "Serie",
+        "display_in_list": "",
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "parent_publication_title_id"
+                    }
+                ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "with",
+                        "type": "string",
+                        "value": "/api/run/syndication-from/V7IG/"
+                    }
+                ],
+                "operation": "PREFIX"
+            },
+            {
+                "args": [
+                    {
+                        "name": "with",
+                        "type": "string",
+                        "value": "^/api/run/syndication-from/V7IG/\\S+$"
+                    }
+                ],
+                "operation": "MASK"
+            }
+        ],
+        "classes": [],
+        "position": 6,
+        "overview": 0,
+        "count": 3613,
+        "format": {
+            "args": {
+                "spaceWidth": "100%",
+                "params": {
+                    "maxSize": 1,
+                    "orderBy": "value/asc"
+                }
+            },
+            "name": "resourcesGrid"
+        },
+        "name": "kber"
+    },
+    {
+        "cover": "collection",
+        "label": "Book series",
+        "display_in_list": "",
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "title_id"
+                    }
+                ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "with",
+                        "type": "string",
+                        "value": "/api/run/syndication-from/XX3r/"
+                    }
+                ],
+                "operation": "PREFIX"
+            },
+            {
+                "args": [
+                    {
+                        "name": "with",
+                        "type": "string",
+                        "value": "^/api/run/syndication-from/XX3r/\\S+$"
+                    }
+                ],
+                "operation": "MASK"
+            }
+        ],
+        "classes": [],
+        "position": 7,
+        "overview": 0,
+        "format": {
+            "args": {
+                "spaceWidth": "30%",
+                "params": {
+                    "maxSize": 6,
+                    "orderBy": "value/asc"
+                }
+            },
+            "name": "resourcesGrid"
+        },
+        "count": 9289,
+        "name": "BBl9"
+    },
+    {
+        "cover": "collection",
+        "label": "ISSN",
+        "display_in_list": "",
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "print_identifier"
+                    }
+                ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "with",
+                        "type": "string",
+                        "value": "^\\d{4}-\\d{3}[\\dxX]$"
+                    }
+                ],
+                "operation": "MASK"
+            }
+        ],
+        "classes": [],
+        "position": 8,
+        "overview": 3,
+        "count": 8578,
+        "format": {
+            "args": {
+                "searchedField": "host.issn"
+            },
+            "name": "istexSummary"
+        },
+        "width": "50",
+        "name": "GZGq"
+    },
+    {
+        "cover": "collection",
+        "label": "eISSN",
+        "display_in_list": "",
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "online_identifier"
+                    }
+                ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "with",
+                        "type": "string",
+                        "value": "^\\d{4}-\\d{3}[\\dxX]$"
+                    }
+                ],
+                "operation": "MASK"
+            }
+        ],
+        "classes": [],
+        "position": 9,
+        "count": 3613,
+        "width": "50",
+        "format": {
+            "args": {
+                "searchedField": "host.eissn"
+            },
+            "name": "istexSummary"
+        },
+        "name": "Encb"
+    },
+    {
+        "cover": "dataset",
+        "label": "Dernières ressources mises à jour",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "/api/run/syndication"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 9,
+        "overview": 0,
+        "display_in_home": true,
+        "count": 0,
+        "format": {
+            "args": {
+                "spaceWidth": "30%",
+                "params": {
+                    "maxSize": 6,
+                    "orderBy": "value/asc"
+                },
+                "pageSize": 15,
+                "orderBy": "value/asc"
+            },
+            "name": "resourcesGrid"
+        },
+        "name": "hzEL"
+    },
+    {
+        "cover": "collection",
+        "label": "ISBN",
+        "display_in_list": "",
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "print_identifier"
+                    }
+                ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "with",
+                        "type": "string",
+                        "value": "([-]*(1[03])*[ ]*(: ){0,1})*(([0-9Xx][- ]*){13}|([0-9Xx][- ]*){10})"
+                    }
+                ],
+                "operation": "MASK"
+            }
+        ],
+        "classes": [],
+        "position": 10,
+        "overview": 4,
+        "count": 848,
+        "width": "50",
+        "format": {
+            "args": {
+                "searchedField": "host.isbn"
+            },
+            "name": "istexSummary"
+        },
+        "name": "Ma8o"
+    },
+    {
+        "cover": "collection",
+        "label": "eISBN",
+        "display_in_list": "",
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "online_identifier"
+                    }
+                ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "with",
+                        "type": "string",
+                        "value": "([-]*(1[03])*[ ]*(: ){0,1})*(([0-9Xx][- ]*){13}|([0-9Xx][- ]*){10})"
+                    }
+                ],
+                "operation": "MASK"
+            }
+        ],
+        "classes": [],
+        "position": 11,
+        "overview": 0,
+        "count": 3613,
+        "format": {
+            "args": {
+                "searchedField": "host.issn"
+            },
+            "name": "istexSummary"
+        },
+        "width": "50",
+        "name": "WMyo"
+    },
+    {
+        "cover": "collection",
+        "label": "Site dédié chez l'éditeur",
+        "display_in_list": "",
+        "display_in_resource": true,
+        "searchable": "",
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "title_url"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 12,
+        "format": {
+            "args": {
+                "type": "value",
+                "value": ""
+            },
+            "name": "link"
+        },
+        "count": 6128,
+        "width": "100",
+        "name": "j7uI"
+    },
+    {
+        "cover": "collection",
+        "label": "Couverture",
+        "display_in_list": "",
+        "display_in_resource": true,
+        "searchable": "",
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "coverage_depth"
+                    }
+                ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "with",
+                        "type": "string",
+                        "value": "^\\S+$"
+                    }
+                ],
+                "operation": "MASK"
+            }
+        ],
+        "classes": [],
+        "position": 13,
+        "isFacet": true,
+        "count": 203,
+        "width": "50",
+        "name": "XG29"
+    },
+    {
+        "cover": "collection",
+        "label": "Access",
+        "display_in_list": "",
+        "display_in_resource": true,
+        "searchable": "",
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "access_type"
+                    }
+                ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "with",
+                        "type": "string",
+                        "value": "^\\S+$"
+                    }
+                ],
+                "operation": "MASK"
+            }
+        ],
+        "classes": [],
+        "position": 14,
+        "count": 203,
+        "width": "50",
+        "name": "Fr7z"
+    },
+    {
+        "cover": "dataset",
+        "label": "Modèle conceptuel",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": " "
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 14,
+        "overview": 0,
+        "scheme": "http://schema.org/image",
+        "format": {
+            "args": {
+                "imageWidth": "50%"
+            },
+            "name": "image"
+        },
+        "count": 0,
+        "display_in_home": true,
+        "width": "50",
+        "name": "4cMz"
+    },
+    {
+        "cover": "collection",
+        "label": "Type",
+        "display_in_list": "",
+        "display_in_resource": true,
+        "searchable": "",
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "publication_type"
+                    }
+                ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "with",
+                        "type": "string",
+                        "value": "^\\S+$"
+                    }
+                ],
+                "operation": "MASK"
+            }
+        ],
+        "classes": [],
+        "position": 15,
+        "isFacet": true,
+        "count": 203,
+        "width": "50",
+        "name": "WmzM"
+    },
+    {
+        "label": "Sommaire",
+        "cover": "collection",
+        "contribution": true,
+        "position": 16,
+        "transformers": [
+            {
+                "operation": "CONCAT",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "print_identifier"
+                    },
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "online_identifier"
+                    }
+                ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "with",
+                        "type": "string",
+                        "value": "host.issn:\"%1$s\" OR host.isbn:\"%1$s\" OR host.eisbn:\"%2$s\" OR host.eissn:\"%2$s\""
+                    }
+                ],
+                "operation": "FORMAT"
+            },
+            {
+                "args": [
+                    {
+                        "name": "searchValue",
+                        "type": "string",
+                        "value": "host.issn:\"\" OR"
+                    },
+                    {
+                        "name": "replaceValue",
+                        "type": "string",
+                        "value": " "
+                    }
+                ],
+                "operation": "REPLACE"
+            },
+            {
+                "args": [
+                    {
+                        "name": "searchValue",
+                        "type": "string",
+                        "value": "host.isbn:\"\" OR"
+                    },
+                    {
+                        "name": "replaceValue",
+                        "type": "string",
+                        "value": " "
+                    }
+                ],
+                "operation": "REPLACE"
+            },
+            {
+                "args": [
+                    {
+                        "name": "searchValue",
+                        "type": "string",
+                        "value": "host.eisbn:\"\" OR"
+                    },
+                    {
+                        "name": "replaceValue",
+                        "type": "string",
+                        "value": "  "
+                    }
+                ],
+                "operation": "REPLACE"
+            },
+            {
+                "args": [
+                    {
+                        "name": "searchValue",
+                        "type": "string",
+                        "value": "host.eisnn:\"\""
+                    },
+                    {
+                        "name": "replaceValue",
+                        "type": "string",
+                        "value": " "
+                    }
+                ],
+                "operation": "REPLACE"
+            }
+        ],
+        "format": {
+            "args": {},
+            "name": "istex"
+        },
+        "count": 64,
+        "display_in_resource": true,
+        "name": "afRt"
+    },
+    {
+        "label": "Editeur",
+        "cover": "document",
+        "contribution": true,
+        "position": 17,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Editeur"
+                    }
+                ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "with",
+                        "type": "string",
+                        "value": "^\\S+.*$"
+                    }
+                ],
+                "operation": "MASK"
+            }
+        ],
+        "format": {
+            "args": {
+                "param": {
+                    "labelArray": [
+                        "W0zn",
+                        "V8Si",
+                        "gEbL"
+                    ]
+                }
+            },
+            "name": "lodexField"
+        },
+        "count": 0,
+        "name": "yuYo"
+    },
+    {
+        "cover": "collection",
+        "label": "parent_publication_title_id",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": "",
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "parent_publication_title_id"
+                    }
+                ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "with",
+                        "type": "string",
+                        "value": "^\\S+$"
+                    }
+                ],
+                "operation": "MASK"
+            }
+        ],
+        "classes": [],
+        "position": 18,
+        "overview": 0,
+        "count": 3613,
+        "name": "XX3r"
+    },
+    {
+        "cover": "collection",
+        "label": "title_id",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": "",
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "title_id"
+                    }
+                ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "with",
+                        "type": "string",
+                        "value": "^\\S+$"
+                    }
+                ],
+                "operation": "MASK"
+            }
+        ],
+        "classes": [],
+        "position": 19,
+        "overview": 0,
+        "count": 203,
+        "name": "V7IG"
+    },
+    {
+        "cover": "dataset",
+        "label": "Licence",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "https://www.etalab.gouv.fr/licence-ouverte-open-licence"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 19,
+        "overview": 0,
+        "scheme": "http://purl.org/dc/terms/license",
+        "language": "fr",
+        "format": {
+            "args": {
+                "type": "text",
+                "value": "https://data.istex.fr/img/licence-ouverte-open-licence.png"
+            },
+            "name": "linkImage"
+        },
+        "count": 0,
+        "display_in_home": true,
+        "width": "50",
+        "name": "r5xj"
+    },
+    {
+        "cover": "collection",
+        "label": "print_identifier",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": "",
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "print_identifier"
+                    }
+                ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "with",
+                        "type": "string",
+                        "value": "^\\S+$"
+                    }
+                ],
+                "operation": "MASK"
+            }
+        ],
+        "classes": [],
+        "position": 20,
+        "count": 203,
+        "width": "50",
+        "format": {
+            "args": {},
+            "name": "None"
+        },
+        "overview": 0,
+        "name": "khbR"
+    },
+    {
+        "cover": "collection",
+        "label": "online_identifier",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": "",
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "online_identifier"
+                    }
+                ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "with",
+                        "type": "string",
+                        "value": "^\\S+$"
+                    }
+                ],
+                "operation": "MASK"
+            }
+        ],
+        "classes": [],
+        "position": 21,
+        "overview": 0,
+        "count": 203,
+        "name": "K3Xw"
+    },
+    {
+        "cover": "dataset",
+        "label": "Créateur",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "ISTEX"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 23,
+        "overview": 0,
+        "scheme": "http://purl.org/dc/terms/creator",
+        "count": 0,
+        "display_in_home": true,
+        "width": "50",
+        "name": "TdZC"
+    },
+    {
+        "cover": "dataset",
+        "label": "Editeur",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "ISTEX core team"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 27,
+        "overview": 0,
+        "scheme": "http://purl.org/dc/elements/1.1/publisher",
+        "count": 0,
+        "display_in_home": true,
+        "width": "50",
+        "name": "ej2C"
+    },
+    {
+        "cover": "dataset",
+        "label": "Date de Création",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "2018-11-07"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 28,
+        "overview": 0,
+        "scheme": "http://purl.org/dc/terms/created",
+        "count": 0,
+        "display_in_home": true,
+        "width": "50",
+        "name": "BblN"
+    },
+    {
+        "cover": "dataset",
+        "label": "Date de modification",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "2018-11-07"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 29,
+        "overview": 0,
+        "scheme": "http://purl.org/dc/terms/source",
+        "completes": null,
+        "format": {
+            "name": "None"
+        },
+        "count": 0,
+        "display_in_home": true,
+        "width": "50",
+        "name": "6MVB"
+    },
+    {
+        "cover": "dataset",
+        "label": "Quelques titres de références",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": "",
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "n/a"
+                    }
+                ]
+            },
+            {
+                "operation": "ARRAY"
+            }
+        ],
+        "classes": [],
+        "position": 30,
+        "overview": 0,
+        "display_in_home": true,
+        "format": {
+            "args": {
+                "type": "unordered",
+                "subFormat": "resource",
+                "subFormatOptions": {},
+                "args": {}
+            },
+            "name": "list"
+        },
+        "width": "100",
+        "name": "jB1Z"
+    }
+]
