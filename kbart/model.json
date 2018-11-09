@@ -34,7 +34,7 @@
                     {
                         "name": "with",
                         "type": "string",
-                        "value": "^\\S+$"
+                        "value": "^\\S+.*$"
                     }
                 ],
                 "operation": "MASK"
@@ -45,6 +45,35 @@
         "overview": 1,
         "count": 3613,
         "name": "XXRn"
+    },
+    {
+        "label": "",
+        "format": {
+            "args": {
+                "level": 1
+            },
+            "name": "title"
+        },
+        "width": "100",
+        "cover": "dataset",
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "Revue de sommaire ISTEX"
+                    }
+                ]
+            }
+        ],
+        "position": 2,
+        "count": 0,
+        "display_in_home": true,
+        "overview": 100,
+        "scheme": "http://purl.org/dc/terms/title",
+        "name": "ExFk"
     },
     {
         "cover": "collection",
@@ -85,9 +114,8 @@
             }
         ],
         "classes": [],
-        "position": 2,
+        "position": 3,
         "overview": 0,
-        "name": "kber",
         "count": 3613,
         "format": {
             "args": {
@@ -98,17 +126,13 @@
                 }
             },
             "name": "resourcesGrid"
-        }
+        },
+        "name": "kber"
     },
     {
-        "label": "",
-        "format": {
-            "args": {
-                "level": 1
-            },
-            "name": "title"
-        },
-        "width": "100",
+        "label": "Description",
+        "scheme": "http://purl.org/dc/terms/description",
+        "position": 4,
         "cover": "dataset",
         "transformers": [
             {
@@ -117,17 +141,14 @@
                     {
                         "name": "value",
                         "type": "string",
-                        "value": "Revue de sommaire ISTEX"
+                        "value": "Ce jeu correspond au choix de documenter des données ISTEX et plus particulièrement la liste des ressources acquises (journal, book serie, serie, etc.). Pour le moment, nous ne présentons que les ressources présentes dans les fichiers kbart."
                     }
                 ]
             }
         ],
-        "position": 2,
-        "count": 0,
         "display_in_home": true,
-        "overview": 100,
-        "scheme": "http://purl.org/dc/terms/title",
-        "name": "ExFk"
+        "overview": 200,
+        "name": "bJzy"
     },
     {
         "cover": "collection",
@@ -168,7 +189,7 @@
             }
         ],
         "classes": [],
-        "position": 3,
+        "position": 5,
         "overview": 0,
         "format": {
             "args": {
@@ -180,29 +201,8 @@
             },
             "name": "resourcesGrid"
         },
-        "name": "BBl9",
-        "count": 3613
-    },
-    {
-        "label": "Description",
-        "scheme": "http://purl.org/dc/terms/description",
-        "position": 3,
-        "cover": "dataset",
-        "transformers": [
-            {
-                "operation": "VALUE",
-                "args": [
-                    {
-                        "name": "value",
-                        "type": "string",
-                        "value": "Ce jeu correspond au choix de documenter des données ISTEX et plus particulièrement la liste des ressources acquises (journal, book serie, serie, etc.). Pour le moment, nous ne présentons que les ressources présentes dans les fichiers kbart."
-                    }
-                ]
-            }
-        ],
-        "display_in_home": true,
-        "overview": 200,
-        "name": "bJzy"
+        "count": 3613,
+        "name": "BBl9"
     },
     {
         "cover": "collection",
@@ -233,7 +233,7 @@
             }
         ],
         "classes": [],
-        "position": 4,
+        "position": 6,
         "overview": 0,
         "count": 3613,
         "format": {
@@ -274,7 +274,7 @@
             }
         ],
         "classes": [],
-        "position": 5,
+        "position": 7,
         "count": 3613,
         "width": "50",
         "format": {
@@ -314,7 +314,7 @@
             }
         ],
         "classes": [],
-        "position": 6,
+        "position": 8,
         "overview": 0,
         "count": 3613,
         "width": "50",
@@ -325,6 +325,43 @@
             "name": "istexSummary"
         },
         "name": "Ma8o"
+    },
+    {
+        "cover": "dataset",
+        "label": "Dernières ressources mise à jour",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "/api/run/syndication"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 9,
+        "overview": 0,
+        "display_in_home": true,
+        "count": 0,
+        "format": {
+            "args": {
+                "spaceWidth": "30%",
+                "params": {
+                    "maxSize": 6,
+                    "orderBy": "value/asc"
+                },
+                "pageSize": 15,
+                "orderBy": "value/asc"
+            },
+            "name": "resourcesGrid"
+        },
+        "name": "hzEL"
     },
     {
         "cover": "collection",
@@ -355,7 +392,7 @@
             }
         ],
         "classes": [],
-        "position": 7,
+        "position": 10,
         "overview": 0,
         "count": 3613,
         "format": {
@@ -366,43 +403,6 @@
         },
         "width": "50",
         "name": "WMyo"
-    },
-    {
-        "cover": "dataset",
-        "label": "Dernières ressources mise à jour",
-        "display_in_list": "",
-        "display_in_resource": "",
-        "searchable": true,
-        "transformers": [
-            {
-                "operation": "VALUE",
-                "args": [
-                    {
-                        "name": "value",
-                        "type": "string",
-                        "value": "/api/run/syndication"
-                    }
-                ]
-            }
-        ],
-        "classes": [],
-        "position": 7,
-        "overview": 0,
-        "display_in_home": true,
-        "count": 0,
-        "format": {
-            "args": {
-                "spaceWidth": "30%",
-                "params": {
-                    "maxSize": 6,
-                    "orderBy": "value/asc"
-                },
-                "pageSize": 15,
-                "orderBy": "value/asc"
-            },
-            "name": "resourcesGrid"
-        },
-        "name": "hzEL"
     },
     {
         "cover": "collection",
@@ -423,7 +423,7 @@
             }
         ],
         "classes": [],
-        "position": 8,
+        "position": 11,
         "format": {
             "args": {
                 "type": "value",
@@ -464,7 +464,7 @@
             }
         ],
         "classes": [],
-        "position": 9,
+        "position": 12,
         "isFacet": true,
         "count": 6128,
         "width": "50",
@@ -499,7 +499,7 @@
             }
         ],
         "classes": [],
-        "position": 10,
+        "position": 13,
         "isFacet": true,
         "count": 6128,
         "width": "50",
@@ -524,7 +524,7 @@
             }
         ],
         "classes": [],
-        "position": 10,
+        "position": 14,
         "overview": 0,
         "scheme": "http://schema.org/image",
         "format": {
@@ -567,7 +567,7 @@
             }
         ],
         "classes": [],
-        "position": 11,
+        "position": 15,
         "isFacet": true,
         "count": 203,
         "width": "50",
@@ -595,14 +595,14 @@
                     {
                         "name": "with",
                         "type": "string",
-                        "value": "^\\S+$"
+                        "value": "^\\S+.*$"
                     }
                 ],
                 "operation": "MASK"
             }
         ],
         "classes": [],
-        "position": 12,
+        "position": 16,
         "isFacet": true,
         "overview": 2,
         "count": 3613,
@@ -638,7 +638,7 @@
             }
         ],
         "classes": [],
-        "position": 13,
+        "position": 17,
         "count": 203,
         "width": "50",
         "name": "Fr7z"
@@ -672,7 +672,7 @@
             }
         ],
         "classes": [],
-        "position": 14,
+        "position": 18,
         "isFacet": true,
         "count": 203,
         "width": "50",
@@ -697,7 +697,7 @@
             }
         ],
         "classes": [],
-        "position": 14,
+        "position": 19,
         "overview": 0,
         "scheme": "http://purl.org/dc/terms/license",
         "language": "fr",
@@ -717,7 +717,7 @@
         "label": "Sommaire",
         "cover": "collection",
         "contribution": true,
-        "position": 15,
+        "position": 20,
         "transformers": [
             {
                 "operation": "CONCAT",
@@ -817,7 +817,7 @@
         "label": "Editeur",
         "cover": "document",
         "contribution": true,
-        "position": 16,
+        "position": 21,
         "transformers": [
             {
                 "operation": "COLUMN",
@@ -834,7 +834,7 @@
                     {
                         "name": "with",
                         "type": "string",
-                        "value": "^\\S+$"
+                        "value": "^\\S+.*$"
                     }
                 ],
                 "operation": "MASK"
@@ -884,7 +884,7 @@
             }
         ],
         "classes": [],
-        "position": 17,
+        "position": 22,
         "overview": 0,
         "count": 3613,
         "name": "XX3r"
@@ -908,7 +908,7 @@
             }
         ],
         "classes": [],
-        "position": 17,
+        "position": 23,
         "overview": 0,
         "scheme": "http://purl.org/dc/terms/creator",
         "count": 0,
@@ -945,7 +945,7 @@
             }
         ],
         "classes": [],
-        "position": 18,
+        "position": 24,
         "overview": 0,
         "count": 203,
         "name": "V7IG"
@@ -979,7 +979,7 @@
             }
         ],
         "classes": [],
-        "position": 19,
+        "position": 25,
         "count": 203,
         "width": "50",
         "format": {
@@ -1018,7 +1018,7 @@
             }
         ],
         "classes": [],
-        "position": 20,
+        "position": 26,
         "overview": 0,
         "count": 203,
         "name": "K3Xw"
@@ -1042,7 +1042,7 @@
             }
         ],
         "classes": [],
-        "position": 20,
+        "position": 27,
         "overview": 0,
         "scheme": "http://purl.org/dc/elements/1.1/publisher",
         "count": 0,
@@ -1069,7 +1069,7 @@
             }
         ],
         "classes": [],
-        "position": 22,
+        "position": 28,
         "overview": 0,
         "scheme": "http://purl.org/dc/terms/created",
         "count": 0,
@@ -1096,7 +1096,7 @@
             }
         ],
         "classes": [],
-        "position": 26,
+        "position": 29,
         "overview": 0,
         "scheme": "http://purl.org/dc/terms/source",
         "completes": null,
