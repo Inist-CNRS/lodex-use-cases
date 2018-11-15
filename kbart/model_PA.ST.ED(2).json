@@ -13,6 +13,35 @@
         "name": "uri"
     },
     {
+        "label": "",
+        "format": {
+            "args": {
+                "level": 1
+            },
+            "name": "title"
+        },
+        "width": "100",
+        "cover": "dataset",
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "Revue de sommaire ISTEX"
+                    }
+                ]
+            }
+        ],
+        "position": 0,
+        "count": 0,
+        "display_in_home": true,
+        "overview": 100,
+        "scheme": "http://purl.org/dc/terms/title",
+        "name": "ExFk"
+    },
+    {
         "cover": "collection",
         "label": " ",
         "display_in_list": true,
@@ -51,8 +80,64 @@
             },
             "name": "title"
         },
-        "name": "XXRn",
-        "scheme": "http://www.w3.org/2008/05/skos-xl#prefLabel"
+        "scheme": "http://www.w3.org/2008/05/skos-xl#prefLabel",
+        "name": "XXRn"
+    },
+    {
+        "label": "Description",
+        "scheme": "http://purl.org/dc/terms/description",
+        "position": 1,
+        "cover": "dataset",
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "Ce jeu correspond au choix de documenter des données ISTEX et plus particulièrement la liste des ressources acquises (journal, book series, serie, etc.). Pour le moment, nous ne présentons que les ressources présentes dans les fichiers kbart."
+                    }
+                ]
+            }
+        ],
+        "display_in_home": true,
+        "overview": 200,
+        "name": "bJzy"
+    },
+    {
+        "cover": "dataset",
+        "label": "Quelques titres de références",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": "",
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": [
+                            "uid:/JPBD72HB"
+                        ]
+                    }
+                ]
+            },
+            {
+                "operation": "ARRAY"
+            }
+        ],
+        "classes": [],
+        "position": 2,
+        "overview": 0,
+        "display_in_home": true,
+        "format": {
+            "args": {},
+            "name": "resource"
+        },
+        "width": "100",
+        "count": 0,
+        "name": "jB1Z"
     },
     {
         "cover": "collection",
@@ -73,7 +158,7 @@
             }
         ],
         "classes": [],
-        "position": 2,
+        "position": 3,
         "overview": 2,
         "isFacet": true,
         "count": 9555,
@@ -81,15 +166,11 @@
         "name": "aCG7"
     },
     {
-        "label": "",
-        "format": {
-            "args": {
-                "level": 1
-            },
-            "name": "title"
-        },
-        "width": "100",
         "cover": "dataset",
+        "label": "Dernières ressources mises à jour",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
         "transformers": [
             {
                 "operation": "VALUE",
@@ -97,17 +178,29 @@
                     {
                         "name": "value",
                         "type": "string",
-                        "value": "Revue de sommaire ISTEX"
+                        "value": "/api/run/syndication"
                     }
                 ]
             }
         ],
-        "position": 2,
-        "count": 0,
+        "classes": [],
+        "position": 3,
+        "overview": 0,
         "display_in_home": true,
-        "overview": 100,
-        "scheme": "http://purl.org/dc/terms/title",
-        "name": "ExFk"
+        "count": 0,
+        "format": {
+            "args": {
+                "spaceWidth": "30%",
+                "params": {
+                    "maxSize": 6,
+                    "orderBy": "value/asc"
+                },
+                "pageSize": 15,
+                "orderBy": "value/asc"
+            },
+            "name": "resourcesGrid"
+        },
+        "name": "hzEL"
     },
     {
         "cover": "collection",
@@ -138,12 +231,45 @@
             }
         ],
         "classes": [],
-        "position": 3,
+        "position": 4,
         "isFacet": true,
         "overview": 0,
         "count": 9479,
         "width": "50",
         "name": "UVFW"
+    },
+    {
+        "cover": "dataset",
+        "label": "Modèle conceptuel",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": " "
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 4,
+        "overview": 0,
+        "scheme": "http://schema.org/image",
+        "format": {
+            "args": {
+                "imageWidth": "50%"
+            },
+            "name": "image"
+        },
+        "count": 0,
+        "display_in_home": true,
+        "width": "50",
+        "name": "4cMz"
     },
     {
         "cover": "collection",
@@ -164,16 +290,53 @@
             }
         ],
         "classes": [],
-        "position": 4,
+        "position": 5,
         "overview": 0,
-        "name": "nC6e",
-        "count": 48810,
+        "count": 47962,
         "format": {
-            "args": {},
-            "name": "None"
+            "args": {
+                "level": 4
+            },
+            "name": "title"
         },
         "width": "50",
-        "scheme": "http://purl.org/ontology/bibo/identifier"
+        "scheme": "http://purl.org/ontology/bibo/identifier",
+        "name": "nC6e"
+    },
+    {
+        "cover": "dataset",
+        "label": "Licence",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "https://www.etalab.gouv.fr/licence-ouverte-open-licence"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 5,
+        "overview": 0,
+        "scheme": "http://purl.org/dc/terms/license",
+        "language": "fr",
+        "format": {
+            "args": {
+                "type": "text",
+                "value": "https://data.istex.fr/img/licence-ouverte-open-licence.png"
+            },
+            "name": "linkImage"
+        },
+        "count": 0,
+        "display_in_home": true,
+        "width": "50",
+        "name": "r5xj"
     },
     {
         "cover": "collection",
@@ -194,12 +357,45 @@
             }
         ],
         "classes": [],
-        "position": 5,
+        "position": 6,
         "overview": 0,
-        "name": "auA7",
-        "count": 48810,
+        "count": 47962,
         "width": "50",
-        "scheme": "http://purl.org/ontology/bibo/identifier"
+        "scheme": "http://purl.org/ontology/bibo/identifier",
+        "name": "auA7",
+        "format": {
+            "args": {
+                "level": 4
+            },
+            "name": "title"
+        }
+    },
+    {
+        "cover": "dataset",
+        "label": "Créateur",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "ISTEX"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 6,
+        "overview": 0,
+        "scheme": "http://purl.org/dc/terms/creator",
+        "count": 0,
+        "display_in_home": true,
+        "width": "50",
+        "name": "TdZC"
     },
     {
         "cover": "collection",
@@ -230,17 +426,18 @@
             }
         ],
         "classes": [],
-        "position": 6,
+        "position": 7,
         "isFacet": true,
         "count": 6128,
         "width": "50",
         "name": "Rijz"
     },
     {
-        "label": "Description",
-        "scheme": "http://purl.org/dc/terms/description",
-        "position": 6,
         "cover": "dataset",
+        "label": "Editeur",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
         "transformers": [
             {
                 "operation": "VALUE",
@@ -248,14 +445,46 @@
                     {
                         "name": "value",
                         "type": "string",
-                        "value": "Ce jeu correspond au choix de documenter des données ISTEX et plus particulièrement la liste des ressources acquises (journal, book series, serie, etc.). Pour le moment, nous ne présentons que les ressources présentes dans les fichiers kbart."
+                        "value": "ISTEX core team"
                     }
                 ]
             }
         ],
+        "classes": [],
+        "position": 7,
+        "overview": 0,
+        "scheme": "http://purl.org/dc/terms/publisher",
+        "count": 0,
         "display_in_home": true,
-        "overview": 200,
-        "name": "bJzy"
+        "width": "50",
+        "name": "ej2C"
+    },
+    {
+        "cover": "dataset",
+        "label": "Date de Création",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "2018-11-07"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 8,
+        "overview": 0,
+        "scheme": "http://purl.org/dc/terms/created",
+        "count": 0,
+        "display_in_home": true,
+        "width": "50",
+        "name": "BblN"
     },
     {
         "cover": "collection",
@@ -286,11 +515,42 @@
             }
         ],
         "classes": [],
-        "position": 7,
+        "position": 9,
         "isFacet": true,
         "count": 6128,
         "width": "50",
         "name": "ZLPq"
+    },
+    {
+        "cover": "dataset",
+        "label": "Date de modification",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "2018-11-07"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 9,
+        "overview": 0,
+        "scheme": "http://purl.org/dc/terms/source",
+        "completes": null,
+        "format": {
+            "name": "None"
+        },
+        "count": 0,
+        "display_in_home": true,
+        "width": "50",
+        "name": "6MVB"
     },
     {
         "cover": "collection",
@@ -331,7 +591,7 @@
             }
         ],
         "classes": [],
-        "position": 8,
+        "position": 10,
         "overview": 0,
         "count": 2365,
         "format": {
@@ -344,8 +604,8 @@
             },
             "name": "resourcesGrid"
         },
-        "name": "kber",
-        "scheme": "http://purl.org/dc/elements/1.1/relation"
+        "scheme": "http://purl.org/dc/elements/1.1/relation",
+        "name": "kber"
     },
     {
         "cover": "collection",
@@ -386,7 +646,7 @@
             }
         ],
         "classes": [],
-        "position": 9,
+        "position": 11,
         "overview": 0,
         "format": {
             "args": {
@@ -399,8 +659,8 @@
             "name": "resourcesGrid"
         },
         "count": 48544,
-        "name": "BBl9",
-        "scheme": "http://purl.org/dc/terms/isPartOf"
+        "scheme": "http://purl.org/dc/terms/isPartOf",
+        "name": "BBl9"
     },
     {
         "cover": "collection",
@@ -431,7 +691,7 @@
             }
         ],
         "classes": [],
-        "position": 10,
+        "position": 12,
         "overview": 3,
         "count": 8660,
         "format": {
@@ -472,7 +732,7 @@
             }
         ],
         "classes": [],
-        "position": 11,
+        "position": 13,
         "count": 7737,
         "width": "50",
         "format": {
@@ -512,7 +772,7 @@
             }
         ],
         "classes": [],
-        "position": 12,
+        "position": 14,
         "overview": 4,
         "count": 39953,
         "width": "50",
@@ -525,43 +785,6 @@
             "name": "istexSummary"
         },
         "name": "Ma8o"
-    },
-    {
-        "cover": "dataset",
-        "label": "Dernières ressources mises à jour",
-        "display_in_list": "",
-        "display_in_resource": "",
-        "searchable": true,
-        "transformers": [
-            {
-                "operation": "VALUE",
-                "args": [
-                    {
-                        "name": "value",
-                        "type": "string",
-                        "value": "/api/run/syndication"
-                    }
-                ]
-            }
-        ],
-        "classes": [],
-        "position": 12,
-        "overview": 0,
-        "display_in_home": true,
-        "count": 0,
-        "format": {
-            "args": {
-                "spaceWidth": "30%",
-                "params": {
-                    "maxSize": 6,
-                    "orderBy": "value/asc"
-                },
-                "pageSize": 15,
-                "orderBy": "value/asc"
-            },
-            "name": "resourcesGrid"
-        },
-        "name": "hzEL"
     },
     {
         "cover": "collection",
@@ -592,7 +815,7 @@
             }
         ],
         "classes": [],
-        "position": 13,
+        "position": 16,
         "overview": 0,
         "count": 38444,
         "format": {
@@ -623,7 +846,7 @@
             }
         ],
         "classes": [],
-        "position": 14,
+        "position": 17,
         "format": {
             "args": {
                 "type": "value",
@@ -633,8 +856,8 @@
         },
         "count": 48810,
         "width": "100",
-        "name": "j7uI",
-        "scheme": "http://purl.org/cerif/frapo/owl:sameAs"
+        "scheme": "http://purl.org/cerif/frapo/owl:sameAs",
+        "name": "j7uI"
     },
     {
         "cover": "collection",
@@ -665,12 +888,12 @@
             }
         ],
         "classes": [],
-        "position": 15,
+        "position": 18,
         "isFacet": true,
         "count": 48810,
         "width": "50",
-        "name": "XG29",
-        "scheme": "http://purl.org/ontology/bibo/content"
+        "scheme": "http://purl.org/ontology/bibo/content",
+        "name": "XG29"
     },
     {
         "cover": "collection",
@@ -701,11 +924,11 @@
             }
         ],
         "classes": [],
-        "position": 16,
+        "position": 19,
         "count": 48810,
         "width": "50",
-        "name": "Fr7z",
-        "scheme": "http://purl.org/dc/terms/rights"
+        "scheme": "http://purl.org/dc/terms/rights",
+        "name": "Fr7z"
     },
     {
         "cover": "collection",
@@ -736,18 +959,18 @@
             }
         ],
         "classes": [],
-        "position": 17,
+        "position": 20,
         "isFacet": true,
         "count": 48810,
         "width": "50",
-        "name": "WmzM",
-        "scheme": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        "scheme": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "name": "WmzM"
     },
     {
         "label": "Sommaire",
         "cover": "collection",
         "contribution": true,
-        "position": 18,
+        "position": 21,
         "transformers": [
             {
                 "operation": "CONCAT",
@@ -844,43 +1067,10 @@
         "name": "afRt"
     },
     {
-        "cover": "dataset",
-        "label": "Modèle conceptuel",
-        "display_in_list": "",
-        "display_in_resource": "",
-        "searchable": true,
-        "transformers": [
-            {
-                "operation": "VALUE",
-                "args": [
-                    {
-                        "name": "value",
-                        "type": "string",
-                        "value": " "
-                    }
-                ]
-            }
-        ],
-        "classes": [],
-        "position": 18,
-        "overview": 0,
-        "scheme": "http://schema.org/image",
-        "format": {
-            "args": {
-                "imageWidth": "50%"
-            },
-            "name": "image"
-        },
-        "count": 0,
-        "display_in_home": true,
-        "width": "50",
-        "name": "4cMz"
-    },
-    {
         "label": "Editeur",
         "cover": "document",
         "contribution": true,
-        "position": 19,
+        "position": 23,
         "transformers": [
             {
                 "operation": "COLUMN",
@@ -947,7 +1137,7 @@
             }
         ],
         "classes": [],
-        "position": 20,
+        "position": 24,
         "overview": 0,
         "count": 3613,
         "name": "XX3r"
@@ -981,217 +1171,9 @@
             }
         ],
         "classes": [],
-        "position": 21,
+        "position": 25,
         "overview": 0,
         "count": 203,
         "name": "V7IG"
-    },
-    {
-        "cover": "dataset",
-        "label": "Licence",
-        "display_in_list": "",
-        "display_in_resource": "",
-        "searchable": true,
-        "transformers": [
-            {
-                "operation": "VALUE",
-                "args": [
-                    {
-                        "name": "value",
-                        "type": "string",
-                        "value": "https://www.etalab.gouv.fr/licence-ouverte-open-licence"
-                    }
-                ]
-            }
-        ],
-        "classes": [],
-        "position": 24,
-        "overview": 0,
-        "scheme": "http://purl.org/dc/terms/license",
-        "language": "fr",
-        "format": {
-            "args": {
-                "type": "text",
-                "value": "https://data.istex.fr/img/licence-ouverte-open-licence.png"
-            },
-            "name": "linkImage"
-        },
-        "count": 0,
-        "display_in_home": true,
-        "width": "50",
-        "name": "r5xj"
-    },
-    {
-        "cover": "dataset",
-        "label": "Créateur",
-        "display_in_list": "",
-        "display_in_resource": "",
-        "searchable": true,
-        "transformers": [
-            {
-                "operation": "VALUE",
-                "args": [
-                    {
-                        "name": "value",
-                        "type": "string",
-                        "value": "ISTEX"
-                    }
-                ]
-            }
-        ],
-        "classes": [],
-        "position": 27,
-        "overview": 0,
-        "scheme": "http://purl.org/dc/terms/creator",
-        "count": 0,
-        "display_in_home": true,
-        "width": "50",
-        "name": "TdZC"
-    },
-    {
-        "cover": "dataset",
-        "label": "Editeur",
-        "display_in_list": "",
-        "display_in_resource": "",
-        "searchable": true,
-        "transformers": [
-            {
-                "operation": "VALUE",
-                "args": [
-                    {
-                        "name": "value",
-                        "type": "string",
-                        "value": "ISTEX core team"
-                    }
-                ]
-            }
-        ],
-        "classes": [],
-        "position": 28,
-        "overview": 0,
-        "scheme": "http://purl.org/dc/terms/publisher",
-        "count": 0,
-        "display_in_home": true,
-        "width": "50",
-        "name": "ej2C"
-    },
-    {
-        "cover": "dataset",
-        "label": "Date de Création",
-        "display_in_list": "",
-        "display_in_resource": "",
-        "searchable": true,
-        "transformers": [
-            {
-                "operation": "VALUE",
-                "args": [
-                    {
-                        "name": "value",
-                        "type": "string",
-                        "value": "2018-11-07"
-                    }
-                ]
-            }
-        ],
-        "classes": [],
-        "position": 29,
-        "overview": 0,
-        "scheme": "http://purl.org/dc/terms/created",
-        "count": 0,
-        "display_in_home": true,
-        "width": "50",
-        "name": "BblN"
-    },
-    {
-        "cover": "dataset",
-        "label": "Date de modification",
-        "display_in_list": "",
-        "display_in_resource": "",
-        "searchable": true,
-        "transformers": [
-            {
-                "operation": "VALUE",
-                "args": [
-                    {
-                        "name": "value",
-                        "type": "string",
-                        "value": "2018-11-07"
-                    }
-                ]
-            }
-        ],
-        "classes": [],
-        "position": 30,
-        "overview": 0,
-        "scheme": "http://purl.org/dc/terms/source",
-        "completes": null,
-        "format": {
-            "name": "None"
-        },
-        "count": 0,
-        "display_in_home": true,
-        "width": "50",
-        "name": "6MVB"
-    },
-    {
-        "cover": "dataset",
-        "label": "Quelques titres de références",
-        "display_in_list": "",
-        "display_in_resource": "",
-        "searchable": "",
-        "transformers": [
-            {
-                "operation": "VALUE",
-                "args": [
-                    {
-                        "name": "value",
-                        "type": "string",
-                        "value": [
-                            "http://journalsbooks-pasted-1.lodex-dev.inist.fr/uid:/QV4KQBNF",
-                            "http://journalsbooks-pasted-1.lodex-dev.inist.fr/uid:/S4ZNTRH8",
-                            "http://journalsbooks-pasted-1.lodex-dev.inist.fr/uid:/MBN8DV0P",
-                            "http://journalsbooks-pasted-1.lodex-dev.inist.fr/uid:/8R36RHLJ",
-                            "http://journalsbooks-pasted-1.lodex-dev.inist.fr/uid:/BJMB5CFT",
-                            "http://journalsbooks-pasted-1.lodex-dev.inist.fr/uid:/KZ27D2Q9",
-                            "http://journalsbooks-pasted-1.lodex-dev.inist.fr/uid:/KTH6DNV3",
-                            "http://journalsbooks-pasted-1.lodex-dev.inist.fr/uid:/38HLZ6SW",
-                            "http://journalsbooks-pasted-1.lodex-dev.inist.fr/uid:/HPMJ83QV"
-                        ]
-                    }
-                ]
-            },
-            {
-                "operation": "ARRAY"
-            }
-        ],
-        "classes": [],
-        "position": 31,
-        "overview": 0,
-        "display_in_home": true,
-        "format": {
-            "args": {
-                "type": "unordered",
-                "subFormat": "lodexField",
-                "subFormatOptions": {
-                    "param": {
-                        "labelArray": [
-                            "XXRn",
-                            "aCG7"
-                        ]
-                    }
-                },
-                "args": {
-                    "param": {
-                        "labelArray": [
-                            ""
-                        ]
-                    }
-                }
-            },
-            "name": "list"
-        },
-        "width": "100",
-        "name": "jB1Z",
-        "count": 0
     }
 ]
