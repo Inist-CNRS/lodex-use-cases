@@ -43,7 +43,7 @@
     },
     {
         "cover": "collection",
-        "label": " ",
+        "label": " Titre de la publication",
         "display_in_list": true,
         "display_in_resource": true,
         "searchable": true,
@@ -72,7 +72,7 @@
         "classes": [],
         "position": 1,
         "overview": 1,
-        "count": 47962,
+        "count": 46767,
         "format": {
             "args": {
                 "level": 1,
@@ -207,10 +207,11 @@
         "position": 3,
         "overview": 2,
         "isFacet": true,
-        "count": 47962,
+        "count": 46767,
         "width": "100",
         "scheme": "http://www.w3.org/ns/prov#used",
-        "name": "aCG7"
+        "name": "aCG7",
+        "completes": "jN0X"
     },
     {
         "cover": "dataset",
@@ -288,8 +289,8 @@
             },
             "name": "lodexField"
         },
-        "completes": "aCG7",
-        "count": 46738,
+        "completes": null,
+        "count": 46767,
         "scheme": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
         "name": "jN0X"
     },
@@ -890,7 +891,7 @@
                     {
                         "name": "with",
                         "type": "string",
-                        "value": "host.issn:\"%1$s\" OR host.isbn:\"%1$s\" OR host.eisbn:\"%2$s\" OR host.eissn:\"%2$s\""
+                        "value": "host.issn:\"%1$s\" OR host.isbn:\"%1$s\" , host.eisbn:\"%2$s\" OR host.eissn:\"%2$s\""
                     }
                 ],
                 "operation": "FORMAT"
@@ -915,7 +916,7 @@
                     {
                         "name": "searchValue",
                         "type": "string",
-                        "value": "host.isbn:\"\" OR"
+                        "value": "host.isbn:\"\" , "
                     },
                     {
                         "name": "replaceValue",
