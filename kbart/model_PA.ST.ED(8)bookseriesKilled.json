@@ -432,7 +432,7 @@
         "classes": [],
         "position": 12,
         "overview": 3,
-        "count": 8658,
+        "count": 8659,
         "format": {
             "args": {
                 "level": 4
@@ -853,7 +853,7 @@
             "name": "resourcesGrid",
             "args": {
                 "allowToLoadMore": true,
-                "pageSize": 30,
+                "pageSize": 10,
                 "spaceWidth": "30%",
                 "params": {
                     "maxSize": 50,
@@ -862,7 +862,7 @@
                 }
             }
         },
-        "count": 2,
+        "count": 2464,
         "scheme": "http://purl.org/dc/terms/hasPart",
         "name": "BBl9"
     },
@@ -967,11 +967,12 @@
             "args": {
                 "searchedField": "custom_istex_query",
                 "sortDir": "YEAR_DESC",
-                "yearThreshold": 50,
+                "yearThreshold": 10,
                 "documentSortBy": "host.pages.first,title.raw"
             }
         },
-        "name": "BZSn"
+        "name": "BZSn",
+        "count": 46766
     },
     {
         "cover": "collection",
