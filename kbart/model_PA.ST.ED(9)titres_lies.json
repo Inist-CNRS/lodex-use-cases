@@ -576,7 +576,7 @@
         "classes": [],
         "position": 15,
         "overview": 0,
-        "scheme": "http://d-nb.info/standards/elementset/gnd#precedingWork",
+        "scheme": "http://purl.org/co/precededBy",
         "format": {
             "name": "resourcesGrid",
             "args": {
@@ -589,7 +589,8 @@
                 }
             }
         },
-        "name": "izmJ"
+        "name": "izmJ",
+        "count": 279
     },
     {
         "cover": "collection",
@@ -645,7 +646,8 @@
                 }
             }
         },
-        "name": "FdsN"
+        "name": "FdsN",
+        "scheme": "http://purl.org/co/followedBy"
     },
     {
         "cover": "dataset",
@@ -1065,7 +1067,7 @@
         "classes": [],
         "position": 25,
         "overview": 0,
-        "count": 8632,
+        "count": 8694,
         "format": {
             "name": "sparqlTextField",
             "args": {
@@ -1095,7 +1097,8 @@
                 }
             }
         },
-        "name": "g6FY"
+        "name": "g6FY",
+        "scheme": "http://www.w3.org/2000/01/rdf-schema#seeAlso"
     },
     {
         "cover": "dataset",
