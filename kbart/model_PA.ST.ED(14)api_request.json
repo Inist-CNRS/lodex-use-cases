@@ -456,7 +456,8 @@
             "args": {
                 "params": {
                     "maxSize": 200,
-                    "orderBy": "value/asc"
+                    "orderBy": "value/asc",
+                    "maxValue": 10000
                 },
                 "colorScheme": [
                     "#fbb4ae",
@@ -509,16 +510,6 @@
                         "value": "ppn_id"
                     }
                 ]
-            },
-            {
-                "args": [
-                    {
-                        "name": "with",
-                        "type": "string",
-                        "value": "\t http://www.sudoc.fr/"
-                    }
-                ],
-                "operation": "PREFIX"
             }
         ],
         "classes": [],
@@ -698,10 +689,12 @@
                         "name": "value",
                         "type": "string",
                         "value": [
-                            "ark:/67375/8Q1-136Q7B9L-T",
-                            "ark:/67375/8Q1-8W54LZW0-D",
-                            "ark:/67375/8Q1-3DM16TJB-L",
-                            "ark:/67375/8Q1-7RPT5HN6-K"
+                            "ark:/67375/8Q1-30DTMJFH-7",
+                            "ark:/67375/8Q1-5N1GWT6G-P",
+                            "ark:/67375/8Q1-2ZSCWQRP-V",
+                            "ark:/67375/8Q1-2NSFK3XB-3",
+                            "ark:/67375/8Q1-X2JZB1SC-X",
+                            "ark:/67375/8Q1-TFP2B5LF-N"
                         ]
                     }
                 ]
@@ -714,7 +707,7 @@
         "format": {
             "name": "list",
             "args": {
-                "type": "unordered",
+                "type": "unordered_without_bullet",
                 "subFormat": "resource",
                 "subFormatOptions": {},
                 "args": {}
@@ -1332,7 +1325,7 @@
                     {
                         "name": "value",
                         "type": "string",
-                        "value": "2018-12-07"
+                        "value": "2019-01-08"
                     }
                 ]
             }
