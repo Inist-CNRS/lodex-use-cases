@@ -34,7 +34,14 @@
         "position": 1,
         "overview": 1,
         "scheme": "http://purl.org/dc/terms/title",
-        "name": "Ce6j"
+        "name": "Ce6j",
+        "format": {
+            "name": "title",
+            "args": {
+                "level": 1,
+                "textColor": "#000"
+            }
+        }
     },
     {
         "cover": "collection",
@@ -101,8 +108,8 @@
         "position": 3,
         "overview": 2,
         "scheme": "http://schema.org/name",
-        "name": "axbA",
-        "count": 29
+        "count": 29,
+        "name": "axbA"
     },
     {
         "cover": "dataset",
