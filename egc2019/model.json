@@ -2,7 +2,6 @@
     {
         "cover": "collection",
         "label": "uri",
-        "name": "uri",
         "display_on_list": true,
         "transformers": [
             {
@@ -10,7 +9,8 @@
                 "args": []
             }
         ],
-        "position": 0
+        "position": 0,
+        "name": "uri"
     },
     {
         "cover": "collection",
@@ -57,9 +57,9 @@
         "classes": [],
         "position": 2,
         "overview": 3,
-        "scheme": "http://schema.org/releaseDate",
-        "name": "zoN8",
-        "isFacet": true
+        "scheme": "http://schema.org/releasedEvent",
+        "isFacet": true,
+        "name": "zoN8"
     },
     {
         "cover": "collection",
@@ -69,24 +69,40 @@
         "searchable": true,
         "transformers": [
             {
-                "operation": "COLUMN",
+                "operation": "CONCAT",
                 "args": [
                     {
                         "name": "column",
                         "type": "column",
                         "value": "director/LastNane"
+                    },
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "director/firstNane"
                     }
                 ]
             },
             {
                 "operation": "UPPERCASE"
+            },
+            {
+                "args": [
+                    {
+                        "name": "with",
+                        "type": "string",
+                        "value": "%1$s, %2$s"
+                    }
+                ],
+                "operation": "FORMAT"
             }
         ],
         "classes": [],
         "position": 3,
         "overview": 2,
-        "scheme": "http://schema.org/familyName",
-        "name": "axbA"
+        "scheme": "http://schema.org/name",
+        "name": "axbA",
+        "count": 29
     },
     {
         "cover": "dataset",
@@ -107,7 +123,7 @@
             }
         ],
         "classes": [],
-        "position": 5,
+        "position": 4,
         "overview": 0,
         "language": null,
         "scheme": "http://purl.org/dc/terms/title",
@@ -119,8 +135,8 @@
                 "textColor": "#000"
             }
         },
-        "name": "cmPx",
-        "count": 0
+        "count": 0,
+        "name": "cmPx"
     },
     {
         "cover": "dataset",
@@ -141,23 +157,22 @@
             }
         ],
         "classes": [],
-        "position": 6,
+        "position": 5,
         "overview": 0,
         "scheme": "http://purl.org/dc/terms/description",
-        "name": "cAuo",
         "count": 0,
         "display_in_home": true,
         "format": {
             "name": "None",
             "args": {}
-        }
+        },
+        "name": "cAuo"
     },
     {
         "label": "Enrichissements WikiData",
-        "name": "zszV",
         "cover": "document",
         "contribution": true,
-        "position": 7,
+        "position": 6,
         "transformers": [
             {
                 "operation": "COLUMN",
@@ -165,7 +180,7 @@
                     {
                         "name": "column",
                         "type": "column",
-                        "value": "Enrichissements WikiData"
+                        "value": "title"
                     }
                 ]
             }
@@ -191,7 +206,8 @@
                     ]
                 }
             }
-        }
+        },
+        "name": "zszV"
     },
     {
         "cover": "collection",
@@ -212,7 +228,7 @@
             }
         ],
         "classes": [],
-        "position": 8,
+        "position": 7,
         "overview": 0,
         "scheme": "http://schema.org/starRating",
         "isFacet": true,
@@ -237,7 +253,7 @@
             }
         ],
         "classes": [],
-        "position": 9,
+        "position": 8,
         "overview": 0,
         "scheme": "http://purl.org/dc/terms/source",
         "format": {
@@ -247,8 +263,8 @@
                 "value": ""
             }
         },
-        "name": "zwzz",
-        "completes": "uANf"
+        "completes": "uANf",
+        "name": "zwzz"
     },
     {
         "cover": "collection",
@@ -269,7 +285,7 @@
             }
         ],
         "classes": [],
-        "position": 10,
+        "position": 9,
         "overview": 0,
         "format": {
             "name": "sparqlTextField",
@@ -285,5 +301,74 @@
             }
         },
         "name": "WV4A"
+    },
+    {
+        "cover": "dataset",
+        "label": "Ressources présentes",
+        "display_in_list": false,
+        "display_in_resource": false,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "/api/run/syndication"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 10,
+        "overview": 0,
+        "display_in_home": true,
+        "format": {
+            "name": "resourcesGrid",
+            "args": {
+                "allowToLoadMore": true,
+                "pageSize": 15,
+                "spaceWidth": "30%",
+                "params": {
+                    "maxSize": 5,
+                    "orderBy": "value/asc"
+                }
+            }
+        },
+        "count": 0,
+        "name": "aCHJ"
+    },
+    {
+        "cover": "dataset",
+        "label": "Licence",
+        "display_in_list": false,
+        "display_in_resource": false,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "https://www.etalab.gouv.fr/licence-ouverte-open-licence"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 11,
+        "overview": 0,
+        "format": {
+            "name": "link",
+            "args": {
+                "type": "text",
+                "value": "ETALAB"
+            }
+        },
+        "display_in_home": true,
+        "count": 0,
+        "name": "uxTH"
     }
 ]
