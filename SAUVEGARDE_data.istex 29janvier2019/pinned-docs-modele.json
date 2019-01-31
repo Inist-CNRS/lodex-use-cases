@@ -1,0 +1,309 @@
+[
+    {
+        "cover": "collection",
+        "label": "uri",
+        "display_on_list": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "uri"
+                    }
+                ]
+            }
+        ],
+        "position": 0,
+        "name": "uri"
+    },
+    {
+        "cover": "collection",
+        "label": "Titre de l'article",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Titre de l'article"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 1,
+        "overview": 1,
+        "name": "agZG"
+    },
+    {
+        "cover": "collection",
+        "label": "Auteur",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Auteur"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 2,
+        "format": {
+            "args": {
+                "type": "unordered"
+            },
+            "name": "list"
+        },
+        "name": "WtTx"
+    },
+    {
+        "cover": "collection",
+        "label": "Pourquoi?",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Pourquoi?"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 3,
+        "name": "zcnL"
+    },
+    {
+        "cover": "collection",
+        "label": "Editeur",
+        "display_in_list": "",
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Editeur"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 4,
+        "name": "RBW6",
+        "overview": 2,
+        "count": 22
+    },
+    {
+        "cover": "collection",
+        "label": "ARK correspondant au jeu de corpus",
+        "display_in_list": "",
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "ARK correspondant au jeu de corpus"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 5,
+        "name": "ZPMT",
+        "count": 22
+    },
+    {
+        "cover": "collection",
+        "label": "Discipline",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Discipline"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 6,
+        "name": "WfS9",
+        "count": 22,
+        "isFacet": true
+    },
+    {
+        "cover": "collection",
+        "label": "URI correspondant à la",
+        "display_in_list": "",
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "URI correspondant à la"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 7,
+        "name": "ULvS",
+        "count": 22
+    },
+    {
+        "cover": "collection",
+        "label": "TEI Linéaire",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "TEI Linéaire"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 8,
+        "name": "xw1s",
+        "count": 22,
+        "isFacet": ""
+    },
+    {
+        "cover": "collection",
+        "label": "Pub2TEI",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Pub2TEI"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 9,
+        "name": "U8iU",
+        "count": 22,
+        "isFacet": ""
+    },
+    {
+        "cover": "collection",
+        "label": "ark istex",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "ark istex"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 10,
+        "name": "nE3T"
+    },
+    {
+        "cover": "collection",
+        "label": "id istex",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "id istex"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 11,
+        "name": "HMlO"
+    },
+    {
+        "label": "Les documents sélectionnés",
+        "format": {
+            "args": {
+                "spaceWidth": "30%",
+                "pageSize": 50,
+                "orderBy": "value/asc"
+            },
+            "name": "resourcesGrid"
+        },
+        "cover": "dataset",
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Les documents sélectionnés"
+                    }
+                ]
+            }
+        ],
+        "position": 12,
+        "name": "ca3M",
+        "count": 0,
+        "display_in_home": true,
+        "overview": 100
+    }
+]

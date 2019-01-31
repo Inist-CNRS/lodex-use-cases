@@ -1,0 +1,855 @@
+[
+    {
+        "cover": "collection",
+        "label": "uri",
+        "display_on_list": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "uri"
+                    }
+                ]
+            }
+        ],
+        "position": 0,
+        "name": "uri"
+    },
+    {
+        "cover": "collection",
+        "label": "Titre de la ressource pédagogique",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Titre de la ressource pédagogique"
+                    }
+                ]
+            }
+        ],
+        "position": 1,
+        "scheme": "http://purl.org/dc/terms/title",
+        "language": "fr",
+        "format": {
+            "args": {
+                "level": 1
+            },
+            "name": "title"
+        },
+        "overview": 1,
+        "classes": [],
+        "name": "WXZZ",
+        "count": 6
+    },
+    {
+        "cover": "collection",
+        "label": "Description de la ressource pédagogique",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Description de la ressource pédagogique"
+                    }
+                ]
+            }
+        ],
+        "position": 2,
+        "scheme": "http://purl.org/dc/terms/description",
+        "overview": 2,
+        "format": {
+            "args": {
+                "paragraphWidth": "100%"
+            },
+            "name": "paragraph"
+        },
+        "classes": [],
+        "language": "fr",
+        "name": "rUt1",
+        "count": 6,
+        "width": "100"
+    },
+    {
+        "cover": "collection",
+        "label": "Localisation de la ressource pédagogique",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Localisation de la ressource pédagogique"
+                    }
+                ]
+            }
+        ],
+        "position": 3,
+        "scheme": "http://data.opendiscoveryspace.eu/lom_ontology_ods.owl#technicalLocation",
+        "format": {
+            "args": {
+                "type": "text",
+                "value": "https://web-tutorials-1.delivery.istex.fr/play-istex-tuto.png"
+            },
+            "name": "linkImage"
+        },
+        "classes": [],
+        "name": "ZI8w",
+        "count": 6,
+        "width": "100"
+    },
+    {
+        "cover": "collection",
+        "label": "Langue de la ressource pédagogique",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Langue de la ressource pédagogique"
+                    }
+                ]
+            }
+        ],
+        "position": 5,
+        "scheme": "http://purl.org/dc/terms/language",
+        "classes": [],
+        "name": "2xNg",
+        "width": "80",
+        "count": 6
+    },
+    {
+        "cover": "collection",
+        "label": "Licence",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Licence1"
+                    }
+                ]
+            }
+        ],
+        "position": 6,
+        "scheme": "http://data.opendiscoveryspace.eu/lom_ontology_ods.owl#copyrightDescription",
+        "language": null,
+        "classes": [],
+        "format": {
+            "name": "link"
+        },
+        "name": "u84d",
+        "count": 6
+    },
+    {
+        "cover": "collection",
+        "label": "Structure de la ressource pédagogique",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Structure de la ressource pédagogique"
+                    }
+                ]
+            }
+        ],
+        "position": 7,
+        "scheme": "http://data.opendiscoveryspace.eu/lom_ontology_ods.owl#structure",
+        "language": "fr",
+        "classes": [],
+        "name": "5uac",
+        "count": 6,
+        "width": ""
+    },
+    {
+        "cover": "collection",
+        "label": "Type documentaire de la ressource pédagogique",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Type documentaire de la ressource pédagogique"
+                    }
+                ]
+            }
+        ],
+        "position": 8,
+        "scheme": "http://purl.org/dc/terms/type",
+        "language": "fr",
+        "classes": [],
+        "name": "hDgw",
+        "count": 6,
+        "width": ""
+    },
+    {
+        "cover": "collection",
+        "label": "Etat de la ressource pédagogique",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Etat de la ressource pédagogique"
+                    }
+                ]
+            }
+        ],
+        "position": 9,
+        "scheme": "http://data.opendiscoveryspace.eu/lom_ontology_ods.owl#lifeCycleStatus",
+        "language": "fr",
+        "classes": [],
+        "name": "58cC",
+        "count": 6
+    },
+    {
+        "cover": "collection",
+        "label": "Entité qui contribue à la production",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Entité qui contribue à la production"
+                    }
+                ]
+            }
+        ],
+        "position": 10,
+        "scheme": "http://data.opendiscoveryspace.eu/lom_ontology_ods.owl#contributionEntity",
+        "language": null,
+        "classes": [],
+        "format": {
+            "name": "link"
+        },
+        "name": "DkRO",
+        "count": 6
+    },
+    {
+        "cover": "collection",
+        "label": "Rôle de l'entité productrice",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Rôle de l'entité productrice"
+                    }
+                ]
+            }
+        ],
+        "position": 11,
+        "scheme": "http://data.opendiscoveryspace.eu/lom_ontology_ods.owl#lifeCycleContributionRole",
+        "language": "fr",
+        "classes": [],
+        "name": "LBOI",
+        "count": 6
+    },
+    {
+        "cover": "collection",
+        "label": "Schéma de métadonnées",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "lomfr v1.0"
+                    }
+                ]
+            }
+        ],
+        "position": 12,
+        "scheme": "http://data.opendiscoveryspace.eu/lom_ontology_ods.owl#metadataSchema",
+        "language": "fr",
+        "classes": [],
+        "name": "bvLo",
+        "count": 6
+    },
+    {
+        "cover": "collection",
+        "label": "Format technique de la ressource pédagogique",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Format technique de la ressource pédagogique"
+                    }
+                ]
+            }
+        ],
+        "position": 13,
+        "scheme": "http://data.opendiscoveryspace.eu/lom_ontology_ods.owl#hasTechnicalFormat",
+        "name": "tAJu",
+        "count": 6
+    },
+    {
+        "cover": "collection",
+        "label": "Durée de la ressource pédagogique",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Durée de la ressource pédagogique"
+                    }
+                ]
+            }
+        ],
+        "position": 14,
+        "scheme": "http://data.opendiscoveryspace.eu/lom_ontology_ods.owl#technicalDuration",
+        "language": "fr",
+        "classes": [],
+        "name": "k6zF",
+        "count": 6
+    },
+    {
+        "cover": "collection",
+        "label": "Durée d'apprentissage",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Durée d'apprentissage"
+                    }
+                ]
+            }
+        ],
+        "position": 15,
+        "scheme": "http://data.opendiscoveryspace.eu/lom_ontology_ods.owl#educationalTypicalLearningTime",
+        "language": "fr",
+        "classes": [],
+        "name": "BqCQ",
+        "count": 6
+    },
+    {
+        "cover": "collection",
+        "label": "Public cible",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Public cible"
+                    }
+                ]
+            }
+        ],
+        "position": 16,
+        "scheme": "http://data.opendiscoveryspace.eu/lom_ontology_ods.owl#educationalIntendedUserRole",
+        "language": "fr",
+        "classes": [],
+        "name": "G8zY",
+        "count": 6
+    },
+    {
+        "cover": "collection",
+        "label": "Niveau du public cible",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Niveau du public cible"
+                    }
+                ]
+            }
+        ],
+        "position": 17,
+        "scheme": "http://data.opendiscoveryspace.eu/lom_ontology_ods.owl#educationalInteractivityLevel",
+        "language": "fr",
+        "classes": [],
+        "name": "YzwA",
+        "count": 6
+    },
+    {
+        "cover": "collection",
+        "label": "Difficulté de la ressource pour le ou les niveaux indiqués",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Difficulté de la ressource pour le ou les niveaux indiqués"
+                    }
+                ]
+            }
+        ],
+        "position": 18,
+        "scheme": "http://data.opendiscoveryspace.eu/lom_ontology_ods.owl#educationalDifficulty",
+        "language": "fr",
+        "name": "h7Cb",
+        "count": 6
+    },
+    {
+        "cover": "collection",
+        "label": "Modèle économique",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Modèle économique"
+                    }
+                ]
+            }
+        ],
+        "position": 19,
+        "scheme": "http://data.opendiscoveryspace.eu/lom_ontology_ods.owl#cost",
+        "language": "en",
+        "classes": [],
+        "name": "7TrR",
+        "count": 6,
+        "width": ""
+    },
+    {
+        "cover": "collection",
+        "label": "Propriété intellectuelle",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Propriété intellectuelle"
+                    }
+                ]
+            }
+        ],
+        "position": 20,
+        "scheme": "http://data.opendiscoveryspace.eu/lom_ontology_ods.owl#copyrightAndOtherRestrictions",
+        "language": "en",
+        "classes": [],
+        "name": "DzlJ",
+        "count": 6,
+        "width": ""
+    },
+    {
+        "cover": "dataset",
+        "label": " ",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "Tutoriels ISTEX"
+                    }
+                ]
+            }
+        ],
+        "position": 21,
+        "scheme": "http://purl.org/dc/terms/title",
+        "language": "fr",
+        "format": {
+            "name": "title"
+        },
+        "classes": [],
+        "name": "z1GG",
+        "count": 0,
+        "display_in_home": true,
+        "overview": 100
+    },
+    {
+        "cover": "dataset",
+        "label": "Description",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "Jeu de données relatif à la description des tutoriels ISTEX"
+                    }
+                ]
+            }
+        ],
+        "position": 22,
+        "scheme": "http://purl.org/dc/terms/description",
+        "language": "fr",
+        "format": {
+            "name": "None"
+        },
+        "classes": [],
+        "name": "YzSf",
+        "count": 0,
+        "display_in_home": true,
+        "overview": 200
+    },
+    {
+        "label": "Liste des ressources",
+        "format": {
+            "name": "resourcesGrid",
+            "args": {
+                "allowToLoadMore": true,
+                "pageSize": 6,
+                "spaceWidth": "30%",
+                "params": {
+                    "maxSize": 3,
+                    "orderBy": "value/asc"
+                },
+                "orderBy": "value/asc"
+            }
+        },
+        "cover": "dataset",
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "/api/run/syndication"
+                    }
+                ]
+            }
+        ],
+        "position": 23,
+        "name": "NHwe",
+        "display_in_home": true,
+        "count": 0
+    },
+    {
+        "cover": "dataset",
+        "label": "Modèle conceptuel",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "https://docs.google.com/drawings/d/e/2PACX-1vS5NVz-jSVgtaKfqgQNkPe1hCfOD8FBHrd_Ss9wlIPCNH-CmyeRuv9FK0uJnwPUzy-FCMBhky6xRe4E/pub?w=960&h=720"
+                    }
+                ]
+            }
+        ],
+        "position": 24,
+        "scheme": "http://schema.org/image",
+        "format": {
+            "args": {
+                "imageWidth": "50%"
+            },
+            "name": "image"
+        },
+        "classes": [],
+        "name": "G31Y",
+        "count": 0,
+        "display_in_home": true,
+        "width": "50"
+    },
+    {
+        "cover": "dataset",
+        "label": "Licence",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "https://www.etalab.gouv.fr/licence-ouverte-open-licence"
+                    }
+                ]
+            }
+        ],
+        "position": 25,
+        "scheme": "http://purl.org/dc/terms/license",
+        "language": "fr",
+        "classes": [],
+        "format": {
+            "args": {
+                "type": "text",
+                "value": "https://data.istex.fr/img/licence-ouverte-open-licence.png"
+            },
+            "name": "linkImage"
+        },
+        "name": "7Puz",
+        "count": 0,
+        "display_in_home": true,
+        "width": "50"
+    },
+    {
+        "cover": "collection",
+        "label": "Caractéristique de l'entité productrice",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "Caractéristique de l'entité productrice"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 26,
+        "overview": 0,
+        "scheme": "http://data.opendiscoveryspace.eu/lom_ontology_ods.owl#lifeCycleContribution",
+        "language": "fr",
+        "composedOf": {
+            "fields": [
+                "DkRO",
+                "LBOI"
+            ]
+        },
+        "name": "a2zz",
+        "count": 6
+    },
+    {
+        "cover": "dataset",
+        "label": "Créateur",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "Inist-CNRS"
+                    }
+                ]
+            }
+        ],
+        "position": 27,
+        "scheme": "http://purl.org/dc/terms/creator",
+        "language": "fr",
+        "classes": [],
+        "name": "smEY",
+        "count": 0,
+        "display_in_home": true,
+        "width": "50"
+    },
+    {
+        "cover": "dataset",
+        "label": "Publication",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "Plateforme ISTEX"
+                    }
+                ]
+            }
+        ],
+        "position": 28,
+        "scheme": "http://purl.org/dc/terms/publisher",
+        "language": "fr",
+        "classes": [],
+        "name": "FEi8",
+        "count": 0,
+        "display_in_home": true,
+        "width": "50"
+    },
+    {
+        "cover": "dataset",
+        "label": "Date de création",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "2017-09-21"
+                    }
+                ]
+            }
+        ],
+        "position": 29,
+        "scheme": "http://purl.org/dc/terms/created",
+        "classes": [],
+        "name": "cl1h",
+        "count": 0,
+        "display_in_home": true,
+        "width": "50"
+    },
+    {
+        "cover": "dataset",
+        "label": "Date de modification",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "2017-12-01"
+                    }
+                ]
+            }
+        ],
+        "position": 30,
+        "scheme": "http://purl.org/dc/terms/modified",
+        "classes": [],
+        "name": "7NfR",
+        "count": 0,
+        "display_in_home": true,
+        "width": "50"
+    },
+    {
+        "cover": "collection",
+        "label": "Caractéristiques pédagogiques",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "Caractéristiques pédagogiques"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 31,
+        "scheme": "http://data.opendiscoveryspace.eu/lom_ontology_ods.owl#educational",
+        "language": "fr",
+        "composedOf": {
+            "fields": [
+                "BqCQ",
+                "G8zY",
+                "YzwA",
+                "h7Cb"
+            ]
+        },
+        "name": "VcHY",
+        "count": 6
+    }
+]

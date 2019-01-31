@@ -1,0 +1,169 @@
+uri;pJ5V;Nom de l'entité nommée;Description;Lien vers le jeu de données;Liste des ressources;Libellé en anglais;Contexte d'utilisation;Libellé en français;Lien vers la page Unitex-CasSys;Définition;Modèle conceptuel;English definition;Licence;Nom de la balise ISTEX;Licence Etalab;Exemple1;Créateur;Exemple2;Publication;Exemple3;Date de création;Exemple4;Date de modification;Consigne d'écriture
+"ark:/67375/RXP-7ZQCMCWR-T";"Entités nommées Istex";"orgName type provider";"Ce jeu représente la classification des entités nommées extraites des corpus ISTEX à l'aide du logiciel Unitex-CasSys.​ Les entités nommées sont réparties dans 4 classes: 
+   - personnes
+   - lieux
+   - organisations 
+   - indicateurs temporels
+
+Dans le cadre d'ISTEX, il a été ajouté à cette liste:
+   - pointeurs vers les références bibliographiques
+   - références bibliographiques complètes dans le texte
+   - url";"En cours de construction";"/api/run/syndication";"Organisation Provider";"Il a été décidé en juin 2014 d'enrichir les documents du fonds ISTEX par une reconnaissance d'entités nommées. Cet enrichissement a été organisé dans le cadre d'un partenariat entre l'Inist-CNRS et le Laboratoire d'Informatique de l'Université François Rabelais de Tours. L'outil utilisé est Unitex-CasSys.
+
+Unitex est un logiciel permettant un traitement automatique de corpus de textes en langue naturelle. Le traitement utilise des ressources linguistiques comme des dictionnaires compressés (.bin) et des grammaires locales (Réseaux de Transition Récursifs). Unitex est un logiciel gratuit de licence libre.
+
+CasEN est une cascade de reconnaissance des entités nommées ; elle est implantée avec le programme de création de cascades CasSys présent sur la plateforme Unitex. CasSys est un outil d'exploration et d'annotation de corpus dont le prototype a été créé au Laboratoire d'Informatique de Tours.
+
+Les entités nommées sont étiquetées avec des balises XML selon le standard TEI (Text Encoding Initiative). Pour chaque document du fonds ISTEX, elles sont disponibles sur l'API ISTEX sous forme d'une balise TEI déportée (standoff).
+
+Les règles de balisage des entités nommées dans ISTEX sont compilées dans un Guide d'Annotation.";"Organisme hébergeur de ressources";"https://enrichment-process.data.istex.fr/ark:/67375/R0H-KGDTPS40-S";"Désigne les organismes qui hébergent des ressources et les mettent à disposition pour des expériences (par exemple un gros calculateur, un télescope...). L’étiquetage de cette entité nommée faisant usage de la balise <orgName>, on utilisera dans ce cas un attribut (type=""provider""). Cette balise est utilisée de manière identique pour l’organisme hébergeur et pour la ressource.";"https://docs.google.com/drawings/d/1sQax7BA_EkAT4PtHT5qDuaPuzGeHWhEedrTCORH5Bjg/pub?w=960&h=720";"Means the organizations hosting resources and make them available for experiments (eg large computer, telescope ...).";"https://www.etalab.gouv.fr/licence-ouverte-open-licence";"<orgName type=""provider"">";"Les données produites et mises en ligne dans le cadre projet ISTEX sont placées sous le régime de la licence ouverte/open licence Etalab (cf. contrat de licence type).";"... numerical simulations were run on the <orgName type=""provider"">PARADOX-III cluster</orgName> hosted by the <orgName type=""provider"">Scientific Computing Laboratory of the Institute of Physics Belgrade</orgName>.";"Inist-CNRS";"The parallel-beam x-ray tomography experiments were carried out at the beamline for";"Plateforme ISTEX";"effectuée sur les calculateurs mis à disposition par l’<orgName type=""provider"">Institut de Développement et de Recherches en Informatique Scientifique</orgName>,";"2017-06-12";"";"2018-12-03";"L’étiquetage de cette entité nommée faisant usage de la balise <orgName>, on utilisera dans ce cas un attribut (type=""provider""). Cette balise est utilisée de manière identique pour l’organisme hébergeur et pour la ressource."
+"ark:/67375/RXP-9LL94VRV-L";"Entités nommées Istex";"ref type url";"Ce jeu représente la classification des entités nommées extraites des corpus ISTEX à l'aide du logiciel Unitex-CasSys.​ Les entités nommées sont réparties dans 4 classes: 
+   - personnes
+   - lieux
+   - organisations 
+   - indicateurs temporels
+
+Dans le cadre d'ISTEX, il a été ajouté à cette liste:
+   - pointeurs vers les références bibliographiques
+   - références bibliographiques complètes dans le texte
+   - url";"En cours de construction";"/api/run/syndication";"URL";"Il a été décidé en juin 2014 d'enrichir les documents du fonds ISTEX par une reconnaissance d'entités nommées. Cet enrichissement a été organisé dans le cadre d'un partenariat entre l'Inist-CNRS et le Laboratoire d'Informatique de l'Université François Rabelais de Tours. L'outil utilisé est Unitex-CasSys.
+
+Unitex est un logiciel permettant un traitement automatique de corpus de textes en langue naturelle. Le traitement utilise des ressources linguistiques comme des dictionnaires compressés (.bin) et des grammaires locales (Réseaux de Transition Récursifs). Unitex est un logiciel gratuit de licence libre.
+
+CasEN est une cascade de reconnaissance des entités nommées ; elle est implantée avec le programme de création de cascades CasSys présent sur la plateforme Unitex. CasSys est un outil d'exploration et d'annotation de corpus dont le prototype a été créé au Laboratoire d'Informatique de Tours.
+
+Les entités nommées sont étiquetées avec des balises XML selon le standard TEI (Text Encoding Initiative). Pour chaque document du fonds ISTEX, elles sont disponibles sur l'API ISTEX sous forme d'une balise TEI déportée (standoff).
+
+Les règles de balisage des entités nommées dans ISTEX sont compilées dans un Guide d'Annotation.";"URL";"https://enrichment-process.data.istex.fr/ark:/67375/R0H-KGDTPS40-S";"Désigne des identifiants de pages et de sites web.";"https://docs.google.com/drawings/d/1sQax7BA_EkAT4PtHT5qDuaPuzGeHWhEedrTCORH5Bjg/pub?w=960&h=720";"Designates a string used to address the World Wide Web Resource: HTML document, image, sound, Usenet forum, mailbox, among others.";"https://www.etalab.gouv.fr/licence-ouverte-open-licence";"<ref type=""url"">";"Les données produites et mises en ligne dans le cadre projet ISTEX sont placées sous le régime de la licence ouverte/open licence Etalab (cf. contrat de licence type).";"PENEASY is freely available from <ref type=""url"">http://www.upc.es/inte/english/download_engALL.htm</ref>.";"Inist-CNRS";"a community web site <ref type=""url"">www.scruminresearch.org</ref> is being built.";"Plateforme ISTEX";"L’indice mensuel des prix à la consommation publié par l’Institut statistique national de l’Espagne (Instituto Nacional de Estadística de España – <ref type=""url"">http://www.ine.es </ref>)";"2017-06-12";"";"2018-12-03";""
+"ark:/67375/RXP-G67BP62W-J";"Entités nommées Istex";"date";"Ce jeu représente la classification des entités nommées extraites des corpus ISTEX à l'aide du logiciel Unitex-CasSys.​ Les entités nommées sont réparties dans 4 classes: 
+   - personnes
+   - lieux
+   - organisations 
+   - indicateurs temporels
+
+Dans le cadre d'ISTEX, il a été ajouté à cette liste:
+   - pointeurs vers les références bibliographiques
+   - références bibliographiques complètes dans le texte
+   - url";"En cours de construction";"/api/run/syndication";"Date";"Il a été décidé en juin 2014 d'enrichir les documents du fonds ISTEX par une reconnaissance d'entités nommées. Cet enrichissement a été organisé dans le cadre d'un partenariat entre l'Inist-CNRS et le Laboratoire d'Informatique de l'Université François Rabelais de Tours. L'outil utilisé est Unitex-CasSys.
+
+Unitex est un logiciel permettant un traitement automatique de corpus de textes en langue naturelle. Le traitement utilise des ressources linguistiques comme des dictionnaires compressés (.bin) et des grammaires locales (Réseaux de Transition Récursifs). Unitex est un logiciel gratuit de licence libre.
+
+CasEN est une cascade de reconnaissance des entités nommées ; elle est implantée avec le programme de création de cascades CasSys présent sur la plateforme Unitex. CasSys est un outil d'exploration et d'annotation de corpus dont le prototype a été créé au Laboratoire d'Informatique de Tours.
+
+Les entités nommées sont étiquetées avec des balises XML selon le standard TEI (Text Encoding Initiative). Pour chaque document du fonds ISTEX, elles sont disponibles sur l'API ISTEX sous forme d'une balise TEI déportée (standoff).
+
+Les règles de balisage des entités nommées dans ISTEX sont compilées dans un Guide d'Annotation.";"Date";"https://enrichment-process.data.istex.fr/ark:/67375/R0H-KGDTPS40-S";"Les dates, les périodes, ainsi que les siècles, sont pris en considération.";"https://docs.google.com/drawings/d/1sQax7BA_EkAT4PtHT5qDuaPuzGeHWhEedrTCORH5Bjg/pub?w=960&h=720";"Regardless of how the date is given, only the year is labeled.";"https://www.etalab.gouv.fr/licence-ouverte-open-licence";"<date>";"Les données produites et mises en ligne dans le cadre projet ISTEX sont placées sous le régime de la licence ouverte/open licence Etalab (cf. contrat de licence type).";"<date when=""1993"">Friday, 14 May 1993</date>;";"Inist-CNRS";"<date when=""1620"">1620-11-09</date>";"Plateforme ISTEX";"le <date when=""1990"">23 juin 1990</date>";"2017-06-12";"... depuis l’édiction de la loi du 31 décembre 1970 au milieu des <date from=""1990""";"2018-12-03";""
+"ark:/67375/RXP-GQKCLZPB-S";"Entités nommées Istex";"ref type bibl";"Ce jeu représente la classification des entités nommées extraites des corpus ISTEX à l'aide du logiciel Unitex-CasSys.​ Les entités nommées sont réparties dans 4 classes: 
+   - personnes
+   - lieux
+   - organisations 
+   - indicateurs temporels
+
+Dans le cadre d'ISTEX, il a été ajouté à cette liste:
+   - pointeurs vers les références bibliographiques
+   - références bibliographiques complètes dans le texte
+   - url";"En cours de construction";"/api/run/syndication";"Citation";"Il a été décidé en juin 2014 d'enrichir les documents du fonds ISTEX par une reconnaissance d'entités nommées. Cet enrichissement a été organisé dans le cadre d'un partenariat entre l'Inist-CNRS et le Laboratoire d'Informatique de l'Université François Rabelais de Tours. L'outil utilisé est Unitex-CasSys.
+
+Unitex est un logiciel permettant un traitement automatique de corpus de textes en langue naturelle. Le traitement utilise des ressources linguistiques comme des dictionnaires compressés (.bin) et des grammaires locales (Réseaux de Transition Récursifs). Unitex est un logiciel gratuit de licence libre.
+
+CasEN est une cascade de reconnaissance des entités nommées ; elle est implantée avec le programme de création de cascades CasSys présent sur la plateforme Unitex. CasSys est un outil d'exploration et d'annotation de corpus dont le prototype a été créé au Laboratoire d'Informatique de Tours.
+
+Les entités nommées sont étiquetées avec des balises XML selon le standard TEI (Text Encoding Initiative). Pour chaque document du fonds ISTEX, elles sont disponibles sur l'API ISTEX sous forme d'une balise TEI déportée (standoff).
+
+Les règles de balisage des entités nommées dans ISTEX sont compilées dans un Guide d'Annotation.";"Citation";"https://enrichment-process.data.istex.fr/ark:/67375/R0H-KGDTPS40-S";"Désigne dans le corps du texte les pointeurs vers les références bibliographiques qui se trouvent en fin de document. L’attribut « type =""bibl"" » est obligatoire. L’attribut target est facultatif.";"https://docs.google.com/drawings/d/1sQax7BA_EkAT4PtHT5qDuaPuzGeHWhEedrTCORH5Bjg/pub?w=960&h=720";"The label of this named entity making use of the <orgName>, use in this case an attribute (type = ""funder"").";"https://www.etalab.gouv.fr/licence-ouverte-open-licence";"<ref type=""bibl"">";"Les données produites et mises en ligne dans le cadre projet ISTEX sont placées sous le régime de la licence ouverte/open licence Etalab (cf. contrat de licence type).";"... are fewer in number<ref type=""bibl"" target=""#2-4"">[2-4]</ref> and ...";"Inist-CNRS";"proposed by < ref type=""bibl"" target=""#12"">[Broyden12]</ref>";"Plateforme ISTEX";"(<ref type=""bibl"" target=""#10"">Yan [10]</ref>)";"2017-06-12";"(voir <ref type=""bibl"">Salditt, Whiteford et Adema, 2007</ref>)";"2018-12-03";"Quand un nom d’auteur est cité et qu'on indique ensuite un pointeur, il faut distinguer un <persName> et une <ref type=""bibl"">. Mais, cela ne concerne pas les ouvrages (préposition in), ni la terminologie (model of)."
+"ark:/67375/RXP-J9Z5CXJN-D";"Entités nommées Istex";"orgName";"Ce jeu représente la classification des entités nommées extraites des corpus ISTEX à l'aide du logiciel Unitex-CasSys.​ Les entités nommées sont réparties dans 4 classes: 
+   - personnes
+   - lieux
+   - organisations 
+   - indicateurs temporels
+
+Dans le cadre d'ISTEX, il a été ajouté à cette liste:
+   - pointeurs vers les références bibliographiques
+   - références bibliographiques complètes dans le texte
+   - url";"En cours de construction";"/api/run/syndication";"Organisation Name";"Il a été décidé en juin 2014 d'enrichir les documents du fonds ISTEX par une reconnaissance d'entités nommées. Cet enrichissement a été organisé dans le cadre d'un partenariat entre l'Inist-CNRS et le Laboratoire d'Informatique de l'Université François Rabelais de Tours. L'outil utilisé est Unitex-CasSys.
+
+Unitex est un logiciel permettant un traitement automatique de corpus de textes en langue naturelle. Le traitement utilise des ressources linguistiques comme des dictionnaires compressés (.bin) et des grammaires locales (Réseaux de Transition Récursifs). Unitex est un logiciel gratuit de licence libre.
+
+CasEN est une cascade de reconnaissance des entités nommées ; elle est implantée avec le programme de création de cascades CasSys présent sur la plateforme Unitex. CasSys est un outil d'exploration et d'annotation de corpus dont le prototype a été créé au Laboratoire d'Informatique de Tours.
+
+Les entités nommées sont étiquetées avec des balises XML selon le standard TEI (Text Encoding Initiative). Pour chaque document du fonds ISTEX, elles sont disponibles sur l'API ISTEX sous forme d'une balise TEI déportée (standoff).
+
+Les règles de balisage des entités nommées dans ISTEX sont compilées dans un Guide d'Annotation.";"Nom d'organisation";"https://enrichment-process.data.istex.fr/ark:/67375/R0H-KGDTPS40-S";"Les organisations regroupent les institutions, les entreprises, les associations, les agences nationales et internationales.";"https://docs.google.com/drawings/d/1sQax7BA_EkAT4PtHT5qDuaPuzGeHWhEedrTCORH5Bjg/pub?w=960&h=720";"Organizations of institutions, companies, associations, national and international agencies.";"https://www.etalab.gouv.fr/licence-ouverte-open-licence";"<orgName>";"Les données produites et mises en ligne dans le cadre projet ISTEX sont placées sous le régime de la licence ouverte/open licence Etalab (cf. contrat de licence type).";"Within the <orgName>American Heart Association</orgName>";"Inist-CNRS";"published by the <orgName>National Bank of Belgium</orgName>";"Plateforme ISTEX";"... l'<orgName>Association Hongroise pour le Développement Communautaire</orgName> (<orgName>HACD</orgName>";"2017-06-12";"... le vice-président du <orgName>Conseil d’Etat</orgName>.";"2018-12-03";"Un terme désignant une organisation peut comporter plusieurs variantes: exemple pour le « Haut-Commissariat des Nations unies pour les réfugiés », il existe également : En français : « HCR », «Haut-Commissariat aux Réfugiés », « Agence des Nations Unies pour les Réfugiés », En anglais: «UNHCR, United Nations High Commissioner for Refugees », « UN Refugee Agency ». Union Européenne, Amnesty International, CNRS, Ministère de la justice, sont des <orgName>. Attention ! L’étiquetage tient compte du contexte : [La <orgName>Turquie</orgName> a déclaré la guerre à …] [Je vais passer mes vacances en <placeName>Turquie</placeName>.]"
+"ark:/67375/RXP-PFHDL943-0";"Entités nommées Istex";"orgName type funder";"Ce jeu représente la classification des entités nommées extraites des corpus ISTEX à l'aide du logiciel Unitex-CasSys.​ Les entités nommées sont réparties dans 4 classes: 
+   - personnes
+   - lieux
+   - organisations 
+   - indicateurs temporels
+
+Dans le cadre d'ISTEX, il a été ajouté à cette liste:
+   - pointeurs vers les références bibliographiques
+   - références bibliographiques complètes dans le texte
+   - url";"En cours de construction";"/api/run/syndication";"Organisation Funder";"Il a été décidé en juin 2014 d'enrichir les documents du fonds ISTEX par une reconnaissance d'entités nommées. Cet enrichissement a été organisé dans le cadre d'un partenariat entre l'Inist-CNRS et le Laboratoire d'Informatique de l'Université François Rabelais de Tours. L'outil utilisé est Unitex-CasSys.
+
+Unitex est un logiciel permettant un traitement automatique de corpus de textes en langue naturelle. Le traitement utilise des ressources linguistiques comme des dictionnaires compressés (.bin) et des grammaires locales (Réseaux de Transition Récursifs). Unitex est un logiciel gratuit de licence libre.
+
+CasEN est une cascade de reconnaissance des entités nommées ; elle est implantée avec le programme de création de cascades CasSys présent sur la plateforme Unitex. CasSys est un outil d'exploration et d'annotation de corpus dont le prototype a été créé au Laboratoire d'Informatique de Tours.
+
+Les entités nommées sont étiquetées avec des balises XML selon le standard TEI (Text Encoding Initiative). Pour chaque document du fonds ISTEX, elles sont disponibles sur l'API ISTEX sous forme d'une balise TEI déportée (standoff).
+
+Les règles de balisage des entités nommées dans ISTEX sont compilées dans un Guide d'Annotation.";"Organisme financeur ou projet financés";"https://enrichment-process.data.istex.fr/ark:/67375/R0H-KGDTPS40-S";"Désigne les organismes qui financent des projets officiels. L’étiquetage de cette entité nommée faisant usage de la balise <orgName>, on utilisera dans ce cas un attribut (type=""funder""). Les organismes financeurs sont généralement suivis par un numéro qui désigne le projet financé. Si l’organisme financeur est immédiatement suivi du numéro du projet financé, les deux sont inclus dans la balise. Si l’organisme financeur et le numéro du projet financé sont séparés, ils sont tous les deux étiquetés avec la balise <orgName type =""funder"">.";"https://docs.google.com/drawings/d/1sQax7BA_EkAT4PtHT5qDuaPuzGeHWhEedrTCORH5Bjg/pub?w=960&h=720";"Refers funders official projects.";"https://www.etalab.gouv.fr/licence-ouverte-open-licence";"<orgName type= ""funder"">";"Les données produites et mises en ligne dans le cadre projet ISTEX sont placées sous le régime de la licence ouverte/open licence Etalab (cf. contrat de licence type).";"We thank (...)the <orgName type=""funder"">US National Institutes of Health NIH (GM 23851)</orgName> for financial";"Inist-CNRS";"This work was supported by <orgName type=""funder"">INCO-DC grant IC18CT96-";"Plateforme ISTEX";"Cette étude a pu être réalisée grâce au soutien financier du <orgName type= ""funder"">NEFF</orgName> (<orgName type= ""funder"">Schweizer Nationaler EnergieForschungs-Fonds</orgName>)";"2017-06-12";"Cette recherche a été financée par le <orgName type=""funder"">projet A97H01 du programme";"2018-12-03";"L’étiquetage de cette entité nommée faisant usage de la balise <orgName>, on utilisera dans ce cas un attribut (type=""funder""). Les organismes financeurs sont généralement suivis par un numéro qui désigne le projet financé. Si l’organisme financeur est immédiatement suivi du numéro du projet financé, les deux sont inclus dans la balise. Si l’organisme financeur et le numéro du projet financé sont séparés, ils sont tous les deux étiquetés avec la balise <orgName type =""funder"">."
+"ark:/67375/RXP-W1F0F61V-G";"Entités nommées Istex";"geogName";"Ce jeu représente la classification des entités nommées extraites des corpus ISTEX à l'aide du logiciel Unitex-CasSys.​ Les entités nommées sont réparties dans 4 classes: 
+   - personnes
+   - lieux
+   - organisations 
+   - indicateurs temporels
+
+Dans le cadre d'ISTEX, il a été ajouté à cette liste:
+   - pointeurs vers les références bibliographiques
+   - références bibliographiques complètes dans le texte
+   - url";"https://geogname-entity.data.istex.fr";"/api/run/syndication";"Geographical Place Name";"Il a été décidé en juin 2014 d'enrichir les documents du fonds ISTEX par une reconnaissance d'entités nommées. Cet enrichissement a été organisé dans le cadre d'un partenariat entre l'Inist-CNRS et le Laboratoire d'Informatique de l'Université François Rabelais de Tours. L'outil utilisé est Unitex-CasSys.
+
+Unitex est un logiciel permettant un traitement automatique de corpus de textes en langue naturelle. Le traitement utilise des ressources linguistiques comme des dictionnaires compressés (.bin) et des grammaires locales (Réseaux de Transition Récursifs). Unitex est un logiciel gratuit de licence libre.
+
+CasEN est une cascade de reconnaissance des entités nommées ; elle est implantée avec le programme de création de cascades CasSys présent sur la plateforme Unitex. CasSys est un outil d'exploration et d'annotation de corpus dont le prototype a été créé au Laboratoire d'Informatique de Tours.
+
+Les entités nommées sont étiquetées avec des balises XML selon le standard TEI (Text Encoding Initiative). Pour chaque document du fonds ISTEX, elles sont disponibles sur l'API ISTEX sous forme d'une balise TEI déportée (standoff).
+
+Les règles de balisage des entités nommées dans ISTEX sont compilées dans un Guide d'Annotation.";"Nom de lieu géographique";"https://enrichment-process.data.istex.fr/ark:/67375/R0H-KGDTPS40-S";"Désigne un nom de lieu lié à la géographique physique. Le lieu désigné est un lieu « naturel » 
+par opposition au placeName. « Baie de Bourgneuf », « Bassin parisien », « Estuaire de la Gironde » sont des <geogName>.";"https://docs.google.com/drawings/d/1sQax7BA_EkAT4PtHT5qDuaPuzGeHWhEedrTCORH5Bjg/pub?w=960&h=720";"Designates a place name related to physical geography. The designated place is a ""natural"" place as opposed to placeName.";"https://www.etalab.gouv.fr/licence-ouverte-open-licence";"<geogName>";"Les données produites et mises en ligne dans le cadre projet ISTEX sont placées sous le régime de la licence ouverte/open licence Etalab (cf. contrat de licence type).";"...located on the coast of the <geogName>Baltic Sea</geogName>, on the inlet to <geogName>Lake Malaren</geogName>.";"Inist-CNRS";"near <geogName>Canary Islands</geogName>";"Plateforme ISTEX";"... au sud de l'<geogName>estuaire de la Loire</geogName>,";"2017-06-12";"La fécondité chez S. m. melanotheron du <geogName>lac d'Ayamé</geogName> varie...";"2018-12-03";""
+"ark:/67375/RXP-WTCKNSHJ-M";"Entités nommées Istex";"persName";"Ce jeu représente la classification des entités nommées extraites des corpus ISTEX à l'aide du logiciel Unitex-CasSys.​ Les entités nommées sont réparties dans 4 classes: 
+   - personnes
+   - lieux
+   - organisations 
+   - indicateurs temporels
+
+Dans le cadre d'ISTEX, il a été ajouté à cette liste:
+   - pointeurs vers les références bibliographiques
+   - références bibliographiques complètes dans le texte
+   - url";"En cours de construction";"/api/run/syndication";"Personal Name";"Il a été décidé en juin 2014 d'enrichir les documents du fonds ISTEX par une reconnaissance d'entités nommées. Cet enrichissement a été organisé dans le cadre d'un partenariat entre l'Inist-CNRS et le Laboratoire d'Informatique de l'Université François Rabelais de Tours. L'outil utilisé est Unitex-CasSys.
+
+Unitex est un logiciel permettant un traitement automatique de corpus de textes en langue naturelle. Le traitement utilise des ressources linguistiques comme des dictionnaires compressés (.bin) et des grammaires locales (Réseaux de Transition Récursifs). Unitex est un logiciel gratuit de licence libre.
+
+CasEN est une cascade de reconnaissance des entités nommées ; elle est implantée avec le programme de création de cascades CasSys présent sur la plateforme Unitex. CasSys est un outil d'exploration et d'annotation de corpus dont le prototype a été créé au Laboratoire d'Informatique de Tours.
+
+Les entités nommées sont étiquetées avec des balises XML selon le standard TEI (Text Encoding Initiative). Pour chaque document du fonds ISTEX, elles sont disponibles sur l'API ISTEX sous forme d'une balise TEI déportée (standoff).
+
+Les règles de balisage des entités nommées dans ISTEX sont compilées dans un Guide d'Annotation.";"Nom de personne";"https://enrichment-process.data.istex.fr/ark:/67375/R0H-KGDTPS40-S";"Désigne les noms de personnes";"https://docs.google.com/drawings/d/1sQax7BA_EkAT4PtHT5qDuaPuzGeHWhEedrTCORH5Bjg/pub?w=960&h=720";"Designates the names of people";"https://www.etalab.gouv.fr/licence-ouverte-open-licence";"<persName>";"Les données produites et mises en ligne dans le cadre projet ISTEX sont placées sous le régime de la licence ouverte/open licence Etalab (cf. contrat de licence type).";"We thank Prof. <persName>Harry Green</persName> and Dr <persName>Larissa
+
+Dobrzhinetskaya</persName> for assistance";"Inist-CNRS";"<persName>Raymond M. Gilmore</persName>";"Plateforme ISTEX";"<persName>T. Higuchi</persName> propose dans <ref type= ""bibl"" target=""7,8"">[7, 8]</ref> un estimateur
+un estimateur…";"2017-06-12";"le professeur <persName>Y. Coppens</persName>";"2018-12-03";"TEI simplifiée : on n’utilise que la balise <persName> et on ne place pas de balises de détail (<surname> nom de famille ou patronyme, <forename> prénom). Dans les textes anonymisés (arrêtés de justice, rapports médicaux), si les noms de personnes sont utilisés dans une expression en tant que complément indicatif de la référence désignée, ces noms de personnes ne sont pas étiquetés comme <persName> (voir exemple 2 des erreurs d’insertion : « forces de London »). Il en est de même pour les noms inclus dans une organisation (par exemple « François Rabelais » ne sera pas étiqueté <persName> dans « Université François Rabelais »).
+etc.), les initiales remplaçant les noms de personne [X.X.] ne sont pas 
+reconnues comme EN. Tous les noms doivent être étiquetés séparément : [Chun et Seban]  est étiqueté : [<persName>Chun</persName> et <persName>Seban</persName>]."
+"ark:/67375/RXP-XSP771J2-X";"Entités nommées Istex";"placeName";"Ce jeu représente la classification des entités nommées extraites des corpus ISTEX à l'aide du logiciel Unitex-CasSys.​ Les entités nommées sont réparties dans 4 classes: 
+   - personnes
+   - lieux
+   - organisations 
+   - indicateurs temporels
+
+Dans le cadre d'ISTEX, il a été ajouté à cette liste:
+   - pointeurs vers les références bibliographiques
+   - références bibliographiques complètes dans le texte
+   - url";"https://placename-entity.data.istex.fr";"/api/run/syndication";"Administrative Place Name";"Il a été décidé en juin 2014 d'enrichir les documents du fonds ISTEX par une reconnaissance d'entités nommées. Cet enrichissement a été organisé dans le cadre d'un partenariat entre l'Inist-CNRS et le Laboratoire d'Informatique de l'Université François Rabelais de Tours. L'outil utilisé est Unitex-CasSys.
+
+Unitex est un logiciel permettant un traitement automatique de corpus de textes en langue naturelle. Le traitement utilise des ressources linguistiques comme des dictionnaires compressés (.bin) et des grammaires locales (Réseaux de Transition Récursifs). Unitex est un logiciel gratuit de licence libre.
+
+CasEN est une cascade de reconnaissance des entités nommées ; elle est implantée avec le programme de création de cascades CasSys présent sur la plateforme Unitex. CasSys est un outil d'exploration et d'annotation de corpus dont le prototype a été créé au Laboratoire d'Informatique de Tours.
+
+Les entités nommées sont étiquetées avec des balises XML selon le standard TEI (Text Encoding Initiative). Pour chaque document du fonds ISTEX, elles sont disponibles sur l'API ISTEX sous forme d'une balise TEI déportée (standoff).
+
+Les règles de balisage des entités nommées dans ISTEX sont compilées dans un Guide d'Annotation.";"Nom de lieu administratif";"https://enrichment-process.data.istex.fr/ark:/67375/R0H-KGDTPS40-S";"Désigne un nom de lieu absolu ou relatif. Les <placeName> sont des résultats de l’intervention humaine (ville, région, pays, etc.). « Australie », « Paris », « Région parisienne »,« Bourgneuf » sont des <placeName>.";"https://docs.google.com/drawings/d/1sQax7BA_EkAT4PtHT5qDuaPuzGeHWhEedrTCORH5Bjg/pub?w=960&h=720";"Designates an absolute or relative place name. The placeName are results of human intervention (city, region, country, etc.).";"https://www.etalab.gouv.fr/licence-ouverte-open-licence";"<placeName>";"Les données produites et mises en ligne dans le cadre projet ISTEX sont placées sous le régime de la licence ouverte/open licence Etalab (cf. contrat de licence type).";"... in northern <placeName>Sweden</placeName>";"Inist-CNRS";"The urban structure in <placeName>Greater Stockholm</placeName> is concentrated...";"Plateforme ISTEX";"<placeName>Europe orientale</placeName>";"2017-06-12";"A l’est de l'<placeName>Europe</placeName>";"2018-12-03";"TEI simplifiée : il n’y a pas d’attribut dans les balises (ex : type=""river""), ni de balise de détail (<geogFeat>)."

@@ -1,0 +1,626 @@
+[
+    {
+        "cover": "collection",
+        "label": "uri",
+        "display_on_list": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "uri"
+                    }
+                ]
+            }
+        ],
+        "position": 0,
+        "name": "uri",
+        "count": 0
+    },
+    {
+        "cover": "dataset",
+        "label": " ",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Titre du jeu de données"
+                    }
+                ]
+            }
+        ],
+        "position": 0,
+        "scheme": "http://purl.org/dc/terms/title",
+        "language": "fr",
+        "format": {
+            "name": "title"
+        },
+        "name": "1jc2",
+        "count": 0,
+        "display_in_home": true,
+        "overview": 100
+    },
+    {
+        "cover": "collection",
+        "label": "Nom du processus",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Nom du processus"
+                    }
+                ]
+            }
+        ],
+        "position": 1,
+        "scheme": "http://www.w3.org/2004/02/skos/core#prefLabel",
+        "name": "4Qgs",
+        "format": {
+            "args": {
+                "level": 1
+            },
+            "name": "title"
+        },
+        "count": 10
+    },
+    {
+        "cover": "dataset",
+        "label": "Description",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Description"
+                    }
+                ]
+            }
+        ],
+        "position": 1,
+        "scheme": "http://purl.org/dc/terms/description",
+        "language": "fr",
+        "name": "1XlN",
+        "count": 0,
+        "display_in_home": true,
+        "overview": 200
+    },
+    {
+        "cover": "collection",
+        "label": "Nom de la facette",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Nom de la facette"
+                    }
+                ]
+            }
+        ],
+        "position": 2,
+        "scheme": "http://purl.org/dc/terms/isReferencedBy",
+        "overview": 1,
+        "name": "tIB7",
+        "count": 10
+    },
+    {
+        "label": "Liste des ressources",
+        "format": {
+            "args": {
+                "spaceWidth": "30%",
+                "pageSize": 6,
+                "orderBy": "value/asc",
+                "params": {
+                    "maxSize": 5,
+                    "orderBy": "value/asc"
+                }
+            },
+            "name": "resourcesGrid"
+        },
+        "cover": "dataset",
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "/api/run/syndication"
+                    }
+                ]
+            }
+        ],
+        "position": 2,
+        "name": "EVhT",
+        "display_in_home": true,
+        "count": 0
+    },
+    {
+        "cover": "collection",
+        "label": "Documentation des processus",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Documentation des processus"
+                    }
+                ]
+            }
+        ],
+        "position": 3,
+        "scheme": "http://www.w3.org/2004/02/skos/core#definition",
+        "language": "fr",
+        "name": "OgVA",
+        "format": {
+            "name": "markdown"
+        },
+        "count": 10
+    },
+    {
+        "cover": "dataset",
+        "label": "Modèle conceptuel",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Modèle conceptuel"
+                    }
+                ]
+            }
+        ],
+        "position": 3,
+        "overview": 0,
+        "scheme": "http://schema.org/image",
+        "language": "fr",
+        "format": {
+            "args": {
+                "imageWidth": "50%"
+            },
+            "name": "image"
+        },
+        "name": "X5Vw",
+        "count": 0,
+        "display_in_home": true,
+        "width": "50"
+    },
+    {
+        "cover": "collection",
+        "label": "Source de la documentation",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Source de la documentation"
+                    }
+                ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "separator",
+                        "type": "string",
+                        "value": ";"
+                    }
+                ],
+                "operation": "SPLIT"
+            }
+        ],
+        "position": 4,
+        "scheme": "http://purl.org/dc/terms/source",
+        "completes": "OgVA",
+        "format": {
+            "name": "link"
+        },
+        "name": "TdwV",
+        "count": 10
+    },
+    {
+        "cover": "dataset",
+        "label": "Licence",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Licence"
+                    }
+                ]
+            }
+        ],
+        "position": 4,
+        "scheme": "http://purl.org/dc/terms/license",
+        "language": "fr",
+        "format": {
+            "args": {
+                "type": "text",
+                "value": "https://data.istex.fr/img/licence-ouverte-open-licence.png"
+            },
+            "name": "linkImage"
+        },
+        "name": "zynu",
+        "count": 0,
+        "display_in_home": true,
+        "width": "50"
+    },
+    {
+        "cover": "collection",
+        "label": "Type d'enrichissement",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Type d'enrichissement"
+                    }
+                ]
+            }
+        ],
+        "position": 5,
+        "scheme": "https://data.istex.fr/ontology/istex#enrichmentType",
+        "overview": 2,
+        "name": "EGLP",
+        "count": 10,
+        "isFacet": true
+    },
+    {
+        "cover": "dataset",
+        "label": "Créateur",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Créateur"
+                    }
+                ]
+            }
+        ],
+        "position": 5,
+        "scheme": "http://purl.org/dc/terms/creator",
+        "language": "fr",
+        "name": "xT1j",
+        "count": 0,
+        "display_in_home": true,
+        "width": "50"
+    },
+    {
+        "cover": "collection",
+        "label": "Contraintes",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Contraintes"
+                    }
+                ]
+            }
+        ],
+        "position": 6,
+        "scheme": "https://data.istex.fr/ontology/istex#constraint",
+        "name": "IeDL",
+        "count": 10
+    },
+    {
+        "cover": "dataset",
+        "label": "Publication",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Editeur"
+                    }
+                ]
+            }
+        ],
+        "position": 6,
+        "scheme": "http://purl.org/dc/terms/publisher",
+        "language": "fr",
+        "name": "QA4f",
+        "count": 0,
+        "display_in_home": true,
+        "width": "50"
+    },
+    {
+        "cover": "collection",
+        "label": "Partenaires",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Partenaires"
+                    }
+                ]
+            }
+        ],
+        "position": 7,
+        "scheme": "http://purl.org/dc/terms/contributor",
+        "name": "ct7z",
+        "count": 10
+    },
+    {
+        "cover": "dataset",
+        "label": "Date de création",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Date de création"
+                    }
+                ]
+            }
+        ],
+        "position": 7,
+        "scheme": "http://purl.org/dc/terms/created",
+        "language": "fr",
+        "name": "I8gz",
+        "count": 0,
+        "display_in_home": true,
+        "width": "50"
+    },
+    {
+        "cover": "collection",
+        "label": "Liens vers jeux de données",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Liens vers jeux de données"
+                    }
+                ]
+            }
+        ],
+        "position": 8,
+        "scheme": "http://purl.org/dc/terms/hasPart",
+        "format": {
+            "name": "link"
+        },
+        "name": "VTay",
+        "count": 10
+    },
+    {
+        "cover": "dataset",
+        "label": "Date de modification",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Date de modification"
+                    }
+                ]
+            }
+        ],
+        "position": 8,
+        "scheme": "http://purl.org/dc/terms/modified",
+        "language": "fr",
+        "name": "lwjH",
+        "count": 0,
+        "display_in_home": true,
+        "width": "50"
+    },
+    {
+        "cover": "collection",
+        "label": "Ressources",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Ressources"
+                    }
+                ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "separator",
+                        "type": "string",
+                        "value": ";"
+                    }
+                ],
+                "operation": "SPLIT"
+            }
+        ],
+        "position": 9,
+        "scheme": "http://purl.org/dc/terms/requires",
+        "classes": [
+            "https://www.w3.org/ns/dcat#Dataset"
+        ],
+        "format": {
+            "name": "list"
+        },
+        "name": "QANp",
+        "count": 10
+    },
+    {
+        "cover": "collection",
+        "label": "Documentation des ressources",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Documentation des ressources"
+                    }
+                ]
+            }
+        ],
+        "position": 10,
+        "scheme": "http://purl.org/dc/terms/description",
+        "language": "fr",
+        "completes": "QANp",
+        "classes": [
+            "https://www.w3.org/ns/dcat#Dataset"
+        ],
+        "name": "V3mD",
+        "format": {
+            "name": "markdown"
+        }
+    },
+    {
+        "cover": "collection",
+        "label": "Source de la documentation des ressources",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Source de la documentation des ressources"
+                    }
+                ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "separator",
+                        "type": "string",
+                        "value": ";"
+                    }
+                ],
+                "operation": "SPLIT"
+            }
+        ],
+        "position": 11,
+        "scheme": "http://purl.org/dc/terms/source",
+        "completes": "V3mD",
+        "format": {
+            "name": "link"
+        },
+        "classes": [
+            "https://www.w3.org/ns/dcat#Dataset"
+        ],
+        "name": "DvlM"
+    },
+    {
+        "cover": "collection",
+        "label": "Requête Istex",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Requête Istex"
+                    }
+                ]
+            }
+        ],
+        "position": 12,
+        "scheme": "https://data.istex.fr/ontology/istex#query",
+        "format": {
+            "name": "istex"
+        },
+        "name": "aCLw"
+    }
+]

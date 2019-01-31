@@ -1,0 +1,548 @@
+[
+    {
+        "cover": "collection",
+        "label": "uri",
+        "display_on_list": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "uri"
+                    }
+                ]
+            }
+        ],
+        "position": 0,
+        "name": "uri"
+    },
+    {
+        "cover": "collection",
+        "label": "Libellé en anglais",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Libellé en anglais"
+                    }
+                ]
+            }
+        ],
+        "position": 1,
+        "language": "en",
+        "scheme": "http://www.w3.org/2004/02/skos/core#prefLabel",
+        "format": {
+            "args": {
+                "level": 1
+            },
+            "name": "title"
+        },
+        "count": 228,
+        "name": "kpJy"
+    },
+    {
+        "cover": "collection",
+        "label": "Libellé en français",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Libellé en français"
+                    }
+                ]
+            }
+        ],
+        "position": 2,
+        "scheme": "http://www.w3.org/2004/02/skos/core#prefLabel",
+        "language": "fr",
+        "overview": 1,
+        "count": 228,
+        "name": "ZvYZ"
+    },
+    {
+        "cover": "collection",
+        "label": "Source",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Source"
+                    }
+                ]
+            }
+        ],
+        "position": 3,
+        "scheme": "http://purl.org/dc/terms/source",
+        "format": {
+            "name": "link"
+        },
+        "completes": "e2tp",
+        "count": 228,
+        "name": "dChe"
+    },
+    {
+        "cover": "collection",
+        "label": "Terme Générique",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Terme Générique"
+                    }
+                ]
+            }
+        ],
+        "position": 4,
+        "scheme": "http://www.w3.org/2004/02/skos/core#broader",
+        "language": "en",
+        "format": {
+            "name": "resource"
+        },
+        "count": 228,
+        "name": "FnRN"
+    },
+    {
+        "cover": "collection",
+        "label": "Description",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Description"
+                    }
+                ]
+            }
+        ],
+        "position": 5,
+        "scheme": "http://purl.org/dc/terms/description",
+        "language": "en",
+        "overview": 2,
+        "count": 264,
+        "name": "e2tp"
+    },
+    {
+        "cover": "collection",
+        "label": "Enrichissement BnF",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Enrichissement BnF"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 6,
+        "overview": 0,
+        "scheme": "",
+        "format": {
+            "name": "sparqlTextField",
+            "args": {
+                "sparql": {
+                    "endpoint": "https://data.bnf.fr/sparql",
+                    "maxValue": 1,
+                    "request": "PREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX insee: <http://rdf.insee.fr/geo/>\nPREFIX bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/>\nPREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nPREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX dbo: <http://dbpedia.org/ontology/>\nPREFIX prop-fr: <http://fr.dbpedia.org/property/>\nPREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\nSELECT ?NoticeRAMEAU  ?AutreNom   (GROUP_CONCAT(DISTINCT ?TermePlusLargeACO;SEPARATOR=\" && \") AS ?TermePlusLarge)  (GROUP_CONCAT(DISTINCT ?TermePlusPrecisACO;SEPARATOR=\" && \") AS ?TermePlusPrecis) ?TermeRelie (GROUP_CONCAT(DISTINCT ?URIAlignement;SEPARATOR=\" && \") AS ?AlignementBnf)\nWHERE\n{ \n ?uri skos:prefLabel \"??\"@fr.\n optional{?uri skos:altLabel ?AutreNom.}  \n optional{?uri rdfs:seeAlso ?NoticeRAMEAU.}\n  optional{?uri skos:broader ?URIBroader.\n ?URIBroader skos:prefLabel ?TermePlusLargeACO.} \n optional{?uri skos:narrower ?URINarrower. \n  ?URINarrower skos:prefLabel ?TermePlusPrecisACO.}\n optional{?uri skos:closeMatch ?URIAlignement.}\n optional{?uri skos:related ?Relation.\n  ?Relation skos:prefLabel ?TermeRelie.}\n}\n\ngroup by ?NoticeRAMEAU ?AutreNom ?TermeRelie",
+                    "hiddenInfo": false,
+                    "separator": "&&",
+                    "subformat": []
+                }
+            }
+        },
+        "name": "mpxg",
+        "count": 228
+    },
+    {
+        "cover": "collection",
+        "label": "Cette ressource dans ISTEX",
+        "display_in_list": false,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Cette ressource dans ISTEX"
+                    }
+                ]
+            }
+        ],
+        "position": 7,
+        "scheme": "https://data.istex.fr/ontology/istex#query",
+        "format": {
+            "name": "istex"
+        },
+        "count": 228,
+        "name": "wfzr"
+    },
+    {
+        "cover": "dataset",
+        "label": " ",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": " "
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 7,
+        "overview": 100,
+        "display_in_home": true,
+        "scheme": "http://purl.org/dc/elements/1.1/title",
+        "count": 0,
+        "format": {
+            "args": {
+                "level": 1
+            },
+            "name": "title"
+        },
+        "name": "qW6w",
+        "language": "fr"
+    },
+    {
+        "cover": "dataset",
+        "label": "Description",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Description"
+                    }
+                ]
+            }
+        ],
+        "position": 8,
+        "scheme": "http://purl.org/dc/terms/description",
+        "language": "fr",
+        "count": 0,
+        "display_in_home": true,
+        "overview": 200,
+        "name": "ImiI"
+    },
+    {
+        "cover": "dataset",
+        "label": "Liste des ressources",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Liste des ressources"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 9,
+        "count": 0,
+        "display_in_home": true,
+        "format": {
+            "name": "resourcesGrid",
+            "args": {
+                "allowToLoadMore": true,
+                "pageSize": 6,
+                "spaceWidth": "30%",
+                "params": {
+                    "maxSize": 3,
+                    "orderBy": "value/asc"
+                },
+                "orderBy": "value/asc"
+            }
+        },
+        "name": "alRS"
+    },
+    {
+        "cover": "dataset",
+        "label": "Contexte d'utilisation",
+        "display_in_list": "",
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Contexte d'utilisation"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 10,
+        "language": "fr",
+        "count": 0,
+        "display_in_home": true,
+        "format": {
+            "args": {},
+            "name": "markdown"
+        },
+        "scheme": "http://www.w3.org/2004/02/skos/core#scopeNote",
+        "name": "aDLT"
+    },
+    {
+        "cover": "dataset",
+        "label": "Lien vers la page Multicat",
+        "display_in_list": "",
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Lien vers la page Multicat"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 11,
+        "language": "fr",
+        "count": 0,
+        "display_in_home": true,
+        "format": {
+            "args": {
+                "param": {
+                    "labelArray": [
+                        "4Qgs",
+                        "OgVA"
+                    ]
+                }
+            },
+            "name": "lodexField"
+        },
+        "scheme": "https://www.w3.org/ns/prov#wasGeneratedBy",
+        "name": "SFvt"
+    },
+    {
+        "cover": "dataset",
+        "label": "Modèle conceptuel",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Modèle conceptuel"
+                    }
+                ]
+            }
+        ],
+        "position": 12,
+        "scheme": "http://schema.org/image",
+        "format": {
+            "args": {
+                "imageWidth": "50%"
+            },
+            "name": "image"
+        },
+        "count": 0,
+        "display_in_home": true,
+        "width": "50",
+        "name": "RzXW"
+    },
+    {
+        "cover": "dataset",
+        "label": "Licence",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Licence"
+                    }
+                ]
+            }
+        ],
+        "position": 13,
+        "scheme": "http://purl.org/dc/terms/license",
+        "language": "fr",
+        "count": 0,
+        "display_in_home": true,
+        "format": {
+            "args": {
+                "type": "text",
+                "value": "https://data.istex.fr/img/licence-ouverte-open-licence.png"
+            },
+            "name": "linkImage"
+        },
+        "width": "50",
+        "name": "E4jH"
+    },
+    {
+        "cover": "dataset",
+        "label": "Publication",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Publication"
+                    }
+                ]
+            }
+        ],
+        "position": 14,
+        "scheme": "http://purl.org/dc/terms/publisher",
+        "count": 0,
+        "display_in_home": true,
+        "width": "50",
+        "name": "MvkG",
+        "language": "fr"
+    },
+    {
+        "cover": "dataset",
+        "label": "Créateur",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "Créateur"
+                    }
+                ]
+            }
+        ],
+        "position": 15,
+        "scheme": "http://purl.org/dc/terms/creator",
+        "count": 0,
+        "display_in_home": true,
+        "width": "50",
+        "name": "m7G5"
+    },
+    {
+        "cover": "dataset",
+        "label": "date de création",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "date de création"
+                    }
+                ]
+            }
+        ],
+        "position": 16,
+        "scheme": "http://purl.org/dc/terms/created",
+        "count": 0,
+        "name": "1TvM",
+        "display_in_home": true,
+        "width": "50"
+    },
+    {
+        "cover": "dataset",
+        "label": "date de modification",
+        "display_in_list": "",
+        "display_in_resource": "",
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "COLUMN",
+                "args": [
+                    {
+                        "name": "column",
+                        "type": "column",
+                        "value": "date de modification"
+                    }
+                ]
+            }
+        ],
+        "classes": [],
+        "position": 17,
+        "scheme": "http://purl.org/dc/terms/modified",
+        "count": 0,
+        "display_in_home": true,
+        "width": "50",
+        "name": "WcNl"
+    }
+]
