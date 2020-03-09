@@ -44,42 +44,10 @@
         "format": {
             "name": "title"
         },
-        "name": "WXc1",
         "count": 0,
         "display_in_home": true,
-        "overview": 100
-    },
-    {
-        "cover": "dataset",
-        "label": "Dataset Description",
-        "display_in_list": true,
-        "display_in_resource": true,
-        "searchable": true,
-        "transformers": [
-            {
-                "operation": "VALUE",
-                "args": [
-                    {
-                        "name": "value",
-                        "type": "string",
-                        "value": "Cette collection n'a pas d'autre but que de présenter un manière d’utiliser l'application Lodex pour mettre en ligne des données."
-                    }
-                ]
-            }
-        ],
-        "position": 2,
-        "scheme": "http://purl.org/dc/terms/description",
-        "language": "fr",
-        "format": {
-            "args": {
-                "paragraphWidth": "80%"
-            },
-            "name": "None"
-        },
-        "name": "Doay",
-        "count": 0,
-        "display_in_home": true,
-        "overview": 200
+        "overview": 100,
+        "name": "WXc1"
     },
     {
         "cover": "collection",
@@ -106,10 +74,10 @@
         "display_in_list": true,
         "display_in_resource": true,
         "searchable": true,
-        "position": 3,
-        "name": "Q98n",
+        "position": 2,
         "count": 29,
-        "overview": 1
+        "overview": 1,
+        "name": "Q98n"
     },
     {
         "cover": "collection",
@@ -140,7 +108,7 @@
         "display_in_list": false,
         "searchable": true,
         "display_in_resource": true,
-        "position": 5,
+        "position": 3,
         "format": {
             "args": {
                 "type": "unordered",
@@ -150,15 +118,82 @@
             },
             "name": "list"
         },
-        "name": "K8Lu",
-        "count": 29
+        "count": 0,
+        "width": "50",
+        "name": "K8Lu"
+    },
+    {
+        "cover": "dataset",
+        "label": "Dataset Description",
+        "display_in_list": true,
+        "display_in_resource": true,
+        "searchable": true,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "Cette collection n'a pas d'autre but que de présenter un manière d’utiliser l'application Lodex pour mettre en ligne des données."
+                    }
+                ]
+            }
+        ],
+        "position": 4,
+        "scheme": "http://purl.org/dc/terms/description",
+        "language": "fr",
+        "format": {
+            "args": {
+                "paragraphWidth": "80%"
+            },
+            "name": "None"
+        },
+        "count": 0,
+        "display_in_home": true,
+        "overview": 200,
+        "name": "Doay"
+    },
+    {
+        "label": "Related by Actors",
+        "cover": "collection",
+        "contribution": true,
+        "position": 5,
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "/api/run/close-by/K8Lu"
+                    }
+                ]
+            }
+        ],
+        "count": 0,
+        "format": {
+            "name": "asterPlotChart",
+            "args": {
+                "params": {
+                    "maxSize": 10,
+                    "maxValue": 100,
+                    "minValue": 0,
+                    "orderBy": "value/asc",
+                    "uri": "uid:/19RL2RSQ"
+                }
+            }
+        },
+        "display_in_resource": true,
+        "width": "50",
+        "name": "dzhv"
     },
     {
         "cover": "collection",
         "label": "rating",
         "display_in_list": false,
         "display_in_resource": true,
-        "searchable": true,
+        "searchable": false,
         "transformers": [
             {
                 "operation": "COLUMN",
@@ -169,12 +204,30 @@
                         "value": "rating"
                     }
                 ]
+            },
+            {
+                "args": [
+                    {
+                        "name": "searchValue",
+                        "type": "string",
+                        "value": ","
+                    },
+                    {
+                        "name": "replaceValue",
+                        "type": "string",
+                        "value": "."
+                    }
+                ],
+                "operation": "REPLACE"
+            },
+            {
+                "operation": "NUMBER"
             }
         ],
         "scheme": "http://dbpedia.org/ontology/rating",
         "position": 6,
         "isFacet": true,
-        "name": "bZE+"
+        "name": "bZEh"
     },
     {
         "cover": "collection",
@@ -224,9 +277,9 @@
             }
         ],
         "position": 8,
-        "name": "uWGm",
         "count": 29,
-        "scheme": "http://xmlns.com/foaf/0.1/#term_firstName"
+        "scheme": "http://xmlns.com/foaf/0.1/#term_firstName",
+        "name": "uWGm"
     },
     {
         "cover": "collection",
@@ -247,9 +300,9 @@
             }
         ],
         "position": 9,
-        "name": "nekS",
         "count": 29,
-        "scheme": "http://xmlns.com/foaf/0.1/#term_lastName"
+        "scheme": "http://xmlns.com/foaf/0.1/#term_lastName",
+        "name": "nekS"
     },
     {
         "cover": "collection",
@@ -293,9 +346,9 @@
             ]
         },
         "scheme": "http://schema.org/director",
-        "name": "sovY",
         "count": 29,
-        "overview": 2
+        "overview": 2,
+        "name": "sovY"
     },
     {
         "cover": "collection",
@@ -347,18 +400,23 @@
         ],
         "position": 12,
         "scheme": "http://purl.org/dc/terms/source",
-        "completes": "bZE+",
+        "completes": "bZEh",
         "name": "73Hi"
     },
     {
         "label": "Liste des films",
         "format": {
+            "name": "resourcesGrid",
             "args": {
-                "spaceWidth": "20%",
-                "pageSize": 50,
+                "allowToLoadMore": true,
+                "pageSize": 6,
+                "spaceWidth": "30%",
+                "params": {
+                    "maxSize": 5,
+                    "orderBy": "value/asc"
+                },
                 "orderBy": "value/asc"
-            },
-            "name": "resourcesGrid"
+            }
         },
         "transformers": [
             {
@@ -373,11 +431,11 @@
             }
         ],
         "cover": "dataset",
-        "position": 12,
-        "name": "vPYU",
+        "position": 13,
         "count": 0,
         "display_in_home": true,
-        "width": "100"
+        "width": "100",
+        "name": "vPYU"
     },
     {
         "label": "Répartition par réalisateurs ",
@@ -402,11 +460,120 @@
             }
         ],
         "cover": "dataset",
-        "position": 13,
-        "name": "xkNT",
+        "position": 14,
         "count": 0,
         "display_in_home": true,
         "width": "",
-        "display_in_graph": true
+        "display_in_graph": true,
+        "name": "xkNT"
+    },
+    {
+        "label": "Les meilleurs films",
+        "format": {
+            "name": "list",
+            "args": {
+                "type": "unordered_without_bullet",
+                "subFormat": "resource",
+                "subFormatOptions": {
+                    "param": {
+                        "labelArray": [
+                            ""
+                        ]
+                    }
+                },
+                "args": {}
+            }
+        },
+        "position": 15,
+        "cover": "dataset",
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": [
+                            "uid:/47TP0WM7",
+                            "uid:/BGLGLXFB",
+                            "uid:/HRS3FSBW",
+                            "uid:/C97TZ6LN"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "name": "Ebp5",
+        "count": 0,
+        "display_in_home": true
+    },
+    {
+        "label": "Le meilleur film de moi",
+        "format": {
+            "name": "resource",
+            "args": {}
+        },
+        "position": 16,
+        "cover": "dataset",
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": "uid:/57N2N5QW"
+                    }
+                ]
+            }
+        ],
+        "name": "oD72",
+        "display_in_home": true,
+        "count": 0
+    },
+    {
+        "label": "Des liens versautres instances",
+        "format": {
+            "name": "list",
+            "args": {
+                "type": "unordered_without_bullet",
+                "subFormat": "lodexField",
+                "subFormatOptions": {
+                    "param": {
+                        "labelArray": [
+                            "gEbL",
+                            "Xgkr"
+                        ]
+                    }
+                },
+                "args": {
+                    "param": {
+                        "labelArray": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        },
+        "position": 17,
+        "cover": "dataset",
+        "transformers": [
+            {
+                "operation": "VALUE",
+                "args": [
+                    {
+                        "name": "value",
+                        "type": "string",
+                        "value": [
+                            "https://scientific-publisher.data.istex.fr/ark:/67375/H02-1368GWRS-X",
+                            "https://scientific-publisher.data.istex.fr/ark:/67375/H02-2FMXGPFT-2"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "name": "PuYw",
+        "display_in_home": false,
+        "count": 0
     }
 ]
