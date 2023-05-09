@@ -2,11 +2,11 @@
 
 Voici deux fichiers nécessaires pour créer un site simple rapidement avec Lodex.
 
-Le premier fichier, nommé data.csv, contient des notices, ici des films. Ce fichier se charge dans l’outil en sélectionnant le loader : “CSV - avec des virgules”
+Le premier fichier, nommé [data.csv](data.csv), contient des notices, ici des films. Ce fichier se charge dans l’outil en sélectionnant le loader : “CSV - avec des virgules”
 
 ![image-20230509143508878](README.assets/image-20230509143508878.png)
 
-Le second fichier, nommé model.tar, contient un modèle permettant de créer un site adapté au fichier importé. Ce modèle contient toutes les configurations réalisées dans l’interface : choix et organisation des champs, configuration des affichages, etc.
+Le second fichier, nommé [model.tar](model.tar), contient un modèle permettant de créer un site adapté au fichier importé. Ce modèle contient toutes les configurations réalisées dans l’interface : choix et organisation des champs, configuration des affichages, etc.
 
 ![image-20230509143535896](README.assets/image-20230509143535896.png)
 
