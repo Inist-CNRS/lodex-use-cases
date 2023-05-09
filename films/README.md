@@ -21,3 +21,4 @@ et obtenir un site à partir de votre fichier de départ.
 Lodex est extrêmement configurable, et donc parfois complexe, il est capable de charger divers formats. Les champs peuvent être retravaillés, corrigés et affichés de différentes manières (Enrichissements, Transformations, Formats). Plusieurs types de graphiques sont possibles via différents calculs et agrégations de données (Routines) 
 
 Pour aller plus loin, il y a une documentation en cours de réalisation : https://lodex.inist.fr/docs/partie-2-2/
+
