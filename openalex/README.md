@@ -16,8 +16,9 @@ OpenAlex Query
 
 3. Upload the model :
 
+4. Launch all enrichments :
 
-4. Publish and Explore your data
+5. Publish and Explore your data
 
 
 
