@@ -8,7 +8,7 @@ authorships.institutions.lineage:i4210144781,publication_year:2016-2021
 ```
 
 
-2. Choose the right loader :
+2. Choose the right loader and load the result of your query :
 
 ```
 OpenAlex Query
