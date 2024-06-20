@@ -9,7 +9,9 @@ authorships.institutions.lineage:i4210144781,publication_year:2016-2021
 
 ![image-20240612110155314](README.assets/image-20240612110155314.png)
 
-## 2. Choose the right loader and load the result of your query
+## 2. Choose the right loader, modify it as needed and load the result of your query
+
+It is essential to modify the loader. Click on 'Customiser le loader,' read the instructions, and make the necessary changes.
 
 ```
 OpenAlex Query
