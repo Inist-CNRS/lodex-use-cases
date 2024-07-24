@@ -12,6 +12,7 @@ authorships.institutions.lineage:i4210144781,publication_year:2016-2021
 ## 2. Choose the right loader, modify it as needed and load the result of your query
 
 It is essential to modify the loader. Select it, then click on 'Customiser le loader', read the instructions and make the necessary changes.
+* The loader is likely to be updated in different versions of Lodex. If you are not sure you are using the latest version, copy and paste the loader available at this address to ensure compatibility with the model. https://github.com/Inist-CNRS/lodex/blob/master/workers/loaders/query-openalex.ini
 
 ```
 OpenAlex Query
