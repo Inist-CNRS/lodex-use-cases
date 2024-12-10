@@ -1,5 +1,6 @@
 # OpenAlex
 
+Warning: This model is only functional from version 14.0.67 of LODEX.
 
 ## 1. Use a request like
 
