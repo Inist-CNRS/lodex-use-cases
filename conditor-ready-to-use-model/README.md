@@ -40,9 +40,10 @@ https://github.com/Inist-CNRS/lodex/blob/master/workers/loaders/query-conditor.i
 
 ## 5. Apply the dedicated theme
 1. Click on "Configuration"
+
 ![image](https://github.com/user-attachments/assets/3af32c43-e3b6-4b91-b433-4503bdcac88b)
 
-2. Choose "INIST - Thème INIST (restreint)
+3. Choose "INIST - Thème INIST (restreint)
 
 ![image](https://github.com/user-attachments/assets/1eb1e731-c169-4827-a40e-c38c0ba0c3e4)
 
